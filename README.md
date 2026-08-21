@@ -102,6 +102,31 @@ Optional overrides:
 
 `python scripts/run_pipeline.py --samples-per-vendor 3 --dpi 200 --seed 42`
 
+## Stage-1 research pipeline
+
+The first research extension keeps the v0.1.0 baseline frozen and adds three deterministic components:
+
+1. PDF preprocessing
+2. Semantic block detection
+3. Hierarchy reconstruction
+
+Run the stage-1 pipeline with:
+
+`python scripts/run_stage1_pipeline.py --samples-per-vendor 3 --dpi 200 --seed 42`
+
+Optional preprocessing flags:
+
+- `--deskew`
+- `--denoise`
+- `--enhance-resolution`
+
+Stage-1 outputs are written under `outputs/`:
+
+- `outputs/raw/` — copied PP-StructureV3 JSON
+- `outputs/semantic/` — `semantic_blocks.json`
+- `outputs/hierarchy/` — `hierarchy.json`
+- `outputs/visualizations/` — semantic block overlays and hierarchy diagrams
+
 ## Output description
 
 The pipeline writes generated artifacts under `outputs/`:

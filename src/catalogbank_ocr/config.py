@@ -100,23 +100,21 @@ def load_config(config_path: Path | None = None) -> ProjectConfig:
     outputs_raw = raw.get("outputs", {})
     ocr_raw = raw.get("ocr", {})
 
+    repo_dir = _resolve_path(root, dataset_raw.get("repo_dir", "data/raw/CatalogBank"))
+    # Resolve vendor directories relative to repo_dir, not project root
+    thorlabs_dir = dataset_raw.get(
+        "thorlabs_pdf_dir",
+        "Catalogs/Sample/Thorlabs/OptoMechanics_v21/_pdfs",
+    )
+    mcmaster_dir = dataset_raw.get(
+        "mcmaster_pdf_dir",
+        "Catalogs/Sample/McMasterCarr/_pdfs",
+    )
     dataset = DatasetConfig(
         repo_url=str(dataset_raw.get("repo_url", "https://github.com/bankh/CatalogBank.git")),
-        repo_dir=_resolve_path(root, dataset_raw.get("repo_dir", "data/raw/CatalogBank")),
-        thorlabs_pdf_dir=_resolve_path(
-            root,
-            dataset_raw.get(
-                "thorlabs_pdf_dir",
-                "data/raw/CatalogBank/Catalogs/Sample/Thorlabs/OptoMechanics_v21/_pdfs",
-            ),
-        ),
-        mcmaster_pdf_dir=_resolve_path(
-            root,
-            dataset_raw.get(
-                "mcmaster_pdf_dir",
-                "data/raw/CatalogBank/Catalogs/Sample/McMasterCarr/_pdfs",
-            ),
-        ),
+        repo_dir=repo_dir,
+        thorlabs_pdf_dir=repo_dir / thorlabs_dir,
+        mcmaster_pdf_dir=repo_dir / mcmaster_dir,
         samples_per_vendor=int(dataset_raw.get("samples_per_vendor", 3)),
         seed=int(dataset_raw.get("seed", 42)),
     )
