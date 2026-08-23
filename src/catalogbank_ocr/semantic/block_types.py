@@ -19,19 +19,30 @@ class SemanticType(str, Enum):
 
 
 HEADING_LABELS = {
+    # generic
     "title",
     "heading",
-    "header",
     "subtitle",
     "section_title",
     "section",
     "chapter",
+    # PP-StructureV3 real labels
+    # NOTE: "header" is intentionally excluded — PP-StructureV3 uses it for
+    # page running-heads (e.g. "For technical drawings … go to"), not document
+    # structural headings.  Those belong in IGNORE_LABELS.
+    "paragraph_title",
+    "doc_title",
+    "page_title",
 }
 
-TABLE_LABELS = {"table", "table_body", "table_caption"}
-FIGURE_LABELS = {"figure", "image", "chart", "diagram", "graph", "plot"}
+TABLE_LABELS = {"table", "table_body", "table_caption", "table_title"}
+FIGURE_LABELS = {"figure", "image", "chart", "diagram", "graph", "plot", "figure_title", "figure_caption"}
 PRODUCT_LABELS = {"product", "product_card", "item", "sku", "catalog_item"}
-SPEC_LABELS = {"specification", "spec", "attributes", "attribute", "key_value", "kv"}
+SPEC_LABELS = {"specification", "spec", "attributes", "attribute", "key_value", "kv", "vision_footnote"}
+IGNORE_LABELS = {"footer", "header", "number"}
+
+# Aliases for documentation — these are also in IGNORE_LABELS
+PAGE_CHROME_LABELS = {"footer", "header", "number"}
 
 MODEL_TOKEN_RE = re.compile(r"\b[A-Z0-9][A-Z0-9\-_/]{2,}\b")
 PRICE_RE = re.compile(r"[\$€£]\s?\d")
@@ -137,7 +148,12 @@ def infer_semantic_type(source_type: str, text: str, raw: Optional[Dict[str, Any
     if is_specification_text(text_norm):
         return SemanticType.SPECIFICATION
 
-    if source_type_norm in {"text", "paragraph", "body", "sentence", "caption"}:
+    # PP-StructureV3 "text" label is body text
+    if source_type_norm in {"text", "paragraph", "body", "sentence", "caption", "ocr_line"}:
+        return SemanticType.PARAGRAPH
+    # PP-StructureV3 page chrome (running-head, page number, footer) — keep as paragraph
+    # so it appears in the block list but does not become a structural heading.
+    if source_type_norm in IGNORE_LABELS:
         return SemanticType.PARAGRAPH
     if not text_norm and source_type_norm in {"image", "figure", "chart", "diagram"}:
         return SemanticType.FIGURE
@@ -158,7 +174,7 @@ def infer_heading_level(source_type: str, text: str, raw: Optional[Dict[str, Any
         return md_level
 
     label = normalize_label(source_type)
-    if label in {"title", "header", "chapter"}:
+    if label in {"title", "chapter"}:
         return 1
     if label in {"heading", "subtitle", "section", "section_title"}:
         return 2

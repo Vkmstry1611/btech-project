@@ -9,7 +9,6 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from catalogbank_ocr.semantic.block_types import normalize_label, normalize_text
 
-
 @dataclass
 class BlockCandidate:
     """A raw candidate extracted from PP-StructureV3 output."""
@@ -44,8 +43,34 @@ def load_json_document(json_path: Path) -> Dict[str, Any]:
 
 
 def extract_page_records(raw_document: Any) -> List[Dict[str, Any]]:
-    """Extract per-page records from a raw PP-StructureV3 document."""
+    """Extract per-page records from a raw PP-StructureV3 document.
 
+    PP-StructureV3 saves one JSON file per page; the top-level object is a
+    ``dict`` with a ``parsing_res_list`` key that holds the clean, de-duplicated
+    layout blocks.  This format is treated as the authoritative source.
+
+    Older or alternative shapes (list of pages, ``layoutParsingResults``, …) are
+    handled as fallbacks so that unit-test fixtures and future schema changes
+    continue to work.
+    """
+
+    # ---- Primary: flat PP-StructureV3 per-page dict -------------------------
+    if isinstance(raw_document, dict) and "parsing_res_list" in raw_document:
+        page_number = 1
+        raw_page_index = raw_document.get("page_index")
+        if isinstance(raw_page_index, int) and raw_page_index >= 0:
+            page_number = raw_page_index + 1
+        return [
+            {
+                "page_number": page_number,
+                "page_index": page_number,
+                "page_item": raw_document,
+                "top_meta": raw_document,
+                "_use_parsing_res_list": True,
+            }
+        ]
+
+    # ---- Fallback: list of pages or legacy layoutParsingResults -------------
     if isinstance(raw_document, list):
         pages = raw_document
         top_meta: Dict[str, Any] = {}
@@ -73,6 +98,7 @@ def extract_page_records(raw_document: Any) -> List[Dict[str, Any]]:
                 "page_index": index,
                 "page_item": page_item,
                 "top_meta": top_meta,
+                "_use_parsing_res_list": False,
             }
         )
     return page_records
@@ -361,13 +387,130 @@ def _walk_candidates(node: Any, page: int, source_ref: str, results: List[BlockC
 
 
 def detect_page_candidates(page_record: Dict[str, Any]) -> List[BlockCandidate]:
-    """Detect raw block candidates for one page record."""
+    """Detect raw block candidates for one page record.
+
+    When the record was produced from a PP-StructureV3 per-page JSON
+    (identified by ``_use_parsing_res_list=True``), the clean ``parsing_res_list``
+    is used as the exclusive source.  Confidence scores are joined from
+    ``layout_det_res.boxes`` when available.
+
+    For legacy / alternative document shapes the generic recursive walker is
+    used as a fallback.
+    """
 
     page_number = int(page_record["page_number"])
     payload = page_record.get("page_item", {})
+
+    if page_record.get("_use_parsing_res_list") and isinstance(payload.get("parsing_res_list"), list):
+        layout_det_boxes = None
+        ldr = payload.get("layout_det_res")
+        if isinstance(ldr, dict):
+            layout_det_boxes = ldr.get("boxes")
+        return _detect_from_parsing_res_list(
+            payload["parsing_res_list"], page_number, layout_det_boxes=layout_det_boxes
+        )
+
+    # Fallback: generic walk
     candidates: List[BlockCandidate] = []
     visited: set = set()
-    _walk_candidates(payload, page_number, f"page[{page_number}]", candidates, visited)
+    _walk_candidates(payload, page_number, "page[" + str(page_number) + "]", candidates, visited)
+    return candidates
+
+
+def _detect_from_parsing_res_list(
+    parsing_res_list: List[Dict[str, Any]], page_number: int,
+    layout_det_boxes: Optional[List[Dict[str, Any]]] = None,
+) -> List[BlockCandidate]:
+    """Build candidates directly from PP-StructureV3 parsing_res_list blocks.
+
+    Each entry has a fixed schema::
+
+        {
+            "block_label":   str,    # layout class, e.g. "paragraph_title"
+            "block_content": str,    # extracted text / html
+            "block_bbox":    [x1, y1, x2, y2],
+            "block_id":      int,
+            "block_order":   int,
+        }
+
+    Confidence scores are not included in ``parsing_res_list`` but are available
+    in ``layout_det_res.boxes``.  When ``layout_det_boxes`` is supplied the
+    scores are joined by matching bounding-box coordinates (rounded to integer
+    pixels), providing per-block confidence in the output.
+
+    Entries whose label belongs to the ``IGNORE_LABELS`` set (footer, header,
+    number) are kept but tagged so downstream consumers can decide whether to
+    drop them.
+    """
+    from catalogbank_ocr.semantic.block_types import IGNORE_LABELS, normalize_label, normalize_text  # local import to avoid circular
+
+    # Build a bbox→score lookup from layout_det_res.boxes if provided.
+    # layout_det_res.boxes are sorted by confidence (descending) and use float
+    # coordinates.  parsing_res_list uses integer coordinates from the same
+    # detections, so bboxes should match within ±2 px after rounding.
+    # We build an approximate lookup: map (x1_round, y1_round) → score so a
+    # single integer-coord key lookup is fast and tolerant of rounding.
+    bbox_to_score: Dict[tuple, float] = {}
+    if layout_det_boxes:
+        for box in layout_det_boxes:
+            coord = box.get("coordinate")
+            score = box.get("score")
+            if coord and isinstance(score, (int, float)) and len(coord) == 4:
+                # Key on all four corners rounded — exact match preferred
+                key_exact = tuple(round(float(v)) for v in coord)
+                bbox_to_score[key_exact] = float(score)
+                # Also store a key based on top-left + bottom-right rounded to nearest 5
+                # for approximate matching of integer-coord parsing_res_list entries
+                key_approx = tuple(round(float(v) / 5) * 5 for v in coord)
+                if key_approx not in bbox_to_score:
+                    bbox_to_score[key_approx] = float(score)
+
+    def _lookup_score(bbox: Optional[List[float]]) -> Optional[float]:
+        """Try exact then approximate bbox→score lookup."""
+        if bbox is None or not bbox_to_score:
+            return None
+        # Exact integer match
+        key = tuple(round(v) for v in bbox)
+        if key in bbox_to_score:
+            return bbox_to_score[key]
+        # Approximate match (nearest-5 grid)
+        key_approx = tuple(round(v / 5) * 5 for v in bbox)
+        if key_approx in bbox_to_score:
+            return bbox_to_score[key_approx]
+        # Linear scan with ±3 px tolerance on each corner
+        for stored_key, score in bbox_to_score.items():
+            if len(stored_key) == 4 and all(abs(stored_key[i] - key[i]) <= 3 for i in range(4)):
+                return score
+        return None
+
+    candidates: List[BlockCandidate] = []
+    for entry in parsing_res_list:
+        if not isinstance(entry, dict):
+            continue
+        label = normalize_label(entry.get("block_label") or entry.get("label") or "unknown")
+        text = normalize_text(entry.get("block_content") or entry.get("block_text") or entry.get("text") or "")
+        bbox = _normalize_bbox(entry.get("block_bbox") or entry.get("bbox"))
+        order = entry.get("block_order") or entry.get("order") or len(candidates) + 1
+        block_id = entry.get("block_id")
+        source_ref = "parsing_res_list[" + str(block_id if block_id is not None else order) + "]"
+
+        # Try to find confidence from layout_det_res.boxes via bbox match.
+        confidence = _extract_confidence(entry)  # usually None for parsing_res_list entries
+        if confidence is None and bbox is not None:
+            confidence = _lookup_score(bbox)
+
+        candidates.append(
+            BlockCandidate(
+                page=page_number,
+                source_type=label,
+                text=text,
+                bbox=bbox,
+                confidence=confidence,
+                order=int(order),
+                source_ref=source_ref,
+                raw=entry,
+            )
+        )
     return candidates
 
 

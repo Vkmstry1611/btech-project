@@ -120,7 +120,11 @@ def visualize_hierarchy_tree(root: HierarchyNode, output_path: Path) -> Path:
     node_order: Dict[int, HierarchyNode] = {}
     _assign_positions(root, 0, [0], positions, node_order)
 
-    fig, ax = plt.subplots(figsize=(max(8, len(positions) * 0.8), 8))
+    # Cap figure width to avoid matplotlib's 65535-pixel limit at 200 DPI.
+    # A sensible upper bound is ~40 inches (8000 px at 200 DPI).
+    node_count = len(positions)
+    fig_width = min(40.0, max(8.0, node_count * 0.8))
+    fig, ax = plt.subplots(figsize=(fig_width, 8))
     ax.axis("off")
 
     def draw_node(node: HierarchyNode) -> None:
@@ -147,7 +151,7 @@ def visualize_hierarchy_tree(root: HierarchyNode, output_path: Path) -> Path:
     ax.relim()
     ax.autoscale_view()
     fig.tight_layout()
-    fig.savefig(output_path, dpi=200, bbox_inches="tight")
+    fig.savefig(output_path, dpi=100, bbox_inches="tight")
     plt.close(fig)
     logger.info("Saved hierarchy visualization to %s", output_path)
     return output_path

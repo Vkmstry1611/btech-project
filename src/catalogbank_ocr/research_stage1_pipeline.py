@@ -32,6 +32,7 @@ class Stage1PageResult:
     raw_json_path: Path
     semantic_json_path: Path
     hierarchy_json_path: Path
+    canonical_json_path: Path
     semantic_visualization_path: Path
     hierarchy_visualization_path: Path
     semantic_document: Dict[str, Any] = field(default_factory=dict)
@@ -50,6 +51,52 @@ def _save_json(path: Path, data: Dict[str, Any]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     return path
+
+
+def _build_canonical_document(
+    pdf_path: Path,
+    page_number: int,
+    rendered_image_path: Path,
+    preprocessed_image_path: Path,
+    raw_json_path: Path,
+    semantic_document: Any,
+    hierarchy_document: Any,
+) -> Dict[str, Any]:
+    """Build a single canonical JSON combining source metadata, semantic blocks,
+    and the reconstructed hierarchy into one self-contained document.
+
+    Schema::
+
+        {
+          "schema_version": "1.0",
+          "source": {
+            "pdf_path": str,
+            "page_number": int,
+            "rendered_image_path": str,
+            "preprocessed_image_path": str,
+            "raw_json_path": str
+          },
+          "pages": [
+            {
+              "page": int,
+              "blocks": [ SemanticBlock.to_dict(), ... ]
+            }
+          ],
+          "hierarchy": HierarchyDocument.root.to_dict()
+        }
+    """
+    return {
+        "schema_version": "1.0",
+        "source": {
+            "pdf_path": str(pdf_path),
+            "page_number": page_number,
+            "rendered_image_path": str(rendered_image_path),
+            "preprocessed_image_path": str(preprocessed_image_path),
+            "raw_json_path": str(raw_json_path),
+        },
+        "pages": semantic_document.to_dict().get("pages", []),
+        "hierarchy": hierarchy_document.root.to_dict(),
+    }
 
 
 def _resolve_pdf_output_stem(pdf_path: Path) -> str:
@@ -100,6 +147,17 @@ def run_stage1_for_pdf(
     semantic_json_path = _save_json(semantic_dir / f"{stem}_semantic_blocks.json", semantic_document.to_dict())
     hierarchy_json_path = _save_json(hierarchy_dir / f"{stem}_hierarchy.json", hierarchy_document.to_dict())
 
+    canonical_data = _build_canonical_document(
+        pdf_path=pdf_path,
+        page_number=1,
+        rendered_image_path=preprocessing_result.rendered_image,
+        preprocessed_image_path=preprocessing_result.processed_image,
+        raw_json_path=raw_json_target,
+        semantic_document=semantic_document,
+        hierarchy_document=hierarchy_document,
+    )
+    canonical_json_path = _save_json(output_root / "canonical" / stem / f"{stem}_document.json", canonical_data)
+
     semantic_visualization_path = visualize_semantic_blocks(
         source_image_path=preprocessing_result.rendered_image,
         page_blocks=semantic_document.pages[0],
@@ -118,6 +176,7 @@ def run_stage1_for_pdf(
         raw_json_path=raw_json_target,
         semantic_json_path=semantic_json_path,
         hierarchy_json_path=hierarchy_json_path,
+        canonical_json_path=canonical_json_path,
         semantic_visualization_path=semantic_visualization_path,
         hierarchy_visualization_path=hierarchy_visualization_path,
         semantic_document=semantic_document.to_dict(),

@@ -1,170 +1,251 @@
-# CatalogBank OCR with PaddleOCR PP-StructureV3
+# CatalogBank OCR — Stage 1 Document Structure Pipeline
 
 ## Overview
 
-This project refactors a Jupyter notebook into a modular Python research workflow for document-structure extraction from CatalogBank sample PDFs using PaddleOCR PP-StructureV3.
+This project builds a modular, reproducible document-structure pipeline on top of PaddleOCR PP-StructureV3 for CatalogBank sample PDFs.
 
-The implementation preserves the notebook methodology:
+It has two layers:
 
-- CatalogBank dataset usage
-- deterministic sample selection with seed $42$
-- Thorlabs OptoMechanics v21 and McMaster-Carr sample PDFs
-- first-page PDF rendering with PyMuPDF
-- PaddleOCR PP-StructureV3 processing
-- JSON, Markdown, and annotated image generation
-- schema inspection of the generated JSON
-- annotated image visualization
+| Layer | Tag | Status |
+|---|---|---|
+| Baseline OCR pipeline | `v0.1.0` | Frozen — faithful port of the reference notebook |
+| Stage 1 research pipeline | `main` | Active — adds semantic block detection and hierarchy reconstruction |
 
-## Research objective
+The original notebook (`notebooks/Catalog_bank_with_paddleocr_and_ppstruct_v3.ipynb`) is preserved unchanged as the proof-of-concept baseline.
 
-The goal is to reproduce the notebook's document-structure extraction workflow in a cleaner, maintainable, and reproducible project layout suitable for research use and academic reporting.
+---
 
-## Dataset
+## What Stage 1 Does
 
-The current implementation uses a small sample from the [CatalogBank](https://github.com/bankh/CatalogBank) repository.
+```
+Input PDF
+    ↓
+PDF preprocessing (PyMuPDF, configurable DPI)
+    ↓
+PP-StructureV3 / OCR inference (PaddleOCR pretrained models)
+    ↓
+Semantic block detection (deterministic rules on model output)
+    ↓
+Hierarchy reconstruction (reading-order + spatial geometry)
+    ↓
+JSON + visualization output
+```
 
-Only the following subset is used:
+**Stage 1 does NOT:**
+- Train or fine-tune any ML model
+- Use embeddings, LLMs, or retrieval
+- Normalize product data or build a database
+- Claim to produce semantically perfect hierarchies
 
-- Thorlabs OptoMechanics v21 PDFs
-- McMaster-Carr PDFs
-- a deterministic small sample from each vendor
-- only the first page of each selected PDF
+---
 
-This project does **not** process the full CatalogBank dataset.
+## Architecture
 
-## Methodology
+### Models used (all pretrained, no training)
 
-The pipeline is intentionally kept close to the notebook:
+| Model | Role |
+|---|---|
+| `PP-DocLayout_plus-L` | Layout region detection (bounding boxes + region type) |
+| `PP-OCRv5_server_det/rec` | Text detection and recognition |
+| `SLANeXt_wired` / `SLANet_plus` | Table structure reconstruction |
+| `PP-FormulaNet_plus-L` | Formula detection |
 
-1. Clone or locate the CatalogBank repository
-2. Locate vendor PDF folders
-3. Reproducibly select a small sample of PDFs per vendor
-4. Render the first page of each selected PDF to PNG
-5. Run PaddleOCR PP-StructureV3 on each rendered page
-6. Save JSON, Markdown, and annotated image outputs
-7. Inspect the JSON schema of the generated results
-8. Visualize the annotated output image
+### Post-processing (deterministic, no ML)
 
-## System / pipeline workflow
+| Component | File | What it does |
+|---|---|---|
+| Block detector | `semantic/block_detector.py` | Reads `parsing_res_list` from PP-StructureV3 JSON; joins confidence scores from `layout_det_res.boxes` |
+| Block type mapping | `semantic/block_types.py` | Maps PP-StructureV3 labels (`paragraph_title`, `text`, `image`, `table`, …) to our `SemanticType` enum using a label lookup table + text heuristics |
+| Hierarchy builder | `hierarchy/hierarchy_builder.py` | Sorts blocks by reading order, builds a heading-stack tree, attaches non-heading blocks as children |
+| Visualization | `visualization/research_visualization.py` | Bbox overlay on page image; matplotlib tree diagram |
 
-$$
-\text{CatalogBank PDFs} \rightarrow \text{sample selection} \rightarrow \text{first-page rendering} \rightarrow \text{PP-StructureV3} \rightarrow \text{saved outputs} \rightarrow \text{JSON inspection} \rightarrow \text{visualization}
-$$
+### Semantic type mapping (heuristic, not trained)
 
-## Project structure
+PP-StructureV3 label → our SemanticType:
 
-- `configs/` — configuration files
-- `data/` — raw, interim, processed, and sampled data locations
-- `outputs/` — generated JSON, Markdown, images, and visualizations
-- `notebooks/` — notebook reference copy
-- `src/catalogbank_ocr/` — reusable Python package
-- `scripts/` — command-line entry points
-- `tests/` — lightweight tests for core utilities
+| PP-StructureV3 label | SemanticType |
+|---|---|
+| `paragraph_title` | `heading` |
+| `text` | `paragraph` |
+| `image` | `figure` |
+| `figure_title` | `figure` |
+| `table` | `table` |
+| `vision_footnote` | `specification` |
+| `header`, `footer`, `number` | `paragraph` (page chrome, not structural) |
+
+Heading level is inferred from text length and label type — there is **no font-size signal** from PP-StructureV3, so all `paragraph_title` blocks initially receive the same level unless they differ in word count.
+
+---
 
 ## Installation
 
-Install the Python dependencies from `requirements.txt` or the dependency list in `pyproject.toml`.
+```bash
+# Dependencies (see pyproject.toml for exact versions)
+pip install paddlepaddle paddleocr paddlex PyMuPDF Pillow matplotlib PyYAML
+```
 
-Recommended steps:
+Python ≥ 3.9 required.
 
-1. Create a Python environment
-2. Install dependencies
-3. Ensure `git` and `git-lfs` are available for dataset download
-
-## Environment requirements
-
-The notebook included environment repair steps for CUDA-related NVIDIA packages. In this refactor, package repair is **not** performed automatically.
-
-You should verify compatibility for:
-
-- PyTorch
-- PaddlePaddle
-- PaddleOCR
-- CUDA-capable NVIDIA libraries when using GPU acceleration
-
-The project includes a script that reports the active environment and CUDA availability.
+---
 
 ## Dataset setup
 
-Use the dataset download script to clone the repository and fetch the sample PDF assets:
+```bash
+python scripts/download_dataset.py
+```
 
-`python scripts/download_dataset.py`
+This clones the [CatalogBank](https://github.com/bankh/CatalogBank) repository to `data/raw/CatalogBank`.
 
-The default dataset location is `data/raw/CatalogBank`.
+---
 
 ## Running the pipeline
 
-Run the end-to-end workflow with defaults matching the notebook:
+### Process a single PDF
 
-`python scripts/run_pipeline.py`
+```bash
+python scripts/run_stage1_pipeline.py --input path/to/file.pdf
+```
 
-Optional overrides:
+### Process all PDFs in a directory
 
-`python scripts/run_pipeline.py --samples-per-vendor 3 --dpi 200 --seed 42`
+```bash
+python scripts/run_stage1_pipeline.py --input path/to/pdf_folder/
+```
 
-## Stage-1 research pipeline
+### Deterministic dataset sample (default: 1 per vendor, seed 42)
 
-The first research extension keeps the v0.1.0 baseline frozen and adds three deterministic components:
+```bash
+python scripts/run_stage1_pipeline.py --samples-per-vendor 1 --seed 42 --dpi 200
+```
 
-1. PDF preprocessing
-2. Semantic block detection
-3. Hierarchy reconstruction
+### Full option reference
 
-Run the stage-1 pipeline with:
+```
+--input / -i       PDF file or directory of PDFs
+--output / -o      Output root directory (default: outputs/)
+--dpi              Rendering DPI (default: 200)
+--samples-per-vendor  PDFs per vendor for dataset sampling (default: 1)
+--seed             Sampling seed (default: 42)
+--deskew           Enable deskew preprocessing
+--denoise          Enable denoising preprocessing
+--enhance-resolution  Enable resolution upscaling
+--config           Path to config.yaml
+```
 
-`python scripts/run_stage1_pipeline.py --samples-per-vendor 3 --dpi 200 --seed 42`
+### Original baseline pipeline (unchanged)
 
-Optional preprocessing flags:
+```bash
+python scripts/run_pipeline.py
+```
 
-- `--deskew`
-- `--denoise`
-- `--enhance-resolution`
+---
 
-Stage-1 outputs are written under `outputs/`:
+## Output structure
 
-- `outputs/raw/` — copied PP-StructureV3 JSON
-- `outputs/semantic/` — `semantic_blocks.json`
-- `outputs/hierarchy/` — `hierarchy.json`
-- `outputs/visualizations/` — semantic block overlays and hierarchy diagrams
+For each processed PDF, Stage 1 writes under `outputs/`:
 
-## Output description
+```
+outputs/
+  images/{stem}/           rendered first-page PNG
+  processed/{stem}/        preprocessed first-page PNG
+  ocr/{stem}/              PP-StructureV3 raw outputs
+    {stem}_res.json          → raw layout+OCR JSON (primary input to Stage 1)
+    {stem}.md                → Markdown summary
+    {stem}_layout_det_res.png → annotated layout detection image
+    {stem}_overall_ocr_res.png → annotated OCR image
+    imgs/                    → cropped region images
+  raw/{stem}/              copy of _res.json used by semantic layer
+  semantic/{stem}/
+    {stem}_semantic_blocks.json  → all blocks with type, text, bbox, confidence
+  hierarchy/{stem}/
+    {stem}_hierarchy.json        → reconstructed document tree
+  canonical/{stem}/
+    {stem}_document.json         → unified schema_version 1.0 document
+  visualizations/{stem}/
+    {stem}_semantic_blocks.png   → bbox overlay on page image
+    {stem}_hierarchy.png         → matplotlib hierarchy tree diagram
+```
 
-The pipeline writes generated artifacts under `outputs/`:
+### Canonical JSON schema (schema_version: 1.0)
 
-- `outputs/json/` — JSON outputs from PP-StructureV3
-- `outputs/markdown/` — Markdown summaries
-- `outputs/images/` — rendered first-page PNGs
-- `outputs/visualizations/` — annotated PP-StructureV3 images
-- `outputs/ppstructurev3/` — intermediate PP-StructureV3 per-sample output folders
+```json
+{
+  "schema_version": "1.0",
+  "source": {
+    "pdf_path": "...",
+    "page_number": 1,
+    "rendered_image_path": "...",
+    "preprocessed_image_path": "...",
+    "raw_json_path": "..."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "id": "p1_b001",
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Stainless Steel Pipe Fittings",
+          "bbox": [81, 13, 702, 59],
+          "confidence": 0.593,
+          "order": 1,
+          "heading_level": 2
+        }
+      ]
+    }
+  ],
+  "hierarchy": {
+    "name": "document",
+    "semantic_type": "document",
+    "children": [...]
+  }
+}
+```
 
-## PP-StructureV3 explanation
+---
 
-PaddleOCR PP-StructureV3 is used as the document structure extraction engine. The current project does not add a new model or alter the notebook's OCR methodology; it only wraps the existing workflow in reusable functions.
+## Limitations
+
+1. **Single page only.** Only the first page of each PDF is processed.
+2. **Heading level inference has no font-size signal.** PP-StructureV3 does not output typographic hierarchy; all `paragraph_title` blocks are assigned the same level unless text length differs.
+3. **Garbled OCR on low-quality scans.** Section headings on noisy catalog scans may be unreadable. The structural nesting (correct bbox, correct children) is still produced even when the heading text is garbled.
+4. **No product extraction.** Stage 1 identifies layout structure only — it does not extract product names, prices, specifications, or any catalog-specific entities.
+5. **Heuristic `specification` detection.** A `text` block is classified as `specification` if it contains ≥ 2 `key: value` patterns. This is a regex heuristic, not a trained classifier.
+
+---
+
+## Architectural boundary — what Stage 1 does NOT do
+
+The following are explicitly **future research stages** and are not part of Stage 1:
+
+- Product / entity extraction
+- Attribute / specification normalization
+- Database or catalog ingestion
+- Evaluation framework or metrics
+- LLM-based semantic reasoning
+- Model training or fine-tuning
+- Embeddings or retrieval
+
+Stage 1 scope is strictly: PDF preprocessing → PP-StructureV3 inference → semantic block detection → hierarchy reconstruction → JSON + visualization output.
+
+The semantic block types and hierarchy relationships are produced by deterministic post-processing rules applied to PP-StructureV3 output. **This is not a trained semantic model.**
+
+---
+
+## Tests
+
+```bash
+python -m pytest tests/ -v
+```
+
+All tests run without requiring the OCR engine (integration tests use cached JSON fixtures from `outputs/raw/`).
+
+---
 
 ## Reproducibility
 
-Reproducibility is preserved through:
-
-- deterministic random seed $42$
-- fixed sample-per-vendor defaults
-- fixed first-page selection
-- fixed PDF rendering DPI
-
-## Current limitations
-
-- only a small sample of CatalogBank is processed
-- only the first page of each selected PDF is rendered and analyzed
-- no product extraction pipeline is implemented
-- no normalization, embeddings, retrieval, or evaluation layer is added
-- JSON schema handling is intentionally exploratory and does not assume a fixed legacy format
-
-## Future work
-
-- expand sample coverage while preserving reproducibility
-- add structured result analysis if a stable PP-StructureV3 schema is established
-- add optional batch processing for larger experiments
-- add experiment tracking and quantitative evaluation
-
-## Notebook reference
-
-The original notebook is preserved in the repository root and also copied to `notebooks/` for reference.
+- Deterministic seed: 42
+- Fixed DPI: 200
+- First-page only
+- PP-StructureV3 pretrained models — no custom training
