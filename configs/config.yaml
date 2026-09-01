@@ -1,0 +1,21 @@
+dataset:
+  repo_url: https://github.com/bankh/CatalogBank.git
+  repo_dir: data/raw/CatalogBank
+  thorlabs_pdf_dir: Catalogs/Sample/Thorlabs/OptoMechanics_v21/_pdfs
+  mcmaster_pdf_dir: Catalogs/Sample/McMasterCarr/_pdfs
+  samples_per_vendor: 3
+  seed: 42
+
+preprocessing:
+  dpi: 200
+
+outputs:
+  base_dir: outputs
+  json_dir: outputs/json
+  markdown_dir: outputs/markdown
+  images_dir: outputs/images
+  visualizations_dir: outputs/visualizations
+  ocr_dir: outputs/ppstructurev3
+
+ocr:
+  ppstructurev3: {}
