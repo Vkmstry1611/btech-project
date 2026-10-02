@@ -1,0 +1,33 @@
+{
+  "type": "Product Category",
+  "title": "V21_1_Optomechanics_5",
+  "identifier": "PC-V211OPTOMECHANICS5",
+  "description": "Extracted from V21_1_Optomechanics_5 (1 page(s)) using ollama/qwen3:8b",
+  "source": {
+    "pdf_path": "pdfs\\V21_1_Optomechanics_5.pdf",
+    "total_pages": 1,
+    "backend_used": "ollama/qwen3:8b"
+  },
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Optomechanics",
+      "identifier": "PC-OPTOMECHANICS",
+      "models": [
+        {
+          "type": "Model",
+          "title": "UltraLight breadboard",
+          "identifier": "MOD-ULTRALIGHT-BREADBOARD",
+          "sku": "ULTRALIGHT-BREADBOARD",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "UltraLight breadboard",
+              "identifier": "SI-ULTRALIGHT-BREADBOARD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

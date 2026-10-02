@@ -1,0 +1,582 @@
+{
+  "type": "Product Category",
+  "title": "multi page catalog sample",
+  "identifier": "PC-MULTI-PAGE-CATALOG-SAMPLE",
+  "description": "Product catalog extracted from multi page catalog sample (4 page(s))",
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Optical Breadboard Overview",
+      "identifier": "PC-OPTICAL-BREADBOARD-OVERVIEW-0228",
+      "models": [
+        {
+          "type": "Model",
+          "title": "MS12B",
+          "identifier": "MOD-MS12B",
+          "sku": "MS12B",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "MS12B",
+              "identifier": "SI-MS12B",
+              "articleNumber": "MS12B",
+              "properties": {
+                "dimensions": "12.0 \" x 12\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "MS12B — USD",
+                  "identifier": "LP-MS12B-01",
+                  "amount": 257.0,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "HW-KIT5",
+          "identifier": "MOD-HWKIT5",
+          "sku": "HW-KIT5",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "HW-KIT5",
+              "identifier": "SI-HWKIT5",
+              "articleNumber": "HW-KIT5",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "HW-KIT5 — USD",
+                  "identifier": "LP-HWKIT5-01",
+                  "amount": 92.2,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Mini-Series Breadboard",
+      "identifier": "PC-MINISERIES-BREADBOARD-0726",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum",
+          "identifier": "PC-BREADBOARDS-12-127-MM-1527"
+        }
+      ],
+      "models": [
+        {
+          "type": "Model",
+          "title": "4-40 (M3 x 0.5)",
+          "identifier": "MOD-440-M3-X-05",
+          "sku": "4-40 (M3 x 0.5)",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "4-40 (M3 x 0.5)",
+              "identifier": "SI-440-M3-X-05",
+              "articleNumber": "4-40 (M3 x 0.5)",
+              "properties": {
+                "tapped_holes": "4.0 -40 (m3 x 0.5)",
+                "spacing": "1.0 /2\" (12.5 mm)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "identifier": "PC-SLIMLINE-BREADBOARDS-DOUBLEDENSITY-HOLE-5988",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Shipped from Stock in the US and Europe",
+          "identifier": "PC-SHIPPED-FROM-STOCK-IN-5993",
+          "models": [
+            {
+              "type": "Model",
+              "title": "MB424",
+              "identifier": "MOD-MB424",
+              "sku": "MB424",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB424",
+                  "identifier": "SI-MB424",
+                  "articleNumber": "MB424",
+                  "properties": {
+                    "dimensions": "4.0 \"x 24\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB424 — USD",
+                      "identifier": "LP-MB424-01",
+                      "amount": 161.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB436",
+              "identifier": "MOD-MB436",
+              "sku": "MB436",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB436",
+                  "identifier": "SI-MB436",
+                  "articleNumber": "MB436",
+                  "properties": {
+                    "dimensions": "4.0 \"x 36\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB436 — USD",
+                      "identifier": "LP-MB436-01",
+                      "amount": 181.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB612",
+              "identifier": "MOD-MB612",
+              "sku": "MB612",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB612",
+                  "identifier": "SI-MB612",
+                  "articleNumber": "MB612",
+                  "properties": {
+                    "dimensions": "6.0 \" x 12\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB612 — USD",
+                      "identifier": "LP-MB612-01",
+                      "amount": 124.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB824",
+              "identifier": "MOD-MB824",
+              "sku": "MB824",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB824",
+                  "identifier": "SI-MB824",
+                  "articleNumber": "MB824",
+                  "properties": {
+                    "dimensions": "8.0 \"x 24\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB824 — USD",
+                      "identifier": "LP-MB824-01",
+                      "amount": 239.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB836",
+              "identifier": "MOD-MB836",
+              "sku": "MB836",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB836",
+                  "identifier": "SI-MB836",
+                  "articleNumber": "MB836",
+                  "properties": {
+                    "dimensions": "8.0 \" x 36\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB836 — USD",
+                      "identifier": "LP-MB836-01",
+                      "amount": 322.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB1060/M",
+              "identifier": "MOD-MB1060M",
+              "sku": "MB1060/M",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB1060/M",
+                  "identifier": "SI-MB1060M",
+                  "articleNumber": "MB1060/M",
+                  "properties": {
+                    "dimensions": "100.0 mm x 600 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB1060/M — USD",
+                      "identifier": "LP-MB1060M-01",
+                      "amount": 161.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB1090/M",
+              "identifier": "MOD-MB1090M",
+              "sku": "MB1090/M",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB1090/M",
+                  "identifier": "SI-MB1090M",
+                  "articleNumber": "MB1090/M",
+                  "properties": {
+                    "dimensions": "100.0 mm x 900 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB1090/M — USD",
+                      "identifier": "LP-MB1090M-01",
+                      "amount": 181.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB1530/M",
+              "identifier": "MOD-MB1530M",
+              "sku": "MB1530/M",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB1530/M",
+                  "identifier": "SI-MB1530M",
+                  "articleNumber": "MB1530/M",
+                  "properties": {
+                    "dimensions": "150.0 mm x 300 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB1530/M — USD",
+                      "identifier": "LP-MB1530M-01",
+                      "amount": 124.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB2060/M",
+              "identifier": "MOD-MB2060M",
+              "sku": "MB2060/M",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB2060/M",
+                  "identifier": "SI-MB2060M",
+                  "articleNumber": "MB2060/M",
+                  "properties": {
+                    "dimensions": "200.0 mm x 600 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB2060/M — USD",
+                      "identifier": "LP-MB2060M-01",
+                      "amount": 239.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "MB2090/M",
+              "identifier": "MOD-MB2090M",
+              "sku": "MB2090/M",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MB2090/M",
+                  "identifier": "SI-MB2090M",
+                  "articleNumber": "MB2090/M",
+                  "properties": {
+                    "dimensions": "200.0 mm x 900 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MB2090/M — USD",
+                      "identifier": "LP-MB2090M-01",
+                      "amount": 322.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "Model",
+          "title": "MB4",
+          "identifier": "MOD-MB4",
+          "sku": "MB4",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "MB4",
+              "identifier": "SI-MB4",
+              "articleNumber": "MB4",
+              "properties": {
+                "dimensions": "4.0 \"x6\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "MB4 — USD",
+                  "identifier": "LP-MB4-01",
+                  "amount": 49.4,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Water-Cooled Breadboard",
+      "identifier": "PC-WATERCOOLED-BREADBOARD-9177",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
+          "identifier": "PC-ULTRALIGHT-SERIES-OF-OPTICAL-8199",
+          "models": [
+            {
+              "type": "Model",
+              "title": "MS12B",
+              "identifier": "MOD-MS12B",
+              "sku": "MS12B",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MS12B",
+                  "identifier": "SI-MS12B",
+                  "articleNumber": "MS12B",
+                  "properties": {
+                    "dimensions": "12.0 \" x 12\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MS12B — USD",
+                      "identifier": "LP-MS12B-01",
+                      "amount": 257.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "HW-KIT5",
+              "identifier": "MOD-HWKIT5",
+              "sku": "HW-KIT5",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "HW-KIT5",
+                  "identifier": "SI-HWKIT5",
+                  "articleNumber": "HW-KIT5",
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "HW-KIT5 — USD",
+                      "identifier": "LP-HWKIT5-01",
+                      "amount": 92.2,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Product Category",
+          "title": "UltraLight Series of Optical Breadboards (Page 2 of 2)",
+          "identifier": "PC-ULTRALIGHT-SERIES-OF-OPTICAL-3846",
+          "models": [
+            {
+              "type": "Model",
+              "title": "MS12B",
+              "identifier": "MOD-MS12B",
+              "sku": "MS12B",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "MS12B",
+                  "identifier": "SI-MS12B",
+                  "articleNumber": "MS12B",
+                  "properties": {
+                    "dimensions": "12.0 \" x 12\""
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "MS12B — USD",
+                      "identifier": "LP-MS12B-01",
+                      "amount": 257.0,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "HW-KIT5",
+              "identifier": "MOD-HWKIT5",
+              "sku": "HW-KIT5",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "HW-KIT5",
+                  "identifier": "SI-HWKIT5",
+                  "articleNumber": "HW-KIT5",
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "HW-KIT5 — USD",
+                      "identifier": "LP-HWKIT5-01",
+                      "amount": 92.2,
+                      "currency": "USD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "models": [
+        {
+          "type": "Model",
+          "title": "MBC12",
+          "identifier": "MOD-MBC12",
+          "sku": "MBC12",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "MBC12",
+              "identifier": "SI-MBC12",
+              "articleNumber": "MBC12",
+              "properties": {
+                "dimensions": "4.0 in",
+                "working_pressure": "80.0 psi",
+                "working_temperature_range": "0.0 to 60 c",
+                "tubing_length": "16.0 ' (5 m)",
+                "fittings": "1.0 /4\" or 6 mm i.d"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "MBC12 — USD",
+                  "identifier": "LP-MBC12-01",
+                  "amount": 49.4,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Other Products",
+      "identifier": "PC-OTHER-PRODUCTS",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PBG11102",
+          "identifier": "MOD-PBG11102",
+          "sku": "PBG11102",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11102",
+              "identifier": "SI-PBG11102",
+              "articleNumber": "PBG11102",
+              "properties": {
+                "dimensions": "4.0 in"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "PBG11102 — USD",
+                  "identifier": "LP-PBG11102-01",
+                  "amount": 49.4,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

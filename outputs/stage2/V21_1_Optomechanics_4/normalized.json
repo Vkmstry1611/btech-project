@@ -1,0 +1,141 @@
+{
+  "doc_stem": "V21_1_Optomechanics_4_document",
+  "product_count": 2,
+  "attribute_count": 7,
+  "relation_count": 8,
+  "source_chunks": [
+    "V21_1_Optomechanics_4_document__p1__c001",
+    "V21_1_Optomechanics_4_document__p1__c003",
+    "V21_1_Optomechanics_4_document__p1__c002"
+  ],
+  "products": [
+    {
+      "name": "CHAPTERS",
+      "model": null,
+      "sku": null,
+      "sku_raw": null,
+      "category": "Lab Supplies",
+      "source_chunks": [
+        "V21_1_Optomechanics_4_document__p1__c001"
+      ]
+    },
+    {
+      "name": "Water-Cooled Breadboard",
+      "model": "MBC12",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Water-Cooled Breadboard",
+      "source_chunks": [
+        "V21_1_Optomechanics_4_document__p1__c002"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "CHAPTERS",
+      "key": "Product Type",
+      "value": "4.0",
+      "unit": "new",
+      "value_numeric": 4.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c001"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Working Pressure",
+      "value": "80.0",
+      "unit": "psi",
+      "value_numeric": 80.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Working Temperature Range",
+      "value": "0.0",
+      "unit": "°C",
+      "value_numeric": 0.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Size",
+      "value": "12.0",
+      "unit": "in, mm",
+      "value_numeric": 12.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Tubing Length",
+      "value": "16.0",
+      "unit": "ft, m",
+      "value_numeric": 16.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Fittings",
+      "value": "1.0",
+      "unit": "in, mm",
+      "value_numeric": 1.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "entity": "Water-Cooled Breadboard",
+      "key": "Hole Pattern",
+      "value": "1.0",
+      "unit": "in, mm",
+      "value_numeric": 1.0,
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "CHAPTERS",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Lab Supplies",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c001"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Water-Cooled Breadboard",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Working Pressure",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Working Temperature Range",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Size",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Tubing Length",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Fittings",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    },
+    {
+      "subject": "Water-Cooled Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Hole Pattern",
+      "source_chunk": "V21_1_Optomechanics_4_document__p1__c002"
+    }
+  ]
+}

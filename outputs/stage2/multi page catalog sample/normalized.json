@@ -1,0 +1,652 @@
+{
+  "doc_stem": "multi page catalog sample_document",
+  "product_count": 17,
+  "attribute_count": 35,
+  "relation_count": 29,
+  "source_chunks": [
+    "multi page catalog sample_document__p1__c001",
+    "multi page catalog sample_document__p1__c002",
+    "multi page catalog sample_document__p2__c004",
+    "multi page catalog sample_document__p1__c003",
+    "multi page catalog sample_document__p2__c005",
+    "multi page catalog sample_document__p2__c007",
+    "multi page catalog sample_document__p2__c006",
+    "multi page catalog sample_document__p3__c008",
+    "multi page catalog sample_document__p3__c010",
+    "multi page catalog sample_document__p4__c011",
+    "multi page catalog sample_document__p3__c009",
+    "multi page catalog sample_document__p4__c012",
+    "multi page catalog sample_document__p4__c013"
+  ],
+  "products": [
+    {
+      "name": "MS12B",
+      "model": "MS12B",
+      "sku": "MS12B",
+      "sku_raw": "MS12B",
+      "category": "Optical Breadboard",
+      "source_chunks": [
+        "multi page catalog sample_document__p1__c002"
+      ]
+    },
+    {
+      "name": "HW-KIT5",
+      "model": "HW-KIT5",
+      "sku": "HW-KIT5",
+      "sku_raw": "HW-KIT5",
+      "category": "Optical Breadboard",
+      "source_chunks": [
+        "multi page catalog sample_document__p1__c002"
+      ]
+    },
+    {
+      "name": "4-40 (M3 x 0.5)",
+      "model": "4-40 (M3 x 0.5)",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Mini-Series Breadboard",
+      "source_chunks": [
+        "multi page catalog sample_document__p1__c003"
+      ]
+    },
+    {
+      "name": "MB424",
+      "model": "MB424",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB436",
+      "model": "MB436",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB612",
+      "model": "MB612",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB824",
+      "model": "MB824",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB836",
+      "model": "MB836",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB1060/M",
+      "model": "MB1060/M",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB1090/M",
+      "model": "MB1090/M",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB1530/M",
+      "model": "MB1530/M",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB2060/M",
+      "model": "MB2060/M",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB2090/M",
+      "model": "MB2090/M",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Shipped from Stock in the US and Europe",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c007"
+      ]
+    },
+    {
+      "name": "MB4",
+      "model": "MB4",
+      "sku": null,
+      "sku_raw": null,
+      "category": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "source_chunks": [
+        "multi page catalog sample_document__p2__c006",
+        "multi page catalog sample_document__p3__c008"
+      ]
+    },
+    {
+      "name": "PBG11102",
+      "model": "PBG11102",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Breadboard Supports",
+      "source_chunks": [
+        "multi page catalog sample_document__p3__c008"
+      ]
+    },
+    {
+      "name": "MBC12",
+      "model": "MBC12",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Breadboard Accessories",
+      "source_chunks": [
+        "multi page catalog sample_document__p3__c008"
+      ]
+    },
+    {
+      "name": "MBC12",
+      "model": "MBC12",
+      "sku": "MBC12",
+      "sku_raw": "MBC12",
+      "category": "Water-Cooled Breadboard",
+      "source_chunks": [
+        "multi page catalog sample_document__p3__c009"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "MS12B",
+      "key": "Price",
+      "value": "257.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "entity": "MS12B",
+      "key": "Dimensions",
+      "value": "12.0",
+      "unit": "\" x 12\"",
+      "value_numeric": 12.0,
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "entity": "HW-KIT5",
+      "key": "Price",
+      "value": "92.20",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "entity": "4-40 (M3 x 0.5)",
+      "key": "Tapped Holes",
+      "value": "4.0",
+      "unit": "-40 (m3 x 0.5)",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p1__c003"
+    },
+    {
+      "entity": "4-40 (M3 x 0.5)",
+      "key": "Spacing",
+      "value": "1.0",
+      "unit": "/2\" (12.5 mm)",
+      "value_numeric": 1.0,
+      "source_chunk": "multi page catalog sample_document__p1__c003"
+    },
+    {
+      "entity": "MB424",
+      "key": "Price",
+      "value": "161.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB424",
+      "key": "Dimensions",
+      "value": "4.0",
+      "unit": "\"x 24\"",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB436",
+      "key": "Price",
+      "value": "181.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB436",
+      "key": "Dimensions",
+      "value": "4.0",
+      "unit": "\"x 36\"",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB612",
+      "key": "Price",
+      "value": "124.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB612",
+      "key": "Dimensions",
+      "value": "6.0",
+      "unit": "\" x 12\"",
+      "value_numeric": 6.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB824",
+      "key": "Price",
+      "value": "239.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB824",
+      "key": "Dimensions",
+      "value": "8.0",
+      "unit": "\"x 24\"",
+      "value_numeric": 8.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB836",
+      "key": "Price",
+      "value": "322.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB836",
+      "key": "Dimensions",
+      "value": "8.0",
+      "unit": "\" x 36\"",
+      "value_numeric": 8.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1060/M",
+      "key": "Price",
+      "value": "161.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1060/M",
+      "key": "Dimensions",
+      "value": "100.0",
+      "unit": "mm x 600 mm",
+      "value_numeric": 100.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1090/M",
+      "key": "Price",
+      "value": "181.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1090/M",
+      "key": "Dimensions",
+      "value": "100.0",
+      "unit": "mm x 900 mm",
+      "value_numeric": 100.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1530/M",
+      "key": "Price",
+      "value": "124.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB1530/M",
+      "key": "Dimensions",
+      "value": "150.0",
+      "unit": "mm x 300 mm",
+      "value_numeric": 150.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB2060/M",
+      "key": "Price",
+      "value": "239.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB2060/M",
+      "key": "Dimensions",
+      "value": "200.0",
+      "unit": "mm x 600 mm",
+      "value_numeric": 200.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB2090/M",
+      "key": "Price",
+      "value": "322.00",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB2090/M",
+      "key": "Dimensions",
+      "value": "200.0",
+      "unit": "mm x 900 mm",
+      "value_numeric": 200.0,
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "entity": "MB4",
+      "key": "Price",
+      "value": "49.40",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p2__c006"
+    },
+    {
+      "entity": "MB4",
+      "key": "Dimensions",
+      "value": "4.0",
+      "unit": "\"x6\"",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p2__c006"
+    },
+    {
+      "entity": "PBG11102",
+      "key": "Price",
+      "value": "49.40",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "entity": "PBG11102",
+      "key": "Dimensions",
+      "value": "4.0",
+      "unit": "in",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Price",
+      "value": "49.40",
+      "unit": "usd",
+      "value_numeric": null,
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Dimensions",
+      "value": "4.0",
+      "unit": "in",
+      "value_numeric": 4.0,
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Working Pressure",
+      "value": "80.0",
+      "unit": "psi",
+      "value_numeric": 80.0,
+      "source_chunk": "multi page catalog sample_document__p3__c009"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Working Temperature Range",
+      "value": "0.0",
+      "unit": "to 60 c",
+      "value_numeric": 0.0,
+      "source_chunk": "multi page catalog sample_document__p3__c009"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Tubing Length",
+      "value": "16.0",
+      "unit": "' (5 m)",
+      "value_numeric": 16.0,
+      "source_chunk": "multi page catalog sample_document__p3__c009"
+    },
+    {
+      "entity": "MBC12",
+      "key": "Fittings",
+      "value": "1.0",
+      "unit": "/4\" or 6 mm i.d",
+      "value_numeric": 1.0,
+      "source_chunk": "multi page catalog sample_document__p3__c009"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "MS12B",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "subject": "MS12B",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "subject": "HW-KIT5",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p1__c002"
+    },
+    {
+      "subject": "4-40 (M3 x 0.5)",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Mini-Series Breadboard",
+      "source_chunk": "multi page catalog sample_document__p1__c003"
+    },
+    {
+      "subject": "MB424",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB424",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB436",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB436",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB612",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB612",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB824",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB824",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB836",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB836",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1060/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1060/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1090/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1090/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1530/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB1530/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB2060/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB2060/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB2090/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Price",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB2090/M",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Dimensions",
+      "source_chunk": "multi page catalog sample_document__p2__c007"
+    },
+    {
+      "subject": "MB4",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "source_chunk": "multi page catalog sample_document__p2__c006"
+    },
+    {
+      "subject": "MB4",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Breadboards",
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "subject": "PBG11102",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Breadboard Supports",
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "subject": "MBC12",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Breadboard Accessories",
+      "source_chunk": "multi page catalog sample_document__p3__c008"
+    },
+    {
+      "subject": "MBC12",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Water-Cooled Breadboard",
+      "source_chunk": "multi page catalog sample_document__p3__c009"
+    }
+  ]
+}

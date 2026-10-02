@@ -309,9 +309,15 @@ class _OllamaBackend:
     def call(self, prompt: str) -> str:
         response = self._client.chat(
             model=self.model,
-            messages=[{"role": "user", "content": prompt}],
-            options={"temperature": 0.0, "num_predict": 1024},
-            think=False,  # disable qwen3 thinking mode — we only want the JSON
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a JSON-only API. Output valid JSON and nothing else. No markdown, no explanation, no thinking.",
+                },
+                {"role": "user", "content": prompt},
+            ],
+            options={"temperature": 0.0, "num_predict": 2048},
+            think=False,  # disable qwen3 thinking mode
         )
         return response.message.content or ""
 

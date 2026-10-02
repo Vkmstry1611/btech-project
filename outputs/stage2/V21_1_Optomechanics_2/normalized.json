@@ -1,0 +1,219 @@
+{
+  "doc_stem": "V21_1_Optomechanics_2_document",
+  "product_count": 3,
+  "attribute_count": 11,
+  "relation_count": 14,
+  "source_chunks": [
+    "V21_1_Optomechanics_2_document__p1__c001",
+    "V21_1_Optomechanics_2_document__p1__c002",
+    "V21_1_Optomechanics_2_document__p1__c003"
+  ],
+  "products": [
+    {
+      "name": "SECTIONS",
+      "model": null,
+      "sku": "2",
+      "sku_raw": "2",
+      "category": null,
+      "source_chunks": [
+        "V21_1_Optomechanics_2_document__p1__c001"
+      ]
+    },
+    {
+      "name": "Optical Breadboard",
+      "model": null,
+      "sku": null,
+      "sku_raw": null,
+      "category": "Optical Breadboard",
+      "source_chunks": [
+        "V21_1_Optomechanics_2_document__p1__c002"
+      ]
+    },
+    {
+      "name": "Mini-Series Breadboard",
+      "model": "4-40 (M3 x 0.5)",
+      "sku": null,
+      "sku_raw": null,
+      "category": "Mini-Series Breadboard",
+      "source_chunks": [
+        "V21_1_Optomechanics_2_document__p1__c003"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "Optical Breadboard",
+      "key": "Material",
+      "value": "Aluminum Honeycomb Core",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Thickness",
+      "value": "1.0",
+      "unit": "\" or 2.2\" (25 mm or 55 mm)",
+      "value_numeric": 1.0,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Flatness",
+      "value": "0.15",
+      "unit": "mm",
+      "value_numeric": 0.15,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Skin",
+      "value": "Aluminum",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Honeycomb Core",
+      "value": "Aluminum",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Sealed Holes",
+      "value": "No",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Weight Per Unit Area",
+      "value": "4.7",
+      "unit": "lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)",
+      "value_numeric": 4.7,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Optical Breadboard",
+      "key": "Optional Features",
+      "value": "Brushed Stainless Steel Top Plate, Black Finish on Top Plate, Brushed Steel Finish on Top Plate, Double-Density Hole Pattern, Blank Top Plate, Access Wells for Standoff Posts, Breadboard Levelers, Nonmagnetic Top and Bottom Plates, Through Holes/Cutouts, Custom Hole Patterns, Aluminum Honeycomb Core",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "entity": "Mini-Series Breadboard",
+      "key": "Thread Size",
+      "value": "4.0",
+      "unit": "-40 (m3 x 0.5)",
+      "value_numeric": 4.0,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    },
+    {
+      "entity": "Mini-Series Breadboard",
+      "key": "Center Distance",
+      "value": "0.5",
+      "unit": "in",
+      "value_numeric": 0.5,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    },
+    {
+      "entity": "Mini-Series Breadboard",
+      "key": "Material",
+      "value": "Solid Aluminum",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "SECTIONS",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "SECTIONS",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c001"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Optical Breadboard",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Material",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Thickness",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Flatness",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Skin",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Honeycomb Core",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Sealed Holes",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Weight per Unit Area",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Optical Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Optional Features",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c002"
+    },
+    {
+      "subject": "Mini-Series Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Thread Size",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    },
+    {
+      "subject": "Mini-Series Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Center Distance",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    },
+    {
+      "subject": "Mini-Series Breadboard",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Material",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    },
+    {
+      "subject": "Mini-Series Breadboard",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "Mini-Series Breadboard",
+      "source_chunk": "V21_1_Optomechanics_2_document__p1__c003"
+    }
+  ]
+}

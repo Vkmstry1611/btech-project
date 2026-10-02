@@ -1,0 +1,1564 @@
+{
+  "schema_version": "1.1",
+  "source": {
+    "pdf_path": "pdfs\\V21_1_Optomechanics_2.pdf",
+    "total_pages": 1,
+    "pages": [
+      {
+        "page_number": 1,
+        "rendered_image_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\images\\V21_1_Optomechanics_2\\V21_1_Optomechanics_2_p001.png",
+        "preprocessed_image_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\processed\\V21_1_Optomechanics_2\\V21_1_Optomechanics_2_p001.png"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\V21_1_Optomechanics_2\\page_001\\V21_1_Optomechanics_2_p001_res.json",
+      "blocks": [
+        {
+          "id": "p1_b001",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "Optomechanics",
+          "bbox": [
+            47.0,
+            80.0,
+            261.0,
+            106.0
+          ],
+          "confidence": 0.6852720975875854,
+          "order": 1,
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              47,
+              80,
+              261,
+              106
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p1_b002",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "CHAPTERS",
+          "bbox": [
+            79.0,
+            143.0,
+            193.0,
+            167.0
+          ],
+          "confidence": 0.4674297571182251,
+          "order": 2,
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              79,
+              143,
+              193,
+              167
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b003",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Tables/\nBreadboards",
+          "bbox": [
+            59.0,
+            192.0,
+            199.0,
+            234.0
+          ],
+          "confidence": 0.8406549692153931,
+          "order": 3,
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Tables/\nBreadboards ",
+            "block_bbox": [
+              59,
+              192,
+              199,
+              234
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b004",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Mechanics",
+          "bbox": [
+            60.0,
+            256.0,
+            178.0,
+            274.0
+          ],
+          "confidence": 0.7741807699203491,
+          "order": 4,
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              60,
+              256,
+              178,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b005",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optomechanic Devices",
+          "bbox": [
+            60.0,
+            298.0,
+            218.0,
+            337.0
+          ],
+          "confidence": 0.8430651426315308,
+          "order": 5,
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic Devices \n",
+            "block_bbox": [
+              60,
+              298,
+              218,
+              337
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b006",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Kits",
+          "bbox": [
+            59.0,
+            361.0,
+            104.0,
+            381.0
+          ],
+          "confidence": 0.7094368934631348,
+          "order": 6,
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              59,
+              361,
+              104,
+              381
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b007",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Lab Supplies",
+          "bbox": [
+            59.0,
+            412.0,
+            201.0,
+            433.0
+          ],
+          "confidence": 0.6822164058685303,
+          "order": 7,
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              59,
+              412,
+              201,
+              433
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b008",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "SECTIONS",
+          "bbox": [
+            53.0,
+            467.0,
+            170.0,
+            491.0
+          ],
+          "confidence": 0.30183732509613037,
+          "order": 8,
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              53,
+              467,
+              170,
+              491
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b009",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "number",
+          "text": "2",
+          "bbox": [
+            60.0,
+            2060.0,
+            78.0,
+            2079.0
+          ],
+          "confidence": 0.7785911560058594,
+          "order": 9,
+          "source_ref": "parsing_res_list[9]",
+          "raw": {
+            "block_label": "number",
+            "block_content": "2",
+            "block_bbox": [
+              60,
+              2060,
+              78,
+              2079
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "number"
+        },
+        {
+          "id": "p1_b010",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Optical Breadboard Overview",
+          "bbox": [
+            282.0,
+            158.0,
+            865.0,
+            192.0
+          ],
+          "confidence": 0.9183168411254883,
+          "order": 10,
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Optical Breadboard Overview ",
+            "block_bbox": [
+              282,
+              158,
+              865,
+              192
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b011",
+          "page": 1,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+          "bbox": [
+            277.0,
+            219.0,
+            1542.0,
+            336.0
+          ],
+          "confidence": 0.9793161749839783,
+          "order": 11,
+          "source_ref": "parsing_res_list[11]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+            "block_bbox": [
+              277,
+              219,
+              1542,
+              336
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b012",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Available Options for Thorlabs' Honeycomb Breadboards",
+          "bbox": [
+            284.0,
+            389.0,
+            969.0,
+            412.0
+          ],
+          "confidence": 0.9012140035629272,
+          "order": 12,
+          "source_ref": "parsing_res_list[12]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Available Options for Thorlabs' Honeycomb Breadboards ",
+            "block_bbox": [
+              284,
+              389,
+              969,
+              412
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b013",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+          "bbox": [
+            284.0,
+            421.0,
+            1598.0,
+            917.0
+          ],
+          "confidence": 0.9891970753669739,
+          "order": 13,
+          "source_ref": "parsing_res_list[13]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              284,
+              421,
+              1598,
+              917
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b014",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Feature Comparison of Honeycomb Breadboards",
+          "bbox": [
+            282.0,
+            977.0,
+            874.0,
+            1000.0
+          ],
+          "confidence": 0.9007827043533325,
+          "order": 14,
+          "source_ref": "parsing_res_list[14]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Feature Comparison of Honeycomb Breadboards ",
+            "block_bbox": [
+              282,
+              977,
+              874,
+              1000
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b015",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+          "bbox": [
+            283.0,
+            1008.0,
+            1598.0,
+            1332.0
+          ],
+          "confidence": 0.9874364733695984,
+          "order": 15,
+          "source_ref": "parsing_res_list[15]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              283,
+              1008,
+              1598,
+              1332
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b016",
+          "page": 1,
+          "type": "figure",
+          "source_type": "image",
+          "text": "The HW-KIT5(/M) provides over \n1,000 assorted 4-40 (M3 x 0.5) 1/4\"\nlong setscrews and 1/4\", 3/16\", 5/16\",\nand 3/8\" long socket \nscrews for use with \nour mini-series \noptical mounts.\nDESCRIPTION \n12\" x 12\" High-Density Mini-Breadboard \nHW-KIT5\nHardware Kit for Mini-Series \nMini-Series Hardware Kit",
+          "bbox": [
+            1113.0,
+            1539.0,
+            1598.0,
+            1987.0
+          ],
+          "confidence": 0.5849993228912354,
+          "order": 16,
+          "source_ref": "parsing_res_list[16]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "The HW-KIT5(/M) provides over \n1,000 assorted 4-40 (M3 x 0.5) 1/4\"\nlong setscrews and 1/4\", 3/16\", 5/16\",\nand 3/8\" long socket \nscrews for use with \nour mini-series \noptical mounts.\nDESCRIPTION \n12\" x 12\" High-Density Mini-Breadboard \nHW-KIT5\nHardware Kit for Mini-Series \nMini-Series Hardware Kit ",
+            "block_bbox": [
+              1113,
+              1539,
+              1598,
+              1987
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p1_b017",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+          "bbox": [
+            282.0,
+            1871.0,
+            1512.0,
+            1987.0
+          ],
+          "confidence": 0.7772746086120605,
+          "order": 17,
+          "source_ref": "parsing_res_list[17]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              282,
+              1871,
+              1512,
+              1987
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b018",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Mini-Series Breadboard",
+          "bbox": [
+            283.0,
+            1406.0,
+            752.0,
+            1438.0
+          ],
+          "confidence": 0.9306972026824951,
+          "order": 18,
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Mini-Series Breadboard ",
+            "block_bbox": [
+              283,
+              1406,
+              752,
+              1438
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b019",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range",
+          "bbox": [
+            280.0,
+            1488.0,
+            828.0,
+            1603.0
+          ],
+          "confidence": 0.940046489238739,
+          "order": 19,
+          "source_ref": "parsing_res_list[19]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range ",
+            "block_bbox": [
+              280,
+              1488,
+              828,
+              1603
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b020",
+          "page": 1,
+          "type": "figure",
+          "source_type": "image",
+          "text": "re and \n\nMS12B \n12\" x 12\" x 3/8\"Breadboard \n300 mm x 300 mm x 9.5 mm",
+          "bbox": [
+            535.0,
+            1589.0,
+            1075.0,
+            1802.0
+          ],
+          "confidence": 0.9042858481407166,
+          "order": 20,
+          "source_ref": "parsing_res_list[20]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "re and \n\nMS12B \n12\" x 12\" x 3/8\"Breadboard \n300 mm x 300 mm x 9.5 mm ",
+            "block_bbox": [
+              535,
+              1589,
+              1075,
+              1802
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p1_b021",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Mini-Breadboard and Hardware Kit",
+          "bbox": [
+            283.0,
+            1839.0,
+            703.0,
+            1862.0
+          ],
+          "confidence": 0.8925647139549255,
+          "order": 21,
+          "source_ref": "parsing_res_list[21]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Mini-Breadboard and Hardware Kit ",
+            "block_bbox": [
+              283,
+              1839,
+              703,
+              1862
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b022",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "accessories. These mounting components can be found on pages 74-86.",
+          "bbox": [
+            282.0,
+            1611.0,
+            502.0,
+            1724.0
+          ],
+          "confidence": 0.9137486219406128,
+          "order": 22,
+          "source_ref": "parsing_res_list[22]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "accessories. These mounting components can be found on pages 74-86.",
+            "block_bbox": [
+              282,
+              1611,
+              502,
+              1724
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b023",
+          "page": 1,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "4-40 (M3 x 0.5)\nTapped Holes on \n1/2\" (12.5 mm) Centers",
+          "bbox": [
+            889.0,
+            1503.0,
+            1073.0,
+            1568.0
+          ],
+          "confidence": 0.9078528881072998,
+          "order": 23,
+          "source_ref": "parsing_res_list[23]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "4-40 (M3 x 0.5)\nTapped Holes on \n1/2\" (12.5 mm) Centers ",
+            "block_bbox": [
+              889,
+              1503,
+              1073,
+              1568
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b024",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "www.thorlabs.com",
+          "bbox": [
+            284.0,
+            2058.0,
+            469.0,
+            2078.0
+          ],
+          "confidence": 0.9008852243423462,
+          "order": 24,
+          "source_ref": "parsing_res_list[24]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "www.thorlabs.com ",
+            "block_bbox": [
+              284,
+              2058,
+              469,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p1_b025",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "THORLABS",
+          "bbox": [
+            1442.0,
+            2051.0,
+            1598.0,
+            2077.0
+          ],
+          "confidence": 0.915511429309845,
+          "order": 25,
+          "source_ref": "parsing_res_list[25]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              1442,
+              2051,
+              1598,
+              2077
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        }
+      ]
+    }
+  ],
+  "hierarchy": {
+    "name": "document",
+    "semantic_type": "document",
+    "block_id": null,
+    "page": null,
+    "source_type": null,
+    "bbox": null,
+    "confidence": null,
+    "order": null,
+    "children": [
+      {
+        "name": "Optomechanics",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b001",
+        "page": 1,
+        "source_type": "header",
+        "bbox": [
+          47.0,
+          80.0,
+          261.0,
+          106.0
+        ],
+        "confidence": 0.6852720975875854,
+        "order": 1,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              47,
+              80,
+              261,
+              106
+            ]
+          },
+          "layout_hint": "header",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "CHAPTERS",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b002",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          79.0,
+          143.0,
+          193.0,
+          167.0
+        ],
+        "confidence": 0.4674297571182251,
+        "order": 2,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              79,
+              143,
+              193,
+              167
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "Tables/",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b003",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          59.0,
+          192.0,
+          199.0,
+          234.0
+        ],
+        "confidence": 0.8406549692153931,
+        "order": 3,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Tables/\nBreadboards ",
+            "block_bbox": [
+              59,
+              192,
+              199,
+              234
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "Mechanics",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b004",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          60.0,
+          256.0,
+          178.0,
+          274.0
+        ],
+        "confidence": 0.7741807699203491,
+        "order": 4,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              60,
+              256,
+              178,
+              274
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "Optomechanic Devices",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b005",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          60.0,
+          298.0,
+          218.0,
+          337.0
+        ],
+        "confidence": 0.8430651426315308,
+        "order": 5,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic Devices \n",
+            "block_bbox": [
+              60,
+              298,
+              218,
+              337
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "Kits",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b006",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          59.0,
+          361.0,
+          104.0,
+          381.0
+        ],
+        "confidence": 0.7094368934631348,
+        "order": 6,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              59,
+              361,
+              104,
+              381
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "Lab Supplies",
+        "semantic_type": "paragraph",
+        "block_id": "p1_b007",
+        "page": 1,
+        "source_type": "text",
+        "bbox": [
+          59.0,
+          412.0,
+          201.0,
+          433.0
+        ],
+        "confidence": 0.6822164058685303,
+        "order": 7,
+        "children": [],
+        "metadata": {
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              59,
+              412,
+              201,
+              433
+            ]
+          },
+          "layout_hint": "text",
+          "heading_level": null
+        }
+      },
+      {
+        "name": "SECTIONS",
+        "semantic_type": "heading",
+        "block_id": "p1_b008",
+        "page": 1,
+        "source_type": "paragraph_title",
+        "bbox": [
+          53.0,
+          467.0,
+          170.0,
+          491.0
+        ],
+        "confidence": 0.30183732509613037,
+        "order": 8,
+        "children": [
+          {
+            "name": "2",
+            "semantic_type": "paragraph",
+            "block_id": "p1_b009",
+            "page": 1,
+            "source_type": "number",
+            "bbox": [
+              60.0,
+              2060.0,
+              78.0,
+              2079.0
+            ],
+            "confidence": 0.7785911560058594,
+            "order": 9,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[9]",
+              "raw": {
+                "block_label": "number",
+                "block_content": "2",
+                "block_bbox": [
+                  60,
+                  2060,
+                  78,
+                  2079
+                ]
+              },
+              "layout_hint": "number",
+              "heading_level": null
+            }
+          }
+        ],
+        "metadata": {
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              53,
+              467,
+              170,
+              491
+            ]
+          },
+          "layout_hint": "paragraph_title",
+          "heading_level": 2
+        }
+      },
+      {
+        "name": "Optical Breadboard Overview",
+        "semantic_type": "heading",
+        "block_id": "p1_b010",
+        "page": 1,
+        "source_type": "paragraph_title",
+        "bbox": [
+          282.0,
+          158.0,
+          865.0,
+          192.0
+        ],
+        "confidence": 0.9183168411254883,
+        "order": 10,
+        "children": [
+          {
+            "name": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+            "semantic_type": "product_card",
+            "block_id": "p1_b011",
+            "page": 1,
+            "source_type": "text",
+            "bbox": [
+              277.0,
+              219.0,
+              1542.0,
+              336.0
+            ],
+            "confidence": 0.9793161749839783,
+            "order": 11,
+            "children": [
+              {
+                "name": "Available Options for Thorlabs' Honeycomb Breadboards",
+                "semantic_type": "figure",
+                "block_id": "p1_b012",
+                "page": 1,
+                "source_type": "figure_title",
+                "bbox": [
+                  284.0,
+                  389.0,
+                  969.0,
+                  412.0
+                ],
+                "confidence": 0.9012140035629272,
+                "order": 12,
+                "children": [],
+                "metadata": {
+                  "source_ref": "parsing_res_list[12]",
+                  "raw": {
+                    "block_label": "figure_title",
+                    "block_content": "Available Options for Thorlabs' Honeycomb Breadboards ",
+                    "block_bbox": [
+                      284,
+                      389,
+                      969,
+                      412
+                    ]
+                  },
+                  "layout_hint": "figure_title",
+                  "heading_level": null
+                }
+              },
+              {
+                "name": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+                "semantic_type": "table",
+                "block_id": "p1_b013",
+                "page": 1,
+                "source_type": "table",
+                "bbox": [
+                  284.0,
+                  421.0,
+                  1598.0,
+                  917.0
+                ],
+                "confidence": 0.9891970753669739,
+                "order": 13,
+                "children": [],
+                "metadata": {
+                  "source_ref": "parsing_res_list[13]",
+                  "raw": {
+                    "block_label": "table",
+                    "block_content": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+                    "block_bbox": [
+                      284,
+                      421,
+                      1598,
+                      917
+                    ]
+                  },
+                  "layout_hint": "table",
+                  "heading_level": null
+                }
+              }
+            ],
+            "metadata": {
+              "source_ref": "parsing_res_list[11]",
+              "raw": {
+                "block_label": "text",
+                "block_content": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+                "block_bbox": [
+                  277,
+                  219,
+                  1542,
+                  336
+                ]
+              },
+              "layout_hint": "text",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "Feature Comparison of Honeycomb Breadboards",
+            "semantic_type": "figure",
+            "block_id": "p1_b014",
+            "page": 1,
+            "source_type": "figure_title",
+            "bbox": [
+              282.0,
+              977.0,
+              874.0,
+              1000.0
+            ],
+            "confidence": 0.9007827043533325,
+            "order": 14,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[14]",
+              "raw": {
+                "block_label": "figure_title",
+                "block_content": "Feature Comparison of Honeycomb Breadboards ",
+                "block_bbox": [
+                  282,
+                  977,
+                  874,
+                  1000
+                ]
+              },
+              "layout_hint": "figure_title",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+            "semantic_type": "table",
+            "block_id": "p1_b015",
+            "page": 1,
+            "source_type": "table",
+            "bbox": [
+              283.0,
+              1008.0,
+              1598.0,
+              1332.0
+            ],
+            "confidence": 0.9874364733695984,
+            "order": 15,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[15]",
+              "raw": {
+                "block_label": "table",
+                "block_content": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+                "block_bbox": [
+                  283,
+                  1008,
+                  1598,
+                  1332
+                ]
+              },
+              "layout_hint": "table",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "The HW-KIT5(/M) provides over  1,000 assorted 4-40 (M3 x 0.5) 1/4\" long setscrews and 1/4\", 3/16\", 5/16\", and 3/8\" long socket  screws for use with  our mini-series  optical mounts. DESCRIPTION  12\" x 12\" High-Density Mini-Breadboard  HW-KIT5 Hardware Kit for Mini-Series  Mini-Series Hardware Kit",
+            "semantic_type": "figure",
+            "block_id": "p1_b016",
+            "page": 1,
+            "source_type": "image",
+            "bbox": [
+              1113.0,
+              1539.0,
+              1598.0,
+              1987.0
+            ],
+            "confidence": 0.5849993228912354,
+            "order": 16,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[16]",
+              "raw": {
+                "block_label": "image",
+                "block_content": "The HW-KIT5(/M) provides over \n1,000 assorted 4-40 (M3 x 0.5) 1/4\"\nlong setscrews and 1/4\", 3/16\", 5/16\",\nand 3/8\" long socket \nscrews for use with \nour mini-series \noptical mounts.\nDESCRIPTION \n12\" x 12\" High-Density Mini-Breadboard \nHW-KIT5\nHardware Kit for Mini-Series \nMini-Series Hardware Kit ",
+                "block_bbox": [
+                  1113,
+                  1539,
+                  1598,
+                  1987
+                ]
+              },
+              "layout_hint": "image",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+            "semantic_type": "table",
+            "block_id": "p1_b017",
+            "page": 1,
+            "source_type": "table",
+            "bbox": [
+              282.0,
+              1871.0,
+              1512.0,
+              1987.0
+            ],
+            "confidence": 0.7772746086120605,
+            "order": 17,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[17]",
+              "raw": {
+                "block_label": "table",
+                "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+                "block_bbox": [
+                  282,
+                  1871,
+                  1512,
+                  1987
+                ]
+              },
+              "layout_hint": "table",
+              "heading_level": null
+            }
+          }
+        ],
+        "metadata": {
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Optical Breadboard Overview ",
+            "block_bbox": [
+              282,
+              158,
+              865,
+              192
+            ]
+          },
+          "layout_hint": "paragraph_title",
+          "heading_level": 2
+        }
+      },
+      {
+        "name": "Mini-Series Breadboard",
+        "semantic_type": "heading",
+        "block_id": "p1_b018",
+        "page": 1,
+        "source_type": "paragraph_title",
+        "bbox": [
+          283.0,
+          1406.0,
+          752.0,
+          1438.0
+        ],
+        "confidence": 0.9306972026824951,
+        "order": 18,
+        "children": [
+          {
+            "name": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range",
+            "semantic_type": "paragraph",
+            "block_id": "p1_b019",
+            "page": 1,
+            "source_type": "text",
+            "bbox": [
+              280.0,
+              1488.0,
+              828.0,
+              1603.0
+            ],
+            "confidence": 0.940046489238739,
+            "order": 19,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[19]",
+              "raw": {
+                "block_label": "text",
+                "block_content": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range ",
+                "block_bbox": [
+                  280,
+                  1488,
+                  828,
+                  1603
+                ]
+              },
+              "layout_hint": "text",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "re and   MS12B  12\" x 12\" x 3/8\"Breadboard  300 mm x 300 mm x 9.5 mm",
+            "semantic_type": "figure",
+            "block_id": "p1_b020",
+            "page": 1,
+            "source_type": "image",
+            "bbox": [
+              535.0,
+              1589.0,
+              1075.0,
+              1802.0
+            ],
+            "confidence": 0.9042858481407166,
+            "order": 20,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[20]",
+              "raw": {
+                "block_label": "image",
+                "block_content": "re and \n\nMS12B \n12\" x 12\" x 3/8\"Breadboard \n300 mm x 300 mm x 9.5 mm ",
+                "block_bbox": [
+                  535,
+                  1589,
+                  1075,
+                  1802
+                ]
+              },
+              "layout_hint": "image",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "Mini-Breadboard and Hardware Kit",
+            "semantic_type": "figure",
+            "block_id": "p1_b021",
+            "page": 1,
+            "source_type": "figure_title",
+            "bbox": [
+              283.0,
+              1839.0,
+              703.0,
+              1862.0
+            ],
+            "confidence": 0.8925647139549255,
+            "order": 21,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[21]",
+              "raw": {
+                "block_label": "figure_title",
+                "block_content": "Mini-Breadboard and Hardware Kit ",
+                "block_bbox": [
+                  283,
+                  1839,
+                  703,
+                  1862
+                ]
+              },
+              "layout_hint": "figure_title",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "accessories. These mounting components can be found on pages 74-86.",
+            "semantic_type": "paragraph",
+            "block_id": "p1_b022",
+            "page": 1,
+            "source_type": "text",
+            "bbox": [
+              282.0,
+              1611.0,
+              502.0,
+              1724.0
+            ],
+            "confidence": 0.9137486219406128,
+            "order": 22,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[22]",
+              "raw": {
+                "block_label": "text",
+                "block_content": "accessories. These mounting components can be found on pages 74-86.",
+                "block_bbox": [
+                  282,
+                  1611,
+                  502,
+                  1724
+                ]
+              },
+              "layout_hint": "text",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "4-40 (M3 x 0.5)",
+            "semantic_type": "product_card",
+            "block_id": "p1_b023",
+            "page": 1,
+            "source_type": "text",
+            "bbox": [
+              889.0,
+              1503.0,
+              1073.0,
+              1568.0
+            ],
+            "confidence": 0.9078528881072998,
+            "order": 23,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[23]",
+              "raw": {
+                "block_label": "text",
+                "block_content": "4-40 (M3 x 0.5)\nTapped Holes on \n1/2\" (12.5 mm) Centers ",
+                "block_bbox": [
+                  889,
+                  1503,
+                  1073,
+                  1568
+                ]
+              },
+              "layout_hint": "text",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "www.thorlabs.com",
+            "semantic_type": "paragraph",
+            "block_id": "p1_b024",
+            "page": 1,
+            "source_type": "footer",
+            "bbox": [
+              284.0,
+              2058.0,
+              469.0,
+              2078.0
+            ],
+            "confidence": 0.9008852243423462,
+            "order": 24,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[24]",
+              "raw": {
+                "block_label": "footer",
+                "block_content": "www.thorlabs.com ",
+                "block_bbox": [
+                  284,
+                  2058,
+                  469,
+                  2078
+                ]
+              },
+              "layout_hint": "footer",
+              "heading_level": null
+            }
+          },
+          {
+            "name": "THORLABS",
+            "semantic_type": "paragraph",
+            "block_id": "p1_b025",
+            "page": 1,
+            "source_type": "footer",
+            "bbox": [
+              1442.0,
+              2051.0,
+              1598.0,
+              2077.0
+            ],
+            "confidence": 0.915511429309845,
+            "order": 25,
+            "children": [],
+            "metadata": {
+              "source_ref": "parsing_res_list[25]",
+              "raw": {
+                "block_label": "footer",
+                "block_content": "THORLABS ",
+                "block_bbox": [
+                  1442,
+                  2051,
+                  1598,
+                  2077
+                ]
+              },
+              "layout_hint": "footer",
+              "heading_level": null
+            }
+          }
+        ],
+        "metadata": {
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Mini-Series Breadboard ",
+            "block_bbox": [
+              283,
+              1406,
+              752,
+              1438
+            ]
+          },
+          "layout_hint": "paragraph_title",
+          "heading_level": 2
+        }
+      }
+    ],
+    "metadata": {}
+  }
+}

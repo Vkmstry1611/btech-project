@@ -1,0 +1,101 @@
+{
+  "type": "Product Category",
+  "title": "V21_1_Optomechanics_2",
+  "identifier": "PC-V211OPTOMECHANICS2",
+  "description": "Extracted from V21_1_Optomechanics_2 (1 page(s)) using ollama/qwen3:8b",
+  "source": {
+    "pdf_path": "pdfs\\V21_1_Optomechanics_2.pdf",
+    "total_pages": 1,
+    "backend_used": "ollama/qwen3:8b"
+  },
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Optomechanics",
+      "identifier": "PC-OPTOMECHANICS",
+      "models": [
+        {
+          "type": "Model",
+          "title": "SECTIONS",
+          "identifier": "MOD-SECTIONS",
+          "sku": "2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "SECTIONS",
+              "identifier": "SI-SECTIONS"
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "Optical Breadboard",
+          "identifier": "MOD-OPTICAL-BREADBOARD",
+          "sku": "OPTICAL-BREADBOARD",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "Optical Breadboard",
+              "identifier": "SI-OPTICAL-BREADBOARD",
+              "properties": {
+                "material": "Aluminum Honeycomb Core",
+                "thickness": "1.0 \" or 2.2\" (25 mm or 55 mm)",
+                "flatness": "0.15 mm",
+                "skin": "Aluminum",
+                "honeycomb_core": "Aluminum",
+                "sealed_holes": "No",
+                "weight_per_unit_area": "4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)",
+                "optional_features": "Brushed Stainless Steel Top Plate, Black Finish on Top Plate, Brushed Steel Finish on Top Plate, Double-Density Hole Pattern, Blank Top Plate, Access Wells for Standoff Posts, Breadboard Levelers, Nonmagnetic Top and Bottom Plates, Through Holes/Cutouts, Custom Hole Patterns, Aluminum Honeycomb Core"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "Mini-Series Breadboard",
+          "identifier": "MOD-MINISERIES-BREADBOARD",
+          "description": "Model: 4-40 (M3 x 0.5)",
+          "sku": "4-40 (M3 x 0.5)",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "Mini-Series Breadboard",
+              "identifier": "SI-MINISERIES-BREADBOARD",
+              "properties": {
+                "thread_size": "4.0 -40 (m3 x 0.5)",
+                "center_distance": "0.5 in",
+                "material": "Solid Aluminum"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Optical Breadboard Overview",
+      "identifier": "PC-OPTICAL-BREADBOARD-OVERVIEW",
+      "models": [
+        {
+          "type": "Model",
+          "title": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing an",
+          "identifier": "MOD-THORLABS-HONEYCOMB-BREADBOARDS-ARE",
+          "sellableItems": []
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Mini-Series Breadboard",
+      "identifier": "PC-MINISERIES-BREADBOARD",
+      "models": [
+        {
+          "type": "Model",
+          "title": "4-40 (M3 x 0.5)",
+          "identifier": "MOD-440-M3-X-05",
+          "sellableItems": []
+        }
+      ]
+    }
+  ]
+}

@@ -236,3 +236,56 @@ outputs/
   visualizations/{stem}/    *_semantic_blocks.png
                             *_hierarchy.png
 ```
+
+---
+
+## Multi-Page Support (schema_version "1.1")
+
+When `run_stage1_for_pdf_multipage()` is used, each page is OCR'd independently
+and all per-page semantic blocks are assembled into one `SemanticDocument`.
+
+### Key design decisions
+
+**Shared heading stack across pages** — `build_hierarchy_document()` uses a single
+`HierarchyBuildContext` across all pages. The heading stack carries over at page
+boundaries so sections spanning multiple pages are correctly nested.
+
+**Per-page block tagging** — Every `SemanticBlock` and `HierarchyNode` carries its
+source `page` number. Block IDs follow `p{N}_b{order:03d}` to be globally unique.
+
+### Multi-page canonical JSON (schema_version "1.1")
+
+```json
+{
+  "schema_version": "1.1",
+  "source": {
+    "pdf_path": "path/to/file.pdf",
+    "total_pages": 8,
+    "pages": [
+      { "page_number": 1, "rendered_image_path": "...", "preprocessed_image_path": "..." },
+      { "page_number": 2, "rendered_image_path": "...", "preprocessed_image_path": "..." }
+    ]
+  },
+  "pages": [
+    { "page": 1, "blocks": [ { "id": "p1_b001", "page": 1, "type": "heading", ... } ] },
+    { "page": 2, "blocks": [ { "id": "p2_b001", "page": 2, "type": "paragraph", ... } ] }
+  ],
+  "hierarchy": {
+    "name": "document",
+    "semantic_type": "document",
+    "children": [
+      {
+        "name": "Section from page 1",
+        "page": 1,
+        "semantic_type": "heading",
+        "children": [
+          { "name": "Content from page 2", "page": 2, "semantic_type": "paragraph" }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Note that hierarchy children can have different `page` values — content from page 2
+correctly nests under a heading from page 1 thanks to the shared heading stack.

@@ -1,0 +1,104 @@
+{
+  "doc_stem": "V21_1_Optomechanics_3_document",
+  "product_count": 1,
+  "attribute_count": 5,
+  "relation_count": 6,
+  "source_chunks": [
+    "V21_1_Optomechanics_3_document__p1__c001",
+    "V21_1_Optomechanics_3_document__p1__c002",
+    "V21_1_Optomechanics_3_document__p1__c004",
+    "V21_1_Optomechanics_3_document__p1__c003"
+  ],
+  "products": [
+    {
+      "name": "SlimLine Breadboards",
+      "model": null,
+      "sku": null,
+      "sku_raw": null,
+      "category": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "source_chunks": [
+        "V21_1_Optomechanics_3_document__p1__c003"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "entity": "SlimLine Breadboards",
+      "key": "Hole Pattern",
+      "value": "Double-Density",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "entity": "SlimLine Breadboards",
+      "key": "Hole Offset",
+      "value": "0.5",
+      "unit": "in",
+      "value_numeric": 0.5,
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "entity": "SlimLine Breadboards",
+      "key": "Material",
+      "value": "Aluminum",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "entity": "SlimLine Breadboards",
+      "key": "Thickness",
+      "value": "0.5",
+      "unit": "in",
+      "value_numeric": 0.5,
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "entity": "SlimLine Breadboards",
+      "key": "Profile",
+      "value": "Slim",
+      "unit": null,
+      "value_numeric": null,
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "BELONGS_TO_CATEGORY",
+      "object": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Hole Pattern",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Hole Offset",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Material",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Thickness",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    },
+    {
+      "subject": "SlimLine Breadboards",
+      "predicate": "HAS_ATTRIBUTE",
+      "object": "Profile",
+      "source_chunk": "V21_1_Optomechanics_3_document__p1__c003"
+    }
+  ]
+}

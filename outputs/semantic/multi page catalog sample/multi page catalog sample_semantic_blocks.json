@@ -1,0 +1,4259 @@
+{
+  "source_json_path": null,
+  "pages": [
+    {
+      "page": 1,
+      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_001\\multi page catalog sample_p001_res.json",
+      "blocks": [
+        {
+          "id": "p1_b001",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "Optomechanics",
+          "bbox": [
+            47.0,
+            80.0,
+            261.0,
+            106.0
+          ],
+          "confidence": 0.6852720975875854,
+          "order": 1,
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              47,
+              80,
+              261,
+              106
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p1_b002",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "CHAPTERS",
+          "bbox": [
+            79.0,
+            143.0,
+            193.0,
+            167.0
+          ],
+          "confidence": 0.4674297571182251,
+          "order": 2,
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              79,
+              143,
+              193,
+              167
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b003",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Tables/\nBreadboards",
+          "bbox": [
+            59.0,
+            192.0,
+            199.0,
+            234.0
+          ],
+          "confidence": 0.8406549692153931,
+          "order": 3,
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Tables/\nBreadboards ",
+            "block_bbox": [
+              59,
+              192,
+              199,
+              234
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b004",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Mechanics",
+          "bbox": [
+            60.0,
+            256.0,
+            178.0,
+            274.0
+          ],
+          "confidence": 0.7741807699203491,
+          "order": 4,
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              60,
+              256,
+              178,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b005",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optomechanic Devices",
+          "bbox": [
+            60.0,
+            298.0,
+            218.0,
+            337.0
+          ],
+          "confidence": 0.8430651426315308,
+          "order": 5,
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic Devices \n",
+            "block_bbox": [
+              60,
+              298,
+              218,
+              337
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b006",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Kits",
+          "bbox": [
+            59.0,
+            361.0,
+            104.0,
+            381.0
+          ],
+          "confidence": 0.7094368934631348,
+          "order": 6,
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              59,
+              361,
+              104,
+              381
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b007",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Lab Supplies",
+          "bbox": [
+            59.0,
+            412.0,
+            201.0,
+            433.0
+          ],
+          "confidence": 0.6822164058685303,
+          "order": 7,
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              59,
+              412,
+              201,
+              433
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b008",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "SECTIONS",
+          "bbox": [
+            53.0,
+            467.0,
+            170.0,
+            491.0
+          ],
+          "confidence": 0.30183732509613037,
+          "order": 8,
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              53,
+              467,
+              170,
+              491
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b009",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "number",
+          "text": "2",
+          "bbox": [
+            60.0,
+            2060.0,
+            78.0,
+            2079.0
+          ],
+          "confidence": 0.7785911560058594,
+          "order": 9,
+          "source_ref": "parsing_res_list[9]",
+          "raw": {
+            "block_label": "number",
+            "block_content": "2",
+            "block_bbox": [
+              60,
+              2060,
+              78,
+              2079
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "number"
+        },
+        {
+          "id": "p1_b010",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Optical Breadboard Overview",
+          "bbox": [
+            282.0,
+            158.0,
+            865.0,
+            192.0
+          ],
+          "confidence": 0.9183168411254883,
+          "order": 10,
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Optical Breadboard Overview ",
+            "block_bbox": [
+              282,
+              158,
+              865,
+              192
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b011",
+          "page": 1,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+          "bbox": [
+            277.0,
+            219.0,
+            1542.0,
+            336.0
+          ],
+          "confidence": 0.9793161749839783,
+          "order": 11,
+          "source_ref": "parsing_res_list[11]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Thorlabs' honeycomb breadboards are made with the same advanced manufacturing and design methods used for our optical tabletops. We also offer solid aluminum breadboards, which provide a convenient and cost-effective platform for prototyping and optical experiments. Our imperial and metric breadboards range in size from $4\\mathrm{~x~}6$ to 6'x 4' and 100 mm x 150 mm to 2000 mm x 1250 mm, respectively.",
+            "block_bbox": [
+              277,
+              219,
+              1542,
+              336
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b012",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Available Options for Thorlabs' Honeycomb Breadboards",
+          "bbox": [
+            284.0,
+            389.0,
+            969.0,
+            412.0
+          ],
+          "confidence": 0.9012140035629272,
+          "order": 12,
+          "source_ref": "parsing_res_list[12]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Available Options for Thorlabs' Honeycomb Breadboards ",
+            "block_bbox": [
+              284,
+              389,
+              969,
+              412
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b013",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+          "bbox": [
+            284.0,
+            421.0,
+            1598.0,
+            917.0
+          ],
+          "confidence": 0.9891970753669739,
+          "order": 13,
+          "source_ref": "parsing_res_list[13]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              284,
+              421,
+              1598,
+              917
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b014",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Feature Comparison of Honeycomb Breadboards",
+          "bbox": [
+            282.0,
+            977.0,
+            874.0,
+            1000.0
+          ],
+          "confidence": 0.9007827043533325,
+          "order": 14,
+          "source_ref": "parsing_res_list[14]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Feature Comparison of Honeycomb Breadboards ",
+            "block_bbox": [
+              282,
+              977,
+              874,
+              1000
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b015",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+          "bbox": [
+            283.0,
+            1008.0,
+            1598.0,
+            1332.0
+          ],
+          "confidence": 0.9874364733695984,
+          "order": 15,
+          "source_ref": "parsing_res_list[15]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>OPTIONAL FEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTMSERIES (Pages 8 - 9)</td></tr><tr><td>Thickness</td><td>1\" or 2.2\" (25 mm or 55 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td><td>2.4\" or 4.3\" (60 mm or 110 mm)</td></tr><tr><td>Flatness</td><td>±0.15 mm</td><td>±0.10 mm</td><td>±0.10 mm</td></tr><tr><td>Skin</td><td>Aluminum</td><td>Magnetic Stainless Steel</td><td>Magnetic Stainless Steel</td></tr><tr><td>Honeycomb Core</td><td>Aluminum</td><td>Plated Steel</td><td>Plated Steel</td></tr><tr><td>Sealed Holes</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Weight per Unit Area</td><td>4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)</td><td>19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)</td><td>23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              283,
+              1008,
+              1598,
+              1332
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b016",
+          "page": 1,
+          "type": "figure",
+          "source_type": "image",
+          "text": "The HW-KIT5(/M) provides over \n1,000 assorted 4-40 (M3 x 0.5) 1/4\"\nlong setscrews and 1/4\", 3/16\", 5/16\",\nand 3/8\" long socket \nscrews for use with \nour mini-series \noptical mounts.\nDESCRIPTION \n12\" x 12\" High-Density Mini-Breadboard \nHW-KIT5\nHardware Kit for Mini-Series \nMini-Series Hardware Kit",
+          "bbox": [
+            1113.0,
+            1539.0,
+            1598.0,
+            1987.0
+          ],
+          "confidence": 0.5849993228912354,
+          "order": 16,
+          "source_ref": "parsing_res_list[16]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "The HW-KIT5(/M) provides over \n1,000 assorted 4-40 (M3 x 0.5) 1/4\"\nlong setscrews and 1/4\", 3/16\", 5/16\",\nand 3/8\" long socket \nscrews for use with \nour mini-series \noptical mounts.\nDESCRIPTION \n12\" x 12\" High-Density Mini-Breadboard \nHW-KIT5\nHardware Kit for Mini-Series \nMini-Series Hardware Kit ",
+            "block_bbox": [
+              1113,
+              1539,
+              1598,
+              1987
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p1_b017",
+          "page": 1,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+          "bbox": [
+            282.0,
+            1871.0,
+            1512.0,
+            1987.0
+          ],
+          "confidence": 0.7772746086120605,
+          "order": 17,
+          "source_ref": "parsing_res_list[17]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MS12B</td><td>MS12B/M</td><td>$ 257.00</td><td> 185.04</td><td>€223,59 € 80,21</td><td>￥ 2,048.29</td><td>12\" x 12\" High-Density Mini-Breadboard</td></tr><tr><td>HW-KIT5</td><td>HW-KIT5</td><td>HW-KIT5/M</td><td>$ 92.20</td><td>£ 66.38</td><td>￥ 734.83</td><td>Hardware Kit for Mini-Series</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              282,
+              1871,
+              1512,
+              1987
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p1_b018",
+          "page": 1,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Mini-Series Breadboard",
+          "bbox": [
+            283.0,
+            1406.0,
+            752.0,
+            1438.0
+          ],
+          "confidence": 0.9306972026824951,
+          "order": 18,
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Mini-Series Breadboard ",
+            "block_bbox": [
+              283,
+              1406,
+              752,
+              1438
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p1_b019",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range",
+          "bbox": [
+            280.0,
+            1488.0,
+            828.0,
+            1603.0
+          ],
+          "confidence": 0.940046489238739,
+          "order": 19,
+          "source_ref": "parsing_res_list[19]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Our miniature breadboard features 4-40 (M3 x 0.5)tapped holes on 1/2\" (12.5 mm) centers. These solidaluminum breadboards are complimented by a full range ",
+            "block_bbox": [
+              280,
+              1488,
+              828,
+              1603
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b020",
+          "page": 1,
+          "type": "figure",
+          "source_type": "image",
+          "text": "re and \n\nMS12B \n12\" x 12\" x 3/8\"Breadboard \n300 mm x 300 mm x 9.5 mm",
+          "bbox": [
+            535.0,
+            1589.0,
+            1075.0,
+            1802.0
+          ],
+          "confidence": 0.9042858481407166,
+          "order": 20,
+          "source_ref": "parsing_res_list[20]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "re and \n\nMS12B \n12\" x 12\" x 3/8\"Breadboard \n300 mm x 300 mm x 9.5 mm ",
+            "block_bbox": [
+              535,
+              1589,
+              1075,
+              1802
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p1_b021",
+          "page": 1,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Mini-Breadboard and Hardware Kit",
+          "bbox": [
+            283.0,
+            1839.0,
+            703.0,
+            1862.0
+          ],
+          "confidence": 0.8925647139549255,
+          "order": 21,
+          "source_ref": "parsing_res_list[21]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Mini-Breadboard and Hardware Kit ",
+            "block_bbox": [
+              283,
+              1839,
+              703,
+              1862
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p1_b022",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "accessories. These mounting components can be found on pages 74-86.",
+          "bbox": [
+            282.0,
+            1611.0,
+            502.0,
+            1724.0
+          ],
+          "confidence": 0.9137486219406128,
+          "order": 22,
+          "source_ref": "parsing_res_list[22]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "accessories. These mounting components can be found on pages 74-86.",
+            "block_bbox": [
+              282,
+              1611,
+              502,
+              1724
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b023",
+          "page": 1,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "4-40 (M3 x 0.5)\nTapped Holes on \n1/2\" (12.5 mm) Centers",
+          "bbox": [
+            889.0,
+            1503.0,
+            1073.0,
+            1568.0
+          ],
+          "confidence": 0.9078528881072998,
+          "order": 23,
+          "source_ref": "parsing_res_list[23]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "4-40 (M3 x 0.5)\nTapped Holes on \n1/2\" (12.5 mm) Centers ",
+            "block_bbox": [
+              889,
+              1503,
+              1073,
+              1568
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p1_b024",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "www.thorlabs.com",
+          "bbox": [
+            284.0,
+            2058.0,
+            469.0,
+            2078.0
+          ],
+          "confidence": 0.9008852243423462,
+          "order": 24,
+          "source_ref": "parsing_res_list[24]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "www.thorlabs.com ",
+            "block_bbox": [
+              284,
+              2058,
+              469,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p1_b025",
+          "page": 1,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "THORLABS",
+          "bbox": [
+            1442.0,
+            2051.0,
+            1598.0,
+            2077.0
+          ],
+          "confidence": 0.915511429309845,
+          "order": 25,
+          "source_ref": "parsing_res_list[25]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              1442,
+              2051,
+              1598,
+              2077
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_002\\multi page catalog sample_p002_res.json",
+      "blocks": [
+        {
+          "id": "p2_b001",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "Optomechanics",
+          "bbox": [
+            1435.0,
+            80.0,
+            1651.0,
+            106.0
+          ],
+          "confidence": 0.675336480140686,
+          "order": 1,
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              1435,
+              80,
+              1651,
+              106
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p2_b002",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "CHAPTERS",
+          "bbox": [
+            1504.0,
+            142.0,
+            1650.0,
+            169.0
+          ],
+          "confidence": 0.5522518157958984,
+          "order": 2,
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              1504,
+              142,
+              1650,
+              169
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b003",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Tables/Breadboards",
+          "bbox": [
+            1497.0,
+            192.0,
+            1639.0,
+            234.0
+          ],
+          "confidence": 0.8266299962997437,
+          "order": 3,
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "\nTables/Breadboards ",
+            "block_bbox": [
+              1497,
+              192,
+              1639,
+              234
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b004",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Mechanics",
+          "bbox": [
+            1518.0,
+            256.0,
+            1638.0,
+            274.0
+          ],
+          "confidence": 0.7855275273323059,
+          "order": 4,
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              1518,
+              256,
+              1638,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b005",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optomechanic \nDevices",
+          "bbox": [
+            1479.0,
+            299.0,
+            1639.0,
+            338.0
+          ],
+          "confidence": 0.8230654001235962,
+          "order": 5,
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic \nDevices ",
+            "block_bbox": [
+              1479,
+              299,
+              1639,
+              338
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b006",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Kits",
+          "bbox": [
+            1591.0,
+            362.0,
+            1638.0,
+            381.0
+          ],
+          "confidence": 0.6876553297042847,
+          "order": 6,
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              1591,
+              362,
+              1638,
+              381
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b007",
+          "page": 2,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum",
+          "bbox": [
+            96.0,
+            156.0,
+            1143.0,
+            192.0
+          ],
+          "confidence": 0.7436093091964722,
+          "order": 7,
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum ",
+            "block_bbox": [
+              96,
+              156,
+              1143,
+              192
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 3,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p2_b008",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Custom Sizes and Shapes Available Upon Request",
+          "bbox": [
+            93.0,
+            220.0,
+            615.0,
+            245.0
+          ],
+          "confidence": 0.8730324506759644,
+          "order": 8,
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Custom Sizes and Shapes Available Upon Request ",
+            "block_bbox": [
+              93,
+              220,
+              615,
+              245
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b009",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Matte Black Anodized",
+          "bbox": [
+            95.0,
+            251.0,
+            349.0,
+            274.0
+          ],
+          "confidence": 0.8816125988960266,
+          "order": 9,
+          "source_ref": "parsing_res_list[9]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Matte Black Anodized ",
+            "block_bbox": [
+              95,
+              251,
+              349,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b010",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Metric Boards Manufactured and Stocked in Europe",
+          "bbox": [
+            94.0,
+            282.0,
+            642.0,
+            306.0
+          ],
+          "confidence": 0.8714572787284851,
+          "order": 10,
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Metric Boards Manufactured and Stocked in Europe ",
+            "block_bbox": [
+              94,
+              282,
+              642,
+              306
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b011",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Flatness: ±0.006\" (±0.15 mm) Over any 1 ft2 (0.3 m2) Area",
+          "bbox": [
+            94.0,
+            313.0,
+            704.0,
+            337.0
+          ],
+          "confidence": 0.88584965467453,
+          "order": 11,
+          "source_ref": "parsing_res_list[11]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Flatness: ±0.006\" (±0.15 mm) Over any 1 ft2 (0.3 m2) Area ",
+            "block_bbox": [
+              94,
+              313,
+              704,
+              337
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b012",
+          "page": 2,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "These solid aluminum breadboards provide a convenient platform for assembling \nprototype optical assemblies, conducting experiments, and mounting small \nsubsystems. They have a black, low-reflective, anodized coating and feature \n1/4\"-20 (M6 x 1.0) threads on 1\" (25 mm) centers.",
+          "bbox": [
+            92.0,
+            372.0,
+            868.0,
+            488.0
+          ],
+          "confidence": 0.9780957698822021,
+          "order": 12,
+          "source_ref": "parsing_res_list[12]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "These solid aluminum breadboards provide a convenient platform for assembling \nprototype optical assemblies, conducting experiments, and mounting small \nsubsystems. They have a black, low-reflective, anodized coating and feature \n1/4\"-20 (M6 x 1.0) threads on 1\" (25 mm) centers.",
+            "block_bbox": [
+              92,
+              372,
+              868,
+              488
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b013",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Solid Aluminum Construction!",
+          "bbox": [
+            778.0,
+            233.0,
+            993.0,
+            303.0
+          ],
+          "confidence": 0.6157703399658203,
+          "order": 13,
+          "source_ref": "parsing_res_list[13]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Solid Aluminum Construction!",
+            "block_bbox": [
+              778,
+              233,
+              993,
+              303
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b014",
+          "page": 2,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "The boards have a 1/2\" (12.5 mm) border and four 1/4\" (M6) counterbored clearance \nholes. The larger boards, which are denoted with double asterisks in the tables below, have a fifth \ncounterbored clearance hole at the center of the board. The plates are machined from a 1/2\" (12.7 mm) thick solid \naluminum plate for superior flatness.",
+          "bbox": [
+            92.0,
+            504.0,
+            1190.0,
+            622.0
+          ],
+          "confidence": 0.4830101430416107,
+          "order": 14,
+          "source_ref": "parsing_res_list[14]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "The boards have a 1/2\" (12.5 mm) border and four 1/4\" (M6) counterbored clearance \nholes. The larger boards, which are denoted with double asterisks in the tables below, have a fifth \ncounterbored clearance hole at the center of the board. The plates are machined from a 1/2\" (12.7 mm) thick solid \naluminum plate for superior flatness.",
+            "block_bbox": [
+              92,
+              504,
+              1190,
+              622
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b015",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20 -22) alow the breadboards to be mounted above the surface of an optical tabletop (or breadboard) for access to components on \nboth sides.",
+          "bbox": [
+            92.0,
+            636.0,
+            1406.0,
+            719.0
+          ],
+          "confidence": 0.965516209602356,
+          "order": 15,
+          "source_ref": "parsing_res_list[15]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20 -22) alow the breadboards to be mounted above the surface of an optical tabletop (or breadboard) for access to components on \nboth sides.",
+            "block_bbox": [
+              92,
+              636,
+              1406,
+              719
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b016",
+          "page": 2,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "1/4\"-20 Taps on 1\" Centers, 1/2\" Thick*",
+          "bbox": [
+            95.0,
+            760.0,
+            567.0,
+            785.0
+          ],
+          "confidence": 0.8935588002204895,
+          "order": 16,
+          "source_ref": "parsing_res_list[16]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "1/4\"-20 Taps on 1\" Centers, 1/2\" Thick*",
+            "block_bbox": [
+              95,
+              760,
+              567,
+              785
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p2_b017",
+          "page": 2,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>子 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
+          "bbox": [
+            96.0,
+            792.0,
+            738.0,
+            1342.0
+          ],
+          "confidence": 0.9756432175636292,
+          "order": 17,
+          "source_ref": "parsing_res_list[17]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>子 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              96,
+              792,
+              738,
+              1342
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p2_b018",
+          "page": 2,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Stockedfor ImmediateShipment",
+          "bbox": [
+            1013.0,
+            727.0,
+            1413.0,
+            751.0
+          ],
+          "confidence": 0.655755877494812,
+          "order": 18,
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Stockedfor ImmediateShipment ",
+            "block_bbox": [
+              1013,
+              727,
+              1413,
+              751
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p2_b019",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*Thickness may vary by ±0.005\"",
+          "bbox": [
+            96.0,
+            1348.0,
+            306.0,
+            1365.0
+          ],
+          "confidence": 0.7436372637748718,
+          "order": 19,
+          "source_ref": "parsing_res_list[19]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*Thickness may vary by ±0.005\"",
+            "block_bbox": [
+              96,
+              1348,
+              306,
+              1365
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b020",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "**These boards have a fifth mounting hole in the center",
+          "bbox": [
+            375.0,
+            1348.0,
+            734.0,
+            1364.0
+          ],
+          "confidence": 0.6573317050933838,
+          "order": 20,
+          "source_ref": "parsing_res_list[20]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "**These boards have a fifth mounting hole in the center ",
+            "block_bbox": [
+              375,
+              1348,
+              734,
+              1364
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b021",
+          "page": 2,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "M6 x 1.0 Taps on 25.0 mm Centers. 12.7 mm Thick*",
+          "bbox": [
+            764.0,
+            761.0,
+            1381.0,
+            786.0
+          ],
+          "confidence": 0.8316744565963745,
+          "order": 21,
+          "source_ref": "parsing_res_list[21]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "M6 x 1.0 Taps on 25.0 mm Centers. 12.7 mm Thick*",
+            "block_bbox": [
+              764,
+              761,
+              1381,
+              786
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p2_b022",
+          "page": 2,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
+          "bbox": [
+            760.0,
+            792.0,
+            1409.0,
+            1346.0
+          ],
+          "confidence": 0.9705796837806702,
+          "order": 22,
+          "source_ref": "parsing_res_list[22]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              760,
+              792,
+              1409,
+              1346
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p2_b023",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*Thickness may vary by ±0.1 mm",
+          "bbox": [
+            763.0,
+            1348.0,
+            981.0,
+            1366.0
+          ],
+          "confidence": 0.5969908237457275,
+          "order": 23,
+          "source_ref": "parsing_res_list[23]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*Thickness may vary by ±0.1 mm ",
+            "block_bbox": [
+              763,
+              1348,
+              981,
+              1366
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b024",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "**These boards have a fifch mounting hole in the center",
+          "bbox": [
+            1053.0,
+            1349.0,
+            1410.0,
+            1366.0
+          ],
+          "confidence": 0.44867005944252014,
+          "order": 24,
+          "source_ref": "parsing_res_list[24]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "**These boards have a fifch mounting hole in the center ",
+            "block_bbox": [
+              1053,
+              1349,
+              1410,
+              1366
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b025",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Lab Supplies",
+          "bbox": [
+            1494.0,
+            413.0,
+            1638.0,
+            433.0
+          ],
+          "confidence": 0.7525944709777832,
+          "order": 25,
+          "source_ref": "parsing_res_list[25]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              1494,
+              413,
+              1638,
+              433
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b026",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "SECTIONS",
+          "bbox": [
+            1529.0,
+            467.0,
+            1646.0,
+            490.0
+          ],
+          "confidence": 0.4978210926055908,
+          "order": 26,
+          "source_ref": "parsing_res_list[26]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              1529,
+              467,
+              1646,
+              490
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b027",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Breadboards",
+          "bbox": [
+            1517.0,
+            526.0,
+            1639.0,
+            545.0
+          ],
+          "confidence": 0.47405749559402466,
+          "order": 27,
+          "source_ref": "parsing_res_list[27]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Breadboards ",
+            "block_bbox": [
+              1517,
+              526,
+              1639,
+              545
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b028",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Breadboard Supports",
+          "bbox": [
+            1526.0,
+            569.0,
+            1640.0,
+            608.0
+          ],
+          "confidence": 0.40227630734443665,
+          "order": 28,
+          "source_ref": "parsing_res_list[28]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Breadboard Supports ",
+            "block_bbox": [
+              1526,
+              569,
+              1640,
+              608
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b029",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Breadboard Accessories",
+          "bbox": [
+            1523.0,
+            622.0,
+            1639.0,
+            662.0
+          ],
+          "confidence": 0.4435926377773285,
+          "order": 29,
+          "source_ref": "parsing_res_list[29]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Breadboard Accessories ",
+            "block_bbox": [
+              1523,
+              622,
+              1639,
+              662
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b030",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "ScienceDesk",
+          "bbox": [
+            1514.0,
+            686.0,
+            1638.0,
+            704.0
+          ],
+          "confidence": 0.6231456995010376,
+          "order": 30,
+          "source_ref": "parsing_res_list[30]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "ScienceDesk ",
+            "block_bbox": [
+              1514,
+              686,
+              1638,
+              704
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b031",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "ScienceDesk Accessories",
+          "bbox": [
+            1517.0,
+            728.0,
+            1639.0,
+            767.0
+          ],
+          "confidence": 0.6341693997383118,
+          "order": 31,
+          "source_ref": "parsing_res_list[31]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "ScienceDesk Accessories ",
+            "block_bbox": [
+              1517,
+              728,
+              1639,
+              767
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b032",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optical Tables",
+          "bbox": [
+            1500.0,
+            790.0,
+            1638.0,
+            810.0
+          ],
+          "confidence": 0.6910536289215088,
+          "order": 32,
+          "source_ref": "parsing_res_list[32]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optical Tables ",
+            "block_bbox": [
+              1500,
+              790,
+              1638,
+              810
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b033",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Table Supports",
+          "bbox": [
+            1494.0,
+            843.0,
+            1638.0,
+            862.0
+          ],
+          "confidence": 0.7351250648498535,
+          "order": 33,
+          "source_ref": "parsing_res_list[33]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Table Supports ",
+            "block_bbox": [
+              1494,
+              843,
+              1638,
+              862
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b034",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optical Table Accessories",
+          "bbox": [
+            1511.0,
+            885.0,
+            1638.0,
+            924.0
+          ],
+          "confidence": 0.7547273635864258,
+          "order": 34,
+          "source_ref": "parsing_res_list[34]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optical Table Accessories ",
+            "block_bbox": [
+              1511,
+              885,
+              1638,
+              924
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b035",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "aside_text",
+          "text": "NEW NEW",
+          "bbox": [
+            1416.0,
+            1181.0,
+            1467.0,
+            1258.0
+          ],
+          "confidence": 0.6380793452262878,
+          "order": 35,
+          "source_ref": "parsing_res_list[35]",
+          "raw": {
+            "block_label": "aside_text",
+            "block_content": "NEW NEW ",
+            "block_bbox": [
+              1416,
+              1181,
+              1467,
+              1258
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "aside_text"
+        },
+        {
+          "id": "p2_b036",
+          "page": 2,
+          "type": "figure",
+          "source_type": "image",
+          "text": "F SlimLine \n.\n+\n.\nTA",
+          "bbox": [
+            94.0,
+            1399.0,
+            579.0,
+            1665.0
+          ],
+          "confidence": 0.8939590454101562,
+          "order": 36,
+          "source_ref": "parsing_res_list[36]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "F SlimLine \n.\n+\n.\nTA ",
+            "block_bbox": [
+              94,
+              1399,
+              579,
+              1665
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p2_b037",
+          "page": 2,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "SlimLine Breadboards - Double-Density Hole Pattern",
+          "bbox": [
+            380.0,
+            1406.0,
+            1410.0,
+            1439.0
+          ],
+          "confidence": 0.911467432975769,
+          "order": 37,
+          "source_ref": "parsing_res_list[37]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "SlimLine Breadboards - Double-Density Hole Pattern ",
+            "block_bbox": [
+              380,
+              1406,
+              1410,
+              1439
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p2_b038",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "The SlimLine series of breadboards provide a double-density 0.5\" (12.5 mm)offset hole pattern. This configuration maximizes mounting versatility by doubling the number of tapped holes on the mounting surface. These boards are constructed from a 1/2\" (12.7 mm) thick aluminum plate to maintain flatness over the full length. The slim profile allows these boards to fit into small spaces.",
+          "bbox": [
+            614.0,
+            1466.0,
+            1387.0,
+            1614.0
+          ],
+          "confidence": 0.9830138087272644,
+          "order": 38,
+          "source_ref": "parsing_res_list[38]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "The SlimLine series of breadboards provide a double-density 0.5\" (12.5 mm)offset hole pattern. This configuration maximizes mounting versatility by doubling the number of tapped holes on the mounting surface. These boards are constructed from a 1/2\" (12.7 mm) thick aluminum plate to maintain flatness over the full length. The slim profile allows these boards to fit into small spaces.",
+            "block_bbox": [
+              614,
+              1466,
+              1387,
+              1614
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b039",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Double-Density Hole Pattern",
+          "bbox": [
+            755.0,
+            1637.0,
+            1083.0,
+            1659.0
+          ],
+          "confidence": 0.9105538129806519,
+          "order": 39,
+          "source_ref": "parsing_res_list[39]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Double-Density Hole Pattern ",
+            "block_bbox": [
+              755,
+              1637,
+              1083,
+              1659
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b040",
+          "page": 2,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Shipped from Stock in the US and Europe",
+          "bbox": [
+            259.0,
+            1688.0,
+            535.0,
+            1759.0
+          ],
+          "confidence": 0.6762058734893799,
+          "order": 40,
+          "source_ref": "parsing_res_list[40]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Shipped from Stock in the US and Europe ",
+            "block_bbox": [
+              259,
+              1688,
+              535,
+              1759
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 3,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p2_b041",
+          "page": 2,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "1/4\"-20 Taps, 1/2\" Offset Hole Pattern, 1/2\" Thick*",
+          "bbox": [
+            94.0,
+            1785.0,
+            695.0,
+            1809.0
+          ],
+          "confidence": 0.8742029666900635,
+          "order": 41,
+          "source_ref": "parsing_res_list[41]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "1/4\"-20 Taps, 1/2\" Offset Hole Pattern, 1/2\" Thick*",
+            "block_bbox": [
+              94,
+              1785,
+              695,
+              1809
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p2_b042",
+          "page": 2,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB424</td><td>$ 161.00</td><td>115.92</td><td>€ 140,07</td><td>天 1,283.17</td><td>4\"x 24\"</td></tr><tr><td>MB436</td><td>$ 181.00</td><td>130.32</td><td>€ 157,47</td><td>￥ 1,442.57</td><td>4\"x 36\"</td></tr><tr><td>MB612</td><td>$ 124.00</td><td>子 89.28</td><td>€ 107,88</td><td>￥ 988.28</td><td>6\" x 12\"</td></tr><tr><td>MB824</td><td>$ 239.00</td><td>172.08</td><td>€ 207,93</td><td>￥ 1,904.83</td><td>8\"x 24\"</td></tr><tr><td>MB836</td><td>$ 322.00</td><td>£231.84</td><td>€ 280,14</td><td>￥ 2,566.34</td><td>8\" x 36\"</td></tr></tbody></table></body></html>",
+          "bbox": [
+            95.0,
+            1818.0,
+            737.0,
+            1984.0
+          ],
+          "confidence": 0.9637884497642517,
+          "order": 42,
+          "source_ref": "parsing_res_list[42]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB424</td><td>$ 161.00</td><td>115.92</td><td>€ 140,07</td><td>天 1,283.17</td><td>4\"x 24\"</td></tr><tr><td>MB436</td><td>$ 181.00</td><td>130.32</td><td>€ 157,47</td><td>￥ 1,442.57</td><td>4\"x 36\"</td></tr><tr><td>MB612</td><td>$ 124.00</td><td>子 89.28</td><td>€ 107,88</td><td>￥ 988.28</td><td>6\" x 12\"</td></tr><tr><td>MB824</td><td>$ 239.00</td><td>172.08</td><td>€ 207,93</td><td>￥ 1,904.83</td><td>8\"x 24\"</td></tr><tr><td>MB836</td><td>$ 322.00</td><td>£231.84</td><td>€ 280,14</td><td>￥ 2,566.34</td><td>8\" x 36\"</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              95,
+              1818,
+              737,
+              1984
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p2_b043",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Custom Sizes Available Upon Request",
+          "bbox": [
+            757.0,
+            1668.0,
+            1165.0,
+            1692.0
+          ],
+          "confidence": 0.9065425992012024,
+          "order": 43,
+          "source_ref": "parsing_res_list[43]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Custom Sizes Available Upon Request ",
+            "block_bbox": [
+              757,
+              1668,
+              1165,
+              1692
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b044",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Matte Black Anodized Solid Aluminum Construction",
+          "bbox": [
+            757.0,
+            1700.0,
+            1315.0,
+            1723.0
+          ],
+          "confidence": 0.8783630132675171,
+          "order": 44,
+          "source_ref": "parsing_res_list[44]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Matte Black Anodized Solid Aluminum Construction ",
+            "block_bbox": [
+              757,
+              1700,
+              1315,
+              1723
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b045",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Metric Boards Manufactured and Stocked in Europe",
+          "bbox": [
+            758.0,
+            1731.0,
+            1306.0,
+            1755.0
+          ],
+          "confidence": 0.8496735095977783,
+          "order": 45,
+          "source_ref": "parsing_res_list[45]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Metric Boards Manufactured and Stocked in Europe ",
+            "block_bbox": [
+              758,
+              1731,
+              1306,
+              1755
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b046",
+          "page": 2,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "M6 x 1.0 Taps, 12.5 mm Offset Hole Pattern, 12.7 mm Thick*",
+          "bbox": [
+            758.0,
+            1785.0,
+            1414.0,
+            1809.0
+          ],
+          "confidence": 0.8847091794013977,
+          "order": 46,
+          "source_ref": "parsing_res_list[46]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "M6 x 1.0 Taps, 12.5 mm Offset Hole Pattern, 12.7 mm Thick*",
+            "block_bbox": [
+              758,
+              1785,
+              1414,
+              1809
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p2_b047",
+          "page": 2,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>3</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1060/M</td><td>$ 161.00</td><td></td><td></td><td>￥ 1,283.17</td><td>100 mm x 600 mm</td></tr><tr><td>MB1090/M</td><td>S 181.00</td><td>£130.32</td><td>€157,47</td><td>￥ 1,442.57</td><td>100 mm x 900 mm</td></tr><tr><td>MB1530/M</td><td>$ 124.00</td><td>子 89.28</td><td>€ 107,88</td><td>￥ 988.28</td><td>150 mm x 300 mm</td></tr><tr><td>MB2060/M</td><td>$ 239.00</td><td>172.08</td><td>€ 207,93</td><td>天 1,904.83</td><td>200 mm x 600 mm</td></tr><tr><td>MB2090/M</td><td>$ 322.00</td><td>£231.84</td><td>D 280,14</td><td>天 2,566.34</td><td>200 mm x 900 mm</td></tr></tbody></table></body></html>",
+          "bbox": [
+            759.0,
+            1816.0,
+            1410.0,
+            1983.0
+          ],
+          "confidence": 0.9485222697257996,
+          "order": 47,
+          "source_ref": "parsing_res_list[47]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>3</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1060/M</td><td>$ 161.00</td><td></td><td></td><td>￥ 1,283.17</td><td>100 mm x 600 mm</td></tr><tr><td>MB1090/M</td><td>S 181.00</td><td>£130.32</td><td>€157,47</td><td>￥ 1,442.57</td><td>100 mm x 900 mm</td></tr><tr><td>MB1530/M</td><td>$ 124.00</td><td>子 89.28</td><td>€ 107,88</td><td>￥ 988.28</td><td>150 mm x 300 mm</td></tr><tr><td>MB2060/M</td><td>$ 239.00</td><td>172.08</td><td>€ 207,93</td><td>天 1,904.83</td><td>200 mm x 600 mm</td></tr><tr><td>MB2090/M</td><td>$ 322.00</td><td>£231.84</td><td>D 280,14</td><td>天 2,566.34</td><td>200 mm x 900 mm</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              759,
+              1816,
+              1410,
+              1983
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p2_b048",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*Thickness may vary by ±0.005\"",
+          "bbox": [
+            95.0,
+            1990.0,
+            304.0,
+            2008.0
+          ],
+          "confidence": 0.8178037405014038,
+          "order": 48,
+          "source_ref": "parsing_res_list[48]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*Thickness may vary by ±0.005\"",
+            "block_bbox": [
+              95,
+              1990,
+              304,
+              2008
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b049",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*Thickness may vary by ±0.1 mm",
+          "bbox": [
+            760.0,
+            1990.0,
+            979.0,
+            2008.0
+          ],
+          "confidence": 0.8514282703399658,
+          "order": 49,
+          "source_ref": "parsing_res_list[49]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*Thickness may vary by ±0.1 mm ",
+            "block_bbox": [
+              760,
+              1990,
+              979,
+              2008
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p2_b050",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "THORLABS",
+          "bbox": [
+            97.0,
+            2051.0,
+            253.0,
+            2077.0
+          ],
+          "confidence": 0.9238294959068298,
+          "order": 50,
+          "source_ref": "parsing_res_list[50]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              97,
+              2051,
+              253,
+              2077
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p2_b051",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "www.thorlabs.com",
+          "bbox": [
+            1226.0,
+            2058.0,
+            1409.0,
+            2078.0
+          ],
+          "confidence": 0.9223245978355408,
+          "order": 51,
+          "source_ref": "parsing_res_list[51]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "www.thorlabs.com ",
+            "block_bbox": [
+              1226,
+              2058,
+              1409,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p2_b052",
+          "page": 2,
+          "type": "paragraph",
+          "source_type": "number",
+          "text": "3",
+          "bbox": [
+            1620.0,
+            2060.0,
+            1637.0,
+            2078.0
+          ],
+          "confidence": 0.786487877368927,
+          "order": 52,
+          "source_ref": "parsing_res_list[52]",
+          "raw": {
+            "block_label": "number",
+            "block_content": "3",
+            "block_bbox": [
+              1620,
+              2060,
+              1637,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "number"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_003\\multi page catalog sample_p003_res.json",
+      "blocks": [
+        {
+          "id": "p3_b001",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "Optomechanics",
+          "bbox": [
+            47.0,
+            79.0,
+            262.0,
+            108.0
+          ],
+          "confidence": 0.5727517604827881,
+          "order": 1,
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              47,
+              79,
+              262,
+              108
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p3_b002",
+          "page": 3,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "CHAPTERS",
+          "bbox": [
+            78.0,
+            142.0,
+            193.0,
+            169.0
+          ],
+          "confidence": 0.33014246821403503,
+          "order": 2,
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              78,
+              142,
+              193,
+              169
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p3_b003",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Tables/\nBreadboards",
+          "bbox": [
+            59.0,
+            192.0,
+            199.0,
+            235.0
+          ],
+          "confidence": 0.7844005823135376,
+          "order": 3,
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Tables/\nBreadboards ",
+            "block_bbox": [
+              59,
+              192,
+              199,
+              235
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b004",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Mechanics",
+          "bbox": [
+            60.0,
+            255.0,
+            178.0,
+            274.0
+          ],
+          "confidence": 0.7039746642112732,
+          "order": 4,
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              60,
+              255,
+              178,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b005",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optomechanic Devices",
+          "bbox": [
+            60.0,
+            298.0,
+            217.0,
+            338.0
+          ],
+          "confidence": 0.792605459690094,
+          "order": 5,
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic Devices \n",
+            "block_bbox": [
+              60,
+              298,
+              217,
+              338
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b006",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Kits",
+          "bbox": [
+            59.0,
+            361.0,
+            104.0,
+            381.0
+          ],
+          "confidence": 0.6187167167663574,
+          "order": 6,
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              59,
+              361,
+              104,
+              381
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b007",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Lab Supplies",
+          "bbox": [
+            59.0,
+            412.0,
+            201.0,
+            434.0
+          ],
+          "confidence": 0.6444090604782104,
+          "order": 7,
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              59,
+              412,
+              201,
+              434
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b008",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "SECTIONS",
+          "bbox": [
+            53.0,
+            466.0,
+            170.0,
+            491.0
+          ],
+          "confidence": 0.4721871614456177,
+          "order": 8,
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              53,
+              466,
+              170,
+              491
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b009",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Breadboards",
+          "bbox": [
+            59.0,
+            525.0,
+            181.0,
+            546.0
+          ],
+          "confidence": 0.4797012209892273,
+          "order": 9,
+          "source_ref": "parsing_res_list[9]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Breadboards ",
+            "block_bbox": [
+              59,
+              525,
+              181,
+              546
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b010",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Breadboard Supports Breadboard Accessories",
+          "bbox": [
+            58.0,
+            568.0,
+            175.0,
+            663.0
+          ],
+          "confidence": 0.45229682326316833,
+          "order": 10,
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Breadboard Supports Breadboard Accessories ",
+            "block_bbox": [
+              58,
+              568,
+              175,
+              663
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b011",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "ScienceDesk",
+          "bbox": [
+            59.0,
+            685.0,
+            182.0,
+            704.0
+          ],
+          "confidence": 0.6727330684661865,
+          "order": 11,
+          "source_ref": "parsing_res_list[11]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "ScienceDesk ",
+            "block_bbox": [
+              59,
+              685,
+              182,
+              704
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b012",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "ScienceDesk Accessories",
+          "bbox": [
+            59.0,
+            727.0,
+            178.0,
+            767.0
+          ],
+          "confidence": 0.7350562810897827,
+          "order": 12,
+          "source_ref": "parsing_res_list[12]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "ScienceDesk Accessories ",
+            "block_bbox": [
+              59,
+              727,
+              178,
+              767
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b013",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optical Tables",
+          "bbox": [
+            60.0,
+            790.0,
+            195.0,
+            810.0
+          ],
+          "confidence": 0.7300360202789307,
+          "order": 13,
+          "source_ref": "parsing_res_list[13]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optical Tables ",
+            "block_bbox": [
+              60,
+              790,
+              195,
+              810
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b014",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Table Supports",
+          "bbox": [
+            60.0,
+            842.0,
+            202.0,
+            863.0
+          ],
+          "confidence": 0.6833477020263672,
+          "order": 14,
+          "source_ref": "parsing_res_list[14]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Table Supports ",
+            "block_bbox": [
+              60,
+              842,
+              202,
+              863
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b015",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optical Table Accessories",
+          "bbox": [
+            59.0,
+            885.0,
+            185.0,
+            924.0
+          ],
+          "confidence": 0.6921887397766113,
+          "order": 15,
+          "source_ref": "parsing_res_list[15]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optical Table Accessories ",
+            "block_bbox": [
+              59,
+              885,
+              185,
+              924
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b016",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "number",
+          "text": "4",
+          "bbox": [
+            60.0,
+            2060.0,
+            77.0,
+            2078.0
+          ],
+          "confidence": 0.734107255935669,
+          "order": 16,
+          "source_ref": "parsing_res_list[16]",
+          "raw": {
+            "block_label": "number",
+            "block_content": "4",
+            "block_bbox": [
+              60,
+              2060,
+              77,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "number"
+        },
+        {
+          "id": "p3_b017",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "NEW product",
+          "bbox": [
+            1499.0,
+            167.0,
+            1595.0,
+            223.0
+          ],
+          "confidence": 0.6967206001281738,
+          "order": 17,
+          "source_ref": "parsing_res_list[17]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "NEW product ",
+            "block_bbox": [
+              1499,
+              167,
+              1595,
+              223
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p3_b018",
+          "page": 3,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Water-Cooled Breadboard",
+          "bbox": [
+            283.0,
+            155.0,
+            795.0,
+            192.0
+          ],
+          "confidence": 0.6526504755020142,
+          "order": 18,
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Water-Cooled Breadboard ",
+            "block_bbox": [
+              283,
+              155,
+              795,
+              192
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p3_b019",
+          "page": 3,
+          "type": "figure",
+          "source_type": "image",
+          "text": "Tubing Included \nMBC12",
+          "bbox": [
+            276.0,
+            206.0,
+            1004.0,
+            709.0
+          ],
+          "confidence": 0.8544650673866272,
+          "order": 19,
+          "source_ref": "parsing_res_list[19]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "Tubing Included \nMBC12",
+            "block_bbox": [
+              276,
+              206,
+              1004,
+              709
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p3_b020",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Working Pressure: Rated up to 80 psi",
+          "bbox": [
+            1039.0,
+            219.0,
+            1431.0,
+            244.0
+          ],
+          "confidence": 0.7586827874183655,
+          "order": 20,
+          "source_ref": "parsing_res_list[20]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Working Pressure: Rated up to 80 psi ",
+            "block_bbox": [
+              1039,
+              219,
+              1431,
+              244
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b021",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Working Temperature Range: 0 to 60 C",
+          "bbox": [
+            1039.0,
+            251.0,
+            1463.0,
+            276.0
+          ],
+          "confidence": 0.8266924619674683,
+          "order": 21,
+          "source_ref": "parsing_res_list[21]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Working Temperature Range: 0 to 60 C ",
+            "block_bbox": [
+              1039,
+              251,
+              1463,
+              276
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b022",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Size: 12\" x 12\" (300 mm x 300 mm)",
+          "bbox": [
+            1039.0,
+            282.0,
+            1426.0,
+            307.0
+          ],
+          "confidence": 0.8707470297813416,
+          "order": 22,
+          "source_ref": "parsing_res_list[22]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Size: 12\" x 12\" (300 mm x 300 mm)",
+            "block_bbox": [
+              1039,
+              282,
+              1426,
+              307
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b023",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "16' (5 m) of Tubing Included",
+          "bbox": [
+            1039.0,
+            313.0,
+            1356.0,
+            337.0
+          ],
+          "confidence": 0.8692868947982788,
+          "order": 23,
+          "source_ref": "parsing_res_list[23]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "16' (5 m) of Tubing Included ",
+            "block_bbox": [
+              1039,
+              313,
+              1356,
+              337
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b024",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Push-to-Fit Tubing Connectors",
+          "bbox": [
+            1040.0,
+            345.0,
+            1370.0,
+            369.0
+          ],
+          "confidence": 0.8745368719100952,
+          "order": 24,
+          "source_ref": "parsing_res_list[24]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Push-to-Fit Tubing Connectors ",
+            "block_bbox": [
+              1040,
+              345,
+              1370,
+              369
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b025",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.Our water-cooled breadboards are fitted with 1/4\" or 6 mm I.D. fittings for imperial and metric boards,respectively. These allow for easy connection to a water supply or chiller unit.",
+          "bbox": [
+            1038.0,
+            412.0,
+            1586.0,
+            721.0
+          ],
+          "confidence": 0.9742534160614014,
+          "order": 25,
+          "source_ref": "parsing_res_list[25]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.Our water-cooled breadboards are fitted with 1/4\" or 6 mm I.D. fittings for imperial and metric boards,respectively. These allow for easy connection to a water supply or chiller unit.",
+            "block_bbox": [
+              1038,
+              412,
+              1586,
+              721
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b026",
+          "page": 3,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Water-Cooled Breadboard",
+          "bbox": [
+            283.0,
+            762.0,
+            597.0,
+            787.0
+          ],
+          "confidence": 0.5843507051467896,
+          "order": 26,
+          "source_ref": "parsing_res_list[26]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Water-Cooled Breadboard ",
+            "block_bbox": [
+              283,
+              762,
+              597,
+              787
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p3_b027",
+          "page": 3,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MBC12</td><td>MBC3030/M</td><td>$ 399.00</td><td>子 287.28</td><td>€ 347,13</td><td>￥ 3,180.03</td><td>Water-Cooled Breadboard</td></tr></tbody></table></body></html>",
+          "bbox": [
+            284.0,
+            793.0,
+            1593.0,
+            859.0
+          ],
+          "confidence": 0.7624443769454956,
+          "order": 27,
+          "source_ref": "parsing_res_list[27]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MBC12</td><td>MBC3030/M</td><td>$ 399.00</td><td>子 287.28</td><td>€ 347,13</td><td>￥ 3,180.03</td><td>Water-Cooled Breadboard</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              284,
+              793,
+              1593,
+              859
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p3_b028",
+          "page": 3,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
+          "bbox": [
+            282.0,
+            894.0,
+            1394.0,
+            933.0
+          ],
+          "confidence": 0.8486194014549255,
+          "order": 28,
+          "source_ref": "parsing_res_list[28]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
+            "block_bbox": [
+              282,
+              894,
+              1394,
+              933
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 3,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p3_b029",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm)Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design",
+          "bbox": [
+            313.0,
+            1019.0,
+            666.0,
+            1302.0
+          ],
+          "confidence": 0.411105215549469,
+          "order": 29,
+          "source_ref": "parsing_res_list[29]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm)Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design ",
+            "block_bbox": [
+              313,
+              1019,
+              666,
+              1302
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b030",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Nonmagnetic UltraLightT optical breadboards, which offer a high strength-to-weight ratio and excellent thermal stability, are ideal for optical setups where portability and dynamic rigidity are important. They are typically used as lightweight alternatives to",
+          "bbox": [
+            280.0,
+            1483.0,
+            906.0,
+            1602.0
+          ],
+          "confidence": 0.9795986413955688,
+          "order": 30,
+          "source_ref": "parsing_res_list[30]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Nonmagnetic UltraLightT optical breadboards, which offer a high strength-to-weight ratio and excellent thermal stability, are ideal for optical setups where portability and dynamic rigidity are important. They are typically used as lightweight alternatives to ",
+            "block_bbox": [
+              280,
+              1483,
+              906,
+              1602
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b031",
+          "page": 3,
+          "type": "product_card",
+          "source_type": "text",
+          "text": "Outer Plates: Top 1/4\" (6 mm)Thick, Bottom 1/8\" (3 mm) Thick Edge of Top Plate to First Hole • Imperial: 1\"\n• Metric: 25 mm \nMaximum Screw Depth: 5/8\"(16 mm) from Breadboard Surface",
+          "bbox": [
+            708.0,
+            1052.0,
+            1070.0,
+            1273.0
+          ],
+          "confidence": 0.506470799446106,
+          "order": 31,
+          "source_ref": "parsing_res_list[31]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Outer Plates: Top 1/4\" (6 mm)Thick, Bottom 1/8\" (3 mm) Thick Edge of Top Plate to First Hole • Imperial: 1\"\n• Metric: 25 mm \nMaximum Screw Depth: 5/8\"(16 mm) from Breadboard Surface ",
+            "block_bbox": [
+              708,
+              1052,
+              1070,
+              1273
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b032",
+          "page": 3,
+          "type": "figure",
+          "source_type": "image",
+          "text": "minum \n\nConstruction \nTHORLABS",
+          "bbox": [
+            1094.0,
+            995.0,
+            1608.0,
+            1428.0
+          ],
+          "confidence": 0.870498776435852,
+          "order": 32,
+          "source_ref": "parsing_res_list[32]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "\nminum \n\nConstruction \nTHORLABS \n",
+            "block_bbox": [
+              1094,
+              995,
+              1608,
+              1428
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p3_b033",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "steel breadboards as well as for applications demanding a totally nonmagnetic structure. The options listed here are stocked for immediate shipment. Please visit our website (www.thorlabs.com)to view other size options.",
+          "bbox": [
+            952.0,
+            1483.0,
+            1580.0,
+            1600.0
+          ],
+          "confidence": 0.9728981256484985,
+          "order": 33,
+          "source_ref": "parsing_res_list[33]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "steel breadboards as well as for applications demanding a totally nonmagnetic structure. The options listed here are stocked for immediate shipment. Please visit our website (www.thorlabs.com)to view other size options.",
+            "block_bbox": [
+              952,
+              1483,
+              1580,
+              1600
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b034",
+          "page": 3,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Imperial UltraLight Breadboards, 1\" Thick",
+          "bbox": [
+            282.0,
+            1636.0,
+            808.0,
+            1663.0
+          ],
+          "confidence": 0.8777409195899963,
+          "order": 34,
+          "source_ref": "parsing_res_list[34]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Imperial UltraLight Breadboards, 1\" Thick ",
+            "block_bbox": [
+              282,
+              1636,
+              808,
+              1663
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p3_b035",
+          "page": 3,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td><td></td></tr><tr><td>PBG11102</td><td>$</td><td>511.90</td><td>子 子</td><td>368.57</td><td>€</td><td>445,35</td><td>￥ 4,079.84</td><td>2^'x1'x1\"$</td><td>11 lbs/5 kg</td></tr><tr><td>PBG11105</td><td>$</td><td>725.60</td><td>子</td><td>522.43</td><td>€</td><td>631,27</td><td>￥ 5,783.03</td><td>2'x 2'x1\"</td><td>20 lbs/9 kg</td></tr><tr><td>PBG11103</td><td>$</td><td>617.60</td><td>子</td><td>444.67</td><td>3</td><td>537,31</td><td>￥ 4,922.27</td><td>3^'x1'x1\"</td><td>20 lbs/9 kg</td></tr><tr><td>PBG11106</td><td>$</td><td>936.20</td><td>子</td><td>674.06</td><td>3</td><td>814,49</td><td>￥ 7,461.51</td><td>3'x 2'x1\"</td><td>29 lbs/13 kg</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PBG11110</td><td>$</td><td>1,095.60</td><td>子</td><td>788.83</td><td>€</td><td>953,17</td><td>￥</td><td>￥ 8,731.93</td><td>3'x 2.5'x 1\"</td></tr><tr><td>PBG11112</td><td>$</td><td>1,255.60</td><td>子</td><td>904.03</td><td>€</td><td>1.092,37</td><td>￥</td><td>10,007.13</td><td>3^'x 3'x 1\"</td></tr><tr><td>PBG11107</td><td>$</td><td>1,146.40</td><td>子</td><td>825.41</td><td>3</td><td>997,37</td><td>￥</td><td>9,136.81</td><td>4'x 2'x1\"</td></tr><tr><td>PBG11111 PBG11113</td><td>$</td><td>1,357.50</td><td>子 子</td><td>977.40</td><td>3</td><td>1.181,03 1.365,64</td><td>￥</td><td>10,819.28</td><td>4'x 2.5'x 1\" 4^'x 3'x1\"</td></tr></tbody></table></body></html>",
+          "bbox": [
+            282.0,
+            1677.0,
+            1598.0,
+            1984.0
+          ],
+          "confidence": 0.973910927772522,
+          "order": 35,
+          "source_ref": "parsing_res_list[35]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td><td></td></tr><tr><td>PBG11102</td><td>$</td><td>511.90</td><td>子 子</td><td>368.57</td><td>€</td><td>445,35</td><td>￥ 4,079.84</td><td>2^'x1'x1\"$</td><td>11 lbs/5 kg</td></tr><tr><td>PBG11105</td><td>$</td><td>725.60</td><td>子</td><td>522.43</td><td>€</td><td>631,27</td><td>￥ 5,783.03</td><td>2'x 2'x1\"</td><td>20 lbs/9 kg</td></tr><tr><td>PBG11103</td><td>$</td><td>617.60</td><td>子</td><td>444.67</td><td>3</td><td>537,31</td><td>￥ 4,922.27</td><td>3^'x1'x1\"</td><td>20 lbs/9 kg</td></tr><tr><td>PBG11106</td><td>$</td><td>936.20</td><td>子</td><td>674.06</td><td>3</td><td>814,49</td><td>￥ 7,461.51</td><td>3'x 2'x1\"</td><td>29 lbs/13 kg</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PBG11110</td><td>$</td><td>1,095.60</td><td>子</td><td>788.83</td><td>€</td><td>953,17</td><td>￥</td><td>￥ 8,731.93</td><td>3'x 2.5'x 1\"</td></tr><tr><td>PBG11112</td><td>$</td><td>1,255.60</td><td>子</td><td>904.03</td><td>€</td><td>1.092,37</td><td>￥</td><td>10,007.13</td><td>3^'x 3'x 1\"</td></tr><tr><td>PBG11107</td><td>$</td><td>1,146.40</td><td>子</td><td>825.41</td><td>3</td><td>997,37</td><td>￥</td><td>9,136.81</td><td>4'x 2'x1\"</td></tr><tr><td>PBG11111 PBG11113</td><td>$</td><td>1,357.50</td><td>子 子</td><td>977.40</td><td>3</td><td>1.181,03 1.365,64</td><td>￥</td><td>10,819.28</td><td>4'x 2.5'x 1\" 4^'x 3'x1\"</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              282,
+              1677,
+              1598,
+              1984
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p3_b036",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*The weightsgiveareforthebreadboardsaloneand donotinclude packaging",
+          "bbox": [
+            283.0,
+            1992.0,
+            791.0,
+            2011.0
+          ],
+          "confidence": 0.7737201452255249,
+          "order": 36,
+          "source_ref": "parsing_res_list[36]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*The weightsgiveareforthebreadboardsaloneand donotinclude packaging ",
+            "block_bbox": [
+              283,
+              1992,
+              791,
+              2011
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p3_b037",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "THORLABS",
+          "bbox": [
+            1442.0,
+            2051.0,
+            1598.0,
+            2076.0
+          ],
+          "confidence": 0.9238891005516052,
+          "order": 37,
+          "source_ref": "parsing_res_list[37]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              1442,
+              2051,
+              1598,
+              2076
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p3_b038",
+          "page": 3,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "www.thorlabs.com",
+          "bbox": [
+            284.0,
+            2058.0,
+            469.0,
+            2078.0
+          ],
+          "confidence": 0.9056788682937622,
+          "order": 38,
+          "source_ref": "parsing_res_list[38]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "www.thorlabs.com ",
+            "block_bbox": [
+              284,
+              2058,
+              469,
+              2078
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_004\\multi page catalog sample_p004_res.json",
+      "blocks": [
+        {
+          "id": "p4_b001",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "header",
+          "text": "Optomechanics",
+          "bbox": [
+            1434.0,
+            80.0,
+            1651.0,
+            107.0
+          ],
+          "confidence": 0.5998092889785767,
+          "order": 1,
+          "source_ref": "parsing_res_list[1]",
+          "raw": {
+            "block_label": "header",
+            "block_content": "Optomechanics ",
+            "block_bbox": [
+              1434,
+              80,
+              1651,
+              107
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "header"
+        },
+        {
+          "id": "p4_b002",
+          "page": 4,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "UltraLight Series of Optical Breadboards (Page 2 of 2)",
+          "bbox": [
+            96.0,
+            155.0,
+            1207.0,
+            194.0
+          ],
+          "confidence": 0.5607644319534302,
+          "order": 2,
+          "source_ref": "parsing_res_list[2]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "UltraLight Series of Optical Breadboards (Page 2 of 2)",
+            "block_bbox": [
+              96,
+              155,
+              1207,
+              194
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 3,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p4_b003",
+          "page": 4,
+          "type": "figure",
+          "source_type": "image",
+          "text": "THORLABS",
+          "bbox": [
+            95.0,
+            221.0,
+            645.0,
+            526.0
+          ],
+          "confidence": 0.9734742641448975,
+          "order": 3,
+          "source_ref": "parsing_res_list[3]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              95,
+              221,
+              645,
+              526
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p4_b004",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Sizes Shown Here are Stocked for Immediate Shipment.Other Sizes are Available up to 4' x 6' (1250 mm x 1800 mm)",
+          "bbox": [
+            881.0,
+            300.0,
+            1295.0,
+            433.0
+          ],
+          "confidence": 0.7985594272613525,
+          "order": 4,
+          "source_ref": "parsing_res_list[4]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Sizes Shown Here are Stocked for Immediate Shipment.Other Sizes are Available up to 4' x 6' (1250 mm x 1800 mm)",
+            "block_bbox": [
+              881,
+              300,
+              1295,
+              433
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b005",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Lab Supplies",
+          "bbox": [
+            1494.0,
+            413.0,
+            1638.0,
+            433.0
+          ],
+          "confidence": 0.6825583577156067,
+          "order": 5,
+          "source_ref": "parsing_res_list[5]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Lab Supplies ",
+            "block_bbox": [
+              1494,
+              413,
+              1638,
+              433
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b006",
+          "page": 4,
+          "type": "figure",
+          "source_type": "image",
+          "text": "y \nTHORLISS",
+          "bbox": [
+            828.0,
+            982.0,
+            1657.0,
+            1399.0
+          ],
+          "confidence": 0.8802742958068848,
+          "order": 6,
+          "source_ref": "parsing_res_list[6]",
+          "raw": {
+            "block_label": "image",
+            "block_content": "y \nTHORLISS ",
+            "block_bbox": [
+              828,
+              982,
+              1657,
+              1399
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "image"
+        },
+        {
+          "id": "p4_b007",
+          "page": 4,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Imperial UltraLight Breadboards, 2.2\" Thick",
+          "bbox": [
+            95.0,
+            1384.0,
+            642.0,
+            1409.0
+          ],
+          "confidence": 0.9083706140518188,
+          "order": 7,
+          "source_ref": "parsing_res_list[7]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Imperial UltraLight Breadboards, 2.2\" Thick ",
+            "block_bbox": [
+              95,
+              1384,
+              642,
+              1409
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p4_b008",
+          "page": 4,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子 582.19</td><td>3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21</td><td>天 9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
+          "bbox": [
+            97.0,
+            1414.0,
+            1412.0,
+            1620.0
+          ],
+          "confidence": 0.9745399951934814,
+          "order": 8,
+          "source_ref": "parsing_res_list[8]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子 582.19</td><td>3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21</td><td>天 9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              97,
+              1414,
+              1412,
+              1620
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p4_b009",
+          "page": 4,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Metric UltraLight Breadboards, 25 mm Thick",
+          "bbox": [
+            95.0,
+            558.0,
+            656.0,
+            581.0
+          ],
+          "confidence": 0.904076337814331,
+          "order": 9,
+          "source_ref": "parsing_res_list[9]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Metric UltraLight Breadboards, 25 mm Thick ",
+            "block_bbox": [
+              95,
+              558,
+              656,
+              581
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p4_b010",
+          "page": 4,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm x 25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mmx 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
+          "bbox": [
+            97.0,
+            586.0,
+            1408.0,
+            951.0
+          ],
+          "confidence": 0.98493891954422,
+          "order": 10,
+          "source_ref": "parsing_res_list[10]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm x 25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mmx 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              97,
+              586,
+              1408,
+              951
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p4_b011",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*The weights given are for the breadboards alone and do not include packaging.",
+          "bbox": [
+            100.0,
+            954.0,
+            606.0,
+            971.0
+          ],
+          "confidence": 0.7707873582839966,
+          "order": 11,
+          "source_ref": "parsing_res_list[11]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*The weights given are for the breadboards alone and do not include packaging.",
+            "block_bbox": [
+              100,
+              954,
+              606,
+              971
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b012",
+          "page": 4,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "Additional Size Options Available",
+          "bbox": [
+            114.0,
+            1026.0,
+            462.0,
+            1049.0
+          ],
+          "confidence": 0.8823146820068359,
+          "order": 12,
+          "source_ref": "parsing_res_list[12]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "Additional Size Options Available ",
+            "block_bbox": [
+              114,
+              1026,
+              462,
+              1049
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p4_b013",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "The imperial and metric UltraLight breadboards featured on these two pages are stocked for immediate shipment. However, Thorlabs also has the tooling and supplies necessary to manufacture numerous other sizes quickly and efficiently with minimal lead time. Please visit www.thorlabs.com to view our non-standard size options and to place an order. Finally, in addition to these stocked and non-stocked UltraLight breadboard options,Thorlabs can produce truly custom breadboards that offer unique cutouts,hole patterns, and dimensions. Please contact tech support to discuss your application needs.",
+          "bbox": [
+            112.0,
+            1057.0,
+            831.0,
+            1327.0
+          ],
+          "confidence": 0.9821099042892456,
+          "order": 13,
+          "source_ref": "parsing_res_list[13]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "The imperial and metric UltraLight breadboards featured on these two pages are stocked for immediate shipment. However, Thorlabs also has the tooling and supplies necessary to manufacture numerous other sizes quickly and efficiently with minimal lead time. Please visit www.thorlabs.com to view our non-standard size options and to place an order. Finally, in addition to these stocked and non-stocked UltraLight breadboard options,Thorlabs can produce truly custom breadboards that offer unique cutouts,hole patterns, and dimensions. Please contact tech support to discuss your application needs.",
+            "block_bbox": [
+              112,
+              1057,
+              831,
+              1327
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b014",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "CHAPTERS",
+          "bbox": [
+            1503.0,
+            142.0,
+            1651.0,
+            170.0
+          ],
+          "confidence": 0.45720595121383667,
+          "order": 14,
+          "source_ref": "parsing_res_list[14]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "CHAPTERS ",
+            "block_bbox": [
+              1503,
+              142,
+              1651,
+              170
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b015",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Tables/Breadboards",
+          "bbox": [
+            1497.0,
+            193.0,
+            1639.0,
+            235.0
+          ],
+          "confidence": 0.7025699019432068,
+          "order": 15,
+          "source_ref": "parsing_res_list[15]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "\nTables/Breadboards ",
+            "block_bbox": [
+              1497,
+              193,
+              1639,
+              235
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b016",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Mechanics",
+          "bbox": [
+            1518.0,
+            256.0,
+            1638.0,
+            274.0
+          ],
+          "confidence": 0.6999597549438477,
+          "order": 16,
+          "source_ref": "parsing_res_list[16]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Mechanics ",
+            "block_bbox": [
+              1518,
+              256,
+              1638,
+              274
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b017",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Optomechanic \nDevices",
+          "bbox": [
+            1478.0,
+            299.0,
+            1639.0,
+            338.0
+          ],
+          "confidence": 0.7674141526222229,
+          "order": 17,
+          "source_ref": "parsing_res_list[17]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Optomechanic \nDevices ",
+            "block_bbox": [
+              1478,
+              299,
+              1639,
+              338
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b018",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "Kits",
+          "bbox": [
+            1591.0,
+            362.0,
+            1639.0,
+            381.0
+          ],
+          "confidence": 0.6022639870643616,
+          "order": 18,
+          "source_ref": "parsing_res_list[18]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "Kits ",
+            "block_bbox": [
+              1591,
+              362,
+              1639,
+              381
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b019",
+          "page": 4,
+          "type": "heading",
+          "source_type": "paragraph_title",
+          "text": "SECTIONS",
+          "bbox": [
+            1529.0,
+            467.0,
+            1646.0,
+            491.0
+          ],
+          "confidence": 0.41503068804740906,
+          "order": 19,
+          "source_ref": "parsing_res_list[19]",
+          "raw": {
+            "block_label": "paragraph_title",
+            "block_content": "SECTIONS ",
+            "block_bbox": [
+              1529,
+              467,
+              1646,
+              491
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": 2,
+          "layout_hint": "paragraph_title"
+        },
+        {
+          "id": "p4_b020",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*The weightsgivenarefor thebreadboardsaloneand do not include packaging",
+          "bbox": [
+            97.0,
+            1622.0,
+            605.0,
+            1639.0
+          ],
+          "confidence": 0.7877211570739746,
+          "order": 20,
+          "source_ref": "parsing_res_list[20]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*The weightsgivenarefor thebreadboardsaloneand do not include packaging ",
+            "block_bbox": [
+              97,
+              1622,
+              605,
+              1639
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b021",
+          "page": 4,
+          "type": "figure",
+          "source_type": "figure_title",
+          "text": "Metric UltraLight Breadboards, 55 mm Thick",
+          "bbox": [
+            97.0,
+            1652.0,
+            658.0,
+            1675.0
+          ],
+          "confidence": 0.904636800289154,
+          "order": 21,
+          "source_ref": "parsing_res_list[21]",
+          "raw": {
+            "block_label": "figure_title",
+            "block_content": "Metric UltraLight Breadboards, 55 mm Thick ",
+            "block_bbox": [
+              97,
+              1652,
+              658,
+              1675
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "figure_title"
+        },
+        {
+          "id": "p4_b022",
+          "page": 4,
+          "type": "table",
+          "source_type": "table",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>€ 1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+          "bbox": [
+            98.0,
+            1682.0,
+            1412.0,
+            1992.0
+          ],
+          "confidence": 0.9825536012649536,
+          "order": 22,
+          "source_ref": "parsing_res_list[22]",
+          "raw": {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>€ 1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              98,
+              1682,
+              1412,
+              1992
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "table"
+        },
+        {
+          "id": "p4_b023",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "text",
+          "text": "*The weights givenare for thebreadboardsaloneand do notinclude packaging.",
+          "bbox": [
+            97.0,
+            1997.0,
+            606.0,
+            2014.0
+          ],
+          "confidence": 0.8013087511062622,
+          "order": 23,
+          "source_ref": "parsing_res_list[23]",
+          "raw": {
+            "block_label": "text",
+            "block_content": "*The weights givenare for thebreadboardsaloneand do notinclude packaging.",
+            "block_bbox": [
+              97,
+              1997,
+              606,
+              2014
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "text"
+        },
+        {
+          "id": "p4_b024",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "THORLABS",
+          "bbox": [
+            97.0,
+            2051.0,
+            253.0,
+            2077.0
+          ],
+          "confidence": 0.9056220054626465,
+          "order": 24,
+          "source_ref": "parsing_res_list[24]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "THORLABS ",
+            "block_bbox": [
+              97,
+              2051,
+              253,
+              2077
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p4_b025",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "footer",
+          "text": "www.thorlabs.com",
+          "bbox": [
+            1227.0,
+            2058.0,
+            1411.0,
+            2079.0
+          ],
+          "confidence": 0.9017705321311951,
+          "order": 25,
+          "source_ref": "parsing_res_list[25]",
+          "raw": {
+            "block_label": "footer",
+            "block_content": "www.thorlabs.com ",
+            "block_bbox": [
+              1227,
+              2058,
+              1411,
+              2079
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "footer"
+        },
+        {
+          "id": "p4_b026",
+          "page": 4,
+          "type": "paragraph",
+          "source_type": "number",
+          "text": "5",
+          "bbox": [
+            1621.0,
+            2060.0,
+            1637.0,
+            2077.0
+          ],
+          "confidence": 0.7861282825469971,
+          "order": 26,
+          "source_ref": "parsing_res_list[26]",
+          "raw": {
+            "block_label": "number",
+            "block_content": "5",
+            "block_bbox": [
+              1621,
+              2060,
+              1637,
+              2077
+            ]
+          },
+          "parent_id": null,
+          "children_ids": [],
+          "heading_level": null,
+          "layout_hint": "number"
+        }
+      ]
+    }
+  ]
+}

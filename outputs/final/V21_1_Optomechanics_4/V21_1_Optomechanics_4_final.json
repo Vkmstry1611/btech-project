@@ -1,0 +1,78 @@
+{
+  "type": "Product Category",
+  "title": "V21_1_Optomechanics_4",
+  "identifier": "PC-V211OPTOMECHANICS4",
+  "description": "Extracted from V21_1_Optomechanics_4 (1 page(s)) using ollama/qwen3:8b",
+  "source": {
+    "pdf_path": "pdfs\\V21_1_Optomechanics_4.pdf",
+    "total_pages": 1,
+    "backend_used": "ollama/qwen3:8b"
+  },
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Optomechanics",
+      "identifier": "PC-OPTOMECHANICS",
+      "models": [
+        {
+          "type": "Model",
+          "title": "CHAPTERS",
+          "identifier": "MOD-CHAPTERS",
+          "sku": "CHAPTERS",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "CHAPTERS",
+              "identifier": "SI-CHAPTERS",
+              "properties": {
+                "product_type": "4.0 new"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "Water-Cooled Breadboard",
+          "identifier": "MOD-WATERCOOLED-BREADBOARD",
+          "description": "Model: MBC12",
+          "sku": "MBC12",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "Water-Cooled Breadboard",
+              "identifier": "SI-WATERCOOLED-BREADBOARD",
+              "properties": {
+                "working_pressure": "80.0 psi",
+                "working_temperature_range": "0.0 °C",
+                "size": "12.0 in, mm",
+                "tubing_length": "16.0 ft, m",
+                "fittings": "1.0 in, mm",
+                "hole_pattern": "1.0 in, mm"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Water-Cooled Breadboard",
+      "identifier": "PC-WATERCOOLED-BREADBOARD",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
+          "identifier": "PC-ULTRALIGHT-SERIES-OF-OPTICAL",
+          "models": [
+            {
+              "type": "Model",
+              "title": "Outer Plates: Top 1/4\" (6 mm)Thick, Bottom 1/8\" (3 mm) Thick Edge of Top Plate t",
+              "identifier": "MOD-OUTER-PLATES-TOP-14",
+              "sellableItems": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

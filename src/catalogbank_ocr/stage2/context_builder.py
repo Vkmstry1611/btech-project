@@ -195,7 +195,7 @@ def _walk_hierarchy(
         heading_level = len(current_path)
 
         chunk_counter[0] += 1
-        page = node.get("page") or 1
+        page = node.get("page") or 1  # default to page 1 if not set (schema 1.0 compat)
         chunk = ContextChunk(
             chunk_id=f"{doc_stem}__p{page}__c{chunk_counter[0]:03d}",
             doc_stem=doc_stem,
@@ -243,7 +243,7 @@ def _walk_hierarchy(
     if node_type not in {"figure", "paragraph"}:
         # Worth capturing (table / spec / product_card at root level)
         chunk_counter[0] += 1
-        page = node.get("page") or 1
+        page = node.get("page") or 1  # default to page 1 if not set (schema 1.0 compat)
         chunk = ContextChunk(
             chunk_id=f"{doc_stem}__p{page}__c{chunk_counter[0]:03d}",
             doc_stem=doc_stem,

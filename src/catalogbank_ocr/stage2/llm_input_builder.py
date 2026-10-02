@@ -61,18 +61,19 @@ DEFAULT_MAX_PRODUCT_CARD_CHARS: int = 300  # per product card
 EXTRACTION_SCHEMA: Dict[str, Any] = {
     "products": [
         {
-            "name": "string — product name or model name",
+            "name": "string — product name or model name (e.g. 'MB4', 'PBG11102')",
             "model": "string or null — model number / part number",
-            "sku": "string or null — SKU / catalog number",
+            "sku": "string or null — SKU / catalog number / article number",
             "category": "string or null — product category inferred from section heading",
+            "description": "string or null — brief product description",
         }
     ],
     "attributes": [
         {
             "entity": "string — product name or model this attribute belongs to",
-            "key": "string — attribute name (e.g. 'Material', 'Thread Size', 'Length')",
+            "key": "string — attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')",
             "value": "string — attribute value",
-            "unit": "string or null — unit of measure if applicable (e.g. 'mm', 'in', 'kg')",
+            "unit": "string or null — unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')",
         }
     ],
     "relations": [
@@ -86,9 +87,19 @@ EXTRACTION_SCHEMA: Dict[str, Any] = {
 
 # The instruction block injected before the context JSON in every prompt.
 _PROMPT_INSTRUCTION = """\
-You are an industrial product catalog parser. Extract structured product data \
-from the catalog section below and return ONLY a valid JSON object matching the \
-schema provided. Do not add commentary, markdown fences, or any text outside the JSON.
+You are extracting product data from an industrial catalog page. \
+Return ONLY a valid JSON object. No markdown, no explanation, no text outside the JSON.
+
+CRITICAL RULES:
+1. "products" must contain ONLY actual product items with model numbers or SKUs \
+   (e.g. "MB4", "PBG11102", "MBC12"). \
+   Do NOT use section headings or category names as product names.
+2. If a table has rows like "MB4 | $49.40 | 4\\"x6\\"", each row is ONE product.
+3. Use the exact model/SKU code as the "name" (e.g. "MB4", not "Optical Breadboard").
+4. Put the full descriptive name in "description".
+5. Put the SKU/part number in "sku".
+6. For prices: entity=the product SKU, key="Price", value=numeric amount, unit=currency.
+7. For dimensions: entity=the product SKU, key="Dimensions", value=the size string.
 
 EXTRACTION SCHEMA:
 {schema}

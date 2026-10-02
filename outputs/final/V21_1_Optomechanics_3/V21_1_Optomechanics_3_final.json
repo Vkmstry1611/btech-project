@@ -1,0 +1,71 @@
+{
+  "type": "Product Category",
+  "title": "V21_1_Optomechanics_3",
+  "identifier": "PC-V211OPTOMECHANICS3",
+  "description": "Extracted from V21_1_Optomechanics_3 (1 page(s)) using ollama/qwen3:8b",
+  "source": {
+    "pdf_path": "pdfs\\V21_1_Optomechanics_3.pdf",
+    "total_pages": 1,
+    "backend_used": "ollama/qwen3:8b"
+  },
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Optomechanics",
+      "identifier": "PC-OPTOMECHANICS",
+      "models": [
+        {
+          "type": "Model",
+          "title": "SlimLine Breadboards",
+          "identifier": "MOD-SLIMLINE-BREADBOARDS",
+          "sku": "SLIMLINE-BREADBOARDS",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "SlimLine Breadboards",
+              "identifier": "SI-SLIMLINE-BREADBOARDS",
+              "properties": {
+                "hole_pattern": "Double-Density",
+                "hole_offset": "0.5 in",
+                "material": "Aluminum",
+                "thickness": "0.5 in",
+                "profile": "Slim"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum",
+      "identifier": "PC-BREADBOARDS-12-127-MM",
+      "models": [
+        {
+          "type": "Model",
+          "title": "These solid aluminum breadboards provide a convenient platform for assembling",
+          "identifier": "MOD-THESE-SOLID-ALUMINUM-BREADBOARDS",
+          "sellableItems": []
+        },
+        {
+          "type": "Model",
+          "title": "The boards have a 1/2\" (12.5 mm) border and four 1/4\" (M6) counterbored clearanc",
+          "identifier": "MOD-THE-BOARDS-HAVE-A",
+          "sellableItems": []
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "SlimLine Breadboards - Double-Density Hole Pattern",
+      "identifier": "PC-SLIMLINE-BREADBOARDS-DOUBLEDENSITY-HOLE",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Shipped from Stock in the US and Europe",
+          "identifier": "PC-SHIPPED-FROM-STOCK-IN"
+        }
+      ]
+    }
+  ]
+}

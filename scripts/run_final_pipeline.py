@@ -3,48 +3,21 @@
 Produces one self-contained output JSON per PDF:
 
     outputs/final/{stem}/{stem}_final.json
-
-Schema (schema_version "2.0")::
-
-    {
-      "schema_version": "2.0",
-      "source": {
-        "pdf_path": str,
-        "total_pages": int,
-        "pages": [ { "page_number": int, ... }, ... ]
-      },
-      "pages": [ { "page": int, "blocks": [...] }, ... ],
-      "hierarchy": { ... },
-      "extraction": {
-        "backend_used": str,
-        "product_count": int,
-        "attribute_count": int,
-        "relation_count": int,
-        "products": [ { "name", "model", "sku", "category", "source_chunks" }, ... ],
-        "attributes": [ { "entity", "key", "value", "unit", "value_numeric" }, ... ],
-        "relations": [ { "subject", "predicate", "object" }, ... ]
-      }
-    }
+    outputs/visualizations/{stem}/{stem}_knowledge_graph.png
 
 Usage
 -----
-# Single PDF — full run (needs Ollama running):
-    python scripts/run_final_pipeline.py --input path/to/file.pdf
+# Process all PDFs in pdfs/ folder (needs Ollama running):
+    python scripts/run_final_pipeline.py --input pdfs
 
-# Single PDF — mock LLM (no GPU needed, for testing):
-    python scripts/run_final_pipeline.py --input path/to/file.pdf --backend mock
-
-# Limit to first 3 pages:
-    python scripts/run_final_pipeline.py --input path/to/file.pdf --max-pages 3
-
-# All PDFs in a directory:
-    python scripts/run_final_pipeline.py --input path/to/pdf_folder/
+# Mock LLM (no GPU needed, for testing):
+    python scripts/run_final_pipeline.py --input pdfs --backend mock
 
 # Skip Stage 1 if canonical JSON already exists (re-run Stage 2 only):
-    python scripts/run_final_pipeline.py --input path/to/file.pdf --skip-stage1
+    python scripts/run_final_pipeline.py --input pdfs --skip-stage1
 
 # Custom Ollama model:
-    python scripts/run_final_pipeline.py --input path/to/file.pdf --model qwen3:14b
+    python scripts/run_final_pipeline.py --input pdfs --model qwen3:14b
 """
 
 from __future__ import annotations
@@ -77,7 +50,6 @@ if str(_SRC) not in sys.path:
 # Imports
 # ---------------------------------------------------------------------------
 
-from catalogbank_ocr.config import load_config
 from catalogbank_ocr.preprocessing.image_preprocessing import ImagePreprocessingConfig
 from catalogbank_ocr.research_stage1_pipeline import run_stage1_for_pdf_multipage, Stage1MultiPageResult
 from catalogbank_ocr.stage2.context_builder import build_context_chunks
@@ -85,6 +57,7 @@ from catalogbank_ocr.stage2.llm_input_builder import build_llm_input
 from catalogbank_ocr.stage2.llm_extractor import LLMExtractor
 from catalogbank_ocr.stage2.normalization import normalize_batch
 from catalogbank_ocr.stage2.validation import validate_batch
+from catalogbank_ocr.visualization.research_visualization import visualize_knowledge_graph
 
 logging.basicConfig(
     level=logging.INFO,
@@ -111,7 +84,6 @@ def _build_sellable_items(
     attributes: List[Dict[str, Any]],
 ) -> List[Dict[str, Any]]:
     """Build sellable item list from a product and its attributes."""
-    # Group price attributes by location
     price_attrs = [a for a in attributes if a.get("entity", "").lower() == product_name.lower()
                    and any(k in a.get("key", "").lower() for k in ("price", "cost", "amount"))]
     other_attrs = [a for a in attributes if a.get("entity", "").lower() == product_name.lower()
@@ -135,7 +107,6 @@ def _build_sellable_items(
             amount = 0.0
         currency = a.get("unit", "USD")
         location = a.get("source_chunk", "").split("__")[0] or "Unknown"
-        sku = a.get("entity", product_name)
         list_prices.append({
             "type": "List Price",
             "title": f"{product_name} — {location}",
@@ -151,6 +122,9 @@ def _build_sellable_items(
         "identifier": f"SI-{_slugify(product_name)}",
     }
     if properties:
+        # Use SKU as articleNumber if available
+        if "sku" in properties:
+            item["articleNumber"] = properties.pop("sku")
         item["properties"] = properties
     if list_prices:
         item["listPrices"] = list_prices
@@ -161,22 +135,75 @@ def _build_sellable_items(
 def _build_model(product: Dict[str, Any], attributes: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Build a Model node from a normalized product."""
     name = product.get("name", "Unknown")
-    sku = product.get("sku") or product.get("model") or _slugify(name)
+    sku = product.get("sku") or product.get("model") or ""
+    desc = product.get("description") or (f"Model: {product['model']}" if product.get("model") and product.get("model") != name else None)
     model: Dict[str, Any] = {
         "type": "Model",
         "title": name,
         "identifier": f"MOD-{_slugify(name)}",
     }
-    if product.get("model") and product["model"] != name:
-        model["description"] = f"Model: {product['model']}"
+    if desc:
+        model["description"] = desc
     if sku:
         model["sku"] = sku
 
-    sellable = _build_sellable_items(name, attributes)
+    # Pass article number (SKU) into sellable items
+    sellable = _build_sellable_items_with_sku(name, sku, attributes)
     if sellable:
         model["sellableItems"] = sellable
 
     return model
+
+
+def _build_sellable_items_with_sku(
+    product_name: str,
+    article_number: str,
+    attributes: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """Build sellable items with articleNumber and cleaned prices."""
+    price_attrs = [a for a in attributes if a.get("entity", "").lower() == product_name.lower()
+                   and any(k in a.get("key", "").lower() for k in ("price", "cost", "amount"))]
+    other_attrs = [a for a in attributes if a.get("entity", "").lower() == product_name.lower()
+                   and not any(k in a.get("key", "").lower() for k in ("price", "cost", "amount"))]
+
+    properties = {}
+    for a in other_attrs:
+        val = a.get("value", "")
+        if a.get("unit"):
+            val = f"{val} {a['unit']}"
+        properties[a.get("key", "").lower().replace(" ", "_")] = val
+
+    list_prices = []
+    for i, a in enumerate(price_attrs):
+        amount_raw = a.get("value_numeric") or a.get("value", "0")
+        try:
+            amount = float(str(amount_raw).replace(",", ""))
+        except ValueError:
+            amount = 0.0
+        # Normalize currency
+        raw_unit = (a.get("unit") or "USD").upper().strip().split()[0]
+        currency = raw_unit if raw_unit in {"USD", "EUR", "GBP", "JPY", "CNY", "INR", "AUD"} else "USD"
+        list_prices.append({
+            "type": "List Price",
+            "title": f"{product_name} — {currency}",
+            "identifier": f"LP-{_slugify(product_name)}-{i+1:02d}",
+            "amount": amount,
+            "currency": currency,
+        })
+
+    item: Dict[str, Any] = {
+        "type": "Sellable Item",
+        "title": product_name,
+        "identifier": f"SI-{_slugify(product_name)}",
+    }
+    if article_number:
+        item["articleNumber"] = article_number
+    if properties:
+        item["properties"] = properties
+    if list_prices:
+        item["listPrices"] = list_prices
+
+    return [item]
 
 
 def _build_category_from_hierarchy(
@@ -185,17 +212,13 @@ def _build_category_from_hierarchy(
     attributes: List[Dict[str, Any]],
     depth: int = 0,
 ) -> Dict[str, Any]:
-    """Recursively build catalog category tree from hierarchy node."""
-    name = node.get("name", "Unknown")
-    node_type = node.get("semantic_type", "")
-    children = node.get("children", [])
+    """Recursively build catalog category tree from hierarchy node.
 
-    # Find products that belong to this section
-    # Match by section name appearing in source_chunks
-    section_products = [
-        p for p in products
-        if any(name.lower() in (chunk or "").lower() for chunk in p.get("source_chunks", []))
-    ]
+    Only real extracted products (from LLM extraction) become Models.
+    Paragraphs, body text and other non-product blocks are ignored.
+    """
+    name = node.get("name", "Unknown")
+    children = node.get("children", [])
 
     category: Dict[str, Any] = {
         "type": "Product Category",
@@ -206,27 +229,26 @@ def _build_category_from_hierarchy(
     subcategories = []
     models = []
 
+    # Only recurse into heading children — paragraphs/tables don't become categories
     for child in children:
         child_type = child.get("semantic_type", "")
         if child_type == "heading":
             subcategories.append(_build_category_from_hierarchy(child, products, attributes, depth + 1))
+        # product_card nodes map to models only if there's a matching extracted product
         elif child_type == "product_card":
             child_name = child.get("name", "")
-            matching = [p for p in products if p.get("name", "").lower() in child_name.lower()
+            # Only add if there's a real extracted product matching this card
+            matching = [p for p in products
+                        if p.get("name", "").lower() in child_name.lower()
                         or child_name.lower() in p.get("name", "").lower()]
-            if matching:
-                for p in matching:
-                    models.append(_build_model(p, attributes))
-            else:
-                # Create a model from the card text directly
-                models.append({
-                    "type": "Model",
-                    "title": child_name[:80] if child_name else "Product",
-                    "identifier": f"MOD-{_slugify(child_name)}",
-                    "sellableItems": [],
-                })
+            for p in matching:
+                models.append(_build_model(p, attributes))
 
-    # Attach section-level products as models if not already added
+    # Find products whose source_chunks mention this section's heading
+    section_products = [
+        p for p in products
+        if any(name.lower() in (chunk or "").lower() for chunk in p.get("source_chunks", []))
+    ]
     for p in section_products:
         already = any(m.get("title", "").lower() == p.get("name", "").lower() for m in models)
         if not already:
@@ -248,72 +270,150 @@ def build_catalog_json(
 ) -> Dict[str, Any]:
     """Build the final catalog JSON in the target hierarchical schema."""
     import os as _os
+    import re as _re
     pdf_name = _os.path.basename(pdf_path).replace(".pdf", "") if pdf_path else "Document"
 
     products = [p.to_dict() for p in normalized_result.products]
     attributes = [a.to_dict() for a in normalized_result.attributes]
 
+    # Build a lookup: product name (lower) → model dict
+    # Skip products that are clearly OCR noise or section headings
+    _PRODUCT_NOISE = {"chapters", "sections", "contents", "index", "overview", "introduction"}
+
+    def _is_product_noise(name: str) -> bool:
+        n = name.strip().lower()
+        return n in _PRODUCT_NOISE or (n.isupper() and len(n.split()) <= 1)
+
+    all_models_by_name: Dict[str, Any] = {}
+    for p in products:
+        pname = p.get("name", "")
+        if _is_product_noise(pname):
+            continue
+        m = _build_model(p, attributes)
+        all_models_by_name[pname.lower()] = m
+
     hierarchy = canonical_doc.get("hierarchy", {})
     children = hierarchy.get("children", [])
 
-    # Filter out OCR noise headings (page chrome, very short/all-caps nav items)
+    # Filter noise headings
     _NOISE = {"sections", "chapters", "tables", "contents", "index", "appendix"}
 
     def _is_noise(name: str) -> bool:
         n = name.strip().lower().rstrip("/").strip()
         return n in _NOISE or (n.isupper() and len(n.split()) <= 2)
 
+    def _find_models_for_section(heading_name: str) -> List[Dict[str, Any]]:
+        """Find products whose category or name matches this section heading."""
+        found = []
+        heading_lower = heading_name.lower()
+        for p in products:
+            cat = (p.get("category") or "").lower()
+            name = (p.get("name") or "").lower()
+            # Match if the product's category contains the heading name or vice versa
+            if (cat and (cat in heading_lower or heading_lower in cat)) or \
+               (name and name in heading_lower):
+                m = all_models_by_name.get(name)
+                if m:
+                    found.append(m)
+        return found
+
+    def _build_cat(node: Dict[str, Any], depth: int = 0) -> Dict[str, Any]:
+        name = node.get("name", "Unknown")
+        ch   = node.get("children", [])
+
+        cat: Dict[str, Any] = {
+            "type": "Product Category",
+            "title": name,
+            "identifier": f"PC-{_slugify(name)}-{abs(hash(name)) % 10000:04d}",
+        }
+
+        subcats = []
+        models  = []
+        used_model_ids: set = set()
+
+        for child in ch:
+            ctype = child.get("semantic_type", "")
+            if ctype == "heading":
+                if not _is_noise(child.get("name", "")):
+                    subcats.append(_build_cat(child, depth + 1))
+            elif ctype == "product_card":
+                cname = child.get("name", "").lower()
+                m = all_models_by_name.get(cname)
+                if m and m.get("identifier") not in used_model_ids:
+                    used_model_ids.add(m.get("identifier"))
+                    models.append(m)
+
+        # Also attach products whose category field matches this heading
+        for m in _find_models_for_section(name):
+            if m.get("identifier") not in used_model_ids:
+                used_model_ids.add(m.get("identifier"))
+                models.append(m)
+
+        if subcats:
+            cat["subcategories"] = subcats
+        if models:
+            cat["models"] = models
+
+        return cat
+
     subcategories = []
-    seen_model_ids: set = set()  # dedup models across sections
+    seen_cat_ids: set = set()
+    placed_model_ids: set = set()
 
     for child in children:
         if child.get("semantic_type") in ("heading", "document", "paragraph"):
             name = child.get("name", "")
             if _is_noise(name):
                 continue
-            cat = _build_category_from_hierarchy(child, products, attributes)
-            # Dedup models within this category
-            if "models" in cat:
-                deduped = []
-                for m in cat["models"]:
-                    mid = m.get("identifier", "")
-                    if mid not in seen_model_ids:
-                        seen_model_ids.add(mid)
-                        deduped.append(m)
-                if deduped:
-                    cat["models"] = deduped
-                else:
-                    cat.pop("models", None)
-            # Skip empty categories with no subcategories and no models
-            if not cat.get("subcategories") and not cat.get("models"):
-                continue
-            subcategories.append(cat)
+            cat = _build_cat(child)
+            cid = cat.get("identifier", "")
+            # Avoid duplicate identifiers at top level
+            if cid in seen_cat_ids:
+                cat["identifier"] = f"{cid}-{len(seen_cat_ids):02d}"
+            seen_cat_ids.add(cat.get("identifier", ""))
 
-    # If no hierarchy children but we have products, create flat structure
-    if not subcategories and products:
-        models = [_build_model(p, attributes) for p in products]
-        subcategories = [{
-            "type": "Product Category",
-            "title": "Products",
-            "identifier": "PC-PRODUCTS",
-            "models": models,
-        }]
+            # Track which models got placed
+            for m in cat.get("models", []):
+                placed_model_ids.add(m.get("identifier", ""))
+            for sc in cat.get("subcategories", []):
+                for m in sc.get("models", []):
+                    placed_model_ids.add(m.get("identifier", ""))
+
+            if cat.get("subcategories") or cat.get("models"):
+                subcategories.append(cat)
+
+    # Any remaining unplaced products go under a flat "Products" category
+    unplaced = [m for m in all_models_by_name.values()
+                if m.get("identifier") not in placed_model_ids]
+    if unplaced:
+        if subcategories:
+            subcategories.append({
+                "type": "Product Category",
+                "title": "Other Products",
+                "identifier": "PC-OTHER-PRODUCTS",
+                "models": unplaced,
+            })
+        else:
+            subcategories = [{
+                "type": "Product Category",
+                "title": "Products",
+                "identifier": "PC-PRODUCTS",
+                "models": list(all_models_by_name.values()),
+            }]
 
     source_info = canonical_doc.get("source", {})
     total_pages = source_info.get("total_pages", 1)
 
-    return {
+    catalog: Dict[str, Any] = {
         "type": "Product Category",
         "title": pdf_name,
         "identifier": f"PC-{_slugify(pdf_name)}",
-        "description": f"Extracted from {pdf_name} ({total_pages} page(s)) using {backend_used}",
-        "source": {
-            "pdf_path": source_info.get("pdf_path", pdf_path),
-            "total_pages": total_pages,
-            "backend_used": backend_used,
-        },
-        "subcategories": subcategories,
+        "description": f"Product catalog extracted from {pdf_name} ({total_pages} page(s))",
     }
+    if subcategories:
+        catalog["subcategories"] = subcategories
+
+    return catalog
 
 
 # Keep old build_final_json as alias for backward compat
@@ -337,7 +437,6 @@ def process_pdf(
     output_root: Path,
     extractor: LLMExtractor,
     preprocess_config: ImagePreprocessingConfig,
-    max_pages: Optional[int],
     skip_stage1: bool,
     ocr_engine: Any = None,
 ) -> Path:
@@ -369,7 +468,6 @@ def process_pdf(
             output_root=output_root,
             preprocess_config=preprocess_config,
             ocr_engine=ocr_engine,
-            max_pages=max_pages,
         )
         elapsed = time.monotonic() - t0
         logger.info(
@@ -427,6 +525,20 @@ def process_pdf(
         )
 
     # ------------------------------------------------------------------ #
+    # Knowledge graph visualization
+    # ------------------------------------------------------------------ #
+    try:
+        kg_viz_path = output_root / "visualizations" / stem / f"{stem}_knowledge_graph.png"
+        visualize_knowledge_graph(
+            normalized_result=normalized,
+            output_path=kg_viz_path,
+            doc_stem=stem,
+        )
+        logger.info("[%s] ✓ KG visualization → %s", stem, kg_viz_path)
+    except Exception as exc:
+        logger.warning("[%s] KG visualization failed (non-fatal): %s", stem, exc)
+
+    # ------------------------------------------------------------------ #
     # Merge → final JSON
     # ------------------------------------------------------------------ #
     final_doc = build_final_json(canonical_doc, normalized, extractor.backend_name)
@@ -467,8 +579,6 @@ def main() -> None:
                         help="Output root directory (default: outputs/ next to this script).")
 
     # Stage 1 options
-    parser.add_argument("--max-pages", type=int, default=None,
-                        help="Process only the first N pages of each PDF.")
     parser.add_argument("--dpi", type=int, default=200,
                         help="Rendering DPI for PDF pages (default: 200).")
     parser.add_argument("--deskew", action="store_true", help="Enable deskew preprocessing.")
@@ -499,7 +609,6 @@ def main() -> None:
 
     print(f"\nFound {len(pdfs)} PDF(s) to process.")
     print(f"Output root : {output_root}")
-    print(f"Max pages   : {args.max_pages or 'all'}")
     print(f"LLM backend : {args.backend or 'auto'}")
     print()
 
@@ -542,7 +651,6 @@ def main() -> None:
                 output_root=output_root,
                 extractor=extractor,
                 preprocess_config=preprocess_config,
-                max_pages=args.max_pages,
                 skip_stage1=args.skip_stage1,
                 ocr_engine=ocr_engine,
             )
