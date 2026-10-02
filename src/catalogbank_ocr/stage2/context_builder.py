@@ -1,7 +1,11 @@
 """Stage 2 — Step 1: Context Builder.
 
-Reads a canonical JSON document (schema_version 1.0) produced by Stage 1 and
-groups the content into *ContextChunks* — one chunk per heading section.
+Reads a canonical JSON document (schema_version 1.0 or 1.1) produced by Stage 1
+and groups the content into *ContextChunks* — one chunk per heading section.
+
+Works with both single-page (schema 1.0) and multi-page (schema 1.1) canonical
+documents. Each chunk's page number is read directly from the heading node in
+the hierarchy tree, which carries the correct page from Stage 1.
 
 Each chunk captures everything the LLM needs to extract entities and relations
 from one section of the catalog page:

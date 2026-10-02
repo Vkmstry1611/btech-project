@@ -140,6 +140,9 @@ class ExtractionResult:
 # models that wrap their answer in markdown fences or prose.
 _JSON_BLOCK_RE = re.compile(r"\{[\s\S]*\}", re.MULTILINE)
 
+# Strips qwen3-style <think>...</think> reasoning blocks before parsing.
+_THINK_BLOCK_RE = re.compile(r"<think>[\s\S]*?</think>", re.IGNORECASE)
+
 _VALID_PREDICATES = {
     "HAS_ATTRIBUTE",
     "IS_VARIANT_OF",
@@ -170,8 +173,11 @@ def _parse_llm_response(
         raw_response=raw,
     )
 
+    # Strip qwen3 <think>...</think> reasoning block if present
+    cleaned = _THINK_BLOCK_RE.sub("", raw).strip()
+
     # Strip markdown fences
-    cleaned = re.sub(r"```(?:json)?\s*", "", raw).strip()
+    cleaned = re.sub(r"```(?:json)?\s*", "", cleaned).strip()
     cleaned = cleaned.replace("```", "").strip()
 
     # Find JSON block
@@ -305,6 +311,7 @@ class _OllamaBackend:
             model=self.model,
             messages=[{"role": "user", "content": prompt}],
             options={"temperature": 0.0, "num_predict": 1024},
+            think=False,  # disable qwen3 thinking mode — we only want the JSON
         )
         return response.message.content or ""
 

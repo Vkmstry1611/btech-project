@@ -130,7 +130,11 @@ def visualize_hierarchy_tree(root: HierarchyNode, output_path: Path) -> Path:
     def draw_node(node: HierarchyNode) -> None:
         node_id = id(node)
         x, y = positions[node_id]
-        label = node.name
+        # Escape matplotlib math special characters in node labels
+        label = node.name.replace("$", r"\$").replace("%", r"\%").replace("_", r"\_")
+        # Truncate long labels (HTML table content etc.) to avoid rendering issues
+        if len(label) > 80:
+            label = label[:77] + "..."
         if node.semantic_type and node.semantic_type != "document":
             label = f"{label}\n[{node.semantic_type}]"
         ax.text(
@@ -150,7 +154,10 @@ def visualize_hierarchy_tree(root: HierarchyNode, output_path: Path) -> Path:
     draw_node(root)
     ax.relim()
     ax.autoscale_view()
-    fig.tight_layout()
+    try:
+        fig.tight_layout()
+    except Exception:
+        pass  # tight_layout can fail with unusual glyphs — safe to skip
     fig.savefig(output_path, dpi=100, bbox_inches="tight")
     plt.close(fig)
     logger.info("Saved hierarchy visualization to %s", output_path)

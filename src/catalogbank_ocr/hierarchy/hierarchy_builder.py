@@ -145,15 +145,53 @@ def _semantic_block_from_node(node: HierarchyNode) -> SemanticBlock:
 
 
 def build_hierarchy_document(semantic_document: SemanticDocument, source_pdf_path: Optional[Path] = None) -> HierarchyDocument:
-    """Build a document-level hierarchy from a semantic document."""
+    """Build a document-level hierarchy from a semantic document.
+
+    The heading stack is shared across all pages so that sections spanning
+    page boundaries are correctly nested under their parent heading.
+    """
 
     root = HierarchyNode(name="document", semantic_type="document")
+    # Shared context — carries heading_stack across page boundaries
+    shared_context = HierarchyBuildContext()
 
     for page in semantic_document.pages:
-        page_root = build_hierarchy_from_page(page, root_name=f"page-{page.page}")
-        # Lift page children into the document root while preserving page metadata.
-        for child in page_root.children:
-            root.children.append(child)
+        sorted_blocks = sorted(
+            page.blocks,
+            key=lambda block: (
+                block.order,
+                block.bbox[1] if block.bbox else 10**9,
+                block.bbox[0] if block.bbox else 10**9,
+            ),
+        )
+        for block in sorted_blocks:
+            node = _node_from_block(block)
+
+            if block.type == "heading":
+                level = block.heading_level or 2
+                _push_heading(shared_context, root, node, level)
+                continue
+
+            if block.type == "product_card":
+                _attach_to_current_heading(shared_context, root, node)
+                shared_context.active_container = node
+                continue
+
+            attached = False
+            if shared_context.active_container is not None:
+                if should_attach_to_container(
+                    _semantic_block_from_node(shared_context.active_container), block
+                ):
+                    shared_context.active_container.children.append(node)
+                    attached = True
+
+            if not attached:
+                _attach_to_current_heading(shared_context, root, node)
+
+            if shared_context.active_container is not None and not attached:
+                gap = vertical_gap(_semantic_block_from_node(shared_context.active_container), block)
+                if gap is not None and gap > 250:
+                    shared_context.active_container = None
 
     return HierarchyDocument(
         root=root,

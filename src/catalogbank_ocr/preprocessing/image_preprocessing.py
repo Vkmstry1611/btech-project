@@ -11,7 +11,7 @@ from typing import Dict, List, Optional
 
 from PIL import Image, ImageFilter, ImageOps
 
-from catalogbank_ocr.preprocessing.pdf_to_image import pdf_first_page_to_image
+from catalogbank_ocr.preprocessing.pdf_to_image import pdf_first_page_to_image, pdf_all_pages_to_images
 
 logger = logging.getLogger(__name__)
 
@@ -149,3 +149,64 @@ def render_and_preprocess_pdf_page(
         steps=steps,
         metadata={"dpi": float(config.dpi)},
     )
+
+
+def render_and_preprocess_all_pages(
+    pdf_path: Path,
+    rendered_dir: Path,
+    processed_dir: Path,
+    config: Optional[ImagePreprocessingConfig] = None,
+    max_pages: Optional[int] = None,
+) -> List[ImagePreprocessingResult]:
+    """Render all pages of a PDF and optionally preprocess each image.
+
+    Args:
+        pdf_path: Path to the input PDF.
+        rendered_dir: Directory for rendered (raw) page PNGs.
+        processed_dir: Directory for preprocessed page PNGs.
+        config: Preprocessing config; defaults to ImagePreprocessingConfig().
+        max_pages: If set, process only the first N pages.
+
+    Returns:
+        List of ImagePreprocessingResult, one per page, in page order.
+    """
+
+    if config is None:
+        config = ImagePreprocessingConfig()
+
+    rendered_dir.mkdir(parents=True, exist_ok=True)
+    processed_dir.mkdir(parents=True, exist_ok=True)
+
+    rendered_images = pdf_all_pages_to_images(
+        pdf_path=pdf_path,
+        output_dir=rendered_dir,
+        dpi=config.dpi,
+        max_pages=max_pages,
+    )
+
+    results: List[ImagePreprocessingResult] = []
+    for rendered_image in rendered_images:
+        processed_image_path = processed_dir / rendered_image.name
+
+        with Image.open(rendered_image) as image:
+            processed = apply_optional_preprocessing(image, config)
+            processed.save(processed_image_path)
+
+        steps = ["render_page"]
+        if config.denoise:
+            steps.append("denoise")
+        if config.enhance_resolution:
+            steps.append("enhance_resolution")
+        if config.deskew:
+            steps.append("deskew")
+        steps.append("autocontrast")
+
+        results.append(ImagePreprocessingResult(
+            source_pdf=pdf_path,
+            rendered_image=rendered_image,
+            processed_image=processed_image_path,
+            steps=steps,
+            metadata={"dpi": float(config.dpi)},
+        ))
+
+    return results

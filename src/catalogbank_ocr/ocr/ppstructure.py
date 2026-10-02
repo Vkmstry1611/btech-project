@@ -3,9 +3,16 @@
 from __future__ import annotations
 
 import logging
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
+# Force CPU-only mode — PaddlePaddle GPU builds require CUDA <=12.x.
+# CUDA 13.x (RTX 50-series) is not yet supported by any PaddlePaddle wheel.
+os.environ.setdefault("FLAGS_use_mkldnn", "0")
+os.environ.setdefault("PADDLE_DISABLE_ONEDNN", "1")
+os.environ["CUDA_VISIBLE_DEVICES"] = ""  # hide GPU from paddle entirely
 
 logger = logging.getLogger(__name__)
 
@@ -31,7 +38,7 @@ def initialize_ppstructurev3(**kwargs: Any) -> Any:
         raise RuntimeError("Unable to import paddleocr.PPStructureV3") from exc
 
     logger.info("Initializing PPStructureV3")
-    return PPStructureV3(**kwargs)
+    return PPStructureV3(device="cpu", **kwargs)
 
 
 def run_ppstructurev3(image_path: Path, output_dir: Path, engine: Any | None = None) -> PPStructureRunResult:

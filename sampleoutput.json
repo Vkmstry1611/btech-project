@@ -1,0 +1,102 @@
+{
+  "type": "Product Category",
+  "title": "IKEA Home Furnishings",
+  "identifier": "PC-IKEA-HOME",
+  "description": "Top-level product catalog for IKEA home furnishing assortment",
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "Living Room Furniture",
+      "identifier": "PC-LIVING-ROOM",
+      "description": "Furniture products for living and lounge areas",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Seating",
+          "identifier": "PC-SEATING",
+          "description": "Chairs, armchairs, and seating products",
+          "models": [
+            {
+              "type": "Model",
+              "title": "POANG Armchair",
+              "identifier": "MOD-POANG",
+              "description": "Iconic curved armchair available in multiple finishes and upholstery options",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "Ransta natural",
+                  "identifier": "SI-POANG-BIRCH-RANSTA",
+                  "articleNumber": "392.407.27",
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "Ransta natural — Germany",
+                      "identifier": "LP-POANG-BIRCH-DE",
+                      "amount": 79,
+                      "currency": "EUR",
+                      "location": "Germany"
+                    }
+                  ]
+                },
+                {
+                  "type": "Sellable Item",
+                  "title": "Knisa black",
+                  "identifier": "SI-POANG-BB-KNISA",
+                  "articleNumber": "392.407.35"
+                },
+                {
+                  "type": "Sellable Item",
+                  "title": "Finnala grey",
+                  "identifier": "SI-POANG-OAK-FINNALA",
+                  "articleNumber": "392.407.43",
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "title": "Finnala grey — Sweden",
+                      "identifier": "LP-POANG-OAK-SE",
+                      "amount": 99,
+                      "currency": "EUR",
+                      "location": "Sweden"
+                    },
+					{
+                      "type": "List Price",
+                      "title": "Finnala grey — Germany",
+                      "identifier": "LP-POANG-OAK-DE",
+                      "amount": 89,
+                      "currency": "EUR",
+                      "location": "Germany"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "BILLY Bookcase",
+          "identifier": "MOD-BILLY",
+          "description": "Versatile bookcase available in multiple sizes and finishes",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "BILLY White 80x28x202 cm",
+              "identifier": "SI-BILLY-WHITE-80",
+              "articleNumber": "002.638.50",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "title": "BILLY White 80x28x202 cm — Germany",
+                  "identifier": "LP-BILLY-WHITE-DE",
+                  "amount": 49,
+                  "currency": "EUR",
+                  "location": "Germany"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
