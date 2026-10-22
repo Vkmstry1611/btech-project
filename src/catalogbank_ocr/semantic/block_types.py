@@ -173,10 +173,16 @@ def infer_heading_level(source_type: str, text: str, raw: Optional[Dict[str, Any
     if md_level is not None:
         return md_level
 
+    numbered = re.match(r'^(\d+(?:\.\d+)*)\.?\s+[A-Za-z]', text_norm)
+    if numbered:
+        return min(6, numbered.group(1).count('.') + 1)
+
     label = normalize_label(source_type)
-    if label in {"title", "chapter"}:
+    if label == 'paragraph_title' and text_norm.casefold() in {'specifications', 'technical specifications', 'features', 'ordering information'}:
+        return 3
+    if label in {"title", "chapter", "doc_title"}:
         return 1
-    if label in {"heading", "subtitle", "section", "section_title"}:
+    if label in {"heading", "subtitle", "section", "section_title", "paragraph_title"}:
         return 2
 
     if text_norm and len(text_norm.split()) <= 6 and len(text_norm) <= 60:

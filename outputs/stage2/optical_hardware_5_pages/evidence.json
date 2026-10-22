@@ -1,0 +1,2557 @@
+[
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c001__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p1_b003",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Flat Top Surface of a PerformanceT Breadboard is Made of High-Quality Magnetic Stainless Steel",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b004",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Athermalized Design Maximizes Thermal Stability",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b005",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Steel Core and Internal Damping Provide Both Static and Dynamic Rigidity",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b006",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Magnetic Top and Bottom Plates Offer Component Mounting Versatility",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p1_b003\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Flat Top Surface of a PerformanceT Breadboard is Made of High-Quality Magnetic Stainless Steel\", \"offset\": 0}, {\"block_id\": \"p1_b004\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Athermalized Design Maximizes Thermal Stability\", \"offset\": 0}, {\"block_id\": \"p1_b005\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Steel Core and Internal Damping Provide Both Static and Dynamic Rigidity\", \"offset\": 0}, {\"block_id\": \"p1_b006\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Magnetic Top and Bottom Plates Offer Component Mounting Versatility\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 1,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b008",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Mounting Holes",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b009",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "• Imperial: 1/4\"-20 on 1\" Centers",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b010",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "• Metric: M6 x 1.0 on 25 mm Centers",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b011",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Flatness: ±0.006\" (0.15 mm) Over any 1.0 ft^2(0.3 m2) Area",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b012",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Thickness: 2.4\" (60 mm)",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b013",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Construction: Double-Skin, SingleHoneycomb Core, Athermalized Design",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b014",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Core: High-Density, Plated-Steel Honeycomb",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b015",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Damping: Proprietary Broadband Damping",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 1, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b008\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Mounting Holes\", \"offset\": 0}, {\"block_id\": \"p1_b009\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"• Imperial: 1/4\\\"-20 on 1\\\" Centers\", \"offset\": 0}, {\"block_id\": \"p1_b010\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"• Metric: M6 x 1.0 on 25 mm Centers\", \"offset\": 0}, {\"block_id\": \"p1_b011\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Flatness: ±0.006\\\" (0.15 mm) Over any 1.0 ft^2(0.3 m2) Area\", \"offset\": 0}, {\"block_id\": \"p1_b012\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Thickness: 2.4\\\" (60 mm)\", \"offset\": 0}, {\"block_id\": \"p1_b013\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Construction: Double-Skin, SingleHoneycomb Core, Athermalized Design\", \"offset\": 0}, {\"block_id\": \"p1_b014\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Core: High-Density, Plated-Steel Honeycomb\", \"offset\": 0}, {\"block_id\": \"p1_b015\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Damping: Proprietary Broadband Damping\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 2,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b016",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Top and Bottom Plates",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b017",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "• Top Plate: Magnetic Stainless Steel, 3/16\" (5 mm)Thick, Brushed Finish",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b018",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "• Bottom Plate: Magnetic Stainless Steel,3/16\"(5 mm) Thick",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b019",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Sides: Black Laminated Steel",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b020",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Edge of Top Plate to First Hole",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b021",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "• Imperial: 2\"",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b022",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Pleasecotactourlocalaleofficouottionincludinippi",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b023",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Thorlabs offers a line of breadboards for our modular, ergonomic ScienceDesks that provide a rigid, flat, thermally stable tabletop.These breadboards, when combined with our ScienceDesk Frames, make ideal workstations for multiple applications and disciplines. To complete your workstation, Thorlabs offers a line of accessories, including overhead shelves, side shelves, computer shelves, a keyboard holder, wrist rest, and a monitor mount (see pages 35 - 45 for details).",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 2, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b016\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Top and Bottom Plates\", \"offset\": 0}, {\"block_id\": \"p1_b017\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"• Top Plate: Magnetic Stainless Steel, 3/16\\\" (5 mm)Thick, Brushed Finish\", \"offset\": 0}, {\"block_id\": \"p1_b018\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"• Bottom Plate: Magnetic Stainless Steel,3/16\\\"(5 mm) Thick\", \"offset\": 0}, {\"block_id\": \"p1_b019\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Sides: Black Laminated Steel\", \"offset\": 0}, {\"block_id\": \"p1_b020\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Edge of Top Plate to First Hole\", \"offset\": 0}, {\"block_id\": \"p1_b021\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"• Imperial: 2\\\"\", \"offset\": 0}, {\"block_id\": \"p1_b022\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Pleasecotactourlocalaleofficouottionincludinippi\", \"offset\": 0}, {\"block_id\": \"p1_b023\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Thorlabs offers a line of breadboards for our modular, ergonomic ScienceDesks that provide a rigid, flat, thermally stable tabletop.These breadboards, when combined with our ScienceDesk Frames, make ideal workstations for multiple applications and disciplines. To complete your workstation, Thorlabs offers a line of accessories, including overhead shelves, side shelves, computer shelves, a keyboard holder, wrist rest, and a monitor mount (see pages 35 - 45 for details).\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 3,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b024",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "The Performance series, including the no holes version featured below, incorporates a double-skin (top and bottom), singlehoneycomb design, providing excellent stiffness and dynamic rigidity. The Performance series consists of a stainless steel top plate. The second layer adds the main steel honeycomb structure,and the stainless steel bottom plate finishes the board. The main honeycomb core is fabricated from strips of precision-formed plated steel, which are bonded together with a high-tensilestrength epoxy adhesive.",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b025",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "CHAPTERS",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b026",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Tables/Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b027",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Mechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b028",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Optomechanic \nDevices",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b029",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Kits",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b030",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Lab Supplies",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b031",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "SECTIONS",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 3, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b024\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"The Performance series, including the no holes version featured below, incorporates a double-skin (top and bottom), singlehoneycomb design, providing excellent stiffness and dynamic rigidity. The Performance series consists of a stainless steel top plate. The second layer adds the main steel honeycomb structure,and the stainless steel bottom plate finishes the board. The main honeycomb core is fabricated from strips of precision-formed plated steel, which are bonded together with a high-tensilestrength epoxy adhesive.\", \"offset\": 0}, {\"block_id\": \"p1_b025\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"CHAPTERS\", \"offset\": 0}, {\"block_id\": \"p1_b026\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Tables/Breadboards\", \"offset\": 0}, {\"block_id\": \"p1_b027\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Mechanics\", \"offset\": 0}, {\"block_id\": \"p1_b028\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Optomechanic \\nDevices\", \"offset\": 0}, {\"block_id\": \"p1_b029\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Kits\", \"offset\": 0}, {\"block_id\": \"p1_b030\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Lab Supplies\", \"offset\": 0}, {\"block_id\": \"p1_b031\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"SECTIONS\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 4,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b032",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b033",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Breadboard Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b034",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Breadboard Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b035",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "ScienceDesk",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b036",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "ScienceDesk Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b037",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Optical Tables",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b039",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Table Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b040",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "•Metric: 50 mm",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 4, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b032\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Breadboards\", \"offset\": 0}, {\"block_id\": \"p1_b033\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Breadboard Supports\", \"offset\": 0}, {\"block_id\": \"p1_b034\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Breadboard Accessories\", \"offset\": 0}, {\"block_id\": \"p1_b035\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk\", \"offset\": 0}, {\"block_id\": \"p1_b036\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk Accessories\", \"offset\": 0}, {\"block_id\": \"p1_b037\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Optical Tables\", \"offset\": 0}, {\"block_id\": \"p1_b039\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Table Supports\", \"offset\": 0}, {\"block_id\": \"p1_b040\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"•Metric: 50 mm\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 5,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b043",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "*Pleasecoctoulocalaleofficuotoinluipi",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b046",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "Optical Table Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b042",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH11106",
+            "$": "$ 923.80",
+            "子": "子 665.14",
+            "€": "€ 803,71",
+            "RMB": "￥ 7,362.69",
+            "DIMENSIONS": "3'x 2'× 2.4\"",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 6090"
+          }
+        },
+        {
+          "block_id": "p1_b042",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH11111",
+            "$": "$ 1,090.80",
+            "子": "子 785.38",
+            "€": "€ 949,00",
+            "RMB": "￥ 8,693.68",
+            "DIMENSIONS": "3'x 2.5'x 2.4\"",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 7590"
+          }
+        },
+        {
+          "block_id": "p1_b042",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH11112",
+            "$": "$ 1,366.30",
+            "子": "子 983.74",
+            "€": "€ 1.188,68",
+            "RMB": "￥ 10,889.41",
+            "DIMENSIONS": "4'x 2.5' x 2.4\"",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 75120"
+          }
+        },
+        {
+          "block_id": "p1_b042",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH11115",
+            "$": "$ 1,589.10",
+            "子": "1,144.15",
+            "€": "€ 1.382,52",
+            "RMB": "￥12,665.13",
+            "DIMENSIONS": "4'x 3'x 2.4\"",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 90120"
+          }
+        },
+        {
+          "block_id": "p1_b045",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH51506",
+            "$": "$ 904.50",
+            "子": "子 651.24",
+            "€": "€ 786,92",
+            "RMB": "￥ 7,208.87",
+            "DIMENSIONS": "900 mm x 600 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 6090"
+          }
+        },
+        {
+          "block_id": "p1_b045",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH51511",
+            "$": "$ 1,043.30",
+            "子": "子 751.18",
+            "€": "€ 907,67",
+            "RMB": "￥ 8,315.10",
+            "DIMENSIONS": "900 mm x 750 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 7590"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 5, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b043\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"*Pleasecoctoulocalaleofficuotoinluipi\", \"offset\": 0}, {\"block_id\": \"p1_b046\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"Optical Table Accessories\", \"offset\": 0}, {\"block_id\": \"p1_b042\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH11106\", \"$\": \"$ 923.80\", \"子\": \"子 665.14\", \"€\": \"€ 803,71\", \"RMB\": \"￥ 7,362.69\", \"DIMENSIONS\": \"3'x 2'× 2.4\\\"\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 6090\"}}, {\"block_id\": \"p1_b042\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH11111\", \"$\": \"$ 1,090.80\", \"子\": \"子 785.38\", \"€\": \"€ 949,00\", \"RMB\": \"￥ 8,693.68\", \"DIMENSIONS\": \"3'x 2.5'x 2.4\\\"\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 7590\"}}, {\"block_id\": \"p1_b042\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH11112\", \"$\": \"$ 1,366.30\", \"子\": \"子 983.74\", \"€\": \"€ 1.188,68\", \"RMB\": \"￥ 10,889.41\", \"DIMENSIONS\": \"4'x 2.5' x 2.4\\\"\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 75120\"}}, {\"block_id\": \"p1_b042\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH11115\", \"$\": \"$ 1,589.10\", \"子\": \"1,144.15\", \"€\": \"€ 1.382,52\", \"RMB\": \"￥12,665.13\", \"DIMENSIONS\": \"4'x 3'x 2.4\\\"\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 90120\"}}, {\"block_id\": \"p1_b045\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH51506\", \"$\": \"$ 904.50\", \"子\": \"子 651.24\", \"€\": \"€ 786,92\", \"RMB\": \"￥ 7,208.87\", \"DIMENSIONS\": \"900 mm x 600 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 6090\"}}, {\"block_id\": \"p1_b045\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH51511\", \"$\": \"$ 1,043.30\", \"子\": \"子 751.18\", \"€\": \"€ 907,67\", \"RMB\": \"￥ 8,315.10\", \"DIMENSIONS\": \"900 mm x 750 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 7590\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part6",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series",
+        "Specifications"
+      ],
+      "continuation": 6,
+      "parts": 6,
+      "evidence": [
+        {
+          "block_id": "p1_b045",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH51512",
+            "$": "$ 1,335.00",
+            "子": "子 961.20",
+            "€": "€ 1.161,45",
+            "RMB": "￥10,639.95",
+            "DIMENSIONS": "1200 mm x 750 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 75120"
+          }
+        },
+        {
+          "block_id": "p1_b045",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES"
+          ],
+          "row": {
+            "ITEM #*": "PBH51515",
+            "$": "$ 1,550.60",
+            "子": "1,116.43",
+            "€": "€ 1.349,02",
+            "RMB": "￥12,358.28",
+            "DIMENSIONS": "1200 mm x 900 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 90120"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series\", \"Specifications\"], \"continuation\": 6, \"parts\": 6, \"evidence\": [{\"block_id\": \"p1_b045\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH51512\", \"$\": \"$ 1,335.00\", \"子\": \"子 961.20\", \"€\": \"€ 1.161,45\", \"RMB\": \"￥10,639.95\", \"DIMENSIONS\": \"1200 mm x 750 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 75120\"}}, {\"block_id\": \"p1_b045\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\"], \"row\": {\"ITEM #*\": \"PBH51515\", \"$\": \"$ 1,550.60\", \"子\": \"1,116.43\", \"€\": \"€ 1.349,02\", \"RMB\": \"￥12,358.28\", \"DIMENSIONS\": \"1200 mm x 900 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 90120\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series with No Holes"
+      ],
+      "continuation": 1,
+      "parts": 3,
+      "evidence": [
+        {
+          "block_id": "p1_b048",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "These 2.4\" (60 mm) thick optical breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b050",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "utilize the same construction techniques as our",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b051",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "standard Performance Series range described above but without drilled or tapped holes in the top plate.They provide high stiffness and standard damping, making them an ideal solution for microscopy applications.",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b054",
+          "page": 1,
+          "kind": "paragraphs",
+          "text": "*Pleasecontactyour localalesofficeforauotaionincluingshipping",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b003",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Tables/\nBreadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b004",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Mechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b005",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Optomechanic Devices",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b006",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Kits",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series with No Holes\"], \"continuation\": 1, \"parts\": 3, \"evidence\": [{\"block_id\": \"p1_b048\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"These 2.4\\\" (60 mm) thick optical breadboards\", \"offset\": 0}, {\"block_id\": \"p1_b050\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"utilize the same construction techniques as our\", \"offset\": 0}, {\"block_id\": \"p1_b051\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"standard Performance Series range described above but without drilled or tapped holes in the top plate.They provide high stiffness and standard damping, making them an ideal solution for microscopy applications.\", \"offset\": 0}, {\"block_id\": \"p1_b054\", \"page\": 1, \"kind\": \"paragraphs\", \"text\": \"*Pleasecontactyour localalesofficeforauotaionincluingshipping\", \"offset\": 0}, {\"block_id\": \"p2_b003\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Tables/\\nBreadboards\", \"offset\": 0}, {\"block_id\": \"p2_b004\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Mechanics\", \"offset\": 0}, {\"block_id\": \"p2_b005\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Optomechanic Devices\", \"offset\": 0}, {\"block_id\": \"p2_b006\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Kits\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series with No Holes"
+      ],
+      "continuation": 2,
+      "parts": 3,
+      "evidence": [
+        {
+          "block_id": "p2_b007",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Lab Supplies",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b009",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b010",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Breadboard Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b011",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Breadboard Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b012",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "ScienceDesk",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b013",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "ScienceDesk Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b014",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Optical Tables",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b015",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Table Supports",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series with No Holes\"], \"continuation\": 2, \"parts\": 3, \"evidence\": [{\"block_id\": \"p2_b007\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Lab Supplies\", \"offset\": 0}, {\"block_id\": \"p2_b009\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Breadboards\", \"offset\": 0}, {\"block_id\": \"p2_b010\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Breadboard Supports\", \"offset\": 0}, {\"block_id\": \"p2_b011\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Breadboard Accessories\", \"offset\": 0}, {\"block_id\": \"p2_b012\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk\", \"offset\": 0}, {\"block_id\": \"p2_b013\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk Accessories\", \"offset\": 0}, {\"block_id\": \"p2_b014\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Optical Tables\", \"offset\": 0}, {\"block_id\": \"p2_b015\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Table Supports\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: Performance Series with No Holes"
+      ],
+      "continuation": 3,
+      "parts": 3,
+      "evidence": [
+        {
+          "block_id": "p2_b016",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Optical Table Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p1_b053",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "METRIC ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "SIZE",
+            "col_7",
+            "col_8"
+          ],
+          "row": {
+            "ITEM #*": "PBH11106/NH",
+            "METRIC ITEM #": "N/A",
+            "$": "$ 689.00",
+            "子": "3 496.08",
+            "€": "€ 599,43",
+            "RMB": "￥ 5,491.33",
+            "SIZE": "3'x 2' x 2.4\"",
+            "col_7": "",
+            "col_8": ""
+          }
+        },
+        {
+          "block_id": "p1_b053",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "METRIC ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "SIZE",
+            "col_7",
+            "col_8"
+          ],
+          "row": {
+            "ITEM #*": "PBH11111/NH",
+            "METRIC ITEM #": "PBH51511/NH",
+            "$": "$ 869.00",
+            "子": "£ 625.68",
+            "€": "€ 756,03",
+            "RMB": "￥ 6,925.93",
+            "SIZE": "3'x 2.5'x 2.4\" (900 mm x 750 mm x 60 mm)",
+            "col_7": "",
+            "col_8": ""
+          }
+        },
+        {
+          "block_id": "p1_b053",
+          "page": 1,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "METRIC ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "SIZE",
+            "col_7",
+            "col_8"
+          ],
+          "row": {
+            "ITEM #*": "PBH11112/NH",
+            "METRIC ITEM #": "PBH51512/NH",
+            "$": "$ 985.00",
+            "子": "£ 709.20",
+            "€": "€ 856,95",
+            "RMB": "￥ 7,850.45",
+            "SIZE": "4' × 2.5'× 2.4\" (1200 mm x 750 mm x 60 mm)",
+            "col_7": "PBH11115/NH",
+            "col_8": "PBH51515/NH"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: Performance Series with No Holes\"], \"continuation\": 3, \"parts\": 3, \"evidence\": [{\"block_id\": \"p2_b016\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Optical Table Accessories\", \"offset\": 0}, {\"block_id\": \"p1_b053\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"METRIC ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"SIZE\", \"col_7\", \"col_8\"], \"row\": {\"ITEM #*\": \"PBH11106/NH\", \"METRIC ITEM #\": \"N/A\", \"$\": \"$ 689.00\", \"子\": \"3 496.08\", \"€\": \"€ 599,43\", \"RMB\": \"￥ 5,491.33\", \"SIZE\": \"3'x 2' x 2.4\\\"\", \"col_7\": \"\", \"col_8\": \"\"}}, {\"block_id\": \"p1_b053\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"METRIC ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"SIZE\", \"col_7\", \"col_8\"], \"row\": {\"ITEM #*\": \"PBH11111/NH\", \"METRIC ITEM #\": \"PBH51511/NH\", \"$\": \"$ 869.00\", \"子\": \"£ 625.68\", \"€\": \"€ 756,03\", \"RMB\": \"￥ 6,925.93\", \"SIZE\": \"3'x 2.5'x 2.4\\\" (900 mm x 750 mm x 60 mm)\", \"col_7\": \"\", \"col_8\": \"\"}}, {\"block_id\": \"p1_b053\", \"page\": 1, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"METRIC ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"SIZE\", \"col_7\", \"col_8\"], \"row\": {\"ITEM #*\": \"PBH11112/NH\", \"METRIC ITEM #\": \"PBH51512/NH\", \"$\": \"$ 985.00\", \"子\": \"£ 709.20\", \"€\": \"€ 856,95\", \"RMB\": \"￥ 7,850.45\", \"SIZE\": \"4' × 2.5'× 2.4\\\" (1200 mm x 750 mm x 60 mm)\", \"col_7\": \"PBH11115/NH\", \"col_8\": \"PBH51515/NH\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c005__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: PerformancePlus Series",
+        "PerformancePlus Series"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p2_b020",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Thorlabs offers a line of breadboards for our modular, ergonomic ScienceDesks that provide a rigid,lat,thermally stable taletop.These breadboards, when combined with our ScienceDesk Frames,make an ideal workstation for multiple applications and disciplines.To complete your workstation, Thorlabs offers a line of accessories,including overhead shelves, side shelves, computer shelves, a keyboard holder, wrist rest, and a monitor mount (see pages 35 - 45).",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b021",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "The PerformancePlus breadboards incorporate a triple-skin (top,bottom, and middle), double-honeycomb design, providing superior stiffness and excellent dynamic rigidity. The top layer consists of a stainless steel top plate and a secondary steel plate, separated by a unique plated-steel honeycomb-like structure. The second layer adds the main steel honeycomb structure and the stainless steel bottom plate finishes the board.",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b022",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "The main honeycomb core is fabricated from strips of precision-formed plated steel, which are bonded together \nwith a high-tensile-strength epoxy adhesive. The thinner, honeycomb-like top structure is made from figure \n8-shaped steel cups, which enhance theoverall stifnessof thebreadboard and provideimproved support of theop \nplate. This,combined with the athermalized design and excellent surface flatness, makes the PerformancePlus \nseries the best choice for your ScienceDesk.",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: PerformancePlus Series\", \"PerformancePlus Series\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p2_b020\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Thorlabs offers a line of breadboards for our modular, ergonomic ScienceDesks that provide a rigid,lat,thermally stable taletop.These breadboards, when combined with our ScienceDesk Frames,make an ideal workstation for multiple applications and disciplines.To complete your workstation, Thorlabs offers a line of accessories,including overhead shelves, side shelves, computer shelves, a keyboard holder, wrist rest, and a monitor mount (see pages 35 - 45).\", \"offset\": 0}, {\"block_id\": \"p2_b021\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"The PerformancePlus breadboards incorporate a triple-skin (top,bottom, and middle), double-honeycomb design, providing superior stiffness and excellent dynamic rigidity. The top layer consists of a stainless steel top plate and a secondary steel plate, separated by a unique plated-steel honeycomb-like structure. The second layer adds the main steel honeycomb structure and the stainless steel bottom plate finishes the board.\", \"offset\": 0}, {\"block_id\": \"p2_b022\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"The main honeycomb core is fabricated from strips of precision-formed plated steel, which are bonded together \\nwith a high-tensile-strength epoxy adhesive. The thinner, honeycomb-like top structure is made from figure \\n8-shaped steel cups, which enhance theoverall stifnessof thebreadboard and provideimproved support of theop \\nplate. This,combined with the athermalized design and excellent surface flatness, makes the PerformancePlus \\nseries the best choice for your ScienceDesk.\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: PerformancePlus Series",
+        "PerformancePlus Series",
+        "Specifications"
+      ],
+      "continuation": 1,
+      "parts": 4,
+      "evidence": [
+        {
+          "block_id": "p2_b025",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Mounting Holes",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b026",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Imperial: 1/4\"-20 on 1\" Centers",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b027",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Metric: M6 on 25 mm Centers",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b028",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Flatness: ±0.006\" (0.15 mm) Over any 1.0 ft2 (0.3 m2) Area Thickness: 2.4\" (60 mm) or 4.3\" (110 mm)",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b029",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b030",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Damping: Enhanced Proprietary Damping",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b031",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Main Core: High-Density, Plated-Steel Honeycomb",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b032",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Intermediate Core: Plated-Steel Sealing Cup Honeycomb Structure,0.51\" (13 mm) Thick",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: PerformancePlus Series\", \"PerformancePlus Series\", \"Specifications\"], \"continuation\": 1, \"parts\": 4, \"evidence\": [{\"block_id\": \"p2_b025\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Mounting Holes\", \"offset\": 0}, {\"block_id\": \"p2_b026\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Imperial: 1/4\\\"-20 on 1\\\" Centers\", \"offset\": 0}, {\"block_id\": \"p2_b027\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Metric: M6 on 25 mm Centers\", \"offset\": 0}, {\"block_id\": \"p2_b028\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Flatness: ±0.006\\\" (0.15 mm) Over any 1.0 ft2 (0.3 m2) Area Thickness: 2.4\\\" (60 mm) or 4.3\\\" (110 mm)\", \"offset\": 0}, {\"block_id\": \"p2_b029\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"\", \"offset\": 0}, {\"block_id\": \"p2_b030\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Damping: Enhanced Proprietary Damping\", \"offset\": 0}, {\"block_id\": \"p2_b031\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Main Core: High-Density, Plated-Steel Honeycomb\", \"offset\": 0}, {\"block_id\": \"p2_b032\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Intermediate Core: Plated-Steel Sealing Cup Honeycomb Structure,0.51\\\" (13 mm) Thick\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: PerformancePlus Series",
+        "PerformancePlus Series",
+        "Specifications"
+      ],
+      "continuation": 2,
+      "parts": 4,
+      "evidence": [
+        {
+          "block_id": "p2_b033",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Edge of Top Plate to First Hole",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b034",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Imperial: 2\"",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b035",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Metric: 50 mm",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b036",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Maximum Screw Depth: 5/8\" (16 mm) from Breadboard Surface",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b037",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Top and Bottom Plate",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b038",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Top Plate: Magnetic Stainless Steel, 3/16\" (5 mm) Thick,Brushed Finish",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b039",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "• Bottom Plate: Magnetic Stainless Steel, 3/16\"(5 mm) Thick Sides: Black Laminated Steel",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b040",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Triple-Skin, Double-Core StableTopTM Construction Significantly Increases Rigidity",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: PerformancePlus Series\", \"PerformancePlus Series\", \"Specifications\"], \"continuation\": 2, \"parts\": 4, \"evidence\": [{\"block_id\": \"p2_b033\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Edge of Top Plate to First Hole\", \"offset\": 0}, {\"block_id\": \"p2_b034\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Imperial: 2\\\"\", \"offset\": 0}, {\"block_id\": \"p2_b035\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Metric: 50 mm\", \"offset\": 0}, {\"block_id\": \"p2_b036\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Maximum Screw Depth: 5/8\\\" (16 mm) from Breadboard Surface\", \"offset\": 0}, {\"block_id\": \"p2_b037\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Top and Bottom Plate\", \"offset\": 0}, {\"block_id\": \"p2_b038\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Top Plate: Magnetic Stainless Steel, 3/16\\\" (5 mm) Thick,Brushed Finish\", \"offset\": 0}, {\"block_id\": \"p2_b039\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"• Bottom Plate: Magnetic Stainless Steel, 3/16\\\"(5 mm) Thick Sides: Black Laminated Steel\", \"offset\": 0}, {\"block_id\": \"p2_b040\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Triple-Skin, Double-Core StableTopTM Construction Significantly Increases Rigidity\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: PerformancePlus Series",
+        "PerformancePlus Series",
+        "Specifications"
+      ],
+      "continuation": 3,
+      "parts": 4,
+      "evidence": [
+        {
+          "block_id": "p2_b041",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Enhanced Damping Improves Dynamic \nPerformance for the Most Critical Laboratory \nApplications",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b042",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Sealed Mounting Holes Make it Simple to Contain and Clean up Spills or Retrieve Lost Optics or Screws",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b043",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Athermalized Design for Excellent Thermal Stability",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b046",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "Please contactyour local salesofficefor a quotationincluding shipping.",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b049",
+          "page": 2,
+          "kind": "paragraphs",
+          "text": "*Please contactyourlocal salesofficefor a quotationincluding shipping",
+          "offset": 0
+        },
+        {
+          "block_id": "p2_b045",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLEFRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "NEW",
+            "$": "PBI11106",
+            "子": "$ 1,138.00",
+            "€": "子 819.36",
+            "RMB": "€ 990,06",
+            "DIMENSIONS": "￥ 9,069.86",
+            "COMPATIBLEFRAMES": "3' x 2' × 2.4\"",
+            "col_7": "Item #'s Ending in 6090"
+          }
+        },
+        {
+          "block_id": "p2_b045",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLEFRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI11111",
+            "$": "$ 1,276.40",
+            "子": "子 919.01",
+            "€": "€ 1.110,47",
+            "RMB": "￥ 10,172.91",
+            "DIMENSIONS": "3'x 2.5'x 2.4\"",
+            "COMPATIBLEFRAMES": "Item #'s Ending in 7590",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b045",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLEFRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI11112",
+            "$": "$ 1,598.20",
+            "子": "1,150.70",
+            "€": "€ 1.390,43",
+            "RMB": "￥ 12,737.65",
+            "DIMENSIONS": "4'x 2.5'x 2.4\"",
+            "COMPATIBLEFRAMES": "Item #'s Ending in 75120",
+            "col_7": ""
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: PerformancePlus Series\", \"PerformancePlus Series\", \"Specifications\"], \"continuation\": 3, \"parts\": 4, \"evidence\": [{\"block_id\": \"p2_b041\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Enhanced Damping Improves Dynamic \\nPerformance for the Most Critical Laboratory \\nApplications\", \"offset\": 0}, {\"block_id\": \"p2_b042\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Sealed Mounting Holes Make it Simple to Contain and Clean up Spills or Retrieve Lost Optics or Screws\", \"offset\": 0}, {\"block_id\": \"p2_b043\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Athermalized Design for Excellent Thermal Stability\", \"offset\": 0}, {\"block_id\": \"p2_b046\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"Please contactyour local salesofficefor a quotationincluding shipping.\", \"offset\": 0}, {\"block_id\": \"p2_b049\", \"page\": 2, \"kind\": \"paragraphs\", \"text\": \"*Please contactyourlocal salesofficefor a quotationincluding shipping\", \"offset\": 0}, {\"block_id\": \"p2_b045\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLEFRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"NEW\", \"$\": \"PBI11106\", \"子\": \"$ 1,138.00\", \"€\": \"子 819.36\", \"RMB\": \"€ 990,06\", \"DIMENSIONS\": \"￥ 9,069.86\", \"COMPATIBLEFRAMES\": \"3' x 2' × 2.4\\\"\", \"col_7\": \"Item #'s Ending in 6090\"}}, {\"block_id\": \"p2_b045\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLEFRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI11111\", \"$\": \"$ 1,276.40\", \"子\": \"子 919.01\", \"€\": \"€ 1.110,47\", \"RMB\": \"￥ 10,172.91\", \"DIMENSIONS\": \"3'x 2.5'x 2.4\\\"\", \"COMPATIBLEFRAMES\": \"Item #'s Ending in 7590\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b045\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLEFRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI11112\", \"$\": \"$ 1,598.20\", \"子\": \"1,150.70\", \"€\": \"€ 1.390,43\", \"RMB\": \"￥ 12,737.65\", \"DIMENSIONS\": \"4'x 2.5'x 2.4\\\"\", \"COMPATIBLEFRAMES\": \"Item #'s Ending in 75120\", \"col_7\": \"\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Breadboards: PerformancePlus Series",
+        "PerformancePlus Series",
+        "Specifications"
+      ],
+      "continuation": 4,
+      "parts": 4,
+      "evidence": [
+        {
+          "block_id": "p2_b045",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLEFRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI11115",
+            "$": "$ 1,820.90",
+            "子": "£1,311.05",
+            "€": "€ 1.584,18",
+            "RMB": "￥14,512.57",
+            "DIMENSIONS": "4'x 3'x 2.4\"",
+            "COMPATIBLEFRAMES": "Item #'s Ending in 90120",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b045",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLEFRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "NEW",
+            "$": "PBI12129",
+            "子": "$ 4,148.00",
+            "€": "£2,986.56",
+            "RMB": "€ 3.608,76",
+            "DIMENSIONS": "￥33,059.56",
+            "COMPATIBLEFRAMES": "6'x 5'x 4.3\"",
+            "col_7": "Item # SDA150180"
+          }
+        },
+        {
+          "block_id": "p2_b048",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI51506",
+            "$": "$ 1,136.30",
+            "子": "£ 818.14",
+            "€": "€ 988,58",
+            "RMB": "￥ 9,056.31",
+            "DIMENSIONS": "900 mm x 600 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 6090",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b048",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI51511",
+            "$": "$ 1,298.50",
+            "子": "子 934.92",
+            "€": "€ 1.129,70",
+            "RMB": "￥ 10,349.05",
+            "DIMENSIONS": "900 mmx 750 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 7590",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b048",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI51512",
+            "$": "$ 1,566.80",
+            "子": "子 1,128.10",
+            "€": "€ 1.363,12",
+            "RMB": "￥ 12,487.40",
+            "DIMENSIONS": "1200 mm x 750 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 75120",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b048",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI51515",
+            "$": "$ 1,782.40",
+            "子": "子 1,283.33",
+            "€": "€ 1.550,69",
+            "RMB": "￥ 14,205.73",
+            "DIMENSIONS": "1200 mm x 900 mm x 60 mm",
+            "COMPATIBLE FRAMES": "Item #'s Ending in 90120",
+            "col_7": ""
+          }
+        },
+        {
+          "block_id": "p2_b048",
+          "page": 2,
+          "kind": "tables",
+          "headers": [
+            "ITEM #*",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DIMENSIONS",
+            "COMPATIBLE FRAMES",
+            "col_7"
+          ],
+          "row": {
+            "ITEM #*": "PBI52529",
+            "$": "$ 4,099.00",
+            "子": "子 2,951.28",
+            "€": "€ 3.566,13",
+            "RMB": "￥ 32,669.03",
+            "DIMENSIONS": "1800 mm x 1500 mm x 110 mm",
+            "COMPATIBLE FRAMES": "Item # SDA150180",
+            "col_7": ""
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Breadboards: PerformancePlus Series\", \"PerformancePlus Series\", \"Specifications\"], \"continuation\": 4, \"parts\": 4, \"evidence\": [{\"block_id\": \"p2_b045\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLEFRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI11115\", \"$\": \"$ 1,820.90\", \"子\": \"£1,311.05\", \"€\": \"€ 1.584,18\", \"RMB\": \"￥14,512.57\", \"DIMENSIONS\": \"4'x 3'x 2.4\\\"\", \"COMPATIBLEFRAMES\": \"Item #'s Ending in 90120\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b045\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLEFRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"NEW\", \"$\": \"PBI12129\", \"子\": \"$ 4,148.00\", \"€\": \"£2,986.56\", \"RMB\": \"€ 3.608,76\", \"DIMENSIONS\": \"￥33,059.56\", \"COMPATIBLEFRAMES\": \"6'x 5'x 4.3\\\"\", \"col_7\": \"Item # SDA150180\"}}, {\"block_id\": \"p2_b048\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI51506\", \"$\": \"$ 1,136.30\", \"子\": \"£ 818.14\", \"€\": \"€ 988,58\", \"RMB\": \"￥ 9,056.31\", \"DIMENSIONS\": \"900 mm x 600 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 6090\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b048\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI51511\", \"$\": \"$ 1,298.50\", \"子\": \"子 934.92\", \"€\": \"€ 1.129,70\", \"RMB\": \"￥ 10,349.05\", \"DIMENSIONS\": \"900 mmx 750 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 7590\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b048\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI51512\", \"$\": \"$ 1,566.80\", \"子\": \"子 1,128.10\", \"€\": \"€ 1.363,12\", \"RMB\": \"￥ 12,487.40\", \"DIMENSIONS\": \"1200 mm x 750 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 75120\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b048\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI51515\", \"$\": \"$ 1,782.40\", \"子\": \"子 1,283.33\", \"€\": \"€ 1.550,69\", \"RMB\": \"￥ 14,205.73\", \"DIMENSIONS\": \"1200 mm x 900 mm x 60 mm\", \"COMPATIBLE FRAMES\": \"Item #'s Ending in 90120\", \"col_7\": \"\"}}, {\"block_id\": \"p2_b048\", \"page\": 2, \"kind\": \"tables\", \"headers\": [\"ITEM #*\", \"$\", \"子\", \"€\", \"RMB\", \"DIMENSIONS\", \"COMPATIBLE FRAMES\", \"col_7\"], \"row\": {\"ITEM #*\": \"PBI52529\", \"$\": \"$ 4,099.00\", \"子\": \"子 2,951.28\", \"€\": \"€ 3.566,13\", \"RMB\": \"￥ 32,669.03\", \"DIMENSIONS\": \"1800 mm x 1500 mm x 110 mm\", \"COMPATIBLE FRAMES\": \"Item # SDA150180\", \"col_7\": \"\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c007__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p3_b003",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Thorlabs'ScienceDesk accessories provide an array of custom configurations to meet almost all work space requirements.Six different shelving options are available, including overhead shelves, side shelves, and lower shelves to support test instrumentation, computers, and tools. A monitor mount allows standard flat panel monitors to be supported off the work surface. A keyboard mount and a wrist rest are also available.",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b004",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Our ScienceDesk accessories are available for all models of the ScienceDesk frames. Accessories can be mounted in a multitude of locations to maximize your comfort and productivity, thus allowing the work space to be reconfigured as requirements change",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p3_b003\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Thorlabs'ScienceDesk accessories provide an array of custom configurations to meet almost all work space requirements.Six different shelving options are available, including overhead shelves, side shelves, and lower shelves to support test instrumentation, computers, and tools. A monitor mount allows standard flat panel monitors to be supported off the work surface. A keyboard mount and a wrist rest are also available.\", \"offset\": 0}, {\"block_id\": \"p3_b004\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Our ScienceDesk accessories are available for all models of the ScienceDesk frames. Accessories can be mounted in a multitude of locations to maximize your comfort and productivity, thus allowing the work space to be reconfigured as requirements change\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories",
+        "Under Shelves"
+      ],
+      "continuation": 1,
+      "parts": 5,
+      "evidence": [
+        {
+          "block_id": "p3_b006",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Strong, Melamine-Faced MDF Construction",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b010",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "250 mm Shelf Depth",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b011",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Max Load Capacity of 110 lbs (50 kg)",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b012",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "The under shelf spans the rear of the ScienceDesk, providing a 9.9\" (250 mm) shelf depth.This shelf can mount to any of the lower rails of the frame. The width of the shelf corresponds to the width of the table it is to be ued for.",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b016",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "CHAPTERS",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b017",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Tables/Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b018",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Mechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b019",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Optomechanic \nDevices",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\", \"Under Shelves\"], \"continuation\": 1, \"parts\": 5, \"evidence\": [{\"block_id\": \"p3_b006\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Strong, Melamine-Faced MDF Construction\", \"offset\": 0}, {\"block_id\": \"p3_b010\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"250 mm Shelf Depth\", \"offset\": 0}, {\"block_id\": \"p3_b011\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Max Load Capacity of 110 lbs (50 kg)\", \"offset\": 0}, {\"block_id\": \"p3_b012\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"The under shelf spans the rear of the ScienceDesk, providing a 9.9\\\" (250 mm) shelf depth.This shelf can mount to any of the lower rails of the frame. The width of the shelf corresponds to the width of the table it is to be ued for.\", \"offset\": 0}, {\"block_id\": \"p3_b016\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"CHAPTERS\", \"offset\": 0}, {\"block_id\": \"p3_b017\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Tables/Breadboards\", \"offset\": 0}, {\"block_id\": \"p3_b018\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Mechanics\", \"offset\": 0}, {\"block_id\": \"p3_b019\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Optomechanic \\nDevices\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories",
+        "Under Shelves"
+      ],
+      "continuation": 2,
+      "parts": 5,
+      "evidence": [
+        {
+          "block_id": "p3_b020",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Kits",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b021",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Lab Supplies",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b022",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "SECTIONS",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b023",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b024",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Breadboard Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b025",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Breadboard Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b026",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "ScienceDesk",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b027",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "ScienceDesk Accessories",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\", \"Under Shelves\"], \"continuation\": 2, \"parts\": 5, \"evidence\": [{\"block_id\": \"p3_b020\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Kits\", \"offset\": 0}, {\"block_id\": \"p3_b021\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Lab Supplies\", \"offset\": 0}, {\"block_id\": \"p3_b022\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"SECTIONS\", \"offset\": 0}, {\"block_id\": \"p3_b023\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Breadboards\", \"offset\": 0}, {\"block_id\": \"p3_b024\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Breadboard Supports\", \"offset\": 0}, {\"block_id\": \"p3_b025\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Breadboard Accessories\", \"offset\": 0}, {\"block_id\": \"p3_b026\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk\", \"offset\": 0}, {\"block_id\": \"p3_b027\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk Accessories\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories",
+        "Under Shelves"
+      ],
+      "continuation": 3,
+      "parts": 5,
+      "evidence": [
+        {
+          "block_id": "p3_b028",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Optical Tables",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b029",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Table Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b030",
+          "page": 3,
+          "kind": "paragraphs",
+          "text": "Optical Table Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b001",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Optomechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b002",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "CHAPTERS",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b003",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Tables/\nBreadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b004",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Mechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b005",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Optomechanic Devices",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\", \"Under Shelves\"], \"continuation\": 3, \"parts\": 5, \"evidence\": [{\"block_id\": \"p3_b028\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Optical Tables\", \"offset\": 0}, {\"block_id\": \"p3_b029\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Table Supports\", \"offset\": 0}, {\"block_id\": \"p3_b030\", \"page\": 3, \"kind\": \"paragraphs\", \"text\": \"Optical Table Accessories\", \"offset\": 0}, {\"block_id\": \"p4_b001\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Optomechanics\", \"offset\": 0}, {\"block_id\": \"p4_b002\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"CHAPTERS\", \"offset\": 0}, {\"block_id\": \"p4_b003\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Tables/\\nBreadboards\", \"offset\": 0}, {\"block_id\": \"p4_b004\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Mechanics\", \"offset\": 0}, {\"block_id\": \"p4_b005\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Optomechanic Devices\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories",
+        "Under Shelves"
+      ],
+      "continuation": 4,
+      "parts": 5,
+      "evidence": [
+        {
+          "block_id": "p4_b006",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Kits",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b007",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Lab Supplies",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b009",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b010",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Breadboard Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b011",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Breadboard Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b012",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "ScienceDesk",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b013",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "ScienceDesk Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b014",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Optical Tables",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\", \"Under Shelves\"], \"continuation\": 4, \"parts\": 5, \"evidence\": [{\"block_id\": \"p4_b006\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Kits\", \"offset\": 0}, {\"block_id\": \"p4_b007\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Lab Supplies\", \"offset\": 0}, {\"block_id\": \"p4_b009\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Breadboards\", \"offset\": 0}, {\"block_id\": \"p4_b010\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Breadboard Supports\", \"offset\": 0}, {\"block_id\": \"p4_b011\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Breadboard Accessories\", \"offset\": 0}, {\"block_id\": \"p4_b012\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk\", \"offset\": 0}, {\"block_id\": \"p4_b013\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk Accessories\", \"offset\": 0}, {\"block_id\": \"p4_b014\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Optical Tables\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part5",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Accessories",
+        "Under Shelves"
+      ],
+      "continuation": 5,
+      "parts": 5,
+      "evidence": [
+        {
+          "block_id": "p4_b015",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Table Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b016",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Optical Table Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p3_b009",
+          "page": 3,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSION"
+          ],
+          "row": {
+            "ITEM #": "PSY300",
+            "$": "$ 80.00",
+            "子": "子 57.60",
+            "€": "€ 69,60",
+            "RMB": "￥ 637.60",
+            "FRAME LENGTH": "2.5' (750 mm)",
+            "SHELF DIMENSION": "750 mm x 250 mm"
+          }
+        },
+        {
+          "block_id": "p3_b009",
+          "page": 3,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSION"
+          ],
+          "row": {
+            "ITEM #": "PSY301",
+            "$": "$ 85.00",
+            "子": "子 61.20",
+            "€": "€ 73,95",
+            "RMB": "￥ 677.45",
+            "FRAME LENGTH": "3' (900 mm)",
+            "SHELF DIMENSION": "900 mm x 250 mm"
+          }
+        },
+        {
+          "block_id": "p3_b009",
+          "page": 3,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSION"
+          ],
+          "row": {
+            "ITEM #": "PSY302",
+            "$": "$ 90.00",
+            "子": "子 64.80",
+            "€": "€ 78,30",
+            "RMB": "￥ 717.30",
+            "FRAME LENGTH": "4' (1200 mm)",
+            "SHELF DIMENSION": "1200 mm x 250 mm"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Accessories\", \"Under Shelves\"], \"continuation\": 5, \"parts\": 5, \"evidence\": [{\"block_id\": \"p4_b015\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Table Supports\", \"offset\": 0}, {\"block_id\": \"p4_b016\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Optical Table Accessories\", \"offset\": 0}, {\"block_id\": \"p3_b009\", \"page\": 3, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSION\"], \"row\": {\"ITEM #\": \"PSY300\", \"$\": \"$ 80.00\", \"子\": \"子 57.60\", \"€\": \"€ 69,60\", \"RMB\": \"￥ 637.60\", \"FRAME LENGTH\": \"2.5' (750 mm)\", \"SHELF DIMENSION\": \"750 mm x 250 mm\"}}, {\"block_id\": \"p3_b009\", \"page\": 3, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSION\"], \"row\": {\"ITEM #\": \"PSY301\", \"$\": \"$ 85.00\", \"子\": \"子 61.20\", \"€\": \"€ 73,95\", \"RMB\": \"￥ 677.45\", \"FRAME LENGTH\": \"3' (900 mm)\", \"SHELF DIMENSION\": \"900 mm x 250 mm\"}}, {\"block_id\": \"p3_b009\", \"page\": 3, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSION\"], \"row\": {\"ITEM #\": \"PSY302\", \"$\": \"$ 90.00\", \"子\": \"子 64.80\", \"€\": \"€ 78,30\", \"RMB\": \"￥ 717.30\", \"FRAME LENGTH\": \"4' (1200 mm)\", \"SHELF DIMENSION\": \"1200 mm x 250 mm\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c009__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDeskT Overhead Shelves"
+      ],
+      "continuation": 1,
+      "parts": 2,
+      "evidence": [
+        {
+          "block_id": "p4_b019",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "110 lbs (50 kg) Max Load Capacity",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b020",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Widths of 36\" (900 mm) and 48\"(1200 mm)",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b021",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "11.8\" (300 mm) Shelf Depth",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b022",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Posts Support up to Two Shelf Units",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b024",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "The PSY211 and PSY212 Overhead Shelves span the width of the ScienceDeskT and are supported by two 29.5\" (750 mm) high posts.The shelf slides along the posts to set the height above the work surface. Two shelves can be mounted on a single set of supporting posts.To purchase an additional shelf (posts not included), select a PSY201/S or PSY202/S shelf unit to go with the PSY211 or PSY212 units,respectively.",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b026",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAMELENGTH",
+            "SHELFDIMENSIONS",
+            "PSY161 POSTS NEEDED"
+          ],
+          "row": {
+            "ITEM #": "PSY211",
+            "$": "$ 330.00",
+            "子": "237.60",
+            "€": "4 287,10",
+            "RMB": "￥ 2,630.10",
+            "FRAMELENGTH": "3' (900 mm)",
+            "SHELFDIMENSIONS": "36\" x 12\" (900 mm x 300 mm)",
+            "PSY161 POSTS NEEDED": "2 (Included)"
+          }
+        },
+        {
+          "block_id": "p4_b026",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAMELENGTH",
+            "SHELFDIMENSIONS",
+            "PSY161 POSTS NEEDED"
+          ],
+          "row": {
+            "ITEM #": "PSY201/S",
+            "$": "$ 160.00",
+            "子": "115.20",
+            "€": "€ 139,20",
+            "RMB": "天 1,275.20",
+            "FRAMELENGTH": "3' (900 mm)",
+            "SHELFDIMENSIONS": "36\"x 12\" (900 mm x 300 mm)",
+            "PSY161 POSTS NEEDED": "2 (Not Included)"
+          }
+        },
+        {
+          "block_id": "p4_b026",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAMELENGTH",
+            "SHELFDIMENSIONS",
+            "PSY161 POSTS NEEDED"
+          ],
+          "row": {
+            "ITEM #": "PSY212",
+            "$": "$ 335.00",
+            "子": "241.20",
+            "€": "4 291,45",
+            "RMB": "天 2,669.95",
+            "FRAMELENGTH": "4' (1200 mm)",
+            "SHELFDIMENSIONS": "48\"x 12\" (1200 mm x 300 mm)",
+            "PSY161 POSTS NEEDED": "2 (Included)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDeskT Overhead Shelves\"], \"continuation\": 1, \"parts\": 2, \"evidence\": [{\"block_id\": \"p4_b019\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"110 lbs (50 kg) Max Load Capacity\", \"offset\": 0}, {\"block_id\": \"p4_b020\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Widths of 36\\\" (900 mm) and 48\\\"(1200 mm)\", \"offset\": 0}, {\"block_id\": \"p4_b021\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"11.8\\\" (300 mm) Shelf Depth\", \"offset\": 0}, {\"block_id\": \"p4_b022\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Posts Support up to Two Shelf Units\", \"offset\": 0}, {\"block_id\": \"p4_b024\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"The PSY211 and PSY212 Overhead Shelves span the width of the ScienceDeskT and are supported by two 29.5\\\" (750 mm) high posts.The shelf slides along the posts to set the height above the work surface. Two shelves can be mounted on a single set of supporting posts.To purchase an additional shelf (posts not included), select a PSY201/S or PSY202/S shelf unit to go with the PSY211 or PSY212 units,respectively.\", \"offset\": 0}, {\"block_id\": \"p4_b026\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAMELENGTH\", \"SHELFDIMENSIONS\", \"PSY161 POSTS NEEDED\"], \"row\": {\"ITEM #\": \"PSY211\", \"$\": \"$ 330.00\", \"子\": \"237.60\", \"€\": \"4 287,10\", \"RMB\": \"￥ 2,630.10\", \"FRAMELENGTH\": \"3' (900 mm)\", \"SHELFDIMENSIONS\": \"36\\\" x 12\\\" (900 mm x 300 mm)\", \"PSY161 POSTS NEEDED\": \"2 (Included)\"}}, {\"block_id\": \"p4_b026\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAMELENGTH\", \"SHELFDIMENSIONS\", \"PSY161 POSTS NEEDED\"], \"row\": {\"ITEM #\": \"PSY201/S\", \"$\": \"$ 160.00\", \"子\": \"115.20\", \"€\": \"€ 139,20\", \"RMB\": \"天 1,275.20\", \"FRAMELENGTH\": \"3' (900 mm)\", \"SHELFDIMENSIONS\": \"36\\\"x 12\\\" (900 mm x 300 mm)\", \"PSY161 POSTS NEEDED\": \"2 (Not Included)\"}}, {\"block_id\": \"p4_b026\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAMELENGTH\", \"SHELFDIMENSIONS\", \"PSY161 POSTS NEEDED\"], \"row\": {\"ITEM #\": \"PSY212\", \"$\": \"$ 335.00\", \"子\": \"241.20\", \"€\": \"4 291,45\", \"RMB\": \"天 2,669.95\", \"FRAMELENGTH\": \"4' (1200 mm)\", \"SHELFDIMENSIONS\": \"48\\\"x 12\\\" (1200 mm x 300 mm)\", \"PSY161 POSTS NEEDED\": \"2 (Included)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c009__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDeskT Overhead Shelves"
+      ],
+      "continuation": 2,
+      "parts": 2,
+      "evidence": [
+        {
+          "block_id": "p4_b026",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAMELENGTH",
+            "SHELFDIMENSIONS",
+            "PSY161 POSTS NEEDED"
+          ],
+          "row": {
+            "ITEM #": "PSY202/S",
+            "$": "$ 170.00",
+            "子": "£122.40",
+            "€": "€147,90",
+            "RMB": "天 1,354.90",
+            "FRAMELENGTH": "4' (1200 mm)",
+            "SHELFDIMENSIONS": "48\" x 12\" (1200 mm x 300 mm)",
+            "PSY161 POSTS NEEDED": "2 (Not Included)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDeskT Overhead Shelves\"], \"continuation\": 2, \"parts\": 2, \"evidence\": [{\"block_id\": \"p4_b026\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAMELENGTH\", \"SHELFDIMENSIONS\", \"PSY161 POSTS NEEDED\"], \"row\": {\"ITEM #\": \"PSY202/S\", \"$\": \"$ 170.00\", \"子\": \"£122.40\", \"€\": \"€147,90\", \"RMB\": \"天 1,354.90\", \"FRAMELENGTH\": \"4' (1200 mm)\", \"SHELFDIMENSIONS\": \"48\\\" x 12\\\" (1200 mm x 300 mm)\", \"PSY161 POSTS NEEDED\": \"2 (Not Included)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c010__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Single Shelf"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDeskT Overhead Shelves",
+        "Single Shelf"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p4_b028",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "10.9\"x 11.8\" (278 mm x 300 mm) Shelf Size",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b029",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Includes 29.5\" (750 mm) Post",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b030",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "44 lbs (20 kg) Max Load Capacity",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b031",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "The single shelf can be mounted on the upper side or upper rear rails of the \nScienceDeskT base. Attaching the mounting post to the frame provides a degree \nof isolation between the shelf and the critical table work surface",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDeskT Overhead Shelves\", \"Single Shelf\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p4_b028\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"10.9\\\"x 11.8\\\" (278 mm x 300 mm) Shelf Size\", \"offset\": 0}, {\"block_id\": \"p4_b029\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Includes 29.5\\\" (750 mm) Post\", \"offset\": 0}, {\"block_id\": \"p4_b030\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"44 lbs (20 kg) Max Load Capacity\", \"offset\": 0}, {\"block_id\": \"p4_b031\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"The single shelf can be mounted on the upper side or upper rear rails of the \\nScienceDeskT base. Attaching the mounting post to the frame provides a degree \\nof isolation between the shelf and the critical table work surface\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c011__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Single Shelf with Post"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDeskT Overhead Shelves",
+        "Single Shelf with Post"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p4_b033",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM#",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "SHELF DIMENSIONS"
+          ],
+          "row": {
+            "ITEM#": "PSY191",
+            "$": "$177.00",
+            "子": "£127.44",
+            "€": "€153,99",
+            "RMB": "￥1,410.69",
+            "SHELF DIMENSIONS": "10.9\"x11.8\"(278 mmx 300 mm)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDeskT Overhead Shelves\", \"Single Shelf with Post\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p4_b033\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM#\", \"$\", \"子\", \"€\", \"RMB\", \"SHELF DIMENSIONS\"], \"row\": {\"ITEM#\": \"PSY191\", \"$\": \"$177.00\", \"子\": \"£127.44\", \"€\": \"€153,99\", \"RMB\": \"￥1,410.69\", \"SHELF DIMENSIONS\": \"10.9\\\"x11.8\\\"(278 mmx 300 mm)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c012__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Side Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDeskT Overhead Shelves",
+        "Side Shelves"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p4_b036",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b037",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "23.6\"(600 mm) Width",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b038",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "110 lbs (50 kg) Max Load Capacity",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b039",
+          "page": 4,
+          "kind": "paragraphs",
+          "text": "The side shelf accessory can be mounted to either side of the upper side rails of the ScienceDesk. This design ensures that vibrations or inadvertant movement of the shelf do not directly impact the critical work space.",
+          "offset": 0
+        },
+        {
+          "block_id": "p4_b041",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY350",
+            "$": "$ 175.20",
+            "子": "£126.14",
+            "€": "€ 152,42",
+            "RMB": "￥1,396.34",
+            "FRAME LENGTH": "2.5' (750 mm)",
+            "SHELF DIMENSIONS": "29.7\" x 23.6\" (755 mm x 600 mm)"
+          }
+        },
+        {
+          "block_id": "p4_b041",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY351",
+            "$": "$ 185.00",
+            "子": "133.20",
+            "€": "€160,95",
+            "RMB": "￥1,474.45",
+            "FRAME LENGTH": "3' (900 mm)",
+            "SHELF DIMENSIONS": "35.6\" x 23.6\" (905 mm x 600 mm)"
+          }
+        },
+        {
+          "block_id": "p4_b041",
+          "page": 4,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELF DIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY352",
+            "$": "$ 170.00",
+            "子": "122.40",
+            "€": "€147,90",
+            "RMB": "￥1,354.90",
+            "FRAME LENGTH": "2' (600 mm)",
+            "SHELF DIMENSIONS": "23.6\" × 23.6\" (605 mm x 600 mm)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDeskT Overhead Shelves\", \"Side Shelves\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p4_b036\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks\", \"offset\": 0}, {\"block_id\": \"p4_b037\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"23.6\\\"(600 mm) Width\", \"offset\": 0}, {\"block_id\": \"p4_b038\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"110 lbs (50 kg) Max Load Capacity\", \"offset\": 0}, {\"block_id\": \"p4_b039\", \"page\": 4, \"kind\": \"paragraphs\", \"text\": \"The side shelf accessory can be mounted to either side of the upper side rails of the ScienceDesk. This design ensures that vibrations or inadvertant movement of the shelf do not directly impact the critical work space.\", \"offset\": 0}, {\"block_id\": \"p4_b041\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY350\", \"$\": \"$ 175.20\", \"子\": \"£126.14\", \"€\": \"€ 152,42\", \"RMB\": \"￥1,396.34\", \"FRAME LENGTH\": \"2.5' (750 mm)\", \"SHELF DIMENSIONS\": \"29.7\\\" x 23.6\\\" (755 mm x 600 mm)\"}}, {\"block_id\": \"p4_b041\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY351\", \"$\": \"$ 185.00\", \"子\": \"133.20\", \"€\": \"€160,95\", \"RMB\": \"￥1,474.45\", \"FRAME LENGTH\": \"3' (900 mm)\", \"SHELF DIMENSIONS\": \"35.6\\\" x 23.6\\\" (905 mm x 600 mm)\"}}, {\"block_id\": \"p4_b041\", \"page\": 4, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELF DIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY352\", \"$\": \"$ 170.00\", \"子\": \"122.40\", \"€\": \"€147,90\", \"RMB\": \"￥1,354.90\", \"FRAME LENGTH\": \"2' (600 mm)\", \"SHELF DIMENSIONS\": \"23.6\\\" × 23.6\\\" (605 mm x 600 mm)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c013__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "PC Shelf"
+    ],
+    "context": {
+      "section_path": [
+        "PC Shelf"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p5_b003",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Designed to Hold a PC \n10.2\"x 17.7\"(260 mmx 450 mm)Max Load Capacity of 44 lbs (20 kg)",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b004",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "The PC shelf, which has a 44 lbs (20 kg) load capacity, can be mounted to the upper or lower rails of the ScienceDesk.The shelf is ergonomically positioned on the frame of the ScienceDeskT and is ideally suited for supporting a PC.",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"PC Shelf\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p5_b003\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Designed to Hold a PC \\n10.2\\\"x 17.7\\\"(260 mmx 450 mm)Max Load Capacity of 44 lbs (20 kg)\", \"offset\": 0}, {\"block_id\": \"p5_b004\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"The PC shelf, which has a 44 lbs (20 kg) load capacity, can be mounted to the upper or lower rails of the ScienceDesk.The shelf is ergonomically positioned on the frame of the ScienceDeskT and is ideally suited for supporting a PC.\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c014__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "PC/Movable Shelf"
+    ],
+    "context": {
+      "section_path": [
+        "PC/Movable Shelf"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p5_b006",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "SHELF DIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY180",
+            "$": "$ 50.00",
+            "子": "7 36.00",
+            "€": "€ 43,50",
+            "RMB": "￥ 398.50",
+            "SHELF DIMENSIONS": "10.2\" x 17.7\" (260 mm x 450 mm)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"PC/Movable Shelf\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p5_b006\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"SHELF DIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY180\", \"$\": \"$ 50.00\", \"子\": \"7 36.00\", \"€\": \"€ 43,50\", \"RMB\": \"￥ 398.50\", \"SHELF DIMENSIONS\": \"10.2\\\" x 17.7\\\" (260 mm x 450 mm)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c015__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Sample Preparation/Staging Shelves"
+    ],
+    "context": {
+      "section_path": [
+        "Sample Preparation/Staging Shelves"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p5_b009",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Raised Above Breadboard Surface",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b010",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Max Load Capacity of 33 lbs (15 kg)",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b012",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "The Preparation shelf rests on the outer frame of the ScienceDesk. By resting on the frame and not the breadboard, a user can create usable work space while not disturbing the isolated breadboard, and the shelf can be easily repositioned on the frame. The shelf length corresponds to the width of the table it is designed for.",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b014",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELFDIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY250",
+            "$": "$ 80.00",
+            "子": "子 57.60",
+            "€": "€ 69,60",
+            "RMB": "￥ 637.60",
+            "FRAME LENGTH": "2.5' (750 mm)",
+            "SHELFDIMENSIONS": "9.8\"x 29.5\" (250 mmx 750 mm)"
+          }
+        },
+        {
+          "block_id": "p5_b014",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELFDIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY251",
+            "$": "$ 85.00",
+            "子": "子 61.20",
+            "€": "€ 73,95",
+            "RMB": "￥ 677.45",
+            "FRAME LENGTH": "3' (900 mm)",
+            "SHELFDIMENSIONS": "9.8\"× 35.4\" (250 mm x 900 mm)"
+          }
+        },
+        {
+          "block_id": "p5_b014",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "FRAME LENGTH",
+            "SHELFDIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY252",
+            "$": "$ 77.50",
+            "子": "子 55.80",
+            "€": "67,43",
+            "RMB": "￥ 617.68",
+            "FRAME LENGTH": "2' (600 mm)",
+            "SHELFDIMENSIONS": "9.8\"× 23.6\" (250 mm x 600 mm)"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"Sample Preparation/Staging Shelves\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p5_b009\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Raised Above Breadboard Surface\", \"offset\": 0}, {\"block_id\": \"p5_b010\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Max Load Capacity of 33 lbs (15 kg)\", \"offset\": 0}, {\"block_id\": \"p5_b012\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"The Preparation shelf rests on the outer frame of the ScienceDesk. By resting on the frame and not the breadboard, a user can create usable work space while not disturbing the isolated breadboard, and the shelf can be easily repositioned on the frame. The shelf length corresponds to the width of the table it is designed for.\", \"offset\": 0}, {\"block_id\": \"p5_b014\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELFDIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY250\", \"$\": \"$ 80.00\", \"子\": \"子 57.60\", \"€\": \"€ 69,60\", \"RMB\": \"￥ 637.60\", \"FRAME LENGTH\": \"2.5' (750 mm)\", \"SHELFDIMENSIONS\": \"9.8\\\"x 29.5\\\" (250 mmx 750 mm)\"}}, {\"block_id\": \"p5_b014\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELFDIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY251\", \"$\": \"$ 85.00\", \"子\": \"子 61.20\", \"€\": \"€ 73,95\", \"RMB\": \"￥ 677.45\", \"FRAME LENGTH\": \"3' (900 mm)\", \"SHELFDIMENSIONS\": \"9.8\\\"× 35.4\\\" (250 mm x 900 mm)\"}}, {\"block_id\": \"p5_b014\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"FRAME LENGTH\", \"SHELFDIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY252\", \"$\": \"$ 77.50\", \"子\": \"子 55.80\", \"€\": \"67,43\", \"RMB\": \"￥ 617.68\", \"FRAME LENGTH\": \"2' (600 mm)\", \"SHELFDIMENSIONS\": \"9.8\\\"× 23.6\\\" (250 mm x 600 mm)\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c016__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Casters"
+    ],
+    "context": {
+      "section_path": [
+        "ScienceDesk Casters"
+      ],
+      "continuation": 1,
+      "parts": 1,
+      "evidence": [
+        {
+          "block_id": "p5_b022",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b023",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "These casters come in a set of four, attach to the bottom of a ScienceDesk frame,and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered.",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b020",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "COMPATIBLE BREADBOARDS",
+            "DIMENSIONS"
+          ],
+          "row": {
+            "ITEM #": "PSY100",
+            "$": "$ 150.00",
+            "子": "3 108.00",
+            "€": "€ 130,50",
+            "RMB": "￥ 1,195.50",
+            "COMPATIBLE BREADBOARDS": "2.4\" (60 mm) Thick or 2.2\" (55 mm) Thick",
+            "DIMENSIONS": "31.5\" x 2.4\" (800 mm × 60 mm)"
+          }
+        },
+        {
+          "block_id": "p5_b021",
+          "page": 5,
+          "kind": "tables",
+          "headers": [
+            "ITEM #",
+            "$",
+            "子",
+            "€",
+            "RMB",
+            "DESCRIPTION"
+          ],
+          "row": {
+            "ITEM #": "PSY140",
+            "$": "$125.00",
+            "子": "7 90.00",
+            "€": "€108,75",
+            "RMB": "￥ 996.25",
+            "DESCRIPTION": "Set of Four Casters"
+          }
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"ScienceDesk Casters\"], \"continuation\": 1, \"parts\": 1, \"evidence\": [{\"block_id\": \"p5_b022\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame\", \"offset\": 0}, {\"block_id\": \"p5_b023\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"These casters come in a set of four, attach to the bottom of a ScienceDesk frame,and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered.\", \"offset\": 0}, {\"block_id\": \"p5_b020\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"COMPATIBLE BREADBOARDS\", \"DIMENSIONS\"], \"row\": {\"ITEM #\": \"PSY100\", \"$\": \"$ 150.00\", \"子\": \"3 108.00\", \"€\": \"€ 130,50\", \"RMB\": \"￥ 1,195.50\", \"COMPATIBLE BREADBOARDS\": \"2.4\\\" (60 mm) Thick or 2.2\\\" (55 mm) Thick\", \"DIMENSIONS\": \"31.5\\\" x 2.4\\\" (800 mm × 60 mm)\"}}, {\"block_id\": \"p5_b021\", \"page\": 5, \"kind\": \"tables\", \"headers\": [\"ITEM #\", \"$\", \"子\", \"€\", \"RMB\", \"DESCRIPTION\"], \"row\": {\"ITEM #\": \"PSY140\", \"$\": \"$125.00\", \"子\": \"7 90.00\", \"€\": \"€108,75\", \"RMB\": \"￥ 996.25\", \"DESCRIPTION\": \"Set of Four Casters\"}}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c017__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Adjustable Wrist Rest"
+    ],
+    "context": {
+      "section_path": [
+        "Adjustable Wrist Rest"
+      ],
+      "continuation": 1,
+      "parts": 2,
+      "evidence": [
+        {
+          "block_id": "p5_b025",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Keeps Arms Elevated Above Breadboard ■Adjustable Height and Angle Padded for Comfort",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b026",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "The adjustable ergonomic wrist rest, which mounts to the upper front bar of the ScienceDeskT frame and is designed to provide the optimum height and angle for adjusting nanopositioning stages, allows operators to perform delicate instrument adjustments with higher accuracy and lower fatigue. The padded portion of the wrist rest is made from molded foam, which provides extra comfort for the user. It comes with integrated mounting studs and locking bolts.",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b030",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "CHAPTERS",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b031",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Tables/Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b032",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Mechanics",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b033",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Optomechanic \nDevices",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b034",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Kits",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b035",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Lab Supplies",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"Adjustable Wrist Rest\"], \"continuation\": 1, \"parts\": 2, \"evidence\": [{\"block_id\": \"p5_b025\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Keeps Arms Elevated Above Breadboard ■Adjustable Height and Angle Padded for Comfort\", \"offset\": 0}, {\"block_id\": \"p5_b026\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"The adjustable ergonomic wrist rest, which mounts to the upper front bar of the ScienceDeskT frame and is designed to provide the optimum height and angle for adjusting nanopositioning stages, allows operators to perform delicate instrument adjustments with higher accuracy and lower fatigue. The padded portion of the wrist rest is made from molded foam, which provides extra comfort for the user. It comes with integrated mounting studs and locking bolts.\", \"offset\": 0}, {\"block_id\": \"p5_b030\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"CHAPTERS\", \"offset\": 0}, {\"block_id\": \"p5_b031\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Tables/Breadboards\", \"offset\": 0}, {\"block_id\": \"p5_b032\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Mechanics\", \"offset\": 0}, {\"block_id\": \"p5_b033\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Optomechanic \\nDevices\", \"offset\": 0}, {\"block_id\": \"p5_b034\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Kits\", \"offset\": 0}, {\"block_id\": \"p5_b035\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Lab Supplies\", \"offset\": 0}]}"
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c017__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Adjustable Wrist Rest"
+    ],
+    "context": {
+      "section_path": [
+        "Adjustable Wrist Rest"
+      ],
+      "continuation": 2,
+      "parts": 2,
+      "evidence": [
+        {
+          "block_id": "p5_b037",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Breadboards",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b038",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Breadboard Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b039",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Breadboard Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b040",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "ScienceDesk",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b041",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "ScienceDesk Accessories",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b042",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Optical Tables",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b043",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Table Supports",
+          "offset": 0
+        },
+        {
+          "block_id": "p5_b044",
+          "page": 5,
+          "kind": "paragraphs",
+          "text": "Optical Table Accessories",
+          "offset": 0
+        }
+      ]
+    },
+    "prompt": "Extract only products supported by the evidence. Headings and index entries\nare context, never products by themselves. Preserve exact SKU/article codes including\ncase, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.\nDo not copy a SKU into model unless evidence explicitly identifies it as a model.\nIf a section only describes a product family and gives no specific sellable item,\nreturn empty arrays. Do not create a sellable item from that section title.\nUse null for unknown values. Keep the descriptive product name and description.\nAttributes must reference the exact product name or SKU. Do not invent currency.\nRelations must describe explicit links between distinct products or categories.\nDo not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates\nthose links from the attributes array. Do not invent compatibility or variants.\nExtract EVERY distinct SKU from item/article/part-number columns, including separate\nmetric and imperial columns in the same row. Preserve prices and their explicit\ncurrencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.\nReturn ONLY JSON with products, attributes and relations matching this schema: {\"products\": [{\"name\": \"string \\u2014 product name or model name (e.g. 'MB4', 'PBG11102')\", \"model\": \"string or null \\u2014 model number / part number\", \"sku\": \"string or null \\u2014 SKU / catalog number / article number\", \"category\": \"string or null \\u2014 product category inferred from section heading\", \"description\": \"string or null \\u2014 brief product description\"}], \"attributes\": [{\"entity\": \"string \\u2014 exact product name or SKU this attribute belongs to\", \"location\": \"string or null \\u2014 explicit market/country for a price; never infer\", \"key\": \"string \\u2014 attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')\", \"value\": \"string \\u2014 attribute value\", \"unit\": \"string or null \\u2014 unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')\"}], \"relations\": [{\"subject\": \"string \\u2014 source entity name\", \"predicate\": \"string \\u2014 one of: HAS_ATTRIBUTE, IS_VARIANT_OF, BELONGS_TO_CATEGORY, HAS_MATERIAL\", \"object\": \"string \\u2014 target entity or value\"}]}\nEVIDENCE:\n{\"section_path\": [\"Adjustable Wrist Rest\"], \"continuation\": 2, \"parts\": 2, \"evidence\": [{\"block_id\": \"p5_b037\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Breadboards\", \"offset\": 0}, {\"block_id\": \"p5_b038\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Breadboard Supports\", \"offset\": 0}, {\"block_id\": \"p5_b039\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Breadboard Accessories\", \"offset\": 0}, {\"block_id\": \"p5_b040\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk\", \"offset\": 0}, {\"block_id\": \"p5_b041\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"ScienceDesk Accessories\", \"offset\": 0}, {\"block_id\": \"p5_b042\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Optical Tables\", \"offset\": 0}, {\"block_id\": \"p5_b043\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Table Supports\", \"offset\": 0}, {\"block_id\": \"p5_b044\", \"page\": 5, \"kind\": \"paragraphs\", \"text\": \"Optical Table Accessories\", \"offset\": 0}]}"
+  }
+]

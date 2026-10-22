@@ -1,0 +1,5 @@
+{
+  "ocr_startup_s": 46.5619999999999,
+  "device_requested": "gpu:0",
+  "recognition_batch_size": 1
+}

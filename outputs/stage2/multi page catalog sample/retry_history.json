@@ -1,0 +1,647 @@
+[
+  {
+    "chunk_id": "multi page catalog sample_document__p1__c002__part3",
+    "doc_stem": "multi page catalog sample_document",
+    "section_path": [
+      "Optical Breadboard Overview"
+    ],
+    "products": [
+      {
+        "name": "12\" x 12\" High-Density Mini-Breadboard",
+        "model": null,
+        "sku": "MS12B",
+        "category": "Optical Breadboard Overview",
+        "description": "12\" x 12\" High-Density Mini-Breadboard",
+        "variant_group": "31dbabf82b7aefa6",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "12\" x 12\" High-Density Mini-Breadboard",
+        "model": null,
+        "sku": "MS12B/M",
+        "category": "Optical Breadboard Overview",
+        "description": "12\" x 12\" High-Density Mini-Breadboard",
+        "variant_group": "31dbabf82b7aefa6",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "Hardware Kit for Mini-Series",
+        "model": null,
+        "sku": "HW-KIT5",
+        "category": "Optical Breadboard Overview",
+        "description": "Hardware Kit for Mini-Series",
+        "variant_group": "ec59333b8c828a06",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "Hardware Kit for Mini-Series",
+        "model": null,
+        "sku": "HW-KIT5/M",
+        "category": "Optical Breadboard Overview",
+        "description": "Hardware Kit for Mini-Series",
+        "variant_group": "ec59333b8c828a06",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "12\" x 12\" High-Density Mini-Breadboard",
+        "model": null,
+        "sku": "MS12B",
+        "category": "Optical Breadboard",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "12\" x 12\" High-Density Mini-Breadboard",
+        "model": null,
+        "sku": "MS12B/M",
+        "category": "Optical Breadboard",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "Hardware Kit for Mini-Series",
+        "model": null,
+        "sku": "HW-KIT5",
+        "category": "Optical Breadboard",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      },
+      {
+        "name": "Hardware Kit for Mini-Series",
+        "model": null,
+        "sku": "HW-KIT5/M",
+        "category": "Optical Breadboard",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b015"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b017"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "MS12B",
+        "key": "子",
+        "value": "185.04",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MS12B",
+        "key": "Price",
+        "value": "257.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MS12B",
+        "key": "Price",
+        "value": "€223,59 € 80,21",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "MS12B",
+        "key": "Price",
+        "value": "2048.29",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "MS12B/M",
+        "key": "子",
+        "value": "185.04",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MS12B/M",
+        "key": "Price",
+        "value": "257.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MS12B/M",
+        "key": "Price",
+        "value": "€223,59 € 80,21",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "MS12B/M",
+        "key": "Price",
+        "value": "2048.29",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5",
+        "key": "子",
+        "value": "$ 92.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5",
+        "key": "Price",
+        "value": "HW-KIT5/M",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5",
+        "key": "Price",
+        "value": "66.38",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5",
+        "key": "Price",
+        "value": "734.83",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5/M",
+        "key": "子",
+        "value": "$ 92.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5/M",
+        "key": "Price",
+        "value": "HW-KIT5/M",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5/M",
+        "key": "Price",
+        "value": "66.38",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "HW-KIT5/M",
+        "key": "Price",
+        "value": "734.83",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Skin",
+        "value": "Aluminum",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Skin",
+        "value": "Magnetic Stainless Steel",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Honeycomb Core",
+        "value": "Aluminum",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Honeycomb Core",
+        "value": "Plated Steel",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Sealed Holes",
+        "value": "No",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Sealed Holes",
+        "value": "Yes",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Weight per Unit Area",
+        "value": "4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Weight per Unit Area",
+        "value": "19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "12\" x 12\" High-Density Mini-Breadboard",
+        "key": "Weight per Unit Area",
+        "value": "23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)",
+        "unit": null,
+        "location": null
+      }
+    ],
+    "relations": [
+      {
+        "subject": "12\" x 12\" High-Density Mini-Breadboard",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Optical Breadboard"
+      },
+      {
+        "subject": "12\" x 12\" High-Density Mini-Breadboard",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Optical Breadboard"
+      },
+      {
+        "subject": "12\" x 12\" High-Density Mini-Breadboard",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Optical Breadboard"
+      },
+      {
+        "subject": "12\" x 12\" High-Density Mini-Breadboard",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Optical Breadboard"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"model\": null,\n      \"sku\": \"MS12B\",\n      \"category\": \"Optical Breadboard\",\n      \"description\": null\n    },\n    {\n      \"name\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"model\": null,\n      \"sku\": \"MS12B/M\",\n      \"category\": \"Optical Breadboard\",\n      \"description\": null\n    },\n    {\n      \"name\": \"Hardware Kit for Mini-Series\",\n      \"model\": null,\n      \"sku\": \"HW-KIT5\",\n      \"category\": \"Optical Breadboard\",\n      \"description\": null\n    },\n    {\n      \"name\": \"Hardware Kit for Mini-Series\",\n      \"model\": null,\n      \"sku\": \"HW-KIT5/M\",\n      \"category\": \"Optical Breadboard\",\n      \"description\": null\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Skin\",\n      \"value\": \"Aluminum\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Skin\",\n      \"value\": \"Magnetic Stainless Steel\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Honeycomb Core\",\n      \"value\": \"Aluminum\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Honeycomb Core\",\n      \"value\": \"Plated Steel\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Sealed Holes\",\n      \"value\": \"No\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Sealed Holes\",\n      \"value\": \"Yes\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Weight per Unit Area\",\n      \"value\": \"4.7 lb/ft2 or 6.0 lb/ft2 (24 kg/m2 or 30 kg/m2)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Weight per Unit Area\",\n      \"value\": \"19 lb/ft2 or 23 lb/ft2 (98 kg/m2 or 114 kg/m2)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"location\": null,\n      \"key\": \"Weight per Unit Area\",\n      \"value\": \"23 lb/ft2 or 28 lb/ft2 (114 kg/m2or 137 kg/m2)\",\n      \"unit\": null\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Optical Breadboard\"\n    },\n    {\n      \"subject\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Optical Breadboard\"\n    },\n    {\n      \"subject\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Optical Breadboard\"\n    },\n    {\n      \"subject\": \"12\\\" x 12\\\" High-Density Mini-Breadboard\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Optical Breadboard\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 17.609,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "multi page catalog sample_document__p3__c008__part1",
+    "doc_stem": "multi page catalog sample_document",
+    "section_path": [
+      "Water-Cooled Breadboard"
+    ],
+    "products": [
+      {
+        "name": "Water-Cooled Breadboard",
+        "model": null,
+        "sku": "MBC12",
+        "category": "Water-Cooled Breadboard",
+        "description": "Water-Cooled Breadboard",
+        "variant_group": "4b9ae6c60984158a",
+        "source_evidence": [
+          {
+            "page": 3,
+            "block_id": "p3_b020"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b021"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b022"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b023"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b024"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b025"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b027"
+          }
+        ]
+      },
+      {
+        "name": "Water-Cooled Breadboard",
+        "model": null,
+        "sku": "MBC3030/M",
+        "category": "Water-Cooled Breadboard",
+        "description": "Water-Cooled Breadboard",
+        "variant_group": "4b9ae6c60984158a",
+        "source_evidence": [
+          {
+            "page": 3,
+            "block_id": "p3_b020"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b021"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b022"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b023"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b024"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b025"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b027"
+          }
+        ]
+      },
+      {
+        "name": "Water-Cooled Breadboard",
+        "model": null,
+        "sku": "MBC12",
+        "category": "Water-Cooled Breadboard",
+        "description": "These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 3,
+            "block_id": "p3_b020"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b021"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b022"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b023"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b024"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b025"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b027"
+          }
+        ]
+      },
+      {
+        "name": "Water-Cooled Breadboard",
+        "model": null,
+        "sku": "MBC3030/M",
+        "category": "Water-Cooled Breadboard",
+        "description": "These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 3,
+            "block_id": "p3_b020"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b021"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b022"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b023"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b024"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b025"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b027"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "MBC12",
+        "key": "子",
+        "value": "子 287.28",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MBC12",
+        "key": "Price",
+        "value": "399.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MBC12",
+        "key": "Price",
+        "value": "347.13",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "MBC12",
+        "key": "Price",
+        "value": "3180.03",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "MBC3030/M",
+        "key": "子",
+        "value": "子 287.28",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MBC3030/M",
+        "key": "Price",
+        "value": "399.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "MBC3030/M",
+        "key": "Price",
+        "value": "347.13",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "MBC3030/M",
+        "key": "Price",
+        "value": "3180.03",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "Water-Cooled Breadboard",
+        "key": "Working Presure",
+        "value": "Rated up to 80 psi",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "Water-Cooled Breadboard",
+        "key": "Working Temperature Range",
+        "value": "0 to 60 C",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "Water-Cooled Breadboard",
+        "key": "Size",
+        "value": "12\" x 12\" (300 mm x 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "Water-Cooled Breadboard",
+        "key": "Tubing Length",
+        "value": "16' (5 m)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "Water-Cooled Breadboard",
+        "key": "Fittings",
+        "value": "1/4\" or 6 mm I.D.",
+        "unit": null,
+        "location": null
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Water-Cooled Breadboard",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Working Presure"
+      },
+      {
+        "subject": "Water-Cooled Breadboard",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Working Temperature Range"
+      },
+      {
+        "subject": "Water-Cooled Breadboard",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Size"
+      },
+      {
+        "subject": "Water-Cooled Breadboard",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Tubing Length"
+      },
+      {
+        "subject": "Water-Cooled Breadboard",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Fittings"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"Water-Cooled Breadboard\",\n      \"model\": null,\n      \"sku\": \"MBC12\",\n      \"category\": \"Water-Cooled Breadboard\",\n      \"description\": \"These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\\\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.\"\n    },\n    {\n      \"name\": \"Water-Cooled Breadboard\",\n      \"model\": null,\n      \"sku\": \"MBC3030/M\",\n      \"category\": \"Water-Cooled Breadboard\",\n      \"description\": \"These breadboards with internal channels for cooling/heating fluid feature a standard 1.0\\\" or 25 mm hole pattern and are ideal for applications involving sensors, detectors, lasers, LEDs, or other devices that may require temperature stabilization. The boards can be used for cooling or heating, depending on requirements.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"Water-Cooled Breadboard\",\n      \"location\": null,\n      \"key\": \"Working Presure\",\n      \"value\": \"Rated up to 80 psi\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"Water-Cooled Breadboard\",\n      \"location\": null,\n      \"key\": \"Working Temperature Range\",\n      \"value\": \"0 to 60 C\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"Water-Cooled Breadboard\",\n      \"location\": null,\n      \"key\": \"Size\",\n      \"value\": \"12\\\" x 12\\\" (300 mm x 300 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"Water-Cooled Breadboard\",\n      \"location\": null,\n      \"key\": \"Tubing Length\",\n      \"value\": \"16' (5 m)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"Water-Cooled Breadboard\",\n      \"location\": null,\n      \"key\": \"Fittings\",\n      \"value\": \"1/4\\\" or 6 mm I.D.\",\n      \"unit\": null\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"Water-Cooled Breadboard\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Working Presure\"\n    },\n    {\n      \"subject\": \"Water-Cooled Breadboard\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Working Temperature Range\"\n    },\n    {\n      \"subject\": \"Water-Cooled Breadboard\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Size\"\n    },\n    {\n      \"subject\": \"Water-Cooled Breadboard\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Tubing Length\"\n    },\n    {\n      \"subject\": \"Water-Cooled Breadboard\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Fittings\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 11.531,
+      "parse_error": null
+    }
+  }
+]

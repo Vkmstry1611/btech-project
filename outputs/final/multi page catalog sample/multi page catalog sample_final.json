@@ -1,543 +1,2249 @@
 {
   "type": "Product Category",
   "title": "multi page catalog sample",
-  "identifier": "PC-MULTI-PAGE-CATALOG-SAMPLE",
-  "description": "Product catalog extracted from multi page catalog sample (4 page(s))",
+  "identifier": "PC-3ef8beeff66b521e",
   "subcategories": [
     {
       "type": "Product Category",
-      "title": "Optical Breadboard Overview",
-      "identifier": "PC-OPTICAL-BREADBOARD-OVERVIEW-0228",
+      "title": "Optical Breadboard",
+      "identifier": "PC-84150778f9adb3c3",
       "models": [
         {
           "type": "Model",
-          "title": "MS12B",
-          "identifier": "MOD-MS12B",
-          "sku": "MS12B",
+          "title": "12\" x 12\" High-Density Mini-Breadboard",
+          "identifier": "MOD-e897438dbb90e5fa",
           "sellableItems": [
             {
               "type": "Sellable Item",
-              "title": "MS12B",
-              "identifier": "SI-MS12B",
+              "title": "12\" x 12\" High-Density Mini-Breadboard",
+              "identifier": "SI-1481d5d4ed0e1282",
               "articleNumber": "MS12B",
+              "description": "High-Density Mini-Breadboard",
               "properties": {
-                "dimensions": "12.0 \" x 12\""
-              },
-              "listPrices": [
-                {
-                  "type": "List Price",
-                  "title": "MS12B — USD",
-                  "identifier": "LP-MS12B-01",
-                  "amount": 257.0,
-                  "currency": "USD"
-                }
-              ]
+                "Item #": "MS12B",
+                "Metric Item #": "MS12B/M",
+                "$": "$ 257.00",
+                "子": "185.04",
+                "€": "€223,59 € 80,21",
+                "Rmb": "￥ 2,048.29",
+                "Description": "12\" x 12\" High-Density Mini-Breadboard"
+              }
+            },
+            {
+              "type": "Sellable Item",
+              "title": "12\" x 12\" High-Density Mini-Breadboard",
+              "identifier": "SI-7de89753d57b27e8",
+              "articleNumber": "MS12B/M",
+              "description": "12\" x 12\" High-Density Mini-Breadboard"
             }
-          ]
+          ],
+          "description": "High-Density Mini-Breadboard"
         },
         {
           "type": "Model",
-          "title": "HW-KIT5",
-          "identifier": "MOD-HWKIT5",
-          "sku": "HW-KIT5",
+          "title": "Hardware Kit for Mini-Series",
+          "identifier": "MOD-0438ef67cc03ffc7",
           "sellableItems": [
             {
               "type": "Sellable Item",
-              "title": "HW-KIT5",
-              "identifier": "SI-HWKIT5",
+              "title": "Hardware Kit for Mini-Series",
+              "identifier": "SI-41381d38c6df4701",
               "articleNumber": "HW-KIT5",
-              "listPrices": [
-                {
-                  "type": "List Price",
-                  "title": "HW-KIT5 — USD",
-                  "identifier": "LP-HWKIT5-01",
-                  "amount": 92.2,
-                  "currency": "USD"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Product Category",
-      "title": "Mini-Series Breadboard",
-      "identifier": "PC-MINISERIES-BREADBOARD-0726",
-      "subcategories": [
-        {
-          "type": "Product Category",
-          "title": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum",
-          "identifier": "PC-BREADBOARDS-12-127-MM-1527"
-        }
-      ],
-      "models": [
-        {
-          "type": "Model",
-          "title": "4-40 (M3 x 0.5)",
-          "identifier": "MOD-440-M3-X-05",
-          "sku": "4-40 (M3 x 0.5)",
-          "sellableItems": [
-            {
-              "type": "Sellable Item",
-              "title": "4-40 (M3 x 0.5)",
-              "identifier": "SI-440-M3-X-05",
-              "articleNumber": "4-40 (M3 x 0.5)",
+              "description": "Hardware Kit for Mini-Series",
               "properties": {
-                "tapped_holes": "4.0 -40 (m3 x 0.5)",
-                "spacing": "1.0 /2\" (12.5 mm)"
+                "Item #": "HW-KIT5",
+                "Metric Item #": "HW-KIT5",
+                "$": "HW-KIT5/M",
+                "子": "$ 92.20",
+                "€": "£ 66.38",
+                "Rmb": "￥ 734.83",
+                "Description": "Hardware Kit for Mini-Series"
               }
+            },
+            {
+              "type": "Sellable Item",
+              "title": "Hardware Kit for Mini-Series",
+              "identifier": "SI-bc2e9f197637d079",
+              "articleNumber": "HW-KIT5/M",
+              "description": "Hardware Kit for Mini-Series"
             }
-          ]
+          ],
+          "description": "Hardware Kit for Mini-Series"
         }
       ]
     },
     {
       "type": "Product Category",
-      "title": "SlimLine Breadboards - Double-Density Hole Pattern",
-      "identifier": "PC-SLIMLINE-BREADBOARDS-DOUBLEDENSITY-HOLE-5988",
-      "subcategories": [
-        {
-          "type": "Product Category",
-          "title": "Shipped from Stock in the US and Europe",
-          "identifier": "PC-SHIPPED-FROM-STOCK-IN-5993",
-          "models": [
-            {
-              "type": "Model",
-              "title": "MB424",
-              "identifier": "MOD-MB424",
-              "sku": "MB424",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB424",
-                  "identifier": "SI-MB424",
-                  "articleNumber": "MB424",
-                  "properties": {
-                    "dimensions": "4.0 \"x 24\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB424 — USD",
-                      "identifier": "LP-MB424-01",
-                      "amount": 161.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB436",
-              "identifier": "MOD-MB436",
-              "sku": "MB436",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB436",
-                  "identifier": "SI-MB436",
-                  "articleNumber": "MB436",
-                  "properties": {
-                    "dimensions": "4.0 \"x 36\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB436 — USD",
-                      "identifier": "LP-MB436-01",
-                      "amount": 181.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB612",
-              "identifier": "MOD-MB612",
-              "sku": "MB612",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB612",
-                  "identifier": "SI-MB612",
-                  "articleNumber": "MB612",
-                  "properties": {
-                    "dimensions": "6.0 \" x 12\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB612 — USD",
-                      "identifier": "LP-MB612-01",
-                      "amount": 124.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB824",
-              "identifier": "MOD-MB824",
-              "sku": "MB824",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB824",
-                  "identifier": "SI-MB824",
-                  "articleNumber": "MB824",
-                  "properties": {
-                    "dimensions": "8.0 \"x 24\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB824 — USD",
-                      "identifier": "LP-MB824-01",
-                      "amount": 239.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB836",
-              "identifier": "MOD-MB836",
-              "sku": "MB836",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB836",
-                  "identifier": "SI-MB836",
-                  "articleNumber": "MB836",
-                  "properties": {
-                    "dimensions": "8.0 \" x 36\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB836 — USD",
-                      "identifier": "LP-MB836-01",
-                      "amount": 322.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB1060/M",
-              "identifier": "MOD-MB1060M",
-              "sku": "MB1060/M",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB1060/M",
-                  "identifier": "SI-MB1060M",
-                  "articleNumber": "MB1060/M",
-                  "properties": {
-                    "dimensions": "100.0 mm x 600 mm"
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB1060/M — USD",
-                      "identifier": "LP-MB1060M-01",
-                      "amount": 161.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB1090/M",
-              "identifier": "MOD-MB1090M",
-              "sku": "MB1090/M",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB1090/M",
-                  "identifier": "SI-MB1090M",
-                  "articleNumber": "MB1090/M",
-                  "properties": {
-                    "dimensions": "100.0 mm x 900 mm"
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB1090/M — USD",
-                      "identifier": "LP-MB1090M-01",
-                      "amount": 181.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB1530/M",
-              "identifier": "MOD-MB1530M",
-              "sku": "MB1530/M",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB1530/M",
-                  "identifier": "SI-MB1530M",
-                  "articleNumber": "MB1530/M",
-                  "properties": {
-                    "dimensions": "150.0 mm x 300 mm"
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB1530/M — USD",
-                      "identifier": "LP-MB1530M-01",
-                      "amount": 124.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB2060/M",
-              "identifier": "MOD-MB2060M",
-              "sku": "MB2060/M",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB2060/M",
-                  "identifier": "SI-MB2060M",
-                  "articleNumber": "MB2060/M",
-                  "properties": {
-                    "dimensions": "200.0 mm x 600 mm"
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB2060/M — USD",
-                      "identifier": "LP-MB2060M-01",
-                      "amount": 239.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "MB2090/M",
-              "identifier": "MOD-MB2090M",
-              "sku": "MB2090/M",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MB2090/M",
-                  "identifier": "SI-MB2090M",
-                  "articleNumber": "MB2090/M",
-                  "properties": {
-                    "dimensions": "200.0 mm x 900 mm"
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MB2090/M — USD",
-                      "identifier": "LP-MB2090M-01",
-                      "amount": 322.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "title": "Optical Breadboard Overview",
+      "identifier": "PC-5c30d87934d51471"
+    },
+    {
+      "type": "Product Category",
+      "title": "Breadboards - 1/2\" (12.7 mm) Thick Solid Aluminum",
+      "identifier": "PC-750bedf172492740",
       "models": [
         {
           "type": "Model",
-          "title": "MB4",
-          "identifier": "MOD-MB4",
-          "sku": "MB4",
+          "title": "4\"x 6\"",
+          "identifier": "MOD-7344be071cb7966b",
           "sellableItems": [
             {
               "type": "Sellable Item",
-              "title": "MB4",
-              "identifier": "SI-MB4",
+              "title": "4\"x 6\"",
+              "identifier": "SI-30758d1c7b99e03a",
               "articleNumber": "MB4",
+              "description": "4\"x 6\"",
               "properties": {
-                "dimensions": "4.0 \"x6\""
+                "子": "3 35.57"
               },
               "listPrices": [
                 {
                   "type": "List Price",
-                  "title": "MB4 — USD",
-                  "identifier": "LP-MB4-01",
-                  "amount": 49.4,
-                  "currency": "USD"
+                  "identifier": "LP-e0815482d1b7fca9",
+                  "title": "4\"x 6\"",
+                  "amount": 49.4
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-6742230774565f3c",
+                  "title": "4\"x 6\"",
+                  "amount": 42.98,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c1b9893da86285c3",
+                  "title": "4\"x 6\"",
+                  "amount": 393.72,
+                  "currency": "CNY"
                 }
               ]
             }
-          ]
+          ],
+          "description": "4\"x 6\""
+        },
+        {
+          "type": "Model",
+          "title": "6\" x 6\"",
+          "identifier": "MOD-6813f0aaa91b2468",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "6\" x 6\"",
+              "identifier": "SI-6a144b0b40deaf0e",
+              "articleNumber": "MB6",
+              "description": "6\" x 6\"",
+              "properties": {
+                "子": "子 39.67"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-af6b2af119b8f29d",
+                  "title": "6\" x 6\"",
+                  "amount": 55.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-820e6011bb487b83",
+                  "title": "6\" x 6\"",
+                  "amount": 439.15,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "6\" x 6\""
+        },
+        {
+          "type": "Model",
+          "title": "6\"x 24\"",
+          "identifier": "MOD-ff6a9e14cc415a05",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "6\"x 24\"",
+              "identifier": "SI-d83bf94fe8aef6f9",
+              "articleNumber": "MB624",
+              "description": "6\"x 24\"",
+              "properties": {
+                "子": "£ 133.92"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-575f64c62ce87562",
+                  "title": "6\"x 24\"",
+                  "amount": 186.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3bffa4bda58505dc",
+                  "title": "6\"x 24\"",
+                  "amount": 161.82,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-38c7de0e874e7b94",
+                  "title": "6\"x 24\"",
+                  "amount": 1482.42,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "6\"x 24\""
+        },
+        {
+          "type": "Model",
+          "title": "6\"x 36\"",
+          "identifier": "MOD-5b6a19b5b213da4e",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "6\"x 36\"",
+              "identifier": "SI-90b2922bed9c5517",
+              "articleNumber": "MB636",
+              "description": "6\"x 36\"",
+              "properties": {
+                "子": "7 177.12"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-85fb8c4a415751e1",
+                  "title": "6\"x 36\"",
+                  "amount": 246.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-28cf8bc84e269fdb",
+                  "title": "6\"x 36\"",
+                  "amount": 214.02,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e5509d25474358e9",
+                  "title": "6\"x 36\"",
+                  "amount": 1960.62,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "6\"x 36\""
+        },
+        {
+          "type": "Model",
+          "title": "6\"x 48\"",
+          "identifier": "MOD-cd1dd9eec6f562e9",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "6\"x 48\"",
+              "identifier": "SI-ead460539eaca7ba",
+              "articleNumber": "MB648",
+              "description": "6\"x 48\"",
+              "properties": {
+                "子": "220.32"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-86cc062bc0471219",
+                  "title": "6\"x 48\"",
+                  "amount": 306.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3e5b70303283031c",
+                  "title": "6\"x 48\"",
+                  "amount": 266.22,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ed66b1d41edded82",
+                  "title": "6\"x 48\"",
+                  "amount": 2438.82,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "6\"x 48\""
+        },
+        {
+          "type": "Model",
+          "title": "8\"x 8\"",
+          "identifier": "MOD-3c0ee15c16fb9afc",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "8\"x 8\"",
+              "identifier": "SI-b8d8e44a7c933015",
+              "articleNumber": "MB8",
+              "description": "8\"x 8\"",
+              "properties": {
+                "子": "7 59.04"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3ef64a167f2aa0dd",
+                  "title": "8\"x 8\"",
+                  "amount": 82.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0f76b6de2d63e999",
+                  "title": "8\"x 8\"",
+                  "amount": 71.34,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-79d392ca021a221d",
+                  "title": "8\"x 8\"",
+                  "amount": 653.54,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "8\"x 8\""
+        },
+        {
+          "type": "Model",
+          "title": "8\"x 10\"",
+          "identifier": "MOD-eae67fdbc898e7ff",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "8\"x 10\"",
+              "identifier": "SI-e76904c98b9d6637",
+              "articleNumber": "MB810",
+              "description": "8\"x 10\"",
+              "properties": {
+                "子": "7 102.96"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1b0c7828cbee6fea",
+                  "title": "8\"x 10\"",
+                  "amount": 143.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-17690dbbe3ae094f",
+                  "title": "8\"x 10\"",
+                  "amount": 124.41,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-09739e57aab523d6",
+                  "title": "8\"x 10\"",
+                  "amount": 1139.71,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "8\"x 10\""
+        },
+        {
+          "type": "Model",
+          "title": "10\"x 12\"",
+          "identifier": "MOD-0a5451f1d87c4b32",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "10\"x 12\"",
+              "identifier": "SI-fa35efa54b50898f",
+              "articleNumber": "MB1012",
+              "description": "10\"x 12\"",
+              "properties": {
+                "子": "118.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-28aceaab4154aaf5",
+                  "title": "10\"x 12\"",
+                  "amount": 165.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-37239d31712c941b",
+                  "title": "10\"x 12\"",
+                  "amount": 143.55,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e6e4b5cc011ca017",
+                  "title": "10\"x 12\"",
+                  "amount": 1315.05,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "10\"x 12\""
+        },
+        {
+          "type": "Model",
+          "title": "12\"x 12\"",
+          "identifier": "MOD-8ac530c018ea08c7",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "12\"x 12\"",
+              "identifier": "SI-ad315cd4c0f8be6d",
+              "articleNumber": "MB12",
+              "description": "12\"x 12\"",
+              "properties": {
+                "子": "£115.99"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4747854331157f78",
+                  "title": "12\"x 12\"",
+                  "amount": 161.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-083039af8fb74f93",
+                  "title": "12\"x 12\"",
+                  "amount": 140.16,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d480a25c345bf799",
+                  "title": "12\"x 12\"",
+                  "amount": 1283.97,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "12\"x 12\""
+        },
+        {
+          "type": "Model",
+          "title": "12\" x 18\"**",
+          "identifier": "MOD-8df9c7d365167ad2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "12\" x 18\"**",
+              "identifier": "SI-0a9a82219548656c",
+              "articleNumber": "MB1218",
+              "description": "12\" x 18\"**",
+              "properties": {
+                "子": "150.26"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b54c64ffd8bd7998",
+                  "title": "12\" x 18\"**",
+                  "amount": 208.7
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cc579678b5a9e8a7",
+                  "title": "12\" x 18\"**",
+                  "amount": 181.57,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4d5308fc98a7e017",
+                  "title": "12\" x 18\"**",
+                  "amount": 1663.34,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "12\" x 18\"**"
+        },
+        {
+          "type": "Model",
+          "title": "12\" x 24\"**",
+          "identifier": "MOD-c1304a395bbf0cf8",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "12\" x 24\"**",
+              "identifier": "SI-6803ce2d95eda83b",
+              "articleNumber": "MB1224",
+              "description": "12\" x 24\"**",
+              "properties": {
+                "子": "7 203.26"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a8cd84d96d5ab61c",
+                  "title": "12\" x 24\"**",
+                  "amount": 282.3
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8a3c655d68640226",
+                  "title": "12\" x 24\"**",
+                  "amount": 245.6,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1257cef98c4267de",
+                  "title": "12\" x 24\"**",
+                  "amount": 2249.93,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "12\" x 24\"**"
+        },
+        {
+          "type": "Model",
+          "title": "12\" x 36\"**",
+          "identifier": "MOD-aeb093929f0f4df9",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "12\" x 36\"**",
+              "identifier": "SI-4090bc59f6d69941",
+              "articleNumber": "MB1236",
+              "description": "12\" x 36\"**",
+              "properties": {
+                "子": "子 363.60"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-6c51a350e2df7bbe",
+                  "title": "12\" x 36\"**",
+                  "amount": 505.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-890a31e63f6f3d94",
+                  "title": "12\" x 36\"**",
+                  "amount": 439.35,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bfe737928c8028d0",
+                  "title": "12\" x 36\"**",
+                  "amount": 4024.85,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "12\" x 36\"**"
+        },
+        {
+          "type": "Model",
+          "title": "12\" x 48\"**",
+          "identifier": "MOD-f20f271f0cd5eb96",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "12\" x 48\"**",
+              "identifier": "SI-ec0bafa831dfb7c8",
+              "articleNumber": "MB1248",
+              "description": "12\" x 48\"**",
+              "properties": {
+                "子": "子 434.88"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-279bd9ccce08086d",
+                  "title": "12\" x 48\"**",
+                  "amount": 604.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-21efb544c2190dff",
+                  "title": "12\" x 48\"**",
+                  "amount": 525.48,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b17f9cc3b8b9ed07",
+                  "title": "12\" x 48\"**",
+                  "amount": 4813.88,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "12\" x 48\"**"
+        },
+        {
+          "type": "Model",
+          "title": "18\" x 18\"**",
+          "identifier": "MOD-d45b8cf6180b71fb",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "18\" x 18\"**",
+              "identifier": "SI-903f0ebdff286d50",
+              "articleNumber": "MB18",
+              "description": "18\" x 18\"**",
+              "properties": {
+                "子": "7 226.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cf8388b10ca2d3c5",
+                  "title": "18\" x 18\"**",
+                  "amount": 315.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-91674df008d0bbcb",
+                  "title": "18\" x 18\"**",
+                  "amount": 274.05,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-afe6e1574f1bdea1",
+                  "title": "18\" x 18\"**",
+                  "amount": 2510.55,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "18\" x 18\"**"
+        },
+        {
+          "type": "Model",
+          "title": "18\" x 24\"**",
+          "identifier": "MOD-8c805ddf4dc2044d",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "18\" x 24\"**",
+              "identifier": "SI-6f93a1424ddd418f",
+              "articleNumber": "MB1824",
+              "description": "18\" x 24\"**",
+              "properties": {
+                "子": "子 302.40"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9885459f67ff0f31",
+                  "title": "18\" x 24\"**",
+                  "amount": 420.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5ae010697207f9b5",
+                  "title": "18\" x 24\"**",
+                  "amount": 365.4,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0a0161e550c64c34",
+                  "title": "18\" x 24\"**",
+                  "amount": 3347.4,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "18\" x 24\"**"
+        },
+        {
+          "type": "Model",
+          "title": "18\" x 36\"**",
+          "identifier": "MOD-edc6eb4574024822",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "18\" x 36\"**",
+              "identifier": "SI-4f0067c39c77e11e",
+              "articleNumber": "MB1836",
+              "description": "18\" x 36\"**",
+              "properties": {
+                "子": "7 430.56"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cf0de72f62df2ad5",
+                  "title": "18\" x 36\"**",
+                  "amount": 598.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-88ffd664ea2bef59",
+                  "title": "18\" x 36\"**",
+                  "amount": 520.26,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0b4ed94dde2f2126",
+                  "title": "18\" x 36\"**",
+                  "amount": 4766.06,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "18\" x 36\"**"
+        },
+        {
+          "type": "Model",
+          "title": "24\" x 24\"**",
+          "identifier": "MOD-2429239bb41bc665",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "24\" x 24\"**",
+              "identifier": "SI-7de886931a8e2eb4",
+              "articleNumber": "MB2424",
+              "description": "24\" x 24\"**",
+              "properties": {
+                "子": "子 386.64"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1a6ad536aaca5290",
+                  "title": "24\" x 24\"**",
+                  "amount": 537.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b4de10361197203e",
+                  "title": "24\" x 24\"**",
+                  "amount": 467.19,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c16bc8e9f6ab5b1c",
+                  "title": "24\" x 24\"**",
+                  "amount": 4279.89,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "24\" x 24\"**"
+        },
+        {
+          "type": "Model",
+          "title": "24\" × 36\"**",
+          "identifier": "MOD-f47e40583da78285",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "24\" × 36\"**",
+              "identifier": "SI-fd3f6454168a9247",
+              "articleNumber": "MB2436",
+              "description": "24\" × 36\"**",
+              "properties": {
+                "子": "7 496.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c951bba88b355671",
+                  "title": "24\" × 36\"**",
+                  "amount": 690.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1f8f6e5000f2a950",
+                  "title": "24\" × 36\"**",
+                  "amount": 600.3,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1dbb88d37a671de0",
+                  "title": "24\" × 36\"**",
+                  "amount": 5499.3,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "24\" × 36\"**"
+        },
+        {
+          "type": "Model",
+          "title": "24\"x 48\"**",
+          "identifier": "MOD-7d523a819ba456ed",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "24\"x 48\"**",
+              "identifier": "SI-b7f3d7a4cae8de09",
+              "articleNumber": "MB2448",
+              "description": "24\"x 48\"**",
+              "properties": {
+                "子": "657.36"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8981adea60ef2166",
+                  "title": "24\"x 48\"**",
+                  "amount": 913.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ba8d48f4ce7fe235",
+                  "title": "24\"x 48\"**",
+                  "amount": 794.31,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-84c634dddbd17b28",
+                  "title": "24\"x 48\"**",
+                  "amount": 7276.61,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "24\"x 48\"**"
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Stocked for Immediate Shipment",
+      "identifier": "PC-e3489b18551f36ce",
+      "models": [
+        {
+          "type": "Model",
+          "title": "100 mm x 150 mm",
+          "identifier": "MOD-e3b185c4b904b257",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "100 mm x 150 mm",
+              "identifier": "SI-bbbd4cfc261c5141",
+              "articleNumber": "MB1015/M",
+              "description": "100 mm x 150 mm",
+              "properties": {
+                "子": "|£35.57"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c2cee18d8ac15240",
+                  "title": "100 mm x 150 mm",
+                  "amount": 49.4
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-fb9e76c47b550bf0",
+                  "title": "100 mm x 150 mm",
+                  "amount": 42.98,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-989451572514b521",
+                  "title": "100 mm x 150 mm",
+                  "amount": 393.72,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "100 mm x 150 mm"
+        },
+        {
+          "type": "Model",
+          "title": "150 mmx 150 mm",
+          "identifier": "MOD-34130f24034598c1",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "150 mmx 150 mm",
+              "identifier": "SI-4dba503d7fddd360",
+              "articleNumber": "MB1515/M",
+              "description": "150 mmx 150 mm",
+              "properties": {
+                "子": "£39.67"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-f60b2946ae37c968",
+                  "title": "150 mmx 150 mm",
+                  "amount": 55.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8308ad83eb04b2f6",
+                  "title": "150 mmx 150 mm",
+                  "amount": 439.15,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "150 mmx 150 mm"
+        },
+        {
+          "type": "Model",
+          "title": "150 mm x 600 mm",
+          "identifier": "MOD-db4bb008bef6f571",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "150 mm x 600 mm",
+              "identifier": "SI-1678fe0b32c4b9fa",
+              "articleNumber": "MB1560/M",
+              "description": "150 mm x 600 mm",
+              "properties": {
+                "子": "£133.92"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-10b3b473b8d4be0b",
+                  "title": "150 mm x 600 mm",
+                  "amount": 186.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e1706b0cd82c0f52",
+                  "title": "150 mm x 600 mm",
+                  "amount": 161.82,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-52902a9ec0eec1c4",
+                  "title": "150 mm x 600 mm",
+                  "amount": 1482.42,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "150 mm x 600 mm"
+        },
+        {
+          "type": "Model",
+          "title": "150 mm x 900 mm",
+          "identifier": "MOD-988dc7aabbd848a1",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "150 mm x 900 mm",
+              "identifier": "SI-4359ac4a20c44c10",
+              "articleNumber": "MB1590/M",
+              "description": "150 mm x 900 mm",
+              "properties": {
+                "子": "£177.12"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a6c6c5f9717a2fe0",
+                  "title": "150 mm x 900 mm",
+                  "amount": 246.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-97a53950a468bfc9",
+                  "title": "150 mm x 900 mm",
+                  "amount": 214.02,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2cf830157d0126db",
+                  "title": "150 mm x 900 mm",
+                  "amount": 1960.62,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "150 mm x 900 mm"
+        },
+        {
+          "type": "Model",
+          "title": "150 mm x 1200 mm",
+          "identifier": "MOD-1da9f68b88df1d75",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "150 mm x 1200 mm",
+              "identifier": "SI-5fd80ed09a30e5f8",
+              "articleNumber": "MB15120/M",
+              "description": "150 mm x 1200 mm",
+              "properties": {
+                "子": "£220.32"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4ab3c23a80a7ada8",
+                  "title": "150 mm x 1200 mm",
+                  "amount": 306.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9aeb4477eedddfff",
+                  "title": "150 mm x 1200 mm",
+                  "amount": 266.22,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2b27ea091891f2df",
+                  "title": "150 mm x 1200 mm",
+                  "amount": 2438.82,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "150 mm x 1200 mm"
+        },
+        {
+          "type": "Model",
+          "title": "200 mm x 200 mm",
+          "identifier": "MOD-3ccea7fff21b02b2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "200 mm x 200 mm",
+              "identifier": "SI-3eab79eb1dfc6f59",
+              "articleNumber": "MB2020/M",
+              "description": "200 mm x 200 mm",
+              "properties": {
+                "子": "子 59.04"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-745b8176c23c1c85",
+                  "title": "200 mm x 200 mm",
+                  "amount": 82.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4519e070ac262a74",
+                  "title": "200 mm x 200 mm",
+                  "amount": 71.34,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0b44e729705103ab",
+                  "title": "200 mm x 200 mm",
+                  "amount": 653.54,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "200 mm x 200 mm"
+        },
+        {
+          "type": "Model",
+          "title": "200 mm x 250 mm",
+          "identifier": "MOD-cd9b1569e9c0be2a",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "200 mm x 250 mm",
+              "identifier": "SI-c1dacf4120ef6c70",
+              "articleNumber": "MB2025/M",
+              "description": "200 mm x 250 mm",
+              "properties": {
+                "子": "£102.96"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d2bb56bf849c358f",
+                  "title": "200 mm x 250 mm",
+                  "amount": 143.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-beaa98ec0313c494",
+                  "title": "200 mm x 250 mm",
+                  "amount": 124.41,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a207ad3b2abe5a02",
+                  "title": "200 mm x 250 mm",
+                  "amount": 1139.71,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "200 mm x 250 mm"
+        },
+        {
+          "type": "Model",
+          "title": "250 mmx 300 mm",
+          "identifier": "MOD-4bb23b9f1be06020",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "250 mmx 300 mm",
+              "identifier": "SI-9b4b013a888ca7ec",
+              "articleNumber": "MB2530/M",
+              "description": "250 mmx 300 mm",
+              "properties": {
+                "子": "£118.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-19a2945421a3bb86",
+                  "title": "250 mmx 300 mm",
+                  "amount": 165.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2c5b8120d29c8855",
+                  "title": "250 mmx 300 mm",
+                  "amount": 143.55,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-690fda5d578981e9",
+                  "title": "250 mmx 300 mm",
+                  "amount": 1315.05,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "250 mmx 300 mm"
+        },
+        {
+          "type": "Model",
+          "title": "300 mm x 300 mm",
+          "identifier": "MOD-d4c26cc7ccaf7332",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "300 mm x 300 mm",
+              "identifier": "SI-ed50df4f4da123cb",
+              "articleNumber": "MB3030/M",
+              "description": "300 mm x 300 mm",
+              "properties": {
+                "子": "£115.99"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d71788124ff02738",
+                  "title": "300 mm x 300 mm",
+                  "amount": 161.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3697c67172d91c92",
+                  "title": "300 mm x 300 mm",
+                  "amount": 140.16,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a6b604fe886b6c47",
+                  "title": "300 mm x 300 mm",
+                  "amount": 1283.97,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "300 mm x 300 mm"
+        },
+        {
+          "type": "Model",
+          "title": "300 mm x 450 mm*",
+          "identifier": "MOD-b2dbdfb869185ae9",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "300 mm x 450 mm*",
+              "identifier": "SI-fb056f9ea4a3ba0d",
+              "articleNumber": "MB3045/M",
+              "description": "300 mm x 450 mm*",
+              "properties": {
+                "子": "£150.26"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-80cf9de615705e8d",
+                  "title": "300 mm x 450 mm*",
+                  "amount": 208.7
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-61cd997979d17959",
+                  "title": "300 mm x 450 mm*",
+                  "amount": 181.57,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-51c31ea8068df19e",
+                  "title": "300 mm x 450 mm*",
+                  "amount": 1663.34,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "300 mm x 450 mm*"
+        },
+        {
+          "type": "Model",
+          "title": "300 mm x 600 mm**",
+          "identifier": "MOD-86a6aa27acb6bf05",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "300 mm x 600 mm**",
+              "identifier": "SI-7cfd33d5bb1ad2f1",
+              "articleNumber": "MB3060/M",
+              "description": "300 mm x 600 mm**",
+              "properties": {
+                "子": "£203.26"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5bc8fe95203fe7d7",
+                  "title": "300 mm x 600 mm**",
+                  "amount": 282.3
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-58e6bb2190950a57",
+                  "title": "300 mm x 600 mm**",
+                  "amount": 245.6,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-f81b5f80fb5221c0",
+                  "title": "300 mm x 600 mm**",
+                  "amount": 2249.93,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "300 mm x 600 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "300 mm x 900 mm**",
+          "identifier": "MOD-0c88b9047ed76759",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "300 mm x 900 mm**",
+              "identifier": "SI-12252cec758be550",
+              "articleNumber": "MB3090/M",
+              "description": "300 mm x 900 mm**",
+              "properties": {
+                "子": "£363.60"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-20db9bbf5a43df7c",
+                  "title": "300 mm x 900 mm**",
+                  "amount": 505.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-50288ba09097c8d1",
+                  "title": "300 mm x 900 mm**",
+                  "amount": 439.35,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d630b3041cfae181",
+                  "title": "300 mm x 900 mm**",
+                  "amount": 4024.85,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "300 mm x 900 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "300 mm x 1200 mm*",
+          "identifier": "MOD-1c2b73a57c5fdbac",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "300 mm x 1200 mm*",
+              "identifier": "SI-5adcc7b1707f6b08",
+              "articleNumber": "MB30120/M",
+              "description": "300 mm x 1200 mm*",
+              "properties": {
+                "子": "£434.88"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9862746a8ace780f",
+                  "title": "300 mm x 1200 mm*",
+                  "amount": 604.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-800291fa9c6c1f5d",
+                  "title": "300 mm x 1200 mm*",
+                  "amount": 525.48,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bf0efc1331546e2d",
+                  "title": "300 mm x 1200 mm*",
+                  "amount": 4813.88,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "300 mm x 1200 mm*"
+        },
+        {
+          "type": "Model",
+          "title": "450 mmx 450 mm**",
+          "identifier": "MOD-794066cb5d9b388d",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "450 mmx 450 mm**",
+              "identifier": "SI-deb1eb81e8fee001",
+              "articleNumber": "MB4545/M",
+              "description": "450 mmx 450 mm**",
+              "properties": {
+                "子": "£226.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-449c8ba72a5e1f50",
+                  "title": "450 mmx 450 mm**",
+                  "amount": 315.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-64f39e6cf6756477",
+                  "title": "450 mmx 450 mm**",
+                  "amount": 274.05,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0e61a59ecb8448dd",
+                  "title": "450 mmx 450 mm**",
+                  "amount": 2510.55,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "450 mmx 450 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "450 mm x 600 mm**",
+          "identifier": "MOD-71ce776b23a1b0c8",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "450 mm x 600 mm**",
+              "identifier": "SI-3583e5308492a35d",
+              "articleNumber": "MB4560/M",
+              "description": "450 mm x 600 mm**",
+              "properties": {
+                "子": "£302.40"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-921e1178c74da999",
+                  "title": "450 mm x 600 mm**",
+                  "amount": 420.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3036d8f93d2a8bbe",
+                  "title": "450 mm x 600 mm**",
+                  "amount": 365.4,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0cf186fe1f3205ca",
+                  "title": "450 mm x 600 mm**",
+                  "amount": 3347.4,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "450 mm x 600 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "450 mm x 900 mm**",
+          "identifier": "MOD-6e0c13b9c56984a7",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "450 mm x 900 mm**",
+              "identifier": "SI-847a8fa65692d99c",
+              "articleNumber": "MB4590/M",
+              "description": "450 mm x 900 mm**",
+              "properties": {
+                "子": "£430.56"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-18497d4976a0b56b",
+                  "title": "450 mm x 900 mm**",
+                  "amount": 598.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bc619b641bd1e5a6",
+                  "title": "450 mm x 900 mm**",
+                  "amount": 520.26,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-07d00581bb6f0049",
+                  "title": "450 mm x 900 mm**",
+                  "amount": 4766.06,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "450 mm x 900 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "600 mm x 600 mm**",
+          "identifier": "MOD-51df5032a1e3bfb2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "600 mm x 600 mm**",
+              "identifier": "SI-c2db3a62c62d2132",
+              "articleNumber": "MB6060/M",
+              "description": "600 mm x 600 mm**",
+              "properties": {
+                "子": "£386.64"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0bd5dcf145b85f56",
+                  "title": "600 mm x 600 mm**",
+                  "amount": 537.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cb1cdbaf9e487f0e",
+                  "title": "600 mm x 600 mm**",
+                  "amount": 467.19,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-56044c661c317560",
+                  "title": "600 mm x 600 mm**",
+                  "amount": 4279.89,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "600 mm x 600 mm**"
+        },
+        {
+          "type": "Model",
+          "title": "600 mm x 900 mm*",
+          "identifier": "MOD-de904aa40aaf9f4f",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "600 mm x 900 mm*",
+              "identifier": "SI-6088e3cf80e9e13e",
+              "articleNumber": "MB6090/M",
+              "description": "600 mm x 900 mm*",
+              "properties": {
+                "子": "£496.80"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-77f6247f77c6da4b",
+                  "title": "600 mm x 900 mm*",
+                  "amount": 690.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-0de95e58c4e9e6ca",
+                  "title": "600 mm x 900 mm*",
+                  "amount": 600.3,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-61267d04a2d63bb0",
+                  "title": "600 mm x 900 mm*",
+                  "amount": 5499.3,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "600 mm x 900 mm*"
+        },
+        {
+          "type": "Model",
+          "title": "600 mm x 1200 mm*",
+          "identifier": "MOD-110bbabad817d81e",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "600 mm x 1200 mm*",
+              "identifier": "SI-5527d63ab07c0226",
+              "articleNumber": "MB60120/M",
+              "description": "600 mm x 1200 mm*",
+              "properties": {
+                "子": "£657.36"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-13ae20c34a9f3d4d",
+                  "title": "600 mm x 1200 mm*",
+                  "amount": 913.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d4eaf20f93b48a3a",
+                  "title": "600 mm x 1200 mm*",
+                  "amount": 794.31,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ],
+          "description": "600 mm x 1200 mm*"
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Shipped from Stock in the US and Europe",
+      "identifier": "PC-37d19d2791939385",
+      "models": [
+        {
+          "type": "Model",
+          "title": "4\"x 24\"",
+          "identifier": "MOD-a8f8be07dac8d70d",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "4\"x 24\"",
+              "identifier": "SI-82353cd69c141182",
+              "articleNumber": "MB424",
+              "description": "4\"x 24\"",
+              "properties": {
+                "子": "115.92"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-6600c0c9fd32a965",
+                  "title": "4\"x 24\"",
+                  "amount": 161.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-94498025436cb2fd",
+                  "title": "4\"x 24\"",
+                  "amount": 140.07,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ],
+          "description": "4\"x 24\""
+        },
+        {
+          "type": "Model",
+          "title": "4\"x 36\"",
+          "identifier": "MOD-bb1e53f8c4fca3f9",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "4\"x 36\"",
+              "identifier": "SI-75f2d47040e8557e",
+              "articleNumber": "MB436",
+              "description": "4\"x 36\"",
+              "properties": {
+                "子": "130.32"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3215716a72ede68a",
+                  "title": "4\"x 36\"",
+                  "amount": 181.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cf937b4218a181a0",
+                  "title": "4\"x 36\"",
+                  "amount": 157.47,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-642c2e71783bc0ff",
+                  "title": "4\"x 36\"",
+                  "amount": 1442.57,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "4\"x 36\""
+        },
+        {
+          "type": "Model",
+          "title": "6\" x 12\"",
+          "identifier": "MOD-c181686c4d8adcbc",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "6\" x 12\"",
+              "identifier": "SI-35ce2fbf671e6e3a",
+              "articleNumber": "MB612",
+              "description": "6\" x 12\"",
+              "properties": {
+                "子": "子 89.28"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3c514d5fe7054275",
+                  "title": "6\" x 12\"",
+                  "amount": 124.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bc7a2e1050f86f41",
+                  "title": "6\" x 12\"",
+                  "amount": 107.88,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c03876984de464b1",
+                  "title": "6\" x 12\"",
+                  "amount": 988.28,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "6\" x 12\""
+        },
+        {
+          "type": "Model",
+          "title": "8\"x 24\"",
+          "identifier": "MOD-6315c778fab7f9cc",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "8\"x 24\"",
+              "identifier": "SI-5bbd70c99b677e90",
+              "articleNumber": "MB824",
+              "description": "8\"x 24\"",
+              "properties": {
+                "子": "172.08"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b8d2a8d901e288df",
+                  "title": "8\"x 24\"",
+                  "amount": 239.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8b958735d100f12f",
+                  "title": "8\"x 24\"",
+                  "amount": 207.93,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-abda254d1218b8b7",
+                  "title": "8\"x 24\"",
+                  "amount": 1904.83,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "8\"x 24\""
+        },
+        {
+          "type": "Model",
+          "title": "8\" x 36\"",
+          "identifier": "MOD-830e80efcedd46a8",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "8\" x 36\"",
+              "identifier": "SI-81f85ae81b1472ed",
+              "articleNumber": "MB836",
+              "description": "8\" x 36\"",
+              "properties": {
+                "子": "£231.84"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-06c3aace86d83677",
+                  "title": "8\" x 36\"",
+                  "amount": 322.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8db69f79a35e8364",
+                  "title": "8\" x 36\"",
+                  "amount": 280.14,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-33384058c0773b1a",
+                  "title": "8\" x 36\"",
+                  "amount": 2566.34,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "8\" x 36\""
+        },
+        {
+          "type": "Model",
+          "title": "100 mm x 600 mm",
+          "identifier": "MOD-600909943a106b60",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "100 mm x 600 mm",
+              "identifier": "SI-2e7f7dec5df7465c",
+              "articleNumber": "MB1060/M",
+              "description": "100 mm x 600 mm",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-306f36c8e30f0576",
+                  "title": "100 mm x 600 mm",
+                  "amount": 161.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-f061b7b7c769158d",
+                  "title": "100 mm x 600 mm",
+                  "amount": 1283.17,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "100 mm x 600 mm"
+        },
+        {
+          "type": "Model",
+          "title": "100 mm x 900 mm",
+          "identifier": "MOD-fcf22888112d3f3e",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "100 mm x 900 mm",
+              "identifier": "SI-a6976f2cdc6ec0d9",
+              "articleNumber": "MB1090/M",
+              "description": "100 mm x 900 mm",
+              "properties": {
+                "子": "£130.32",
+                "3": "€157,47"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-66d81f3cc4c365c4",
+                  "title": "100 mm x 900 mm",
+                  "amount": 1442.57,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "100 mm x 900 mm"
+        },
+        {
+          "type": "Model",
+          "title": "150 mm x 300 mm",
+          "identifier": "MOD-2eceb7bbeac46267",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "150 mm x 300 mm",
+              "identifier": "SI-d15d8193975e4a0b",
+              "articleNumber": "MB1530/M",
+              "description": "150 mm x 300 mm",
+              "properties": {
+                "子": "子 89.28",
+                "3": "€ 107,88"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3c4ce79047fcffb9",
+                  "title": "150 mm x 300 mm",
+                  "amount": 124.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-41371cc915c26a50",
+                  "title": "150 mm x 300 mm",
+                  "amount": 988.28,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "150 mm x 300 mm"
+        },
+        {
+          "type": "Model",
+          "title": "200 mm x 600 mm",
+          "identifier": "MOD-0df3645117127ab2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "200 mm x 600 mm",
+              "identifier": "SI-5399cca93d5f4c57",
+              "articleNumber": "MB2060/M",
+              "description": "200 mm x 600 mm",
+              "properties": {
+                "子": "172.08",
+                "3": "€ 207,93"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2a203db9d126eb2f",
+                  "title": "200 mm x 600 mm",
+                  "amount": 239.0
+                }
+              ]
+            }
+          ],
+          "description": "200 mm x 600 mm"
+        },
+        {
+          "type": "Model",
+          "title": "200 mm x 900 mm",
+          "identifier": "MOD-19955c2f2bdea642",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "200 mm x 900 mm",
+              "identifier": "SI-963cb36515edb928",
+              "articleNumber": "MB2090/M",
+              "description": "200 mm x 900 mm",
+              "properties": {
+                "子": "£231.84",
+                "3": "D 280,14"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-161f34daea6857a6",
+                  "title": "200 mm x 900 mm",
+                  "amount": 322.0
+                }
+              ]
+            }
+          ],
+          "description": "200 mm x 900 mm"
         }
       ]
     },
     {
       "type": "Product Category",
       "title": "Water-Cooled Breadboard",
-      "identifier": "PC-WATERCOOLED-BREADBOARD-9177",
-      "subcategories": [
+      "identifier": "PC-93340abf3aa2a5d0",
+      "models": [
         {
-          "type": "Product Category",
-          "title": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
-          "identifier": "PC-ULTRALIGHT-SERIES-OF-OPTICAL-8199",
-          "models": [
+          "type": "Model",
+          "title": "Water-Cooled Breadboard",
+          "identifier": "MOD-c1f665ddf2d50e0f",
+          "sellableItems": [
             {
-              "type": "Model",
-              "title": "MS12B",
-              "identifier": "MOD-MS12B",
-              "sku": "MS12B",
-              "sellableItems": [
+              "type": "Sellable Item",
+              "title": "Water-Cooled Breadboard",
+              "identifier": "SI-9fb2f6349958d48e",
+              "articleNumber": "MBC12",
+              "description": "Water-Cooled Breadboard",
+              "properties": {
+                "Working Presure": "80.0 psi",
+                "Working Temperature Range": "0 to 60 C",
+                "Size": "12\" x 12\" (300 mm x 300 mm)",
+                "Tubing Length": "16' (5 m)",
+                "Fittings": "1/4\" or 6 mm I.D."
+              },
+              "listPrices": [
                 {
-                  "type": "Sellable Item",
-                  "title": "MS12B",
-                  "identifier": "SI-MS12B",
-                  "articleNumber": "MS12B",
-                  "properties": {
-                    "dimensions": "12.0 \" x 12\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MS12B — USD",
-                      "identifier": "LP-MS12B-01",
-                      "amount": 257.0,
-                      "currency": "USD"
-                    }
-                  ]
+                  "type": "List Price",
+                  "identifier": "LP-15ebf6375389140b",
+                  "title": "Water-Cooled Breadboard",
+                  "amount": 399.0,
+                  "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-dd9442d8d18348c5",
+                  "title": "Water-Cooled Breadboard",
+                  "amount": 347.13,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1285d69591891083",
+                  "title": "Water-Cooled Breadboard",
+                  "amount": 3180.03,
+                  "currency": "CNY"
                 }
               ]
             },
             {
-              "type": "Model",
-              "title": "HW-KIT5",
-              "identifier": "MOD-HWKIT5",
-              "sku": "HW-KIT5",
-              "sellableItems": [
+              "type": "Sellable Item",
+              "title": "Water-Cooled Breadboard",
+              "identifier": "SI-6514a618dd9c526f",
+              "articleNumber": "MBC3030/M",
+              "description": "Water-Cooled Breadboard",
+              "listPrices": [
                 {
-                  "type": "Sellable Item",
-                  "title": "HW-KIT5",
-                  "identifier": "SI-HWKIT5",
-                  "articleNumber": "HW-KIT5",
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "HW-KIT5 — USD",
-                      "identifier": "LP-HWKIT5-01",
-                      "amount": 92.2,
-                      "currency": "USD"
-                    }
-                  ]
+                  "type": "List Price",
+                  "identifier": "LP-609659aa144aa809",
+                  "title": "Water-Cooled Breadboard",
+                  "amount": 399.0,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ],
+          "description": "Water-Cooled Breadboard"
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "UltraLight Series of Optical Breadboards (Page 1 of 2)",
+      "identifier": "PC-30fc8fc3a1c3a8a6",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PBG11102",
+          "identifier": "MOD-08d99d22fed22cad",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11102",
+              "identifier": "SI-cd482b93963b91cc",
+              "articleNumber": "PBG11102",
+              "properties": {
+                "子": "511.90",
+                "Dimensions": "€",
+                "Weight*": "445,35",
+                "Col_7": "￥ 4,079.84",
+                "Col_8": "2^'x1'x1\"$",
+                "Col_9": "11 lbs/5 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d22beac45caa0939",
+                  "title": "PBG11102",
+                  "amount": 368.57,
+                  "currency": "CNY"
                 }
               ]
             }
           ]
         },
         {
-          "type": "Product Category",
-          "title": "UltraLight Series of Optical Breadboards (Page 2 of 2)",
-          "identifier": "PC-ULTRALIGHT-SERIES-OF-OPTICAL-3846",
-          "models": [
-            {
-              "type": "Model",
-              "title": "MS12B",
-              "identifier": "MOD-MS12B",
-              "sku": "MS12B",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "MS12B",
-                  "identifier": "SI-MS12B",
-                  "articleNumber": "MS12B",
-                  "properties": {
-                    "dimensions": "12.0 \" x 12\""
-                  },
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "MS12B — USD",
-                      "identifier": "LP-MS12B-01",
-                      "amount": 257.0,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Model",
-              "title": "HW-KIT5",
-              "identifier": "MOD-HWKIT5",
-              "sku": "HW-KIT5",
-              "sellableItems": [
-                {
-                  "type": "Sellable Item",
-                  "title": "HW-KIT5",
-                  "identifier": "SI-HWKIT5",
-                  "articleNumber": "HW-KIT5",
-                  "listPrices": [
-                    {
-                      "type": "List Price",
-                      "title": "HW-KIT5 — USD",
-                      "identifier": "LP-HWKIT5-01",
-                      "amount": 92.2,
-                      "currency": "USD"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "models": [
-        {
           "type": "Model",
-          "title": "MBC12",
-          "identifier": "MOD-MBC12",
-          "sku": "MBC12",
+          "title": "PBG11105",
+          "identifier": "MOD-d3ef7e0f0dd8c869",
           "sellableItems": [
             {
               "type": "Sellable Item",
-              "title": "MBC12",
-              "identifier": "SI-MBC12",
-              "articleNumber": "MBC12",
+              "title": "PBG11105",
+              "identifier": "SI-cd247dac263d9c82",
+              "articleNumber": "PBG11105",
               "properties": {
-                "dimensions": "4.0 in",
-                "working_pressure": "80.0 psi",
-                "working_temperature_range": "0.0 to 60 c",
-                "tubing_length": "16.0 ' (5 m)",
-                "fittings": "1.0 /4\" or 6 mm i.d"
+                "子": "725.60",
+                "Dimensions": "€",
+                "Weight*": "631,27",
+                "Col_7": "￥ 5,783.03",
+                "Col_8": "2'x 2'x1\"",
+                "Col_9": "20 lbs/9 kg"
               },
               "listPrices": [
                 {
                   "type": "List Price",
-                  "title": "MBC12 — USD",
-                  "identifier": "LP-MBC12-01",
-                  "amount": 49.4,
-                  "currency": "USD"
+                  "identifier": "LP-9ceafcccfe490491",
+                  "title": "PBG11105",
+                  "amount": 522.43,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11103",
+          "identifier": "MOD-a39c13f4b65771d2",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11103",
+              "identifier": "SI-79e3f8c39e8084d9",
+              "articleNumber": "PBG11103",
+              "properties": {
+                "子": "617.60",
+                "Dimensions": "3",
+                "Weight*": "537,31",
+                "Col_7": "￥ 4,922.27",
+                "Col_8": "3^'x1'x1\"",
+                "Col_9": "20 lbs/9 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8540e54136b498d3",
+                  "title": "PBG11103",
+                  "amount": 444.67,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11106",
+          "identifier": "MOD-c3875b2fe07648c8",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11106",
+              "identifier": "SI-960ac8929a5b717e",
+              "articleNumber": "PBG11106",
+              "properties": {
+                "子": "936.20",
+                "Dimensions": "3",
+                "Weight*": "814,49",
+                "Col_7": "￥ 7,461.51",
+                "Col_8": "3'x 2'x1\"",
+                "Col_9": "29 lbs/13 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bcd5d12166df2cb9",
+                  "title": "PBG11106",
+                  "amount": 674.06,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11110",
+          "identifier": "MOD-92269a632c2a05d6",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11110",
+              "identifier": "SI-53adacfd56f2a7f3",
+              "articleNumber": "PBG11110",
+              "properties": {
+                "子": "1,095.60",
+                "Dimensions": "€",
+                "Weight*": "953,17",
+                "Col_7": "￥",
+                "Col_8": "￥ 8,731.93",
+                "Col_9": "3'x 2.5'x 1\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e5ccc234f0309955",
+                  "title": "PBG11110",
+                  "amount": 788.83,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11112",
+          "identifier": "MOD-93793eb23dfd546e",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11112",
+              "identifier": "SI-cbe974d6dabdc9be",
+              "articleNumber": "PBG11112",
+              "properties": {
+                "子": "1,255.60",
+                "Dimensions": "€",
+                "Weight*": "1.092,37",
+                "Col_7": "￥",
+                "Col_8": "10,007.13",
+                "Col_9": "3^'x 3'x 1\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5ce168d1e2fceefb",
+                  "title": "PBG11112",
+                  "amount": 904.03,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11107",
+          "identifier": "MOD-aad2ac26825c297b",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11107",
+              "identifier": "SI-497292bbee4390dc",
+              "articleNumber": "PBG11107",
+              "properties": {
+                "子": "1,146.40",
+                "Dimensions": "3",
+                "Weight*": "997,37",
+                "Col_7": "￥",
+                "Col_8": "9,136.81",
+                "Col_9": "4'x 2'x1\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-62d70cbdf35f604d",
+                  "title": "PBG11107",
+                  "amount": 825.41,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG11111 PBG11113",
+          "identifier": "MOD-db4c10f4b851f0b4",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG11111 PBG11113",
+              "identifier": "SI-214de8e67680c51a",
+              "articleNumber": "PBG11111 PBG11113",
+              "properties": {
+                "子": "1,357.50",
+                "Dimensions": "3",
+                "Weight*": "1.181,03 1.365,64",
+                "Col_7": "￥",
+                "Col_8": "10,819.28",
+                "Col_9": "4'x 2.5'x 1\" 4^'x 3'x1\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-7bf28a44bbbf5b78",
+                  "title": "PBG11111 PBG11113",
+                  "amount": 977.4,
+                  "currency": "CNY"
                 }
               ]
             }
@@ -547,30 +2253,1151 @@
     },
     {
       "type": "Product Category",
-      "title": "Other Products",
-      "identifier": "PC-OTHER-PRODUCTS",
+      "title": "UltraLight Series of Optical Breadboards (Page 2 of 2)",
+      "identifier": "PC-cb0d2b635fd93280",
       "models": [
         {
           "type": "Model",
-          "title": "PBG11102",
-          "identifier": "MOD-PBG11102",
-          "sku": "PBG11102",
+          "title": "PBG12118",
+          "identifier": "MOD-f6f922bf8bf97a1b",
           "sellableItems": [
             {
               "type": "Sellable Item",
-              "title": "PBG11102",
-              "identifier": "SI-PBG11102",
-              "articleNumber": "PBG11102",
+              "title": "PBG12118",
+              "identifier": "SI-51bea85e03baeef0",
+              "articleNumber": "PBG12118",
               "properties": {
-                "dimensions": "4.0 in"
+                "子": "子",
+                "Col_3": "471.17 €",
+                "Dimensions": "2'x1.5'x 2.2\"",
+                "Weight*": "26 lbs/12 kg"
               },
               "listPrices": [
                 {
                   "type": "List Price",
-                  "title": "PBG11102 — USD",
-                  "identifier": "LP-PBG11102-01",
-                  "amount": 49.4,
+                  "identifier": "LP-fe4758f8304aa70b",
+                  "title": "PBG12118",
+                  "amount": 654.4
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a15342389258fed9",
+                  "title": "PBG12118",
+                  "amount": 569.33,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-700aef740ce63719",
+                  "title": "PBG12118",
+                  "amount": 5215.57,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12105",
+          "identifier": "MOD-5fc2e726422e3db5",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12105",
+              "identifier": "SI-79c0fab61b6cbe02",
+              "articleNumber": "PBG12105",
+              "properties": {
+                "子": "子",
+                "Col_3": "582.19 3",
+                "Dimensions": "2' x 2'x 2.2\"",
+                "Weight*": "27 lbs/12 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8ed55c868ffa7aed",
+                  "title": "PBG12105",
+                  "amount": 808.6
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3b454b613a0dd0a3",
+                  "title": "PBG12105",
+                  "amount": 703.48,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12106",
+          "identifier": "MOD-2547ff60265f5c81",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12106",
+              "identifier": "SI-66654beaef0fdd67",
+              "articleNumber": "PBG12106",
+              "properties": {
+                "子": "子 735.12",
+                "Col_3": "€",
+                "Dimensions": "3' x 2' x 2.2\"",
+                "Weight*": "35 lbs/16 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8a3094c6fafad6a7",
+                  "title": "PBG12106",
+                  "amount": 1021.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-af9ba6c4b1fa1dad",
+                  "title": "PBG12106",
+                  "amount": 888.27,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12110",
+          "identifier": "MOD-479b88342e32c28f",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12110",
+              "identifier": "SI-434dfc528bbcb802",
+              "articleNumber": "PBG12110",
+              "properties": {
+                "子": "子 850.10",
+                "Col_3": "€",
+                "Dimensions": "3' x 2.5' x 2.2\"",
+                "Weight*": "44 lbs/20 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-45a22b38810d92a2",
+                  "title": "PBG12110",
+                  "amount": 1180.7
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d90db73f39833d90",
+                  "title": "PBG12110",
+                  "amount": 9410.18,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12111",
+          "identifier": "MOD-d2a1703f84054989",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12111",
+              "identifier": "SI-91a0944686e43f04",
+              "articleNumber": "PBG12111",
+              "properties": {
+                "子": "子 1,039.61",
+                "Col_3": "€",
+                "Dimensions": "4' x 2.5' x 2.2\"",
+                "Weight*": "60 lbs/27 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-50c7468d4c7ce602",
+                  "title": "PBG12111",
+                  "amount": 1443.9
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4af9103f79841850",
+                  "title": "PBG12111",
+                  "amount": 1256.19,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12113",
+          "identifier": "MOD-ff2c1bb6a0f86966",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12113",
+              "identifier": "SI-f95f67facd017a09",
+              "articleNumber": "PBG12113",
+              "properties": {
+                "子": "子 1,192.97",
+                "Col_3": "€",
+                "Dimensions": "4' x 3'x 2.2\"",
+                "Weight*": "71 lbs/32 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b1ef3f9c22e17ea4",
+                  "title": "PBG12113",
+                  "amount": 1656.9
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-493f06cced48a0ee",
+                  "title": "PBG12113",
+                  "amount": 1441.5,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG12114",
+          "identifier": "MOD-576080514739d343",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG12114",
+              "identifier": "SI-b5cb9e853ce2302b",
+              "articleNumber": "PBG12114",
+              "properties": {
+                "子": "£ 1,420.92",
+                "Col_3": "3",
+                "Dimensions": "5' x 3' x 2.2\"",
+                "Weight*": "86 lbs/39 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-45203457df618abf",
+                  "title": "PBG12114",
+                  "amount": 1973.5
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5078f5c7f5fb6253",
+                  "title": "PBG12114",
+                  "amount": 1716.95,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2fd216961b184ff0",
+                  "title": "PBG12114",
+                  "amount": 15728.8,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51501",
+          "identifier": "MOD-fdbc50bb3f612b12",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51501",
+              "identifier": "SI-4d410d9754082db5",
+              "articleNumber": "PBG51501",
+              "properties": {
+                "子": "子 290.02",
+                "Dimensions": "300 mm x 300 mm x 25 mm",
+                "Weight*": "7 lbs/3 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-42a2098c10238147",
+                  "title": "PBG51501",
+                  "amount": 402.8
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-182dc0b70ac76e55",
+                  "title": "PBG51501",
+                  "amount": 350.44,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-340995abbf201026",
+                  "title": "PBG51501",
+                  "amount": 3210.32,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51502",
+          "identifier": "MOD-aea67755940e4859",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51502",
+              "identifier": "SI-7adfa03b5546e052",
+              "articleNumber": "PBG51502",
+              "properties": {
+                "子": "子 363.82",
+                "Dimensions": "600 mm x 300 mm x 25 mm",
+                "Weight*": "11 lbs/5 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5a2a6c783f89b6f0",
+                  "title": "PBG51502",
+                  "amount": 505.3
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9cc2eb2557b8d53b",
+                  "title": "PBG51502",
+                  "amount": 4027.24,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51522",
+          "identifier": "MOD-bf7f7a7ed95cea6b",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51522",
+              "identifier": "SI-25aa1310303da56d",
+              "articleNumber": "PBG51522",
+              "properties": {
+                "子": "子 438.62",
+                "Dimensions": "600 mm x 450 mm x 25 mm",
+                "Weight*": "18 lbs/8 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e5d5ef0b9e14f355",
+                  "title": "PBG51522",
+                  "amount": 609.2
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-16afdb1425ca7270",
+                  "title": "PBG51522",
+                  "amount": 530.0,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51505",
+          "identifier": "MOD-baff658394972b01",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51505",
+              "identifier": "SI-5fd5048fa1506ec9",
+              "articleNumber": "PBG51505",
+              "properties": {
+                "子": "子 513.43",
+                "Dimensions": "600 mm x 600 mm x 25 mm",
+                "Weight*": "23 lbs/10.5 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-92b560e3be5255d3",
+                  "title": "PBG51505",
+                  "amount": 713.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-957d57463dfdf3a5",
+                  "title": "PBG51505",
+                  "amount": 620.4,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51503",
+          "identifier": "MOD-67ddfd19c52fbfce",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51503",
+              "identifier": "SI-03d8634bb867b11a",
+              "articleNumber": "PBG51503",
+              "properties": {
+                "子": "437.62 子",
+                "Dimensions": "900 mm x 300 mm x 25 mm",
+                "Weight*": "31 lbs/14 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ce34c22400aefb84",
+                  "title": "PBG51503",
+                  "amount": 607.8
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-15aac2dd366ebf70",
+                  "title": "PBG51503",
+                  "amount": 528.79,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-68f9149a9f2ff065",
+                  "title": "PBG51503",
+                  "amount": 4844.17,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51506",
+          "identifier": "MOD-f7ea0598d7923edb",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51506",
+              "identifier": "SI-19aa48e6ada63eda",
+              "articleNumber": "PBG51506",
+              "properties": {
+                "子": "子 660.31",
+                "Dimensions": "900 mm x 600 mm x 25 mm",
+                "Weight*": "33 lbs/15 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-28a16932409cebfc",
+                  "title": "PBG51506",
+                  "amount": 917.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-44151950f4f2668a",
+                  "title": "PBG51506",
+                  "amount": 797.88,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b3bee700aedadc0e",
+                  "title": "PBG51506",
+                  "amount": 7309.29,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51510",
+          "identifier": "MOD-bd60f083846c291d",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51510",
+              "identifier": "SI-03543587a00d2e93",
+              "articleNumber": "PBG51510",
+              "properties": {
+                "子": "子 771.70",
+                "Dimensions": [
+                  "900 mm x 750 mm x 25 mm",
+                  "1500 mmx 900 mmx 25 mm"
+                ],
+                "Weight*": "40 lbs/18 kg",
+                "Weight": "88 lbs/40 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cb4ccd944e15c9a5",
+                  "title": "PBG51510",
+                  "amount": 1071.8
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-56231055d41ec8b2",
+                  "title": "PBG51510",
+                  "amount": 932.47,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cda87a33aa55064f",
+                  "title": "PBG51510",
+                  "amount": 1837.4,
                   "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-df915eb297aa8858",
+                  "title": "PBG51510",
+                  "amount": 1322.93,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8f8d6d2e1c93d060",
+                  "title": "PBG51510",
+                  "amount": 1598.54,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a3b2e08e789eb930",
+                  "title": "PBG51510",
+                  "amount": 14644.08,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51512",
+          "identifier": "MOD-b7fb8569c03dfc48",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51512",
+              "identifier": "SI-2dd4da44c888f8c0",
+              "articleNumber": "PBG51512",
+              "properties": {
+                "子": "子 883.01",
+                "Dimensions": [
+                  "900 mm x 900 mm x 25 mm",
+                  "1500 mmx 900 mmx 25 mm"
+                ],
+                "Weight*": "51 lbs/23 kg",
+                "Weight": "88 lbs/40 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a680fed5157049b8",
+                  "title": "PBG51512",
+                  "amount": 1226.4
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d0fafc6f3328699e",
+                  "title": "PBG51512",
+                  "amount": 1066.97,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-47eca201ed3547bc",
+                  "title": "PBG51512",
+                  "amount": 9774.41,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5e7cd6835632aed1",
+                  "title": "PBG51512",
+                  "amount": 1837.4,
+                  "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2ce55f7ca0db6116",
+                  "title": "PBG51512",
+                  "amount": 1322.93,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1d968ef016b803b9",
+                  "title": "PBG51512",
+                  "amount": 1598.54,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-518cf86d0260215c",
+                  "title": "PBG51512",
+                  "amount": 14644.08,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51507",
+          "identifier": "MOD-77d31647c53e3763",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51507",
+              "identifier": "SI-8384f36edec64799",
+              "articleNumber": "PBG51507",
+              "properties": {
+                "子": "子 807.19",
+                "Dimensions": [
+                  "1200 mm x 600 mm x 25 mm",
+                  "1500 mmx 900 mmx 25 mm"
+                ],
+                "Weight*": "37 lbs/17 kg",
+                "Weight": "88 lbs/40 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9a761b4741df70d4",
+                  "title": "PBG51507",
+                  "amount": 1121.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3e00fbb132c03ee9",
+                  "title": "PBG51507",
+                  "amount": 975.36,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-a3e0ad81e48d2843",
+                  "title": "PBG51507",
+                  "amount": 8935.17,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d00c494c57deb47b",
+                  "title": "PBG51507",
+                  "amount": 1837.4,
+                  "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ea77a9d53b2c0091",
+                  "title": "PBG51507",
+                  "amount": 1322.93,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ddf6569ee5c1a69e",
+                  "title": "PBG51507",
+                  "amount": 1598.54,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-7b6392f6a76ed2c4",
+                  "title": "PBG51507",
+                  "amount": 14644.08,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51511",
+          "identifier": "MOD-b623cc73580deada",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51511",
+              "identifier": "SI-19cd424f39aca108",
+              "articleNumber": "PBG51511",
+              "properties": {
+                "子": "子 955.08",
+                "Dimensions": [
+                  "1200 mm x 750 mm 25 mm",
+                  "1500 mmx 900 mmx 25 mm"
+                ],
+                "Weight*": "57 lbs/26 kg",
+                "Weight": "88 lbs/40 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d93d089e2cbebb43",
+                  "title": "PBG51511",
+                  "amount": 1326.5
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-fcf1561d20e864d6",
+                  "title": "PBG51511",
+                  "amount": 1154.06,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4f41eb03422726ec",
+                  "title": "PBG51511",
+                  "amount": 1837.4,
+                  "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d0cc6e807f706cd9",
+                  "title": "PBG51511",
+                  "amount": 1322.93,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-060f1d18d83cba87",
+                  "title": "PBG51511",
+                  "amount": 1598.54,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-82e607a737c33b4e",
+                  "title": "PBG51511",
+                  "amount": 14644.08,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG51513 PBG51514",
+          "identifier": "MOD-f8e8f07e09ae1489",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG51513 PBG51514",
+              "identifier": "SI-6abb98e168899256",
+              "articleNumber": "PBG51513 PBG51514",
+              "properties": {
+                "子": "7 1,102.97",
+                "Dimensions": [
+                  "1200 mm x 900 mm x 25 mm",
+                  "1500 mmx 900 mmx 25 mm"
+                ],
+                "Weight*": "66 lbs/30 kg",
+                "Weight": "88 lbs/40 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-90cf7803063e7621",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 1531.9
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c31ce6980cb989c1",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 1332.75,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-fa6f9fea77e07d67",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 12209.24,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-050984674ac97206",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 1837.4,
+                  "currency": "USD"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-20593f555f58c221",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 1322.93,
+                  "currency": "CNY"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-baaf9d651b948da1",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 1598.54,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-55975d750b0c6788",
+                  "title": "PBG51513 PBG51514",
+                  "amount": 14644.08,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Additional Size Options Available",
+      "identifier": "PC-afc59a8d83cf567f",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PBG52502",
+          "identifier": "MOD-a2d82701285b5422",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52502",
+              "identifier": "SI-da8862857979b826",
+              "articleNumber": "PBG52502",
+              "properties": {
+                "子": "子 389.02",
+                "Dimensions": "600 mm x 300 mm x 55 mm",
+                "Weight*": "13 lbs/6 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2f7baab4f76683b7",
+                  "title": "PBG52502",
+                  "amount": 540.3
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-e3d19b3262cc2daa",
+                  "title": "PBG52502",
+                  "amount": 470.06,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52522",
+          "identifier": "MOD-83d7ede76af702e9",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52522",
+              "identifier": "SI-6b3d2c80707c4ea8",
+              "articleNumber": "PBG52522",
+              "properties": {
+                "子": "子 464.33",
+                "Dimensions": "600 mm x 450 mm x 55 mm",
+                "Weight*": "18 lbs/8.2 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c72bbd809bbb7685",
+                  "title": "PBG52522",
+                  "amount": 644.9
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bdd09fd7d5f3d3fe",
+                  "title": "PBG52522",
+                  "amount": 561.06,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52505",
+          "identifier": "MOD-34ddcf97d23270a6",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52505",
+              "identifier": "SI-86154ba088ce7057",
+              "articleNumber": "PBG52505",
+              "properties": {
+                "子": "子 561.96",
+                "Dimensions": "600 mm x 600 mm x 55 mm",
+                "Weight*": "24 lbs/11 kg",
+                "Col_7": "PBG52506",
+                "Col_8": "$ 1,001.40"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-2b7aa99e951495b0",
+                  "title": "PBG52505",
+                  "amount": 780.5
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-72c4f69d44516033",
+                  "title": "PBG52505",
+                  "amount": 679.04,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-702e06877805fb1d",
+                  "title": "PBG52505",
+                  "amount": 6220.59,
+                  "currency": "CNY"
+                }
+              ]
+            },
+            {
+              "type": "Sellable Item",
+              "title": "PBG52506",
+              "identifier": "SI-a4afb43b19553b23",
+              "articleNumber": "PBG52506",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-14bd0bca9193378f",
+                  "title": "PBG52506",
+                  "amount": 1001.4,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52510",
+          "identifier": "MOD-967ebf01899c2ad7",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52510",
+              "identifier": "SI-413c6a0aae7de092",
+              "articleNumber": "PBG52510",
+              "properties": {
+                "子": "子 832.90",
+                "Dimensions": "900 mm x 750 mm x 55 mm",
+                "Weight*": "44 lbs/20 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ddc2ec281d3f9450",
+                  "title": "PBG52510",
+                  "amount": 1156.8
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-113bd65270c6e59e",
+                  "title": "PBG52510",
+                  "amount": 1006.42,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52511",
+          "identifier": "MOD-3565637c61410ecd",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52511",
+              "identifier": "SI-d4e977fe8a57fe6f",
+              "articleNumber": "PBG52511",
+              "properties": {
+                "子": "子 1,017.29",
+                "Dimensions": "1200 mm x 750 mm x 55 mm",
+                "Weight*": "55 lbs/25 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-93f99cc1ef2be3f5",
+                  "title": "PBG52511",
+                  "amount": 1412.9
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-26cdc58b23611d17",
+                  "title": "PBG52511",
+                  "amount": 1229.22,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9ac2c9639fb617bd",
+                  "title": "PBG52511",
+                  "amount": 11260.81,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52513",
+          "identifier": "MOD-c48a904f14e3c12b",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52513",
+              "identifier": "SI-8579a66472a11d85",
+              "articleNumber": "PBG52513",
+              "properties": {
+                "子": "1,619.00",
+                "Dimensions": "￥ 12,903.43",
+                "Weight*": "1200 mm x 900 mm x 55 mm",
+                "Col_7": "57 lbs/27 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8734fc96eb840b86",
+                  "title": "PBG52513",
+                  "amount": 1408.53,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52508",
+          "identifier": "MOD-1bf2df3746f498a0",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52508",
+              "identifier": "SI-7fde5cfb778c0770",
+              "articleNumber": "PBG52508",
+              "properties": {
+                "子": "1,413.00",
+                "Dimensions": "€",
+                "Weight*": "€ 1.229,31",
+                "Col_7": "￥ 11,261.61",
+                "Col_8": "1500 mm x 600 mm x 55 mm"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-27ded41fd3d149b2",
+                  "title": "PBG52508",
+                  "amount": 1017.36,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52514",
+          "identifier": "MOD-8bdc8d2aa638cd5a",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52514",
+              "identifier": "SI-cdea47137f03c330",
+              "articleNumber": "PBG52514",
+              "properties": {
+                "子": "1,925.90",
+                "Dimensions": "€",
+                "Weight*": "1.675,53",
+                "Col_7": "￥ 15,349.42",
+                "Col_8": "1500 mm x 900 mm x 55 mm"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9e76e511e971f89e",
+                  "title": "PBG52514",
+                  "amount": 1386.65,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PBG52521",
+          "identifier": "MOD-e17b6cbd6f21ca5e",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBG52521",
+              "identifier": "SI-5b9c5811e3214425",
+              "articleNumber": "PBG52521",
+              "properties": {
+                "子": "子",
+                "Dimensions": "天 25,361.34",
+                "Weight*": "1800 mm x 1250 mm x 55 mm",
+                "Col_7": "145 lbs/66 kg"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-14f3d79c835c498b",
+                  "title": "PBG52521",
+                  "amount": 3182.1
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c69154101e2969df",
+                  "title": "PBG52521",
+                  "amount": 2291.11,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8c758e5577a5c232",
+                  "title": "PBG52521",
+                  "amount": 2768.43,
+                  "currency": "CNY"
                 }
               ]
             }

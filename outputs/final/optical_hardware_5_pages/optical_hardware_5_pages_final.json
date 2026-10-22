@@ -1,0 +1,1750 @@
+{
+  "type": "Product Category",
+  "title": "optical_hardware_5_pages",
+  "identifier": "PC-a71b91a0cf116775",
+  "subcategories": [
+    {
+      "type": "Product Category",
+      "title": "ScienceDesk Breadboards: Performance Series",
+      "identifier": "PC-cde25bee0d2dc4f4",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Specifications",
+          "identifier": "PC-b1e29e4a9c0c8f09",
+          "models": [
+            {
+              "type": "Model",
+              "title": "PBH11106",
+              "identifier": "MOD-7c2225fb77dd9c2c",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH11106",
+                  "identifier": "SI-0aac0646e800af4b",
+                  "articleNumber": "PBH11106",
+                  "properties": {
+                    "子": "子 665.14",
+                    "Dimensions": "3'x 2'× 2.4\"",
+                    "Compatible Frames": "Item #'s Ending in 6090"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-e729e054a936c5f9",
+                      "title": "PBH11106",
+                      "amount": 923.8
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-e8367cb2706d02cf",
+                      "title": "PBH11106",
+                      "amount": 803.71,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-4a5253a5271cef9d",
+                      "title": "PBH11106",
+                      "amount": 7362.69,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH11111",
+              "identifier": "MOD-d07a06fc1b549284",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH11111",
+                  "identifier": "SI-d6b8a4b5123e8fb4",
+                  "articleNumber": "PBH11111",
+                  "properties": {
+                    "子": "子 785.38",
+                    "Dimensions": "3'x 2.5'x 2.4\"",
+                    "Compatible Frames": "Item #'s Ending in 7590"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-52d58e9d22c8adc0",
+                      "title": "PBH11111",
+                      "amount": 1090.8
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-3dea8e811aa3e7e6",
+                      "title": "PBH11111",
+                      "amount": 949.0,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-baeffd98106156ad",
+                      "title": "PBH11111",
+                      "amount": 8693.68,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH11112",
+              "identifier": "MOD-ce677bb8a6542b63",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH11112",
+                  "identifier": "SI-abdf5160fa618821",
+                  "articleNumber": "PBH11112",
+                  "properties": {
+                    "子": "子 983.74",
+                    "Dimensions": "4'x 2.5' x 2.4\"",
+                    "Compatible Frames": "Item #'s Ending in 75120"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-d7c3b631c7996a0d",
+                      "title": "PBH11112",
+                      "amount": 1366.3
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-a2fefaec94860ecb",
+                      "title": "PBH11112",
+                      "amount": 1188.68,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-43d76d77c2911322",
+                      "title": "PBH11112",
+                      "amount": 10889.41,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH11115",
+              "identifier": "MOD-d6f02c5a8ad4e5c5",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH11115",
+                  "identifier": "SI-ae4fcc9eaa21c4ff",
+                  "articleNumber": "PBH11115",
+                  "properties": {
+                    "子": "1,144.15",
+                    "Dimensions": "4'x 3'x 2.4\"",
+                    "Compatible Frames": "Item #'s Ending in 90120"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-3a12b5a891858491",
+                      "title": "PBH11115",
+                      "amount": 1589.1
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-0724dd50f921e32b",
+                      "title": "PBH11115",
+                      "amount": 1382.52,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-b8f1456e1d69d483",
+                      "title": "PBH11115",
+                      "amount": 12665.13,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH51506",
+              "identifier": "MOD-07cf0dd00c5020f3",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH51506",
+                  "identifier": "SI-6fa6511ec3df4bcf",
+                  "articleNumber": "PBH51506",
+                  "properties": {
+                    "子": "子 651.24",
+                    "Dimensions": "900 mm x 600 mm x 60 mm",
+                    "Compatible Frames": "Item #'s Ending in 6090"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-21c6716647e3689a",
+                      "title": "PBH51506",
+                      "amount": 904.5
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-2872e021a23a5d43",
+                      "title": "PBH51506",
+                      "amount": 786.92,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-381f9214cf508fa1",
+                      "title": "PBH51506",
+                      "amount": 7208.87,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH51511",
+              "identifier": "MOD-3a5660637374c5fd",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH51511",
+                  "identifier": "SI-714ce33f65a829d8",
+                  "articleNumber": "PBH51511",
+                  "properties": {
+                    "子": "子 751.18",
+                    "Dimensions": "900 mm x 750 mm x 60 mm",
+                    "Compatible Frames": "Item #'s Ending in 7590"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-beffca22dd344d51",
+                      "title": "PBH51511",
+                      "amount": 1043.3
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-c76bdd106ec857cf",
+                      "title": "PBH51511",
+                      "amount": 907.67,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-4ee9ee045af91c1e",
+                      "title": "PBH51511",
+                      "amount": 8315.1,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH51512",
+              "identifier": "MOD-c0101e0b149e08ed",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH51512",
+                  "identifier": "SI-ff91fb476859fff4",
+                  "articleNumber": "PBH51512",
+                  "properties": {
+                    "子": "子 961.20",
+                    "Dimensions": "1200 mm x 750 mm x 60 mm",
+                    "Compatible Frames": "Item #'s Ending in 75120"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-69c9121fd36682d2",
+                      "title": "PBH51512",
+                      "amount": 1335.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-43a55ffabedf3086",
+                      "title": "PBH51512",
+                      "amount": 1161.45,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-db058002d3fe7949",
+                      "title": "PBH51512",
+                      "amount": 10639.95,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PBH51515",
+              "identifier": "MOD-8502ff6b98bc089f",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PBH51515",
+                  "identifier": "SI-fb1a2c5977161750",
+                  "articleNumber": "PBH51515",
+                  "properties": {
+                    "子": "1,116.43",
+                    "Dimensions": "1200 mm x 900 mm x 60 mm",
+                    "Compatible Frames": "Item #'s Ending in 90120"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-8da12e08485fe815",
+                      "title": "PBH51515",
+                      "amount": 1550.6
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-8a968d0e5a461495",
+                      "title": "PBH51515",
+                      "amount": 1349.02,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-01763eb6a2af3943",
+                      "title": "PBH51515",
+                      "amount": 12358.28,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "ScienceDesk Breadboards: Performance Series with No Holes",
+      "identifier": "PC-5ef6641083465b4c",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PBH11106/NH",
+          "identifier": "MOD-f2e8228d4405a12b",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBH11106/NH",
+              "identifier": "SI-a2cb401d1a969886",
+              "articleNumber": "PBH11106/NH",
+              "description": "Optical Table Accessories",
+              "properties": {
+                "子": "3 496.08",
+                "Size": "3'x 2' x 2.4\""
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4c11f8f108aba775",
+                  "title": "PBH11106/NH",
+                  "amount": 689.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-03fabff904000aa6",
+                  "title": "PBH11106/NH",
+                  "amount": 599.43,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-9d34099d44b52651",
+                  "title": "PBH11106/NH",
+                  "amount": 5491.33,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "Optical Table Accessories"
+        },
+        {
+          "type": "Model",
+          "title": "PBH11111/NH",
+          "identifier": "MOD-8f28b9a68885f090",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBH11111/NH",
+              "identifier": "SI-6a8e556486db0c5b",
+              "articleNumber": "PBH11111/NH",
+              "description": "Optical Table Accessories",
+              "properties": {
+                "子": "£ 625.68",
+                "Size": "3'x 2.5'x 2.4\" (900 mm x 750 mm x 60 mm)"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-305dbac6319d103c",
+                  "title": "PBH11111/NH",
+                  "amount": 869.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-f51b5a002e503013",
+                  "title": "PBH11111/NH",
+                  "amount": 756.03,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-24f1fa377c7acdcb",
+                  "title": "PBH11111/NH",
+                  "amount": 6925.93,
+                  "currency": "CNY"
+                }
+              ]
+            },
+            {
+              "type": "Sellable Item",
+              "title": "PBH51511/NH",
+              "identifier": "SI-5252ccc83f25e9b5",
+              "articleNumber": "PBH51511/NH",
+              "description": "Optical Table Accessories",
+              "properties": {
+                "子": "£ 625.68",
+                "Size": "3'x 2.5'x 2.4\" (900 mm x 750 mm x 60 mm)"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8b51a26cbbd80941",
+                  "title": "PBH51511/NH",
+                  "amount": 869.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4f7ea4af55fb6dd9",
+                  "title": "PBH51511/NH",
+                  "amount": 756.03,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c4aef9cd53c39257",
+                  "title": "PBH51511/NH",
+                  "amount": 6925.93,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "Optical Table Accessories"
+        },
+        {
+          "type": "Model",
+          "title": "PBH11112/NH",
+          "identifier": "MOD-744563f9f358cc5b",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PBH11112/NH",
+              "identifier": "SI-f5fe65ea8a6ee08a",
+              "articleNumber": "PBH11112/NH",
+              "description": "Optical Table Accessories",
+              "properties": {
+                "子": "£ 709.20",
+                "Size": "4' × 2.5'× 2.4\" (1200 mm x 750 mm x 60 mm)",
+                "Col_7": "PBH11115/NH",
+                "Col_8": "PBH51515/NH"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-140201991556f742",
+                  "title": "PBH11112/NH",
+                  "amount": 985.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-1197954d45acb4f5",
+                  "title": "PBH11112/NH",
+                  "amount": 856.95,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-38837edca9a3ebaa",
+                  "title": "PBH11112/NH",
+                  "amount": 7850.45,
+                  "currency": "CNY"
+                }
+              ]
+            },
+            {
+              "type": "Sellable Item",
+              "title": "PBH51512/NH",
+              "identifier": "SI-32db26192eace5b0",
+              "articleNumber": "PBH51512/NH",
+              "description": "Optical Table Accessories",
+              "properties": {
+                "子": "£ 709.20",
+                "Size": "4' × 2.5'× 2.4\" (1200 mm x 750 mm x 60 mm)",
+                "Col_7": "PBH11115/NH",
+                "Col_8": "PBH51515/NH"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b2c3dc1f3c53e9f5",
+                  "title": "PBH51512/NH",
+                  "amount": 985.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-acc3a290c794ef3a",
+                  "title": "PBH51512/NH",
+                  "amount": 856.95,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-13122b1fc4e517cd",
+                  "title": "PBH51512/NH",
+                  "amount": 7850.45,
+                  "currency": "CNY"
+                }
+              ]
+            },
+            {
+              "type": "Sellable Item",
+              "title": "PBH11115/NH",
+              "identifier": "SI-25f735489540afc4",
+              "articleNumber": "PBH11115/NH",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-03a19c549a9bda0d",
+                  "title": "PBH11115/NH",
+                  "amount": 1054.0,
+                  "currency": "USD"
+                }
+              ]
+            },
+            {
+              "type": "Sellable Item",
+              "title": "PBH51515/NH",
+              "identifier": "SI-290d9d9f4a2f7aae",
+              "articleNumber": "PBH51515/NH",
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8840469d8f2eca84",
+                  "title": "PBH51515/NH",
+                  "amount": 1054.0,
+                  "currency": "USD"
+                }
+              ]
+            }
+          ],
+          "description": "Optical Table Accessories"
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "ScienceDesk Breadboards: PerformancePlus Series",
+      "identifier": "PC-7892c95af64c17fd",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "PerformancePlus Series",
+          "identifier": "PC-7f2c268c33f7beaf",
+          "subcategories": [
+            {
+              "type": "Product Category",
+              "title": "Specifications",
+              "identifier": "PC-d302b78d3962fde3",
+              "models": [
+                {
+                  "type": "Model",
+                  "title": "PBI11106",
+                  "identifier": "MOD-c0c6b184f223c0b6",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI11106",
+                      "identifier": "SI-221ca4d387165061",
+                      "articleNumber": "PBI11106",
+                      "properties": {
+                        "子": "子 819.36",
+                        "Dimensions": "3' x 2' × 2.4\"",
+                        "Compatibleframes": "Item #'s Ending in 6090"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-ebd5cfaadbb820b5",
+                          "title": "PBI11106",
+                          "amount": 1138.0
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-4e913cbc945815c0",
+                          "title": "PBI11106",
+                          "amount": 990.06,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-6e538c547e6ef576",
+                          "title": "PBI11106",
+                          "amount": 9069.86,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI11111",
+                  "identifier": "MOD-f311c4b6261536b1",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI11111",
+                      "identifier": "SI-c1272f60f6328dbb",
+                      "articleNumber": "PBI11111",
+                      "properties": {
+                        "子": "子 919.01",
+                        "Dimensions": "3'x 2.5'x 2.4\"",
+                        "Compatibleframes": "Item #'s Ending in 7590"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-c71eedebe7ec80a0",
+                          "title": "PBI11111",
+                          "amount": 1276.4
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-a733c0dbfead99ab",
+                          "title": "PBI11111",
+                          "amount": 1110.47,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-5ef8b53253af4032",
+                          "title": "PBI11111",
+                          "amount": 10172.91,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI11112",
+                  "identifier": "MOD-ee9d31e2fed18935",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI11112",
+                      "identifier": "SI-5d2cc9ba33dfe2dc",
+                      "articleNumber": "PBI11112",
+                      "properties": {
+                        "子": "1,150.70",
+                        "Dimensions": "4'x 2.5'x 2.4\"",
+                        "Compatibleframes": "Item #'s Ending in 75120"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-552d3cd2de9556a9",
+                          "title": "PBI11112",
+                          "amount": 1598.2
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-66db1dcf3c39dd59",
+                          "title": "PBI11112",
+                          "amount": 1390.43,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-610790195eacd3a1",
+                          "title": "PBI11112",
+                          "amount": 12737.65,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI11115",
+                  "identifier": "MOD-3cbc05e832b647e0",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI11115",
+                      "identifier": "SI-8793ebc9e9ce573c",
+                      "articleNumber": "PBI11115",
+                      "properties": {
+                        "子": "£1,311.05",
+                        "Dimensions": "4'x 3'x 2.4\"",
+                        "Compatibleframes": "Item #'s Ending in 90120"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-49b1af966771be7c",
+                          "title": "PBI11115",
+                          "amount": 1820.9
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-63d299742448c479",
+                          "title": "PBI11115",
+                          "amount": 1584.18,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-d0aa3e03eaca0c5d",
+                          "title": "PBI11115",
+                          "amount": 14512.57,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI12129",
+                  "identifier": "MOD-8fd16268d8cfb99a",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI12129",
+                      "identifier": "SI-28ef1ee71dc622a5",
+                      "articleNumber": "PBI12129",
+                      "properties": {
+                        "子": "£2,986.56",
+                        "Dimensions": "6'x 5'x 4.3\"",
+                        "Compatibleframes": "Item # SDA150180"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-3c1b36454e747ff2",
+                          "title": "PBI12129",
+                          "amount": 4148.0
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-9ffaeb6c452158b0",
+                          "title": "PBI12129",
+                          "amount": 3608.76,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-30d156f116434235",
+                          "title": "PBI12129",
+                          "amount": 33059.56,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI51506",
+                  "identifier": "MOD-094047a60b09fdf9",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI51506",
+                      "identifier": "SI-ba70a26bdfcabea3",
+                      "articleNumber": "PBI51506",
+                      "properties": {
+                        "子": "£ 818.14",
+                        "Dimensions": "900 mm x 600 mm x 60 mm",
+                        "Compatible Frames": "Item #'s Ending in 6090"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-146c01eaf61585b3",
+                          "title": "PBI51506",
+                          "amount": 1136.3
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-b96bd23e22cce12d",
+                          "title": "PBI51506",
+                          "amount": 988.58,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-93f334e16200c786",
+                          "title": "PBI51506",
+                          "amount": 9056.31,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI51511",
+                  "identifier": "MOD-e53bfdc2dbae94eb",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI51511",
+                      "identifier": "SI-a50895c6245d656f",
+                      "articleNumber": "PBI51511",
+                      "properties": {
+                        "子": "子 934.92",
+                        "Dimensions": "900 mmx 750 mm x 60 mm",
+                        "Compatible Frames": "Item #'s Ending in 7590"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-1954ef104185e0bf",
+                          "title": "PBI51511",
+                          "amount": 1298.5
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-bc55b20ec3030e23",
+                          "title": "PBI51511",
+                          "amount": 1129.7,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-fd8ff8f666540ecc",
+                          "title": "PBI51511",
+                          "amount": 10349.05,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI51512",
+                  "identifier": "MOD-89155f67d1923ed9",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI51512",
+                      "identifier": "SI-f718c0ec329c88ad",
+                      "articleNumber": "PBI51512",
+                      "properties": {
+                        "子": "子 1,128.10",
+                        "Dimensions": "1200 mm x 750 mm x 60 mm",
+                        "Compatible Frames": "Item #'s Ending in 75120"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-e071bfafd75d46b5",
+                          "title": "PBI51512",
+                          "amount": 1566.8
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-4b2aa6667e3fa37e",
+                          "title": "PBI51512",
+                          "amount": 1363.12,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-07cbc72292470b60",
+                          "title": "PBI51512",
+                          "amount": 12487.4,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI51515",
+                  "identifier": "MOD-e20e529a47802eac",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI51515",
+                      "identifier": "SI-664f87d5227da96a",
+                      "articleNumber": "PBI51515",
+                      "properties": {
+                        "子": "子 1,283.33",
+                        "Dimensions": "1200 mm x 900 mm x 60 mm",
+                        "Compatible Frames": "Item #'s Ending in 90120"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-da48471ede74bc02",
+                          "title": "PBI51515",
+                          "amount": 1782.4
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-4693e0e6b74dfe1c",
+                          "title": "PBI51515",
+                          "amount": 1550.69,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-7ceac5688552f0e1",
+                          "title": "PBI51515",
+                          "amount": 14205.73,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Model",
+                  "title": "PBI52529",
+                  "identifier": "MOD-1f96abc6de1ae5d5",
+                  "sellableItems": [
+                    {
+                      "type": "Sellable Item",
+                      "title": "PBI52529",
+                      "identifier": "SI-c4cad9b96406080c",
+                      "articleNumber": "PBI52529",
+                      "properties": {
+                        "子": "子 2,951.28",
+                        "Dimensions": "1800 mm x 1500 mm x 110 mm",
+                        "Compatible Frames": "Item # SDA150180"
+                      },
+                      "listPrices": [
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-a9fa8fca3dd8b578",
+                          "title": "PBI52529",
+                          "amount": 4099.0
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-dfec1de476850be9",
+                          "title": "PBI52529",
+                          "amount": 3566.13,
+                          "currency": "EUR"
+                        },
+                        {
+                          "type": "List Price",
+                          "identifier": "LP-e70f1b4daf5ad8b1",
+                          "title": "PBI52529",
+                          "amount": 32669.03,
+                          "currency": "CNY"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "ScienceDesk Accessories",
+      "identifier": "PC-2909b2a60f286e5f",
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Under Shelves",
+          "identifier": "PC-27ace5cc5b2de1e2",
+          "models": [
+            {
+              "type": "Model",
+              "title": "PSY300",
+              "identifier": "MOD-46ff4a705eac6f48",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY300",
+                  "identifier": "SI-f53c494d8babf231",
+                  "articleNumber": "PSY300",
+                  "properties": {
+                    "子": "子 57.60",
+                    "Frame Length": "2.5' (750 mm)",
+                    "Shelf Dimension": "750 mm x 250 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-a1444f64524d0576",
+                      "title": "PSY300",
+                      "amount": 80.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-5db3e9cd41c1423b",
+                      "title": "PSY300",
+                      "amount": 69.6,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-ff4260eec875e7a9",
+                      "title": "PSY300",
+                      "amount": 637.6,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PSY301",
+              "identifier": "MOD-07ea37d3237e5543",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY301",
+                  "identifier": "SI-6b401e47d4953356",
+                  "articleNumber": "PSY301",
+                  "properties": {
+                    "子": "子 61.20",
+                    "Frame Length": "3' (900 mm)",
+                    "Shelf Dimension": "900 mm x 250 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-aa321f4b2c9666f4",
+                      "title": "PSY301",
+                      "amount": 85.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-9c0217eea2a58290",
+                      "title": "PSY301",
+                      "amount": 73.95,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-a366679b8af98b0f",
+                      "title": "PSY301",
+                      "amount": 677.45,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Model",
+              "title": "PSY302",
+              "identifier": "MOD-88d98458f79dba87",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY302",
+                  "identifier": "SI-5c6689b5bfd9a762",
+                  "articleNumber": "PSY302",
+                  "properties": {
+                    "子": "子 64.80",
+                    "Frame Length": "4' (1200 mm)",
+                    "Shelf Dimension": "1200 mm x 250 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-74992c4ed9b14915",
+                      "title": "PSY302",
+                      "amount": 90.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-876e3d089c1a3e19",
+                      "title": "PSY302",
+                      "amount": 78.3,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-a7029a3c7d2fdf6b",
+                      "title": "PSY302",
+                      "amount": 717.3,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "ScienceDeskT Overhead Shelves",
+      "identifier": "PC-3d4e38bdb0a4ae2f",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PSY211",
+          "identifier": "MOD-b4438290aa1cd60a",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY211",
+              "identifier": "SI-b50614db0382e3e5",
+              "articleNumber": "PSY211",
+              "description": "Overhead Shelf for ScienceDeskT",
+              "properties": {
+                "子": "237.60",
+                "Framelength": "3' (900 mm)",
+                "Shelfdimensions": "36\" x 12\" (900 mm x 300 mm)",
+                "Psy161 Posts Needed": "2 (Included)",
+                "Max Load Capacity": "110 lbs (50 kg)",
+                "Width": [
+                  "36\" (900 mm)",
+                  "48\" (1200 mm)"
+                ],
+                "Shelf Depth": "11.8\" (300 mm)",
+                "Posts Height": "29.5\" (750 mm)",
+                "Shelves Per Post": "Two"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ce2b78f7a7f79e68",
+                  "title": "PSY211",
+                  "amount": 330.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-ed26ae6e58930d64",
+                  "title": "PSY211",
+                  "amount": 2630.1,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "Overhead Shelf for ScienceDeskT"
+        },
+        {
+          "type": "Model",
+          "title": "PSY201/S",
+          "identifier": "MOD-6ded1549bbf47897",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY201/S",
+              "identifier": "SI-839600d7e5db82cb",
+              "articleNumber": "PSY201/S",
+              "description": "Additional Shelf Unit for ScienceDeskT",
+              "properties": {
+                "子": "115.20",
+                "Framelength": "3' (900 mm)",
+                "Shelfdimensions": "36\"x 12\" (900 mm x 300 mm)",
+                "Psy161 Posts Needed": "2 (Not Included)",
+                "Compatibility": "PSY211"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-bf837ea7d8a47319",
+                  "title": "PSY201/S",
+                  "amount": 160.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-3e7db548e5118801",
+                  "title": "PSY201/S",
+                  "amount": 139.2,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ],
+          "description": "Additional Shelf Unit for ScienceDeskT"
+        },
+        {
+          "type": "Model",
+          "title": "PSY212",
+          "identifier": "MOD-13eccc17f302ced7",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY212",
+              "identifier": "SI-012c8e3cc9aeb811",
+              "articleNumber": "PSY212",
+              "description": "Overhead Shelf for ScienceDeskT",
+              "properties": {
+                "子": "241.20",
+                "Framelength": "4' (1200 mm)",
+                "Shelfdimensions": "48\"x 12\" (1200 mm x 300 mm)",
+                "Psy161 Posts Needed": "2 (Included)",
+                "Max Load Capacity": "110 lbs (50 kg)",
+                "Width": [
+                  "36\" (900 mm)",
+                  "48\" (1200 mm)"
+                ],
+                "Shelf Depth": "11.8\" (300 mm)",
+                "Posts Height": "29.5\" (750 mm)",
+                "Shelves Per Post": "Two",
+                "Compatibility": "PSY212"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-5e709c46ddb29d63",
+                  "title": "PSY212",
+                  "amount": 335.0
+                }
+              ]
+            }
+          ],
+          "description": "Overhead Shelf for ScienceDeskT"
+        },
+        {
+          "type": "Model",
+          "title": "PSY202/S",
+          "identifier": "MOD-a1ba7a0991731550",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY202/S",
+              "identifier": "SI-7093f810ea04e677",
+              "articleNumber": "PSY202/S",
+              "properties": {
+                "子": "£122.40",
+                "Framelength": "4' (1200 mm)",
+                "Shelfdimensions": "48\" x 12\" (1200 mm x 300 mm)",
+                "Psy161 Posts Needed": "2 (Not Included)"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-341bbabf3f14cff9",
+                  "title": "PSY202/S",
+                  "amount": 170.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-67abf7740a8bfee5",
+                  "title": "PSY202/S",
+                  "amount": 147.9,
+                  "currency": "EUR"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subcategories": [
+        {
+          "type": "Product Category",
+          "title": "Single Shelf with Post",
+          "identifier": "PC-e39900e05b9361f6",
+          "models": [
+            {
+              "type": "Model",
+              "title": "PSY191",
+              "identifier": "MOD-8aac0e1d2717e8dd",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY191",
+                  "identifier": "SI-63ba213ee92959f2",
+                  "articleNumber": "PSY191",
+                  "properties": {
+                    "子": "£127.44",
+                    "Shelf Dimensions": "10.9\"x11.8\"(278 mmx 300 mm)"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-dd09191ae759b52d",
+                      "title": "PSY191",
+                      "amount": 177.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-b6ca5e49644d292c",
+                      "title": "PSY191",
+                      "amount": 153.99,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-a07e43b9c33c1537",
+                      "title": "PSY191",
+                      "amount": 1410.69,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Product Category",
+          "title": "Side Shelves",
+          "identifier": "PC-b4843e56f7c77b4d",
+          "models": [
+            {
+              "type": "Model",
+              "title": "PSY350",
+              "identifier": "MOD-95afee11aad25fbb",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY350",
+                  "identifier": "SI-836762721d0a7753",
+                  "articleNumber": "PSY350",
+                  "description": "Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks",
+                  "properties": {
+                    "子": "£126.14",
+                    "Frame Length": "2.5' (750 mm)",
+                    "Shelf Dimensions": "29.7\" x 23.6\" (755 mm x 600 mm)",
+                    "Depth": "600.0 mm"
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-dbceea9ebf4f5e3d",
+                      "title": "PSY350",
+                      "amount": 175.2
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-87eaa20477a0924d",
+                      "title": "PSY350",
+                      "amount": 152.42,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-82089ff277cef288",
+                      "title": "PSY350",
+                      "amount": 1396.34,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ],
+              "description": "Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks"
+            },
+            {
+              "type": "Model",
+              "title": "PSY351",
+              "identifier": "MOD-682c34a07f8b12bc",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY351",
+                  "identifier": "SI-6ec6a787cc6b3d4e",
+                  "articleNumber": "PSY351",
+                  "description": "23.6\"(600 mm) Width",
+                  "properties": {
+                    "子": "133.20",
+                    "Frame Length": "3' (900 mm)",
+                    "Shelf Dimensions": "35.6\" x 23.6\" (905 mm x 600 mm)",
+                    "Width": [
+                      "23.6 in",
+                      "600.0 mm"
+                    ]
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-1b550c6cb73c5c8c",
+                      "title": "PSY351",
+                      "amount": 185.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-09bad99f9fcc773a",
+                      "title": "PSY351",
+                      "amount": 160.95,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-19b5149709ac2758",
+                      "title": "PSY351",
+                      "amount": 1474.45,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ],
+              "description": "23.6\"(600 mm) Width"
+            },
+            {
+              "type": "Model",
+              "title": "PSY352",
+              "identifier": "MOD-c98dcbec2ff98f52",
+              "sellableItems": [
+                {
+                  "type": "Sellable Item",
+                  "title": "PSY352",
+                  "identifier": "SI-9df2b0cb8ba742a7",
+                  "articleNumber": "PSY352",
+                  "description": "110 lbs (50 kg) Max Load Capacity",
+                  "properties": {
+                    "子": "122.40",
+                    "Frame Length": "2' (600 mm)",
+                    "Shelf Dimensions": "23.6\" × 23.6\" (605 mm x 600 mm)",
+                    "Max Load Capacity": [
+                      "110.0 lb",
+                      "50.0 kg"
+                    ]
+                  },
+                  "listPrices": [
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-d58cfc5bfcdd34c6",
+                      "title": "PSY352",
+                      "amount": 170.0
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-26aed7e1ffe7e20a",
+                      "title": "PSY352",
+                      "amount": 147.9,
+                      "currency": "EUR"
+                    },
+                    {
+                      "type": "List Price",
+                      "identifier": "LP-8e4d24ac66e4d44c",
+                      "title": "PSY352",
+                      "amount": 1354.9,
+                      "currency": "CNY"
+                    }
+                  ]
+                }
+              ],
+              "description": "110 lbs (50 kg) Max Load Capacity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "PC/Movable Shelf",
+      "identifier": "PC-d8457f43d2f28fbc",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PSY180",
+          "identifier": "MOD-8674e5f76b5a182d",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY180",
+              "identifier": "SI-7d0dba6b624eddf4",
+              "articleNumber": "PSY180",
+              "properties": {
+                "子": "7 36.00",
+                "Shelf Dimensions": "10.2\" x 17.7\" (260 mm x 450 mm)"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-31a16d01db16456c",
+                  "title": "PSY180",
+                  "amount": 50.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-cbb1cd476e0ad58b",
+                  "title": "PSY180",
+                  "amount": 43.5,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-fddb3f19d7985a5c",
+                  "title": "PSY180",
+                  "amount": 398.5,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "Sample Preparation/Staging Shelves",
+      "identifier": "PC-11585e21a9aea8a7",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PSY250",
+          "identifier": "MOD-680cbb590d65b7e3",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY250",
+              "identifier": "SI-81e733d7105437df",
+              "articleNumber": "PSY250",
+              "properties": {
+                "子": "子 57.60",
+                "Frame Length": "2.5' (750 mm)",
+                "Shelfdimensions": "9.8\"x 29.5\" (250 mmx 750 mm)",
+                "Max Load Capacity": [
+                  "33.0 lb",
+                  "15.0 kg"
+                ]
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4804996f4f10159a",
+                  "title": "PSY250",
+                  "amount": 80.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-063272326cb3920b",
+                  "title": "PSY250",
+                  "amount": 69.6,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-d3ba9b50f35240c5",
+                  "title": "PSY250",
+                  "amount": 637.6,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PSY251",
+          "identifier": "MOD-4d9aefb3029fab05",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY251",
+              "identifier": "SI-1a1fae0bac6977c6",
+              "articleNumber": "PSY251",
+              "properties": {
+                "子": "子 61.20",
+                "Frame Length": "3' (900 mm)",
+                "Shelfdimensions": "9.8\"× 35.4\" (250 mm x 900 mm)",
+                "Max Load Capacity": [
+                  "33.0 lb",
+                  "15.0 kg"
+                ]
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-751b3e0f91c2eb32",
+                  "title": "PSY251",
+                  "amount": 85.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-b07e0965885e5762",
+                  "title": "PSY251",
+                  "amount": 73.95,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-12c429c244171101",
+                  "title": "PSY251",
+                  "amount": 677.45,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Model",
+          "title": "PSY252",
+          "identifier": "MOD-9d5b47eeb5d927aa",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY252",
+              "identifier": "SI-a2952799601516a7",
+              "articleNumber": "PSY252",
+              "properties": {
+                "子": "子 55.80",
+                "Frame Length": "2' (600 mm)",
+                "Shelfdimensions": "9.8\"× 23.6\" (250 mm x 600 mm)",
+                "Max Load Capacity": [
+                  "33.0 lb",
+                  "15.0 kg"
+                ]
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-7a1406a849d03302",
+                  "title": "PSY252",
+                  "amount": 77.5
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8216293baa820dfb",
+                  "title": "PSY252",
+                  "amount": 67.43,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-c9a28bda72fad053",
+                  "title": "PSY252",
+                  "amount": 617.68,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Product Category",
+      "title": "ScienceDesk Casters",
+      "identifier": "PC-c094a5c5771692cd",
+      "models": [
+        {
+          "type": "Model",
+          "title": "PSY100",
+          "identifier": "MOD-5e5c57e1619ec323",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "PSY100",
+              "identifier": "SI-39647ff930ac2b88",
+              "articleNumber": "PSY100",
+              "description": "Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame",
+              "properties": {
+                "子": "3 108.00",
+                "Compatible Breadboards": "2.4\" (60 mm) Thick or 2.2\" (55 mm) Thick",
+                "Dimensions": "31.5\" x 2.4\" (800 mm × 60 mm)"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-4fdf71c088b4b9d3",
+                  "title": "PSY100",
+                  "amount": 150.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-6a5d0027764a7f62",
+                  "title": "PSY100",
+                  "amount": 130.5,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-7421760fa07f9ee9",
+                  "title": "PSY100",
+                  "amount": 1195.5,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame"
+        },
+        {
+          "type": "Model",
+          "title": "Set of Four Casters",
+          "identifier": "MOD-f5acfbe41dcffd70",
+          "sellableItems": [
+            {
+              "type": "Sellable Item",
+              "title": "Set of Four Casters",
+              "identifier": "SI-9db082640ba34a04",
+              "articleNumber": "PSY140",
+              "description": "Set of Four Casters\n\nThese casters come in a set of four, attach to the bottom of a ScienceDesk frame, and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered.",
+              "properties": {
+                "子": "7 90.00"
+              },
+              "listPrices": [
+                {
+                  "type": "List Price",
+                  "identifier": "LP-8d0311da1363cd6e",
+                  "title": "Set of Four Casters",
+                  "amount": 125.0
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-48b77a65e376ec0b",
+                  "title": "Set of Four Casters",
+                  "amount": 108.75,
+                  "currency": "EUR"
+                },
+                {
+                  "type": "List Price",
+                  "identifier": "LP-47721820f6b40f74",
+                  "title": "Set of Four Casters",
+                  "amount": 996.25,
+                  "currency": "CNY"
+                }
+              ]
+            }
+          ],
+          "description": "Set of Four Casters\n\nThese casters come in a set of four, attach to the bottom of a ScienceDesk frame, and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered."
+        }
+      ]
+    }
+  ]
+}

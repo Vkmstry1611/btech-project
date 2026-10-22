@@ -1,0 +1,10 @@
+{
+  "stage1_s": 44.73400000000038,
+  "stage2_s": 522.2659999999996,
+  "total_s": 567.0470000000005,
+  "pages": 5,
+  "backend": "ollama/qwen3:8b",
+  "reused_ocr": false,
+  "partial_page_limit": null,
+  "peak_process_memory_bytes": 7488884736
+}

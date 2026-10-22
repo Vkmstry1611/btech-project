@@ -1,0 +1,7 @@
+{
+  "state": "complete_with_review",
+  "input": "pdfs\\industrial_fittings_5_pages.pdf",
+  "partial_page_limit": null,
+  "final_path": "outputs\\final\\industrial_fittings_5_pages\\industrial_fittings_5_pages_final.json",
+  "review_warning_count": 3
+}

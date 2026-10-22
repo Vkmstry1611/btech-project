@@ -3,7 +3,7 @@
   "pages": [
     {
       "page": 1,
-      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_001\\multi page catalog sample_p001_res.json",
+      "source_path": "outputs\\raw\\multi page catalog sample\\page_001\\multi page catalog sample_p001_res.json",
       "blocks": [
         {
           "id": "p1_b001",
@@ -17,7 +17,7 @@
             261.0,
             106.0
           ],
-          "confidence": 0.6852720975875854,
+          "confidence": 0.6853832602500916,
           "order": 1,
           "source_ref": "parsing_res_list[1]",
           "raw": {
@@ -47,7 +47,7 @@
             193.0,
             167.0
           ],
-          "confidence": 0.4674297571182251,
+          "confidence": 0.46735987067222595,
           "order": 2,
           "source_ref": "parsing_res_list[2]",
           "raw": {
@@ -77,7 +77,7 @@
             199.0,
             234.0
           ],
-          "confidence": 0.8406549692153931,
+          "confidence": 0.8407180309295654,
           "order": 3,
           "source_ref": "parsing_res_list[3]",
           "raw": {
@@ -107,7 +107,7 @@
             178.0,
             274.0
           ],
-          "confidence": 0.7741807699203491,
+          "confidence": 0.7742589712142944,
           "order": 4,
           "source_ref": "parsing_res_list[4]",
           "raw": {
@@ -137,7 +137,7 @@
             218.0,
             337.0
           ],
-          "confidence": 0.8430651426315308,
+          "confidence": 0.8430593013763428,
           "order": 5,
           "source_ref": "parsing_res_list[5]",
           "raw": {
@@ -167,7 +167,7 @@
             104.0,
             381.0
           ],
-          "confidence": 0.7094368934631348,
+          "confidence": 0.7095391750335693,
           "order": 6,
           "source_ref": "parsing_res_list[6]",
           "raw": {
@@ -197,7 +197,7 @@
             201.0,
             433.0
           ],
-          "confidence": 0.6822164058685303,
+          "confidence": 0.682428240776062,
           "order": 7,
           "source_ref": "parsing_res_list[7]",
           "raw": {
@@ -227,7 +227,7 @@
             170.0,
             491.0
           ],
-          "confidence": 0.30183732509613037,
+          "confidence": 0.30196264386177063,
           "order": 8,
           "source_ref": "parsing_res_list[8]",
           "raw": {
@@ -257,7 +257,7 @@
             78.0,
             2079.0
           ],
-          "confidence": 0.7785911560058594,
+          "confidence": 0.7785863876342773,
           "order": 9,
           "source_ref": "parsing_res_list[9]",
           "raw": {
@@ -287,7 +287,7 @@
             865.0,
             192.0
           ],
-          "confidence": 0.9183168411254883,
+          "confidence": 0.9182873368263245,
           "order": 10,
           "source_ref": "parsing_res_list[10]",
           "raw": {
@@ -317,7 +317,7 @@
             1542.0,
             336.0
           ],
-          "confidence": 0.9793161749839783,
+          "confidence": 0.9793221354484558,
           "order": 11,
           "source_ref": "parsing_res_list[11]",
           "raw": {
@@ -347,7 +347,7 @@
             969.0,
             412.0
           ],
-          "confidence": 0.9012140035629272,
+          "confidence": 0.9011967778205872,
           "order": 12,
           "source_ref": "parsing_res_list[12]",
           "raw": {
@@ -370,19 +370,19 @@
           "page": 1,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
           "bbox": [
             284.0,
             421.0,
             1598.0,
             917.0
           ],
-          "confidence": 0.9891970753669739,
+          "confidence": 0.9891987442970276,
           "order": 13,
           "source_ref": "parsing_res_list[13]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTMSERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>OPTIONALFEATURES</td><td>ULTRALIGHTTM SERIES (Pages 4 - 5)</td><td>PERFORMANCETM SERIES (Pages 6 - 7)</td><td>PERFORMANCEPLUSTM SERIES (Pages 8 - 9)</td></tr><tr><td>Brushed Stainless Steel Top Plate</td><td>N/A</td><td>Standard</td><td>Standard</td></tr><tr><td>Black Finish on Top Plate</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Brushed Steel Finish on Top Plate</td><td>N/A</td><td>✔</td><td>✔</td></tr><tr><td>Double-Density Hole Pattern</td><td>V</td><td>✔</td><td>✔</td></tr><tr><td>Blank Top Plate</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Access Wells for Standoff Posts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Breadboard Levelers</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Nonmagnetic Top and Bottom Plates</td><td>Standard</td><td>✔</td><td>✔</td></tr><tr><td>Through Holes/Cutouts</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Custom Hole Patterns</td><td>✔</td><td>✔</td><td>✔</td></tr><tr><td>Aluminum Honeycomb Core</td><td>Standard</td><td>✔</td><td>✔</td></tr></tbody></table></body></html>",
             "block_bbox": [
               284,
               421,
@@ -407,7 +407,7 @@
             874.0,
             1000.0
           ],
-          "confidence": 0.9007827043533325,
+          "confidence": 0.9007703065872192,
           "order": 14,
           "source_ref": "parsing_res_list[14]",
           "raw": {
@@ -437,7 +437,7 @@
             1598.0,
             1332.0
           ],
-          "confidence": 0.9874364733695984,
+          "confidence": 0.9874352216720581,
           "order": 15,
           "source_ref": "parsing_res_list[15]",
           "raw": {
@@ -467,7 +467,7 @@
             1598.0,
             1987.0
           ],
-          "confidence": 0.5849993228912354,
+          "confidence": 0.5848763585090637,
           "order": 16,
           "source_ref": "parsing_res_list[16]",
           "raw": {
@@ -497,7 +497,7 @@
             1512.0,
             1987.0
           ],
-          "confidence": 0.7772746086120605,
+          "confidence": 0.7775774598121643,
           "order": 17,
           "source_ref": "parsing_res_list[17]",
           "raw": {
@@ -527,7 +527,7 @@
             752.0,
             1438.0
           ],
-          "confidence": 0.9306972026824951,
+          "confidence": 0.9307107925415039,
           "order": 18,
           "source_ref": "parsing_res_list[18]",
           "raw": {
@@ -557,7 +557,7 @@
             828.0,
             1603.0
           ],
-          "confidence": 0.940046489238739,
+          "confidence": 0.9400264620780945,
           "order": 19,
           "source_ref": "parsing_res_list[19]",
           "raw": {
@@ -587,7 +587,7 @@
             1075.0,
             1802.0
           ],
-          "confidence": 0.9042858481407166,
+          "confidence": 0.9042914509773254,
           "order": 20,
           "source_ref": "parsing_res_list[20]",
           "raw": {
@@ -617,7 +617,7 @@
             703.0,
             1862.0
           ],
-          "confidence": 0.8925647139549255,
+          "confidence": 0.8925466537475586,
           "order": 21,
           "source_ref": "parsing_res_list[21]",
           "raw": {
@@ -647,7 +647,7 @@
             502.0,
             1724.0
           ],
-          "confidence": 0.9137486219406128,
+          "confidence": 0.9137886166572571,
           "order": 22,
           "source_ref": "parsing_res_list[22]",
           "raw": {
@@ -677,7 +677,7 @@
             1073.0,
             1568.0
           ],
-          "confidence": 0.9078528881072998,
+          "confidence": 0.907842218875885,
           "order": 23,
           "source_ref": "parsing_res_list[23]",
           "raw": {
@@ -707,7 +707,7 @@
             469.0,
             2078.0
           ],
-          "confidence": 0.9008852243423462,
+          "confidence": 0.900901198387146,
           "order": 24,
           "source_ref": "parsing_res_list[24]",
           "raw": {
@@ -737,7 +737,7 @@
             1598.0,
             2077.0
           ],
-          "confidence": 0.915511429309845,
+          "confidence": 0.9155207276344299,
           "order": 25,
           "source_ref": "parsing_res_list[25]",
           "raw": {
@@ -759,7 +759,7 @@
     },
     {
       "page": 2,
-      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_002\\multi page catalog sample_p002_res.json",
+      "source_path": "outputs\\raw\\multi page catalog sample\\page_002\\multi page catalog sample_p002_res.json",
       "blocks": [
         {
           "id": "p2_b001",
@@ -773,7 +773,7 @@
             1651.0,
             106.0
           ],
-          "confidence": 0.675336480140686,
+          "confidence": 0.675250232219696,
           "order": 1,
           "source_ref": "parsing_res_list[1]",
           "raw": {
@@ -803,7 +803,7 @@
             1650.0,
             169.0
           ],
-          "confidence": 0.5522518157958984,
+          "confidence": 0.5523703098297119,
           "order": 2,
           "source_ref": "parsing_res_list[2]",
           "raw": {
@@ -833,7 +833,7 @@
             1639.0,
             234.0
           ],
-          "confidence": 0.8266299962997437,
+          "confidence": 0.8266871571540833,
           "order": 3,
           "source_ref": "parsing_res_list[3]",
           "raw": {
@@ -863,7 +863,7 @@
             1638.0,
             274.0
           ],
-          "confidence": 0.7855275273323059,
+          "confidence": 0.785602331161499,
           "order": 4,
           "source_ref": "parsing_res_list[4]",
           "raw": {
@@ -893,7 +893,7 @@
             1639.0,
             338.0
           ],
-          "confidence": 0.8230654001235962,
+          "confidence": 0.8230671286582947,
           "order": 5,
           "source_ref": "parsing_res_list[5]",
           "raw": {
@@ -923,7 +923,7 @@
             1638.0,
             381.0
           ],
-          "confidence": 0.6876553297042847,
+          "confidence": 0.6879798769950867,
           "order": 6,
           "source_ref": "parsing_res_list[6]",
           "raw": {
@@ -953,7 +953,7 @@
             1143.0,
             192.0
           ],
-          "confidence": 0.7436093091964722,
+          "confidence": 0.7435523271560669,
           "order": 7,
           "source_ref": "parsing_res_list[7]",
           "raw": {
@@ -968,7 +968,7 @@
           },
           "parent_id": null,
           "children_ids": [],
-          "heading_level": 3,
+          "heading_level": 2,
           "layout_hint": "paragraph_title"
         },
         {
@@ -983,7 +983,7 @@
             615.0,
             245.0
           ],
-          "confidence": 0.8730324506759644,
+          "confidence": 0.8730444312095642,
           "order": 8,
           "source_ref": "parsing_res_list[8]",
           "raw": {
@@ -1013,7 +1013,7 @@
             349.0,
             274.0
           ],
-          "confidence": 0.8816125988960266,
+          "confidence": 0.8816344141960144,
           "order": 9,
           "source_ref": "parsing_res_list[9]",
           "raw": {
@@ -1043,7 +1043,7 @@
             642.0,
             306.0
           ],
-          "confidence": 0.8714572787284851,
+          "confidence": 0.8714825510978699,
           "order": 10,
           "source_ref": "parsing_res_list[10]",
           "raw": {
@@ -1073,7 +1073,7 @@
             704.0,
             337.0
           ],
-          "confidence": 0.88584965467453,
+          "confidence": 0.8858674168586731,
           "order": 11,
           "source_ref": "parsing_res_list[11]",
           "raw": {
@@ -1103,7 +1103,7 @@
             868.0,
             488.0
           ],
-          "confidence": 0.9780957698822021,
+          "confidence": 0.9780831336975098,
           "order": 12,
           "source_ref": "parsing_res_list[12]",
           "raw": {
@@ -1133,7 +1133,7 @@
             993.0,
             303.0
           ],
-          "confidence": 0.6157703399658203,
+          "confidence": 0.615856945514679,
           "order": 13,
           "source_ref": "parsing_res_list[13]",
           "raw": {
@@ -1163,7 +1163,7 @@
             1190.0,
             622.0
           ],
-          "confidence": 0.4830101430416107,
+          "confidence": 0.4827834665775299,
           "order": 14,
           "source_ref": "parsing_res_list[14]",
           "raw": {
@@ -1186,19 +1186,19 @@
           "page": 2,
           "type": "paragraph",
           "source_type": "text",
-          "text": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20 -22) alow the breadboards to be mounted above the surface of an optical tabletop (or breadboard) for access to components on \nboth sides.",
+          "text": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20-22)alowthebradboardstobmountedabovetheuraceofaopticaltabletoporbreadboard)oraccestocomponents on \nboth sides.",
           "bbox": [
             92.0,
             636.0,
             1406.0,
             719.0
           ],
-          "confidence": 0.965516209602356,
+          "confidence": 0.965498685836792,
           "order": 15,
           "source_ref": "parsing_res_list[15]",
           "raw": {
             "block_label": "text",
-            "block_content": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20 -22) alow the breadboards to be mounted above the surface of an optical tabletop (or breadboard) for access to components on \nboth sides.",
+            "block_content": "Because the holes are threaded completely through these breadboards, components can be mounted on both sides. Standoff posts (see \npages 20-22)alowthebradboardstobmountedabovetheuraceofaopticaltabletoporbreadboard)oraccestocomponents on \nboth sides.",
             "block_bbox": [
               92,
               636,
@@ -1223,7 +1223,7 @@
             567.0,
             785.0
           ],
-          "confidence": 0.8935588002204895,
+          "confidence": 0.8935683369636536,
           "order": 16,
           "source_ref": "parsing_res_list[16]",
           "raw": {
@@ -1246,19 +1246,19 @@
           "page": 2,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>子 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>7 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
           "bbox": [
             96.0,
             792.0,
             738.0,
             1342.0
           ],
-          "confidence": 0.9756432175636292,
+          "confidence": 0.9756518602371216,
           "order": 17,
           "source_ref": "parsing_res_list[17]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>子 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB4</td><td>$ 49.40</td><td>3 35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>4\"x 6\"</td></tr><tr><td>MB6</td><td>$ 55.10</td><td>子 39.67</td><td>3 47,94</td><td>￥ 439.15</td><td>6\" x 6\"</td></tr><tr><td>MB624</td><td>$ 186.00</td><td>£ 133.92</td><td>€161,82</td><td>￥1,482.42</td><td>6\"x 24\"</td></tr><tr><td>MB636</td><td>$ 246.00</td><td>7 177.12</td><td>€214,02</td><td>￥1,960.62</td><td>6\"x 36\"</td></tr><tr><td>MB648</td><td>$ 306.00</td><td>220.32</td><td>€266,22</td><td>￥2,438.82</td><td>6\"x 48\"</td></tr><tr><td>MB8</td><td>$ 82.00</td><td>7 59.04</td><td>€71,34</td><td>￥ 653.54</td><td>8\"x 8\"</td></tr><tr><td>MB810</td><td>$ 143.00</td><td>7 102.96</td><td>€124,41</td><td>￥1,139.71</td><td>8\"x 10\"</td></tr><tr><td>MB1012</td><td>$ 165.00</td><td>118.80</td><td>€143,55</td><td>￥1,315.05</td><td>10\"x 12\"</td></tr><tr><td>MB12</td><td>$ 161.10</td><td>£115.99</td><td>€140,16</td><td>￥1,283.97</td><td>12\"x 12\"</td></tr><tr><td>MB1218</td><td>$ 208.70</td><td> 150.26</td><td>€181,57</td><td>￥1,663.34</td><td>12\" x 18\"**</td></tr><tr><td>MB1224</td><td>$ 282.30</td><td>7 203.26</td><td>€245,60</td><td>￥2,249.93</td><td>12\" x 24\"**</td></tr><tr><td>MB1236</td><td>$ 505.00</td><td>子 363.60</td><td>€439,35</td><td>￥4,024.85</td><td>12\" x 36\"**</td></tr><tr><td>MB1248</td><td>$ 604.00</td><td>子 434.88</td><td>€525,48</td><td>￥4,813.88</td><td>12\" x 48\"**</td></tr><tr><td>MB18</td><td>$ 315.00</td><td>7 226.80</td><td>€274,05</td><td>￥2,510.55</td><td>18\" x 18\"**</td></tr><tr><td>MB1824</td><td>$ 420.00</td><td>子 302.40</td><td>€365,40</td><td>￥3,347.40</td><td>18\" x 24\"**</td></tr><tr><td>MB1836</td><td>$ 598.00</td><td>7 430.56</td><td>€ 520,26</td><td>￥ 4,766.06</td><td>18\" x 36\"**</td></tr><tr><td>MB2424</td><td>$ 537.00</td><td>子 386.64</td><td>€467,19</td><td>￥4,279.89</td><td>24\" x 24\"**</td></tr><tr><td>MB2436</td><td>$ 690.00</td><td>7 496.80</td><td>€ 600,30</td><td>￥5,499.30</td><td>24\" × 36\"**</td></tr><tr><td>MB2448</td><td>$ 913.00</td><td> 657.36</td><td>€794,31</td><td>￥7,276.61</td><td>24\"x 48\"**</td></tr></tbody></table></body></html>",
             "block_bbox": [
               96,
               792,
@@ -1276,19 +1276,19 @@
           "page": 2,
           "type": "heading",
           "source_type": "paragraph_title",
-          "text": "Stockedfor ImmediateShipment",
+          "text": "Stocked for Immediate Shipment",
           "bbox": [
             1013.0,
             727.0,
             1413.0,
             751.0
           ],
-          "confidence": 0.655755877494812,
+          "confidence": 0.6559935212135315,
           "order": 18,
           "source_ref": "parsing_res_list[18]",
           "raw": {
             "block_label": "paragraph_title",
-            "block_content": "Stockedfor ImmediateShipment ",
+            "block_content": "Stocked for Immediate Shipment ",
             "block_bbox": [
               1013,
               727,
@@ -1313,7 +1313,7 @@
             306.0,
             1365.0
           ],
-          "confidence": 0.7436372637748718,
+          "confidence": 0.7440321445465088,
           "order": 19,
           "source_ref": "parsing_res_list[19]",
           "raw": {
@@ -1343,7 +1343,7 @@
             734.0,
             1364.0
           ],
-          "confidence": 0.6573317050933838,
+          "confidence": 0.6578407287597656,
           "order": 20,
           "source_ref": "parsing_res_list[20]",
           "raw": {
@@ -1373,7 +1373,7 @@
             1381.0,
             786.0
           ],
-          "confidence": 0.8316744565963745,
+          "confidence": 0.8316823244094849,
           "order": 21,
           "source_ref": "parsing_res_list[21]",
           "raw": {
@@ -1396,19 +1396,19 @@
           "page": 2,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm*</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm*</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
           "bbox": [
             760.0,
             792.0,
             1409.0,
             1346.0
           ],
-          "confidence": 0.9705796837806702,
+          "confidence": 0.970580518245697,
           "order": 22,
           "source_ref": "parsing_res_list[22]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MB1015/M</td><td>$ 49.40</td><td>|£35.57</td><td>€ 42,98</td><td>￥ 393.72</td><td>100 mm x 150 mm</td></tr><tr><td>MB1515/M</td><td>55.10</td><td>£39.67</td><td>m 47.94</td><td>￥ 439.15</td><td>150 mmx 150 mm</td></tr><tr><td>MB1560/M</td><td>$186.00</td><td>£133.92</td><td>€161,82</td><td>￥ 1,482.42</td><td>150 mm x 600 mm</td></tr><tr><td>MB1590/M</td><td>$246.00</td><td>£177.12</td><td>€214.02</td><td>￥ 1,960.62</td><td>150 mm x 900 mm</td></tr><tr><td>MB15120/M</td><td>$306.00</td><td>£220.32</td><td>€266,22</td><td>￥ 2,438.82</td><td>150 mm x 1200 mm</td></tr><tr><td>MB2020/M</td><td>$ 82.00</td><td>子 59.04</td><td>€ 71,34</td><td>￥ 653.54</td><td>200 mm x 200 mm</td></tr><tr><td>MB2025/M</td><td>$143.00</td><td>£102.96</td><td>€124,41</td><td>￥ 1,139.71</td><td>200 mm x 250 mm</td></tr><tr><td>MB2530/M</td><td>$165.00</td><td>£118.80</td><td>€143,55</td><td>￥ 1,315.05</td><td>250 mmx 300 mm</td></tr><tr><td>MB3030/M</td><td>$161.10</td><td>£115.99</td><td>€140,16</td><td>￥ 1,283.97</td><td>300 mm x 300 mm</td></tr><tr><td>MB3045/M</td><td>$208.70</td><td>£150.26</td><td>€181.57</td><td>￥ 1,663.34</td><td>300 mm x 450 mm*</td></tr><tr><td>MB3060/M</td><td>$282.30</td><td>£203.26</td><td>€245,60</td><td>￥ 2,249.93</td><td>300 mm x 600 mm**</td></tr><tr><td>MB3090/M</td><td>$505.00</td><td>£363.60</td><td>€439,35</td><td>￥ 4,024.85</td><td>300 mm x 900 mm**</td></tr><tr><td>MB30120/M</td><td>$604.00</td><td>£434.88</td><td>€525,48</td><td>￥ 4,813.88</td><td>300 mm x 1200 mm*</td></tr><tr><td>MB4545/M</td><td>$315.00</td><td>£226.80</td><td>€274,05</td><td>￥ 2,510.55</td><td>450 mmx 450 mm**</td></tr><tr><td>MB4560/M</td><td>$420.00</td><td>£302.40</td><td>€365,40</td><td>￥ 3,347.40</td><td>450 mm x 600 mm**</td></tr><tr><td>MB4590/M</td><td>$598.00</td><td>£430.56</td><td>€520,26</td><td>￥ 4,766.06</td><td>450 mm x 900 mm**</td></tr><tr><td>MB6060/M</td><td>$537.00</td><td>£386.64</td><td>€467,19</td><td>￥ 4,279.89</td><td>600 mm x 600 mm**</td></tr><tr><td>MB6090/M</td><td>$690.00</td><td>£496.80</td><td>€600,30</td><td>￥ 5,499.30</td><td>600 mm x 900 mm*</td></tr><tr><td>MB60120/M</td><td>$913.00</td><td>£657.36</td><td>€794,31</td><td>天 7,276.61</td><td>600 mm x 1200 mm*</td></tr></tbody></table></body></html>",
             "block_bbox": [
               760,
               792,
@@ -1426,19 +1426,19 @@
           "page": 2,
           "type": "paragraph",
           "source_type": "text",
-          "text": "*Thickness may vary by ±0.1 mm",
+          "text": "*Thickness may vary by ±.1 mm",
           "bbox": [
             763.0,
             1348.0,
             981.0,
             1366.0
           ],
-          "confidence": 0.5969908237457275,
+          "confidence": 0.5971729755401611,
           "order": 23,
           "source_ref": "parsing_res_list[23]",
           "raw": {
             "block_label": "text",
-            "block_content": "*Thickness may vary by ±0.1 mm ",
+            "block_content": "*Thickness may vary by ±.1 mm ",
             "block_bbox": [
               763,
               1348,
@@ -1463,7 +1463,7 @@
             1410.0,
             1366.0
           ],
-          "confidence": 0.44867005944252014,
+          "confidence": 0.4491768777370453,
           "order": 24,
           "source_ref": "parsing_res_list[24]",
           "raw": {
@@ -1493,7 +1493,7 @@
             1638.0,
             433.0
           ],
-          "confidence": 0.7525944709777832,
+          "confidence": 0.7527317404747009,
           "order": 25,
           "source_ref": "parsing_res_list[25]",
           "raw": {
@@ -1523,7 +1523,7 @@
             1646.0,
             490.0
           ],
-          "confidence": 0.4978210926055908,
+          "confidence": 0.49794211983680725,
           "order": 26,
           "source_ref": "parsing_res_list[26]",
           "raw": {
@@ -1553,7 +1553,7 @@
             1639.0,
             545.0
           ],
-          "confidence": 0.47405749559402466,
+          "confidence": 0.47399795055389404,
           "order": 27,
           "source_ref": "parsing_res_list[27]",
           "raw": {
@@ -1583,7 +1583,7 @@
             1640.0,
             608.0
           ],
-          "confidence": 0.40227630734443665,
+          "confidence": 0.4026270806789398,
           "order": 28,
           "source_ref": "parsing_res_list[28]",
           "raw": {
@@ -1613,7 +1613,7 @@
             1639.0,
             662.0
           ],
-          "confidence": 0.4435926377773285,
+          "confidence": 0.44408804178237915,
           "order": 29,
           "source_ref": "parsing_res_list[29]",
           "raw": {
@@ -1643,7 +1643,7 @@
             1638.0,
             704.0
           ],
-          "confidence": 0.6231456995010376,
+          "confidence": 0.6233490109443665,
           "order": 30,
           "source_ref": "parsing_res_list[30]",
           "raw": {
@@ -1673,7 +1673,7 @@
             1639.0,
             767.0
           ],
-          "confidence": 0.6341693997383118,
+          "confidence": 0.6342617273330688,
           "order": 31,
           "source_ref": "parsing_res_list[31]",
           "raw": {
@@ -1703,7 +1703,7 @@
             1638.0,
             810.0
           ],
-          "confidence": 0.6910536289215088,
+          "confidence": 0.6911628842353821,
           "order": 32,
           "source_ref": "parsing_res_list[32]",
           "raw": {
@@ -1733,7 +1733,7 @@
             1638.0,
             862.0
           ],
-          "confidence": 0.7351250648498535,
+          "confidence": 0.7352379560470581,
           "order": 33,
           "source_ref": "parsing_res_list[33]",
           "raw": {
@@ -1763,7 +1763,7 @@
             1638.0,
             924.0
           ],
-          "confidence": 0.7547273635864258,
+          "confidence": 0.7549387812614441,
           "order": 34,
           "source_ref": "parsing_res_list[34]",
           "raw": {
@@ -1793,7 +1793,7 @@
             1467.0,
             1258.0
           ],
-          "confidence": 0.6380793452262878,
+          "confidence": 0.6380994915962219,
           "order": 35,
           "source_ref": "parsing_res_list[35]",
           "raw": {
@@ -1823,7 +1823,7 @@
             579.0,
             1665.0
           ],
-          "confidence": 0.8939590454101562,
+          "confidence": 0.8940410017967224,
           "order": 36,
           "source_ref": "parsing_res_list[36]",
           "raw": {
@@ -1853,7 +1853,7 @@
             1410.0,
             1439.0
           ],
-          "confidence": 0.911467432975769,
+          "confidence": 0.9114674925804138,
           "order": 37,
           "source_ref": "parsing_res_list[37]",
           "raw": {
@@ -1883,7 +1883,7 @@
             1387.0,
             1614.0
           ],
-          "confidence": 0.9830138087272644,
+          "confidence": 0.9830102920532227,
           "order": 38,
           "source_ref": "parsing_res_list[38]",
           "raw": {
@@ -1913,7 +1913,7 @@
             1083.0,
             1659.0
           ],
-          "confidence": 0.9105538129806519,
+          "confidence": 0.9105606079101562,
           "order": 39,
           "source_ref": "parsing_res_list[39]",
           "raw": {
@@ -1943,7 +1943,7 @@
             535.0,
             1759.0
           ],
-          "confidence": 0.6762058734893799,
+          "confidence": 0.6761278510093689,
           "order": 40,
           "source_ref": "parsing_res_list[40]",
           "raw": {
@@ -1958,7 +1958,7 @@
           },
           "parent_id": null,
           "children_ids": [],
-          "heading_level": 3,
+          "heading_level": 2,
           "layout_hint": "paragraph_title"
         },
         {
@@ -1973,7 +1973,7 @@
             695.0,
             1809.0
           ],
-          "confidence": 0.8742029666900635,
+          "confidence": 0.8741843104362488,
           "order": 41,
           "source_ref": "parsing_res_list[41]",
           "raw": {
@@ -2003,7 +2003,7 @@
             737.0,
             1984.0
           ],
-          "confidence": 0.9637884497642517,
+          "confidence": 0.9638176560401917,
           "order": 42,
           "source_ref": "parsing_res_list[42]",
           "raw": {
@@ -2033,7 +2033,7 @@
             1165.0,
             1692.0
           ],
-          "confidence": 0.9065425992012024,
+          "confidence": 0.9065039157867432,
           "order": 43,
           "source_ref": "parsing_res_list[43]",
           "raw": {
@@ -2063,7 +2063,7 @@
             1315.0,
             1723.0
           ],
-          "confidence": 0.8783630132675171,
+          "confidence": 0.8783314228057861,
           "order": 44,
           "source_ref": "parsing_res_list[44]",
           "raw": {
@@ -2093,7 +2093,7 @@
             1306.0,
             1755.0
           ],
-          "confidence": 0.8496735095977783,
+          "confidence": 0.8496619462966919,
           "order": 45,
           "source_ref": "parsing_res_list[45]",
           "raw": {
@@ -2123,7 +2123,7 @@
             1414.0,
             1809.0
           ],
-          "confidence": 0.8847091794013977,
+          "confidence": 0.8846845626831055,
           "order": 46,
           "source_ref": "parsing_res_list[46]",
           "raw": {
@@ -2153,7 +2153,7 @@
             1410.0,
             1983.0
           ],
-          "confidence": 0.9485222697257996,
+          "confidence": 0.9485564231872559,
           "order": 47,
           "source_ref": "parsing_res_list[47]",
           "raw": {
@@ -2183,7 +2183,7 @@
             304.0,
             2008.0
           ],
-          "confidence": 0.8178037405014038,
+          "confidence": 0.8177489638328552,
           "order": 48,
           "source_ref": "parsing_res_list[48]",
           "raw": {
@@ -2213,7 +2213,7 @@
             979.0,
             2008.0
           ],
-          "confidence": 0.8514282703399658,
+          "confidence": 0.8514435887336731,
           "order": 49,
           "source_ref": "parsing_res_list[49]",
           "raw": {
@@ -2243,7 +2243,7 @@
             253.0,
             2077.0
           ],
-          "confidence": 0.9238294959068298,
+          "confidence": 0.9238203763961792,
           "order": 50,
           "source_ref": "parsing_res_list[50]",
           "raw": {
@@ -2273,7 +2273,7 @@
             1409.0,
             2078.0
           ],
-          "confidence": 0.9223245978355408,
+          "confidence": 0.922353208065033,
           "order": 51,
           "source_ref": "parsing_res_list[51]",
           "raw": {
@@ -2303,7 +2303,7 @@
             1637.0,
             2078.0
           ],
-          "confidence": 0.786487877368927,
+          "confidence": 0.7865485548973083,
           "order": 52,
           "source_ref": "parsing_res_list[52]",
           "raw": {
@@ -2325,7 +2325,7 @@
     },
     {
       "page": 3,
-      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_003\\multi page catalog sample_p003_res.json",
+      "source_path": "outputs\\raw\\multi page catalog sample\\page_003\\multi page catalog sample_p003_res.json",
       "blocks": [
         {
           "id": "p3_b001",
@@ -2339,7 +2339,7 @@
             262.0,
             108.0
           ],
-          "confidence": 0.5727517604827881,
+          "confidence": 0.5731114149093628,
           "order": 1,
           "source_ref": "parsing_res_list[1]",
           "raw": {
@@ -2369,7 +2369,7 @@
             193.0,
             169.0
           ],
-          "confidence": 0.33014246821403503,
+          "confidence": 0.3312162458896637,
           "order": 2,
           "source_ref": "parsing_res_list[2]",
           "raw": {
@@ -2399,7 +2399,7 @@
             199.0,
             235.0
           ],
-          "confidence": 0.7844005823135376,
+          "confidence": 0.7846918702125549,
           "order": 3,
           "source_ref": "parsing_res_list[3]",
           "raw": {
@@ -2429,7 +2429,7 @@
             178.0,
             274.0
           ],
-          "confidence": 0.7039746642112732,
+          "confidence": 0.704224169254303,
           "order": 4,
           "source_ref": "parsing_res_list[4]",
           "raw": {
@@ -2459,7 +2459,7 @@
             217.0,
             338.0
           ],
-          "confidence": 0.792605459690094,
+          "confidence": 0.7925207018852234,
           "order": 5,
           "source_ref": "parsing_res_list[5]",
           "raw": {
@@ -2489,7 +2489,7 @@
             104.0,
             381.0
           ],
-          "confidence": 0.6187167167663574,
+          "confidence": 0.6189607381820679,
           "order": 6,
           "source_ref": "parsing_res_list[6]",
           "raw": {
@@ -2519,7 +2519,7 @@
             201.0,
             434.0
           ],
-          "confidence": 0.6444090604782104,
+          "confidence": 0.6445009112358093,
           "order": 7,
           "source_ref": "parsing_res_list[7]",
           "raw": {
@@ -2549,7 +2549,7 @@
             170.0,
             491.0
           ],
-          "confidence": 0.4721871614456177,
+          "confidence": 0.4726583957672119,
           "order": 8,
           "source_ref": "parsing_res_list[8]",
           "raw": {
@@ -2579,7 +2579,7 @@
             181.0,
             546.0
           ],
-          "confidence": 0.4797012209892273,
+          "confidence": 0.480599969625473,
           "order": 9,
           "source_ref": "parsing_res_list[9]",
           "raw": {
@@ -2609,7 +2609,7 @@
             175.0,
             663.0
           ],
-          "confidence": 0.45229682326316833,
+          "confidence": 0.45059335231781006,
           "order": 10,
           "source_ref": "parsing_res_list[10]",
           "raw": {
@@ -2639,7 +2639,7 @@
             182.0,
             704.0
           ],
-          "confidence": 0.6727330684661865,
+          "confidence": 0.6730458736419678,
           "order": 11,
           "source_ref": "parsing_res_list[11]",
           "raw": {
@@ -2669,7 +2669,7 @@
             178.0,
             767.0
           ],
-          "confidence": 0.7350562810897827,
+          "confidence": 0.7349544763565063,
           "order": 12,
           "source_ref": "parsing_res_list[12]",
           "raw": {
@@ -2699,7 +2699,7 @@
             195.0,
             810.0
           ],
-          "confidence": 0.7300360202789307,
+          "confidence": 0.7302728891372681,
           "order": 13,
           "source_ref": "parsing_res_list[13]",
           "raw": {
@@ -2729,7 +2729,7 @@
             202.0,
             863.0
           ],
-          "confidence": 0.6833477020263672,
+          "confidence": 0.683815598487854,
           "order": 14,
           "source_ref": "parsing_res_list[14]",
           "raw": {
@@ -2759,7 +2759,7 @@
             185.0,
             924.0
           ],
-          "confidence": 0.6921887397766113,
+          "confidence": 0.6925938725471497,
           "order": 15,
           "source_ref": "parsing_res_list[15]",
           "raw": {
@@ -2789,7 +2789,7 @@
             77.0,
             2078.0
           ],
-          "confidence": 0.734107255935669,
+          "confidence": 0.7342344522476196,
           "order": 16,
           "source_ref": "parsing_res_list[16]",
           "raw": {
@@ -2819,7 +2819,7 @@
             1595.0,
             223.0
           ],
-          "confidence": 0.6967206001281738,
+          "confidence": 0.6967824101448059,
           "order": 17,
           "source_ref": "parsing_res_list[17]",
           "raw": {
@@ -2849,7 +2849,7 @@
             795.0,
             192.0
           ],
-          "confidence": 0.6526504755020142,
+          "confidence": 0.6526191830635071,
           "order": 18,
           "source_ref": "parsing_res_list[18]",
           "raw": {
@@ -2879,7 +2879,7 @@
             1004.0,
             709.0
           ],
-          "confidence": 0.8544650673866272,
+          "confidence": 0.8546913266181946,
           "order": 19,
           "source_ref": "parsing_res_list[19]",
           "raw": {
@@ -2902,19 +2902,19 @@
           "page": 3,
           "type": "paragraph",
           "source_type": "text",
-          "text": "Working Pressure: Rated up to 80 psi",
+          "text": "Working Presure: Rated up to 80 psi",
           "bbox": [
             1039.0,
             219.0,
             1431.0,
             244.0
           ],
-          "confidence": 0.7586827874183655,
+          "confidence": 0.7587605714797974,
           "order": 20,
           "source_ref": "parsing_res_list[20]",
           "raw": {
             "block_label": "text",
-            "block_content": "Working Pressure: Rated up to 80 psi ",
+            "block_content": "Working Presure: Rated up to 80 psi ",
             "block_bbox": [
               1039,
               219,
@@ -2939,7 +2939,7 @@
             1463.0,
             276.0
           ],
-          "confidence": 0.8266924619674683,
+          "confidence": 0.8266190886497498,
           "order": 21,
           "source_ref": "parsing_res_list[21]",
           "raw": {
@@ -2969,7 +2969,7 @@
             1426.0,
             307.0
           ],
-          "confidence": 0.8707470297813416,
+          "confidence": 0.8707538843154907,
           "order": 22,
           "source_ref": "parsing_res_list[22]",
           "raw": {
@@ -2999,7 +2999,7 @@
             1356.0,
             337.0
           ],
-          "confidence": 0.8692868947982788,
+          "confidence": 0.869324803352356,
           "order": 23,
           "source_ref": "parsing_res_list[23]",
           "raw": {
@@ -3029,7 +3029,7 @@
             1370.0,
             369.0
           ],
-          "confidence": 0.8745368719100952,
+          "confidence": 0.8745699524879456,
           "order": 24,
           "source_ref": "parsing_res_list[24]",
           "raw": {
@@ -3059,7 +3059,7 @@
             1586.0,
             721.0
           ],
-          "confidence": 0.9742534160614014,
+          "confidence": 0.9742471575737,
           "order": 25,
           "source_ref": "parsing_res_list[25]",
           "raw": {
@@ -3089,7 +3089,7 @@
             597.0,
             787.0
           ],
-          "confidence": 0.5843507051467896,
+          "confidence": 0.5842368602752686,
           "order": 26,
           "source_ref": "parsing_res_list[26]",
           "raw": {
@@ -3114,21 +3114,21 @@
           "source_type": "table",
           "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MBC12</td><td>MBC3030/M</td><td>$ 399.00</td><td>子 287.28</td><td>€ 347,13</td><td>￥ 3,180.03</td><td>Water-Cooled Breadboard</td></tr></tbody></table></body></html>",
           "bbox": [
-            284.0,
+            285.0,
             793.0,
-            1593.0,
+            1594.0,
             859.0
           ],
-          "confidence": 0.7624443769454956,
+          "confidence": 0.7654175162315369,
           "order": 27,
           "source_ref": "parsing_res_list[27]",
           "raw": {
             "block_label": "table",
             "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>METRIC ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DESCRIPTION</td></tr><tr><td>MBC12</td><td>MBC3030/M</td><td>$ 399.00</td><td>子 287.28</td><td>€ 347,13</td><td>￥ 3,180.03</td><td>Water-Cooled Breadboard</td></tr></tbody></table></body></html>",
             "block_bbox": [
-              284,
+              285,
               793,
-              1593,
+              1594,
               859
             ]
           },
@@ -3149,7 +3149,7 @@
             1394.0,
             933.0
           ],
-          "confidence": 0.8486194014549255,
+          "confidence": 0.8487191796302795,
           "order": 28,
           "source_ref": "parsing_res_list[28]",
           "raw": {
@@ -3164,7 +3164,7 @@
           },
           "parent_id": null,
           "children_ids": [],
-          "heading_level": 3,
+          "heading_level": 2,
           "layout_hint": "paragraph_title"
         },
         {
@@ -3172,19 +3172,19 @@
           "page": 3,
           "type": "paragraph",
           "source_type": "text",
-          "text": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm)Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design",
+          "text": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design",
           "bbox": [
             313.0,
             1019.0,
             666.0,
             1302.0
           ],
-          "confidence": 0.411105215549469,
+          "confidence": 0.4104909598827362,
           "order": 29,
           "source_ref": "parsing_res_list[29]",
           "raw": {
             "block_label": "text",
-            "block_content": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm)Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design ",
+            "block_content": "Specifications \nMounting Hole Spacing • Imperial: 1/4\"-20 on 1\" Centers • Metric: M6 on 25 mm Centers Flatness: ±0.006\" (±0.15 mm Over any 1 ft2 (0.30 m2) Area Construction: Double-Plate,Single Honeycomb-Core,Athermalized Design ",
             "block_bbox": [
               313,
               1019,
@@ -3209,7 +3209,7 @@
             906.0,
             1602.0
           ],
-          "confidence": 0.9795986413955688,
+          "confidence": 0.9796150326728821,
           "order": 30,
           "source_ref": "parsing_res_list[30]",
           "raw": {
@@ -3239,7 +3239,7 @@
             1070.0,
             1273.0
           ],
-          "confidence": 0.506470799446106,
+          "confidence": 0.5058047771453857,
           "order": 31,
           "source_ref": "parsing_res_list[31]",
           "raw": {
@@ -3269,7 +3269,7 @@
             1608.0,
             1428.0
           ],
-          "confidence": 0.870498776435852,
+          "confidence": 0.8704859018325806,
           "order": 32,
           "source_ref": "parsing_res_list[32]",
           "raw": {
@@ -3299,7 +3299,7 @@
             1580.0,
             1600.0
           ],
-          "confidence": 0.9728981256484985,
+          "confidence": 0.9729309678077698,
           "order": 33,
           "source_ref": "parsing_res_list[33]",
           "raw": {
@@ -3329,7 +3329,7 @@
             808.0,
             1663.0
           ],
-          "confidence": 0.8777409195899963,
+          "confidence": 0.8775932788848877,
           "order": 34,
           "source_ref": "parsing_res_list[34]",
           "raw": {
@@ -3359,7 +3359,7 @@
             1598.0,
             1984.0
           ],
-          "confidence": 0.973910927772522,
+          "confidence": 0.9738746881484985,
           "order": 35,
           "source_ref": "parsing_res_list[35]",
           "raw": {
@@ -3382,19 +3382,19 @@
           "page": 3,
           "type": "paragraph",
           "source_type": "text",
-          "text": "*The weightsgiveareforthebreadboardsaloneand donotinclude packaging",
+          "text": "*Thewetgivreohbabordaloanddooticluepackaing.",
           "bbox": [
             283.0,
             1992.0,
             791.0,
             2011.0
           ],
-          "confidence": 0.7737201452255249,
+          "confidence": 0.7736093401908875,
           "order": 36,
           "source_ref": "parsing_res_list[36]",
           "raw": {
             "block_label": "text",
-            "block_content": "*The weightsgiveareforthebreadboardsaloneand donotinclude packaging ",
+            "block_content": "*Thewetgivreohbabordaloanddooticluepackaing.",
             "block_bbox": [
               283,
               1992,
@@ -3419,7 +3419,7 @@
             1598.0,
             2076.0
           ],
-          "confidence": 0.9238891005516052,
+          "confidence": 0.9239100217819214,
           "order": 37,
           "source_ref": "parsing_res_list[37]",
           "raw": {
@@ -3449,7 +3449,7 @@
             469.0,
             2078.0
           ],
-          "confidence": 0.9056788682937622,
+          "confidence": 0.9055730104446411,
           "order": 38,
           "source_ref": "parsing_res_list[38]",
           "raw": {
@@ -3471,7 +3471,7 @@
     },
     {
       "page": 4,
-      "source_path": "D:\\Study\\Symbiosis\\Final Year\\Sem 7\\BTech Project\\project\\outputs\\raw\\multi page catalog sample\\page_004\\multi page catalog sample_p004_res.json",
+      "source_path": "outputs\\raw\\multi page catalog sample\\page_004\\multi page catalog sample_p004_res.json",
       "blocks": [
         {
           "id": "p4_b001",
@@ -3485,7 +3485,7 @@
             1651.0,
             107.0
           ],
-          "confidence": 0.5998092889785767,
+          "confidence": 0.5998623371124268,
           "order": 1,
           "source_ref": "parsing_res_list[1]",
           "raw": {
@@ -3515,7 +3515,7 @@
             1207.0,
             194.0
           ],
-          "confidence": 0.5607644319534302,
+          "confidence": 0.5605587959289551,
           "order": 2,
           "source_ref": "parsing_res_list[2]",
           "raw": {
@@ -3530,7 +3530,7 @@
           },
           "parent_id": null,
           "children_ids": [],
-          "heading_level": 3,
+          "heading_level": 2,
           "layout_hint": "paragraph_title"
         },
         {
@@ -3545,7 +3545,7 @@
             645.0,
             526.0
           ],
-          "confidence": 0.9734742641448975,
+          "confidence": 0.9734703302383423,
           "order": 3,
           "source_ref": "parsing_res_list[3]",
           "raw": {
@@ -3575,7 +3575,7 @@
             1295.0,
             433.0
           ],
-          "confidence": 0.7985594272613525,
+          "confidence": 0.7984606027603149,
           "order": 4,
           "source_ref": "parsing_res_list[4]",
           "raw": {
@@ -3605,7 +3605,7 @@
             1638.0,
             433.0
           ],
-          "confidence": 0.6825583577156067,
+          "confidence": 0.6825306415557861,
           "order": 5,
           "source_ref": "parsing_res_list[5]",
           "raw": {
@@ -3635,7 +3635,7 @@
             1657.0,
             1399.0
           ],
-          "confidence": 0.8802742958068848,
+          "confidence": 0.880224883556366,
           "order": 6,
           "source_ref": "parsing_res_list[6]",
           "raw": {
@@ -3665,7 +3665,7 @@
             642.0,
             1409.0
           ],
-          "confidence": 0.9083706140518188,
+          "confidence": 0.9083554148674011,
           "order": 7,
           "source_ref": "parsing_res_list[7]",
           "raw": {
@@ -3688,19 +3688,19 @@
           "page": 4,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子 582.19</td><td>3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21</td><td>天 9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子</td><td>582.19 3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21 天</td><td>9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
           "bbox": [
             97.0,
             1414.0,
             1412.0,
             1620.0
           ],
-          "confidence": 0.9745399951934814,
+          "confidence": 0.9745518565177917,
           "order": 8,
           "source_ref": "parsing_res_list[8]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子 582.19</td><td>3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21</td><td>天 9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td></td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG12118</td><td>$ 654.40</td><td>子</td><td>471.17 €</td><td>569,33</td><td>￥ 5,215.57</td><td>2'x1.5'x 2.2\"</td><td>26 lbs/12 kg</td></tr><tr><td>PBG12105</td><td>$ 808.60</td><td>子</td><td>582.19 3</td><td>703,48</td><td>天 6,444.54</td><td>2' x 2'x 2.2\"</td><td>27 lbs/12 kg</td></tr><tr><td>PBG12106</td><td>$ 1,021.00</td><td>子 735.12</td><td>€</td><td>888,27</td><td>天 8,137.37</td><td>3' x 2' x 2.2\"</td><td>35 lbs/16 kg</td></tr><tr><td>PBG12110</td><td>$ 1,180.70</td><td>子 850.10</td><td>€</td><td>1.027,21 天</td><td>9,410.18</td><td>3' x 2.5' x 2.2\"</td><td>44 lbs/20 kg</td></tr><tr><td>PBG12111</td><td>$ 1,443.90</td><td>子 1,039.61</td><td>€</td><td>1.256,19</td><td>天 11,507.88</td><td>4' x 2.5' x 2.2\"</td><td>60 lbs/27 kg</td></tr><tr><td>PBG12113</td><td>$ 1,656.90</td><td>子 1,192.97</td><td>€</td><td>1.441,50</td><td>天 13,205.49</td><td>4' x 3'x 2.2\"</td><td>71 lbs/32 kg</td></tr><tr><td>PBG12114</td><td>$ 1,973.50</td><td>£ 1,420.92</td><td>3</td><td>1.716,95</td><td>￥ 15,728.80</td><td>5' x 3' x 2.2\"</td><td>86 lbs/39 kg</td></tr></tbody></table></body></html>",
             "block_bbox": [
               97,
               1414,
@@ -3725,7 +3725,7 @@
             656.0,
             581.0
           ],
-          "confidence": 0.904076337814331,
+          "confidence": 0.9040717482566833,
           "order": 9,
           "source_ref": "parsing_res_list[9]",
           "raw": {
@@ -3748,19 +3748,19 @@
           "page": 4,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm x 25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mmx 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm  25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mm x 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
           "bbox": [
             97.0,
             586.0,
             1408.0,
             951.0
           ],
-          "confidence": 0.98493891954422,
+          "confidence": 0.984941303730011,
           "order": 10,
           "source_ref": "parsing_res_list[10]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm x 25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mmx 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td></tr><tr><td>PBG51501</td><td>$ 402.80</td><td>子 290.02</td><td>€ 350,44</td><td>￥ 3,210.32</td><td>300 mm x 300 mm x 25 mm</td><td>7 lbs/3 kg</td></tr><tr><td>PBG51502</td><td>$ 505.30</td><td>子 363.82</td><td>3 439,61</td><td>￥ 4,027.24</td><td>600 mm x 300 mm x 25 mm</td><td>11 lbs/5 kg</td></tr><tr><td>PBG51522</td><td>$ 609.20</td><td>子 438.62</td><td>€ 530,00</td><td>天 4,855.32</td><td>600 mm x 450 mm x 25 mm</td><td>18 lbs/8 kg</td></tr><tr><td>PBG51505</td><td>$ 713.10</td><td>子 513.43</td><td>€ 620,40</td><td>天 5,683.41</td><td>600 mm x 600 mm x 25 mm</td><td>23 lbs/10.5 kg</td></tr><tr><td>PBG51503</td><td>$ 607.80</td><td>437.62 子</td><td>€ 528,79</td><td>￥ 4,844.17</td><td>900 mm x 300 mm x 25 mm</td><td>31 lbs/14 kg</td></tr><tr><td>PBG51506</td><td>$ 917.10</td><td>子 660.31</td><td>€ 797,88</td><td>￥ 7,309.29</td><td>900 mm x 600 mm x 25 mm</td><td>33 lbs/15 kg</td></tr><tr><td>PBG51510</td><td>$ 1,071.80</td><td>子 771.70</td><td>€ 932,47</td><td>天 8,542.25</td><td>900 mm x 750 mm x 25 mm</td><td>40 lbs/18 kg</td></tr><tr><td>PBG51512</td><td>$ 1,226.40</td><td>子 883.01</td><td>€ 1.066,97</td><td>￥ 9,774.41</td><td>900 mm x 900 mm x 25 mm</td><td>51 lbs/23 kg</td></tr><tr><td>PBG51507</td><td>$ 1,121.10</td><td>子 807.19</td><td>€ 975,36</td><td>￥ 8,935.17</td><td>1200 mm x 600 mm x 25 mm</td><td>37 lbs/17 kg</td></tr><tr><td>PBG51511</td><td>$ 1,326.50</td><td>子 955.08</td><td>€ 1.154,06</td><td>天 10,572.21</td><td>1200 mm x 750 mm  25 mm</td><td>57 lbs/26 kg</td></tr><tr><td>PBG51513 PBG51514</td><td>$ 1,531.90</td><td>7 1,102.97</td><td>€ 1.332,75</td><td>￥ 12,209.24</td><td>1200 mm x 900 mm x 25 mm</td><td>66 lbs/30 kg</td></tr><tr><td>$ 1,837.40</td><td>子 1,322.93</td><td>€</td><td>1.598,54</td><td>￥ 14,644.08</td><td>1500 mmx 900 mmx 25 mm</td><td>88 lbs/40 kg</td></tr></tbody></table></body></html>",
             "block_bbox": [
               97,
               586,
@@ -3785,7 +3785,7 @@
             606.0,
             971.0
           ],
-          "confidence": 0.7707873582839966,
+          "confidence": 0.7708518505096436,
           "order": 11,
           "source_ref": "parsing_res_list[11]",
           "raw": {
@@ -3815,7 +3815,7 @@
             462.0,
             1049.0
           ],
-          "confidence": 0.8823146820068359,
+          "confidence": 0.8822870850563049,
           "order": 12,
           "source_ref": "parsing_res_list[12]",
           "raw": {
@@ -3845,7 +3845,7 @@
             831.0,
             1327.0
           ],
-          "confidence": 0.9821099042892456,
+          "confidence": 0.9821080565452576,
           "order": 13,
           "source_ref": "parsing_res_list[13]",
           "raw": {
@@ -3875,7 +3875,7 @@
             1651.0,
             170.0
           ],
-          "confidence": 0.45720595121383667,
+          "confidence": 0.45717209577560425,
           "order": 14,
           "source_ref": "parsing_res_list[14]",
           "raw": {
@@ -3905,7 +3905,7 @@
             1639.0,
             235.0
           ],
-          "confidence": 0.7025699019432068,
+          "confidence": 0.7025452852249146,
           "order": 15,
           "source_ref": "parsing_res_list[15]",
           "raw": {
@@ -3935,7 +3935,7 @@
             1638.0,
             274.0
           ],
-          "confidence": 0.6999597549438477,
+          "confidence": 0.6999554634094238,
           "order": 16,
           "source_ref": "parsing_res_list[16]",
           "raw": {
@@ -3965,7 +3965,7 @@
             1639.0,
             338.0
           ],
-          "confidence": 0.7674141526222229,
+          "confidence": 0.767513632774353,
           "order": 17,
           "source_ref": "parsing_res_list[17]",
           "raw": {
@@ -3995,7 +3995,7 @@
             1639.0,
             381.0
           ],
-          "confidence": 0.6022639870643616,
+          "confidence": 0.6023207902908325,
           "order": 18,
           "source_ref": "parsing_res_list[18]",
           "raw": {
@@ -4025,7 +4025,7 @@
             1646.0,
             491.0
           ],
-          "confidence": 0.41503068804740906,
+          "confidence": 0.4147647023200989,
           "order": 19,
           "source_ref": "parsing_res_list[19]",
           "raw": {
@@ -4048,19 +4048,19 @@
           "page": 4,
           "type": "paragraph",
           "source_type": "text",
-          "text": "*The weightsgivenarefor thebreadboardsaloneand do not include packaging",
+          "text": "Theweeadalondotincluc",
           "bbox": [
             97.0,
             1622.0,
             605.0,
             1639.0
           ],
-          "confidence": 0.7877211570739746,
+          "confidence": 0.7877519130706787,
           "order": 20,
           "source_ref": "parsing_res_list[20]",
           "raw": {
             "block_label": "text",
-            "block_content": "*The weightsgivenarefor thebreadboardsaloneand do not include packaging ",
+            "block_content": "Theweeadalondotincluc ",
             "block_bbox": [
               97,
               1622,
@@ -4085,7 +4085,7 @@
             658.0,
             1675.0
           ],
-          "confidence": 0.904636800289154,
+          "confidence": 0.9046436548233032,
           "order": 21,
           "source_ref": "parsing_res_list[21]",
           "raw": {
@@ -4108,19 +4108,19 @@
           "page": 4,
           "type": "table",
           "source_type": "table",
-          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>€ 1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+          "text": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
           "bbox": [
             98.0,
             1682.0,
             1412.0,
             1992.0
           ],
-          "confidence": 0.9825536012649536,
+          "confidence": 0.9825502038002014,
           "order": 22,
           "source_ref": "parsing_res_list[22]",
           "raw": {
             "block_label": "table",
-            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>€ 1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+            "block_content": "<html><body><table><tbody><tr><td>ITEM #</td><td>$</td><td>子</td><td>€</td><td>RMB</td><td>DIMENSIONS</td><td>WEIGHT*</td><td></td><td></td></tr><tr><td>PBG52502</td><td>$ 540.30</td><td>子 389.02</td><td>€ 470,06</td><td>天 4,306.19</td><td>600 mm x 300 mm x 55 mm</td><td>13 lbs/6 kg</td><td></td><td></td></tr><tr><td>PBG52522</td><td>$ 644.90</td><td>子 464.33</td><td>€ 561,06</td><td>天 5,139.85</td><td>600 mm x 450 mm x 55 mm</td><td>18 lbs/8.2 kg</td><td></td><td></td></tr><tr><td>PBG52505</td><td>$ 780.50</td><td>子 561.96</td><td>€ 679,04</td><td>￥ 6,220.59</td><td>600 mm x 600 mm x 55 mm</td><td>24 lbs/11 kg</td><td>PBG52506</td><td>$ 1,001.40</td></tr><tr><td>PBG52510</td><td>$ 1,156.80</td><td>子 832.90</td><td>€ 1.006,42</td><td>天 9,219.70</td><td>900 mm x 750 mm x 55 mm</td><td>44 lbs/20 kg</td><td></td><td></td></tr><tr><td>PBG52511</td><td>$ 1,412.90</td><td>子 1,017.29</td><td>€ 1.229,22</td><td>￥ 11,260.81</td><td>1200 mm x 750 mm x 55 mm</td><td>55 lbs/25 kg</td><td></td><td></td></tr><tr><td>PBG52513</td><td>$</td><td>1,619.00</td><td>子 1,165.68</td><td>€ 1.408,53</td><td>￥ 12,903.43</td><td>1200 mm x 900 mm x 55 mm</td><td>57 lbs/27 kg</td><td></td></tr><tr><td>PBG52508</td><td>$</td><td>1,413.00</td><td>子</td><td>1,017.36</td><td>€</td><td>€ 1.229,31</td><td>￥ 11,261.61</td><td>1500 mm x 600 mm x 55 mm</td></tr><tr><td>PBG52514</td><td>$</td><td>1,925.90</td><td>子</td><td>1,386.65</td><td>€</td><td>1.675,53</td><td>￥ 15,349.42</td><td>1500 mm x 900 mm x 55 mm</td></tr><tr><td>PBG52521</td><td>$ 3,182.10</td><td>子</td><td>2,291.11</td><td>€ 2.768,43</td><td>天 25,361.34</td><td>1800 mm x 1250 mm x 55 mm</td><td>145 lbs/66 kg</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
             "block_bbox": [
               98,
               1682,
@@ -4138,19 +4138,19 @@
           "page": 4,
           "type": "paragraph",
           "source_type": "text",
-          "text": "*The weights givenare for thebreadboardsaloneand do notinclude packaging.",
+          "text": "*The weightsgivnareforthebreadboardsaloneand donotincludepackaging.",
           "bbox": [
             97.0,
             1997.0,
             606.0,
             2014.0
           ],
-          "confidence": 0.8013087511062622,
+          "confidence": 0.801304280757904,
           "order": 23,
           "source_ref": "parsing_res_list[23]",
           "raw": {
             "block_label": "text",
-            "block_content": "*The weights givenare for thebreadboardsaloneand do notinclude packaging.",
+            "block_content": "*The weightsgivnareforthebreadboardsaloneand donotincludepackaging.",
             "block_bbox": [
               97,
               1997,
@@ -4175,7 +4175,7 @@
             253.0,
             2077.0
           ],
-          "confidence": 0.9056220054626465,
+          "confidence": 0.90558260679245,
           "order": 24,
           "source_ref": "parsing_res_list[24]",
           "raw": {
@@ -4205,7 +4205,7 @@
             1411.0,
             2079.0
           ],
-          "confidence": 0.9017705321311951,
+          "confidence": 0.9017614722251892,
           "order": 25,
           "source_ref": "parsing_res_list[25]",
           "raw": {
@@ -4235,7 +4235,7 @@
             1637.0,
             2077.0
           ],
-          "confidence": 0.7861282825469971,
+          "confidence": 0.7861230969429016,
           "order": 26,
           "source_ref": "parsing_res_list[26]",
           "raw": {

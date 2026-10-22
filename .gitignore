@@ -7,6 +7,16 @@ __pycache__/
 .DS_Store
 .env
 .venv/
+.venv-gpu/
 venv/
 .ipynb_checkpoints/
 data/raw/CatalogBank/
+
+# Local benchmark artifacts and temporary test directories
+outputs/benchmark_new_pipeline/
+outputs/benchmarks/
+outputs/fixture_capture/
+outputs/test_runs/
+outputs/verification/
+outputs/verification_hybrid/
+outputs/evaluations/

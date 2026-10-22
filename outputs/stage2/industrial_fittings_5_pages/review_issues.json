@@ -1,0 +1,86 @@
+[
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p2__c005__part1",
+    "name": "Pipe Straights",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part1",
+    "name": "A",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part1",
+    "name": "Medium-Pressure Stainless Steel Threaded Pipe Fittings",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part1",
+    "name": "NPT Connectors with Intermittent Swivel",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part1",
+    "name": "NPT Reducers",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part1",
+    "name": "Thread Adapters, Female x Male",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p1__c002__part1",
+    "name": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p2__c005__part3",
+    "name": "NPT Connectors, Adapters, and Caps—304 and 316 Stainless Steel",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "industrial_fittings_5_pages_document__p3__c007__part2",
+    "name": "Reducing Thread Adapters, Female x Male",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "warning",
+    "code": "ORPHANED_PRICE_FRAGMENT",
+    "chunk": "industrial_fittings_5_pages_document__p1__c002__part6",
+    "original_error": "Response has no extraction arrays",
+    "action": "Source text supplies exact SKU/price pairs; inspect other table properties."
+  },
+  {
+    "severity": "warning",
+    "code": "ORPHANED_PRICE_FRAGMENT",
+    "chunk": "industrial_fittings_5_pages_document__p1__c002__part7",
+    "original_error": "Response has no extraction arrays",
+    "action": "Source text supplies exact SKU/price pairs; inspect other table properties."
+  },
+  {
+    "severity": "warning",
+    "code": "TABLE_FRAGMENT_RECOVERED_FROM_SOURCE",
+    "chunk": "industrial_fittings_5_pages_document__p1__c002__part8",
+    "original_error": "Response has no extraction arrays",
+    "action": "Source text supplies exact SKU/price pairs; inspect other table properties."
+  }
+]

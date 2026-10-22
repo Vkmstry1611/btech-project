@@ -1,0 +1,7 @@
+{
+  "state": "complete_with_review",
+  "input": "pdfs\\optical_hardware_5_pages.pdf",
+  "partial_page_limit": null,
+  "final_path": "outputs\\final\\optical_hardware_5_pages\\optical_hardware_5_pages_final.json",
+  "review_warning_count": 5
+}

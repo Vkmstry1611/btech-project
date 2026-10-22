@@ -6,19 +6,9 @@ ready for Neo4j ingestion.
 
 What this module does
 ---------------------
-1. String cleaning       — strip whitespace, collapse internal whitespace,
-                           title-case product names, remove leading articles.
-2. Unit canonicalization — parse numeric values + unit strings into a
-                           standard form: {value: float, unit: str (SI/common)}.
-                           e.g. "2 in" → {value: 2.0, unit: "in"}
-                                "25.4mm" → {value: 25.4, unit: "mm"}
-                                "3,000 psi" → {value: 3000.0, unit: "psi"}
-3. SKU normalization     — uppercase, strip spaces/hyphens noise.
-4. Cross-chunk dedup     — identical (name, sku) products merged; duplicate
-                           attributes for the same (entity, key) kept as the
-                           first seen value.
-5. Confidence flagging   — blocks below a threshold get a low_confidence flag
-                           in metadata (for downstream filtering).
+Preserves manufacturer identifiers and descriptions, merges exact SKU identities,
+canonicalizes unambiguous measurements, and retains conflicting attribute values
+with their chunk provenance. It does not convert physical units or guess values.
 
 Design: pure Python + stdlib only (no pint, no spacy).  The unit table is a
 hand-rolled lookup — sufficient for industrial catalogs (length, weight,
@@ -148,8 +138,8 @@ def parse_value_unit(text: str) -> Optional[NormalizedValue]:
     if frac_unit_match:
         num = _parse_numeric(frac_unit_match.group(1))
         unit_raw = frac_unit_match.group(2).strip().lower().rstrip(".")
-        if num is not None:
-            canonical = _UNIT_ALIASES.get(unit_raw, unit_raw)
+        if num is not None and unit_raw in _UNIT_ALIASES:
+            canonical = _UNIT_ALIASES[unit_raw]
             return NormalizedValue(value=num, unit=canonical, raw=stripped)
 
     # 2. Full-string anchored match (comma-thousands, space-separated)
@@ -158,18 +148,18 @@ def parse_value_unit(text: str) -> Optional[NormalizedValue]:
         num_str = match.group("value")
         unit_raw = (match.group("unit") or "").strip().lower().rstrip(".")
         num = _parse_numeric(num_str)
-        if num is not None and unit_raw:
+        if num is not None and unit_raw in _UNIT_ALIASES:
             canonical = _UNIT_ALIASES.get(unit_raw, unit_raw)
             return NormalizedValue(value=num, unit=canonical, raw=stripped)
 
     # 3. Embedded pattern: "25.4mm", "120V" (no space between value and unit)
-    match = _EMBEDDED_RE.search(stripped)
+    match = _EMBEDDED_RE.fullmatch(stripped)
     if match:
         num_str = match.group("num")
         unit_raw = match.group("unit").strip().lower().rstrip(".")
         num = _parse_numeric(num_str)
-        if num is not None:
-            canonical = _UNIT_ALIASES.get(unit_raw, unit_raw)
+        if num is not None and unit_raw in _UNIT_ALIASES:
+            canonical = _UNIT_ALIASES[unit_raw]
             return NormalizedValue(value=num, unit=canonical, raw=stripped)
 
     return None
@@ -179,9 +169,6 @@ def parse_value_unit(text: str) -> Optional[NormalizedValue]:
 # String cleaning
 # ---------------------------------------------------------------------------
 
-_LEADING_ARTICLES_RE = re.compile(
-    r"^(the|a|an)\s+", re.IGNORECASE
-)
 _WHITESPACE_RE = re.compile(r"\s+")
 
 _UNICODE_REPLACEMENTS = {
@@ -212,26 +199,21 @@ def clean_string(text: str) -> str:
 
 
 def normalize_product_name(name: str) -> str:
-    """Clean a product name: strip leading articles, trim whitespace.
+    """Clean a product name while preserving its wording and case.
 
     Does NOT force title-case because product names in industrial catalogs
     often use ALL-CAPS model numbers which should be preserved.
     """
     name = clean_string(name)
-    # Remove leading "The / A / An"
-    name = _LEADING_ARTICLES_RE.sub("", name).strip()
+    # Manufacturer names and codes may legitimately start with A or The.
     return name
 
 
 def normalize_sku(sku: str) -> str:
-    """Canonical SKU: uppercase, strip outer whitespace, normalize separators."""
+    """Preserve the exact code, trimming only surrounding whitespace."""
     if not sku:
         return ""
-    sku = clean_string(sku).upper()
-    # Collapse multiple spaces/hyphens but keep single hyphens (part of SKU)
-    sku = re.sub(r"[\s]+", "-", sku)
-    sku = re.sub(r"-{2,}", "-", sku).strip("-")
-    return sku
+    return sku.strip()  # Preserve manufacturer codes exactly; never invent separators.
 
 
 def normalize_attribute_key(key: str) -> str:
@@ -257,6 +239,8 @@ def normalize_attribute_value(value: str, unit: Optional[str] = None) -> Tuple[s
     # Try to parse a numeric value+unit even if unit not explicitly provided
     parsed = parse_value_unit(value)
     if parsed is not None:
+        if canonical_unit and canonical_unit != parsed.unit:
+            raise ValueError(f'Conflicting attribute units: {value!r} versus {unit!r}')
         # Prefer explicitly provided unit over parsed unit
         final_unit = canonical_unit or parsed.unit
         # Return just the numeric part as the value string
@@ -276,6 +260,10 @@ class NormalizedProduct:
     sku: Optional[str]          # normalized SKU
     sku_raw: Optional[str]      # original as-extracted
     category: Optional[str]
+    description: Optional[str] = None
+    variant_group: Optional[str] = None
+    source_evidence: List[Dict[str, Any]] = field(default_factory=list)
+    category_candidates: List[str] = field(default_factory=list)
     source_chunks: List[str] = field(default_factory=list)  # chunk_ids it appeared in
 
     def to_dict(self) -> Dict[str, Any]:
@@ -284,6 +272,10 @@ class NormalizedProduct:
             "model": self.model,
             "sku": self.sku,
             "sku_raw": self.sku_raw,
+            "description": self.description,
+            "variant_group": self.variant_group,
+            "source_evidence": self.source_evidence,
+            "category_candidates": self.category_candidates,
             "category": self.category,
             "source_chunks": self.source_chunks,
         }
@@ -297,6 +289,8 @@ class NormalizedAttribute:
     unit: Optional[str]
     value_numeric: Optional[float]   # populated if value is a measurement
     source_chunk: str = ""
+    location: Optional[str] = None
+    product_sku: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -306,6 +300,8 @@ class NormalizedAttribute:
             "unit": self.unit,
             "value_numeric": self.value_numeric,
             "source_chunk": self.source_chunk,
+            "location": self.location,
+            "product_sku": self.product_sku,
         }
 
 
@@ -368,8 +364,8 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
       - Products: keyed by (normalized_name, normalized_sku).  Same product
         appearing in multiple chunks is merged into one entry; source_chunks
         lists all chunk_ids it appeared in.
-      - Attributes: keyed by (entity_norm, key_norm).  First occurrence wins;
-        duplicates are dropped.
+      - Attributes: exact values are coalesced within their source chunk;
+        conflicting values and distinct SKU owners are retained.
       - Relations: keyed by (subject_norm, predicate, object_norm).  Exact
         duplicates are dropped.
     """
@@ -387,6 +383,31 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
     rels_map: Dict[Tuple[str, str, str], NormalizedRelation] = {}
     all_chunk_ids: List[str] = []
 
+    aliases = {}
+    sku_aliases = {}
+    canonical_names = {}
+    group_parent, sku_group = {}, {}
+    def group_root(group):
+        group_parent.setdefault(group, group)
+        while group_parent[group] != group:
+            group_parent[group] = group_parent[group_parent[group]]
+            group = group_parent[group]
+        return group
+    for result in results:
+        for product in result.products:
+            if product.sku and product.variant_group:
+                sku = product.sku.strip()
+                root = group_root(product.variant_group)
+                if sku in sku_group:
+                    prior = group_root(sku_group[sku])
+                    group_parent[max(root, prior)] = min(root, prior)
+                sku_group[sku] = product.variant_group
+            identity = ('sku', product.sku.strip()) if product.sku else ('name', product.name, product.model)
+            canonical = canonical_names.setdefault(identity, normalize_product_name(product.name))
+            for alias in (product.name, product.sku):
+                if alias: aliases.setdefault(alias, set()).add(canonical)
+                if alias and product.sku:
+                    sku_aliases.setdefault(alias, set()).add(product.sku.strip())
     for res in results:
         all_chunk_ids.append(res.chunk_id)
 
@@ -394,39 +415,61 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
         for p in res.products:
             name_norm = normalize_product_name(p.name)
             sku_norm = normalize_sku(p.sku) if p.sku else ""
-            model_norm = clean_string(p.model) if p.model else None
+            model_norm = p.model.strip() if p.model else None
             cat_norm = clean_string(p.category) if p.category else None
 
-            key = (name_norm.lower(), sku_norm.lower())
+            key = ("sku", sku_norm) if sku_norm else ('name', name_norm, model_norm or '')
             if key in products_map:
                 # Merge: add this chunk to source_chunks
-                products_map[key].source_chunks.append(res.chunk_id)
+                if res.chunk_id not in products_map[key].source_chunks:
+                    products_map[key].source_chunks.append(res.chunk_id)
+                for evidence in p.source_evidence:
+                    if evidence not in products_map[key].source_evidence:
+                        products_map[key].source_evidence.append(evidence)
+                if p.description:
+                    previous = products_map[key].description or ''
+                    if not previous or previous in p.description:
+                        products_map[key].description = p.description
+                    elif p.description not in previous:
+                        products_map[key].description = previous + '\n\n' + p.description
                 # Fill in missing fields from this occurrence
                 if not products_map[key].model and model_norm:
                     products_map[key].model = model_norm
                 if not products_map[key].category and cat_norm:
                     products_map[key].category = cat_norm
+                if cat_norm and cat_norm not in products_map[key].category_candidates:
+                    products_map[key].category_candidates.append(cat_norm)
             else:
                 products_map[key] = NormalizedProduct(
                     name=name_norm,
                     model=model_norm,
                     sku=sku_norm or None,
                     sku_raw=p.sku,
+                    description=p.description,
+                    variant_group=p.variant_group,
+                    source_evidence=list(p.source_evidence),
                     category=cat_norm,
+                    category_candidates=[cat_norm] if cat_norm else [],
                     source_chunks=[res.chunk_id],
                 )
 
         # ---- Attributes -----------------------------------------------------
         for a in res.attributes:
-            entity_norm = normalize_product_name(a.entity)
+            matches = aliases.get(a.entity, set())
+            entity_norm = next(iter(matches)) if len(matches) == 1 else a.entity.strip()
+            sku_matches = sku_aliases.get(a.entity, set())
+            product_sku = next(iter(sku_matches)) if len(sku_matches) == 1 else None
             key_norm = normalize_attribute_key(a.key)
-            value_norm, unit_canon = normalize_attribute_value(a.value, a.unit)
+            if key_norm.lower() in {'sku', 'model', 'part number', 'article number', 'description', 'thread size'}:
+                value_norm, unit_canon = a.value.strip(), a.unit
+            else:
+                value_norm, unit_canon = normalize_attribute_value(a.value, a.unit)
 
             # Try to extract numeric value
             parsed = parse_value_unit(a.value)
             numeric = parsed.value if parsed else None
 
-            dedup_key = (entity_norm.lower(), key_norm.lower())
+            dedup_key = (entity_norm, product_sku, key_norm, value_norm, unit_canon, a.location, res.chunk_id)
             if dedup_key not in attrs_map:
                 attrs_map[dedup_key] = NormalizedAttribute(
                     entity=entity_norm,
@@ -434,9 +477,11 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
                     value=value_norm,
                     unit=unit_canon,
                     value_numeric=numeric,
+                    location=a.location,
+                    product_sku=product_sku,
                     source_chunk=res.chunk_id,
                 )
-            # else: first-seen wins; duplicate dropped silently
+            # Exact repeats are coalesced; conflicting values retain their source chunk.
 
         # ---- Relations ------------------------------------------------------
         for r in res.relations:
@@ -444,7 +489,7 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
             pred_norm = r.predicate.upper().strip()
             obj_norm = clean_string(r.object)
 
-            dedup_key = (subj_norm.lower(), pred_norm, obj_norm.lower())
+            dedup_key = (subj_norm, pred_norm, obj_norm)
             if dedup_key not in rels_map:
                 rels_map[dedup_key] = NormalizedRelation(
                     subject=subj_norm,
@@ -452,6 +497,12 @@ def normalize_batch(results: List[ExtractionResult]) -> NormalizedResult:
                     object=obj_norm,
                     source_chunk=res.chunk_id,
                 )
+
+    # A repeated SKU links explicit variant rows across page/chunk boundaries.
+    # Never merge rows merely because their headings or descriptions match.
+    for product in products_map.values():
+        if product.sku in sku_group:
+            product.variant_group = group_root(sku_group[product.sku])
 
     return NormalizedResult(
         doc_stem=doc_stem,

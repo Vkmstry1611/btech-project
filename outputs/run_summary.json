@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "pdf": "pdfs\\industrial_fittings_5_pages.pdf",
+      "pages": 5,
+      "status": "complete_with_review",
+      "output": "outputs\\final\\industrial_fittings_5_pages\\industrial_fittings_5_pages_final.json",
+      "sellable_items": 750,
+      "unique_skus": 750,
+      "items_with_price": 750,
+      "review_warnings": 3,
+      "stage1_seconds": 44.7,
+      "stage2_seconds": 522.3,
+      "total_seconds": 567.0
+    },
+    {
+      "pdf": "pdfs\\multi page catalog sample.pdf",
+      "pages": 4,
+      "status": "complete_with_review",
+      "output": "outputs\\final\\multi page catalog sample\\multi page catalog sample_final.json",
+      "sellable_items": 90,
+      "unique_skus": 90,
+      "items_with_price": 86,
+      "review_warnings": 43,
+      "stage1_seconds": 224.4,
+      "stage2_seconds": 174.2,
+      "total_seconds": 398.7
+    },
+    {
+      "pdf": "pdfs\\optical_hardware_5_pages.pdf",
+      "pages": 5,
+      "status": "complete_with_review",
+      "output": "outputs\\final\\optical_hardware_5_pages\\optical_hardware_5_pages_final.json",
+      "sellable_items": 42,
+      "unique_skus": 42,
+      "items_with_price": 42,
+      "review_warnings": 5,
+      "stage1_seconds": 78.8,
+      "stage2_seconds": 127.0,
+      "total_seconds": 205.8
+    }
+  ]
+}

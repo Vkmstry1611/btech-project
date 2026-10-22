@@ -47,6 +47,7 @@ Then use:
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Tuple
@@ -93,6 +94,7 @@ MERGE (p:Product {id: $id})
 SET p.name     = $name,
     p.model    = $model,
     p.sku      = $sku,
+    p.description = $description,
     p.category = $category,
     p.doc_stem = $doc_stem
 """
@@ -102,6 +104,7 @@ MERGE (a:Attribute {id: $id})
 SET a.key           = $key,
     a.value         = $value,
     a.unit          = $unit,
+    a.location      = $location,
     a.value_numeric = $value_numeric
 """
 
@@ -151,7 +154,7 @@ MERGE (a)-[:{predicate}]->(b)
 
 def _node_id(prefix: str, *parts: str) -> str:
     """Stable, short node ID derived from content — safe for MERGE keys."""
-    raw = ":".join(p.lower().strip() for p in parts if p)
+    raw = json.dumps([p.strip() for p in parts], ensure_ascii=False)
     digest = hashlib.sha1(raw.encode()).hexdigest()[:12]
     return f"{prefix}_{digest}"
 
@@ -210,18 +213,23 @@ def _build_statements(normalized: NormalizedResult) -> List[_Statement]:
 
     # ---- Product nodes --------------------------------------------------
     prod_id_map: Dict[str, str] = {}   # normalized name+sku key → neo4j id
+    sku_ids = {}
+    name_ids = {}
 
     for product in normalized.products:
         prod_id = _node_id("prod", doc_stem, product.name, product.sku or "")
         # Track by (name, sku) so we can link attributes/relations later
         lookup_key = f"{product.name.lower()}::{(product.sku or '').lower()}"
         prod_id_map[lookup_key] = prod_id
+        if product.sku: sku_ids[product.sku] = prod_id
+        name_ids.setdefault(product.name.casefold(), set()).add(prod_id)
 
         stmts.append(_Statement(_MERGE_PRODUCT, {
             "id":       prod_id,
             "name":     product.name,
             "model":    product.model,
             "sku":      product.sku,
+            "description": product.description,
             "category": product.category,
             "doc_stem": doc_stem,
         }))
@@ -250,23 +258,22 @@ def _build_statements(normalized: NormalizedResult) -> List[_Statement]:
 
     # ---- Attribute nodes ------------------------------------------------
     for attr in normalized.attributes:
-        attr_id = _node_id("attr", doc_stem, attr.entity, attr.key)
+        attr_id = _node_id("attr", doc_stem, attr.product_sku or attr.entity,
+                           attr.key, attr.value, attr.unit or '', attr.location or '', attr.source_chunk)
         stmts.append(_Statement(_MERGE_ATTRIBUTE, {
             "id":            attr_id,
             "key":           attr.key,
             "value":         attr.value,
             "unit":          attr.unit,
+            "location":      attr.location,
             "value_numeric": attr.value_numeric,
         }))
 
         # Link to product if we can find it
-        entity_key = f"{attr.entity.lower()}::"
-        # Try exact match first, then SKU-agnostic
-        matching_prod_id = None
-        for k, pid in prod_id_map.items():
-            if k.startswith(entity_key) or k.split("::")[0] == attr.entity.lower():
-                matching_prod_id = pid
-                break
+        matching_prod_id = sku_ids.get(attr.product_sku or attr.entity)
+        if matching_prod_id is None:
+            candidates = name_ids.get(attr.entity.casefold(), set())
+            if len(candidates) == 1: matching_prod_id = next(iter(candidates))
 
         if matching_prod_id:
             stmts.append(_Statement(_MERGE_PRODUCT_ATTR, {
@@ -289,10 +296,12 @@ def _build_statements(normalized: NormalizedResult) -> List[_Statement]:
             continue
 
         # Find subject and object product IDs
-        subj_key = rel.subject.lower()
-        obj_key  = rel.object.lower()
-        subj_id  = next((pid for k, pid in prod_id_map.items() if k.split("::")[0] == subj_key), None)
-        obj_id   = next((pid for k, pid in prod_id_map.items() if k.split("::")[0] == obj_key),  None)
+        def resolve_entity(name):
+            if name in sku_ids: return sku_ids[name]
+            candidates = name_ids.get(name.casefold(), set())
+            return next(iter(candidates)) if len(candidates) == 1 else None
+        subj_id = resolve_entity(rel.subject)
+        obj_id = resolve_entity(rel.object)
 
         if subj_id and obj_id and subj_id != obj_id:
             cypher = _MERGE_PRODUCT_RELATION_TMPL.format(predicate=predicate)

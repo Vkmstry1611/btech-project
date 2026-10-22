@@ -286,8 +286,8 @@ def _validate_attribute(
     # (warning only — entity might be a section heading)
     entity_norm = (a.entity or "").strip().lower()
     known_norms = {n.strip().lower() for n in product_names}
-    if product_names and entity_norm not in known_norms:
-        report.add(Severity.INFO, "ORPHANED_ATTRIBUTE",
+    if entity_norm not in known_norms:
+        report.add(Severity.WARNING, "ORPHANED_ATTRIBUTE",
                    f"Attribute entity {a.entity!r} not found in products list for this chunk",
                    chunk_id=chunk_id, entity=a.entity, field_name="entity")
 
@@ -335,7 +335,7 @@ def validate_extraction(
     if seen_skus is None:
         seen_skus = {}
 
-    product_names: Set[str] = {p.name for p in result.products}
+    product_names: Set[str] = {v for p in result.products for v in (p.name, p.sku) if v}
 
     for product in result.products:
         _validate_product(product, result.chunk_id, report, seen_skus)

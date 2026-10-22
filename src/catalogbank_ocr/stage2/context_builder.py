@@ -25,6 +25,7 @@ Design decisions (POC-lean):
 """
 
 from __future__ import annotations
+import re
 
 import json
 from dataclasses import dataclass, field
@@ -125,6 +126,7 @@ class ContextChunk:
         def _blk(b: RawBlock) -> Dict[str, Any]:
             return {
                 "id": b.block_id,
+                "page": b.page,
                 "type": b.block_type,
                 "text": b.text,
                 "confidence": b.confidence,
@@ -160,7 +162,7 @@ def _node_to_raw_block(node: Dict[str, Any]) -> RawBlock:
         page=node.get("page") or 1,
         block_type=node.get("semantic_type") or node.get("type") or "paragraph",
         source_type=node.get("source_type") or "",
-        text=(node.get("name") or node.get("text") or "").strip(),
+        text=(node.get("metadata", {}).get("full_text") or node.get("text") or node.get("name") or "").strip(),
         heading_level=node.get("metadata", {}).get("heading_level") if node.get("metadata") else None,
         confidence=node.get("confidence"),
         order=node.get("order") or 0,
@@ -295,6 +297,9 @@ def build_context_chunks(
         doc_stem = canonical_doc.get("source", {}).get("pdf_path", "unknown")
         doc_stem = Path(doc_stem).stem if doc_stem else "unknown"
 
+    if canonical_doc.get("pages"):
+        return _chunks_from_pages(canonical_doc, doc_stem, source_doc_path, skip_empty)
+
     hierarchy: Dict[str, Any] = canonical_doc.get("hierarchy") or {}
 
     chunks: List[ContextChunk] = []
@@ -305,6 +310,60 @@ def build_context_chunks(
         chunks = [c for c in chunks if not c.is_empty]
 
     return chunks
+
+
+def _chunks_from_pages(document, stem, source, skip_empty):
+    from catalogbank_ocr.stage2.page_roles import annotate_pages
+    annotate_pages(document)
+    chunks, stack = [], []
+    page_primary = None
+    def title_terms(value):
+        words = re.findall(r'[a-z0-9]+', value.casefold())
+        return {('shelf' if word in {'shelf', 'shelves'} else word.rstrip('s')) for word in words
+                if word not in {'the', 'and', 'of', 'for', 'with', 'from'}}
+    current = None
+    buckets = {'table': 'tables', 'specification': 'specifications', 'product_card': 'product_cards', 'figure': 'figures', 'paragraph': 'paragraphs'}
+    for page in document['pages']:
+        page_primary = None
+        role = page['classification']['role']
+        if role in ('cover', 'index'):
+            continue
+        for data in sorted(page.get('blocks', []), key=lambda b: b.get('order', 0)):
+            if data.get('extraction_role') in ('page_chrome', 'navigation', 'index_entry'):
+                continue
+            b = RawBlock.from_dict(dict(data, page=page.get('page', 1)))
+            if b.source_type in ('header', 'footer', 'number'):
+                continue
+            if b.block_type == 'heading':
+                level = b.heading_level or 2
+                if b.source_type == 'paragraph_title':
+                    generic = b.text.casefold().strip() in {'specifications', 'technical specifications', 'features', 'ordering information'}
+                    if generic:
+                        level = max(3, (stack[-1][0] + 1) if stack and stack[-1][1].casefold().strip() not in {'specifications', 'technical specifications', 'features', 'ordering information'} else 3)
+                    elif not re.match(r'^\d+(?:\.\d+)*\.?\s+', b.text):
+                        level = 2
+                        if stack and b.text.casefold() != stack[-1][1].casefold() and b.text.casefold() in stack[-1][1].casefold():
+                            level = stack[-1][0] + 1
+                        elif page_primary and b.bbox and b.page == page_primary[0]:
+                            width = b.bbox[2] - b.bbox[0]
+                            related = bool(title_terms(b.text) & title_terms(page_primary[3])) or 'accessories' in page_primary[3].casefold()
+                            if related and b.bbox[1] > page_primary[2] + 30 and width < page_primary[1] * 0.7:
+                                level = 3
+                # Repeated running section headings should not split their context.
+                if stack and stack[-1][1] == b.text:
+                    continue
+                while stack and stack[-1][0] >= level: stack.pop()
+                stack.append((level, b.text))
+                if level <= 2 and b.bbox:
+                    page_primary = (b.page, b.bbox[2] - b.bbox[0], b.bbox[1], b.text)
+                current = None
+                if role == 'section_divider': continue
+            if role == 'section_divider': continue
+            if current is None:
+                current = ContextChunk(f'{stem}__p{b.page}__c{len(chunks)+1:03d}', stem, b.page, [v for _, v in stack], len(stack), source_doc=source)
+                chunks.append(current)
+            getattr(current, 'headings' if b.block_type == 'heading' else buckets.get(b.block_type, 'paragraphs')).append(b)
+    return [c for c in chunks if not skip_empty or not c.is_empty]
 
 
 def build_context_chunks_from_file(

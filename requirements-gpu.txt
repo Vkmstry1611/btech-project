@@ -1,0 +1,6 @@
+# GPU overlay for the project's existing Python environment.
+# Create a separate venv with --system-site-packages; do not install CPU and GPU
+# Paddle wheels over one another in the same site-packages directory.
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu129/
+paddlepaddle-gpu==3.2.2
+nvidia-nvjitlink-cu12==12.9.86

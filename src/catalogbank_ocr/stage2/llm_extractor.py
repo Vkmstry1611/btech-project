@@ -61,9 +61,12 @@ class ExtractedProduct:
     model: Optional[str] = None
     sku: Optional[str] = None
     category: Optional[str] = None
+    description: Optional[str] = None
+    variant_group: Optional[str] = None
+    source_evidence: List[Dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
-        return {"name": self.name, "model": self.model, "sku": self.sku, "category": self.category}
+        return {"name": self.name, "model": self.model, "sku": self.sku, "category": self.category, "description": self.description, "variant_group": self.variant_group, "source_evidence": self.source_evidence}
 
 
 @dataclass
@@ -72,9 +75,10 @@ class ExtractedAttribute:
     key: str
     value: str
     unit: Optional[str] = None
+    location: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return {"entity": self.entity, "key": self.key, "value": self.value, "unit": self.unit}
+        return {"entity": self.entity, "key": self.key, "value": self.value, "unit": self.unit, "location": self.location}
 
 
 @dataclass
@@ -114,12 +118,27 @@ class ExtractionResult:
             "products": [p.to_dict() for p in self.products],
             "attributes": [a.to_dict() for a in self.attributes],
             "relations": [r.to_dict() for r in self.relations],
+            "raw_response": self.raw_response,
             "meta": {
                 "backend_used": self.backend_used,
                 "latency_s": round(self.latency_s, 3),
                 "parse_error": self.parse_error,
             },
         }
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'ExtractionResult':
+        """Restore a saved extraction for validation/export without rerunning an LLM."""
+        meta = data.get('meta', {})
+        return cls(chunk_id=data['chunk_id'], doc_stem=data['doc_stem'],
+                   section_path=data.get('section_path', []),
+                   products=[ExtractedProduct(**item) for item in data.get('products', [])],
+                   attributes=[ExtractedAttribute(**item) for item in data.get('attributes', [])],
+                   relations=[ExtractedRelation(**item) for item in data.get('relations', [])],
+                   raw_response=data.get('raw_response', ''),
+                   backend_used=meta.get('backend_used', ''),
+                   latency_s=meta.get('latency_s', 0.0),
+                   parse_error=meta.get('parse_error'))
 
     def __repr__(self) -> str:
         return (
@@ -204,6 +223,13 @@ def _parse_llm_response(
     if not isinstance(parsed, dict):
         result.parse_error = "Parsed value is not a dict"
         return result
+    if not any(key in parsed for key in ('products', 'attributes', 'relations')):
+        result.parse_error = 'Response has no extraction arrays'
+        return result
+    for key in ('products', 'attributes', 'relations'):
+        if key in parsed and (not isinstance(parsed[key], list) or any(not isinstance(v, dict) for v in parsed[key])):
+            result.parse_error = f'{key} must be an array of objects'
+            return result
 
     # --- Products ---
     for item in parsed.get("products") or []:
@@ -217,6 +243,7 @@ def _parse_llm_response(
             model=_str_or_none(item.get("model")),
             sku=_str_or_none(item.get("sku")),
             category=_str_or_none(item.get("category")),
+            description=_str_or_none(item.get("description")),
         ))
 
     # --- Attributes ---
@@ -225,7 +252,7 @@ def _parse_llm_response(
             continue
         entity = str(item.get("entity") or "").strip()
         key = str(item.get("key") or "").strip()
-        value = str(item.get("value") or "").strip()
+        value = str(item['value']).strip() if item.get('value') is not None else ''
         if not (entity and key and value):
             continue
         result.attributes.append(ExtractedAttribute(
@@ -233,6 +260,7 @@ def _parse_llm_response(
             key=key,
             value=value,
             unit=_str_or_none(item.get("unit")),
+            location=_str_or_none(item.get("location")),
         ))
 
     # --- Relations ---
@@ -288,9 +316,9 @@ class _OllamaBackend:
         self.timeout = timeout
         # Optionally configure a non-default host
         if host:
-            self._client = self._ollama.Client(host=host)
+            self._client = self._ollama.Client(host=host, timeout=timeout)
         else:
-            self._client = self._ollama.Client()
+            self._client = self._ollama.Client(timeout=timeout)
 
     @property
     def name(self) -> str:
@@ -301,8 +329,9 @@ class _OllamaBackend:
         try:
             models = self._client.list()
             available = [m.model for m in models.models]
-            # Accept prefix match so "qwen3:8b" matches "qwen3:8b-instruct" etc.
-            return any(m.startswith(self.model.split(":")[0]) for m in available)
+            # A different quantization/size tag must not satisfy this model request.
+            requested = self.model if ':' in self.model else self.model + ':latest'
+            return requested in available
         except Exception:
             return False
 
@@ -316,9 +345,13 @@ class _OllamaBackend:
                 },
                 {"role": "user", "content": prompt},
             ],
-            options={"temperature": 0.0, "num_predict": 2048},
+            options={"temperature": 0.0, "num_predict": 8192},
+            keep_alive="30m",
+            format="json",
             think=False,  # disable qwen3 thinking mode
         )
+        if getattr(response, "done_reason", None) == "length":
+            raise RuntimeError("LLM output exceeded token budget; split evidence into smaller chunks")
         return response.message.content or ""
 
 

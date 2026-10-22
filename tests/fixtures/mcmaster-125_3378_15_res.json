@@ -1,0 +1,601 @@
+{
+  "page_index": null,
+  "parsing_res_list": [
+    {
+      "block_label": "header",
+      "block_content": "For technical drawings and 3-D models, go to mcmaster.com.",
+      "block_bbox": [
+        965,
+        57,
+        1241,
+        90
+      ]
+    },
+    {
+      "block_label": "header",
+      "block_content": "CAP ",
+      "block_bbox": [
+        1251,
+        53,
+        1295,
+        95
+      ]
+    },
+    {
+      "block_label": "doc_title",
+      "block_content": "Stainless Steel Pipe Fittings ",
+      "block_bbox": [
+        131,
+        55,
+        680,
+        92
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "How to Measure Pipe Size for NPT or BSP Threads—Example shows pipe size ³/8.",
+      "block_bbox": [
+        75,
+        116,
+        821,
+        136
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "Pipe size is not an actual measured size, but rather an industry designation.Align your pipe or fitting with the\"O\" line as shown.The line on the opposite edge gives the pipe size. You can also measure theOD ofmale threads or the IDof female threads,thenfindthecorresponding pipe size in the chart. If your measurement doesn't match an OD or ID listed, round to the nearest 1/8\".",
+      "block_bbox": [
+        72,
+        138,
+        1292,
+        197
+      ]
+    },
+    {
+      "block_label": "image",
+      "block_content": "Pipe Size: 0½₁6%½}%应3/411%1%₂ID:0½”1°1½4°1%″1³/4",
+      "block_bbox": [
+        729,
+        213,
+        1207,
+        355
+      ]
+    },
+    {
+      "block_label": "image",
+      "block_content": "",
+      "block_bbox": [
+        68,
+        357,
+        103,
+        391
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "To measure larger pipe sizes, go to mcmaster.com and search for 4464KAC. For information about fittings and pipe, see pages 2-3.",
+      "block_bbox": [
+        83,
+        363,
+        1245,
+        387
+      ]
+    },
+    {
+      "block_label": "paragraph_title",
+      "block_content": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page) CA ",
+      "block_bbox": [
+        55,
+        431,
+        1288,
+        461
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "• Pipe Nipples and Pipe: Use threaded \nSchedule 40 standard-wall stainless steel \n(see pages 10-13)\nFlanges:Use threaded Class 150\nlow-pressure stainless steel (see page 9)",
+      "block_bbox": [
+        62,
+        464,
+        440,
+        563
+      ]
+    },
+    {
+      "block_label": "image",
+      "block_content": "\nB A \n",
+      "block_bbox": [
+        59,
+        629,
+        176,
+        696
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "• Use with air, coolant,natural gas, oil, steam, water • Maximum Pressure:500 psi @72°F;100 psi @ 350°F for steam ",
+      "block_bbox": [
+        210,
+        626,
+        481,
+        723
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "BSPP male threads have a fluoroelastomer gasket to protect against leaks.",
+      "block_bbox": [
+        551,
+        664,
+        1216,
+        684
+      ]
+    },
+    {
+      "block_label": "table",
+      "block_content": "<html><body><table><tbody><tr><td colspan=\"2\">(A) (B)</td><td colspan=\"2\">NPT×BSPT</td><td colspan=\"2\">NPT×BSPP</td><td colspan=\"2\">BSPT×NPT</td><td colspan=\"2\">BSPP×NPT</td></tr><tr><td>1/4. 3/8.</td><td>1456N251 $18.38</td><td>1456N297 $19.63</td><td>1456N157 $18.38</td><td>1456N204</td><td>$18.38</td><td></td><td></td><td></td><td></td></tr><tr><td>1/4. 1/2</td><td>1456N252 25.88</td><td>1456N298 27.13</td><td>1456N158 25.88</td><td>1456N205</td><td>25.88</td><td>1/4 3/4.</td><td>1456N253 37.50</td><td>1456N299 38.75</td><td>1456N159 37.50</td></tr><tr><td>1/4. 1</td><td>1456N254 62.50</td><td>1456N301 63.75</td><td>1456N161 62.50</td><td>1456N207</td><td>62.50</td><td>3/8. 1/16.</td><td>1456N255 18.38</td><td>1456N302 19.63</td><td>1456N162 18.38</td></tr><tr><td>3/8. 1/8.</td><td>1456N256 18.38</td><td>1456N303 19.63</td><td>1456N163 18.38</td><td>1456N209</td><td>18.38</td><td></td><td></td><td></td><td></td></tr><tr><td>3/8. 1/4</td><td>1456N257 18.38</td><td>1456N304 19.63</td><td>1456N164 18.38</td><td>1456N211</td><td>18.38</td><td>3/8 1/2</td><td>1456N258 25.88</td><td>1456N305 27.13</td><td>1456N165 25.88</td></tr><tr><td>3/4</td><td>1456N259 37.50</td><td>1456N306 38.75</td><td>1456N166 37.50</td><td>1456N213 37.50</td><td>3/8. 1</td><td>1456N261 62.50</td><td>1456N307 63.75</td><td>1456N167 62.50</td><td>1456N214 62.50</td></tr><tr><td>1/2 1/16.</td><td>1456N262 25.88</td><td>1456N308 27.13</td><td>1456N168 25.88</td><td>1456N215 25.88</td><td>1/2 1/8.</td><td>1456N263 25.88</td><td>1456N309 27.13</td><td>1456N169 25.88</td><td>1456N216 25.88</td></tr><tr><td>1/2 1/4.</td><td>1456N264 25.88</td><td>1456N311 27.13</td><td>1456N171 25.88</td><td>1456N217</td><td>25.88</td><td>1/2 3/8.</td><td>1456N265 25.88</td><td>1456N312 27.13</td><td>1456N172</td></tr><tr><td>1/2 3/4</td><td>1456N266 37.50</td><td>1456N313 38.75</td><td>1456N173</td><td>37.50</td><td>1456N219</td><td>37.50</td><td></td><td></td><td></td></tr><tr><td>1/2 1</td><td></td><td>1456N267 62.50</td><td>1456N314 63.75</td><td>1456N174</td><td>62.50</td><td>1456N221</td><td>62.50</td><td></td><td></td></tr><tr><td>3/4. 1/16</td><td>1456N268 37.50</td><td>1456N315</td><td>38.75</td><td>1456N175</td><td>37.50</td><td>1456N222 37.50</td><td>3/4. 1/8.</td><td></td><td>1456N269 37.50</td></tr><tr><td>1/4.</td><td></td><td>1456N271 37.50</td><td>1456N317</td><td>38.75</td><td>1456N177</td><td>37.50</td><td>1456N224</td><td>37.50</td><td></td></tr><tr><td>3/4. 3/8</td><td></td><td>1456N272 37.50</td><td>1456N318</td><td>38.75</td><td>1456N178</td><td>37.50</td><td>1456N225</td><td>37.50</td><td></td></tr><tr><td>3/4. 1/2</td><td></td><td>1456N273 37.50</td><td>1456N319</td><td>38.75</td><td>1456N179</td><td>37.50</td><td>1456N226</td><td>37.50</td><td></td></tr><tr><td>3/4. 1</td><td></td><td>1456N274</td><td>62.50</td><td>1456N321</td><td>63.75</td><td>1456N181</td><td>62.50</td><td>1456N227</td><td>62.50</td></tr><tr><td>1</td><td>1/16</td><td>1456N275</td><td>62.50</td><td>1456N322</td><td>63.75</td><td>1456N182</td><td>62.50</td><td>1456N228</td><td>62.50</td></tr><tr><td>1</td><td>1/8.</td><td></td><td>1456N276</td><td>62.50</td><td>1456N323</td><td>63.75</td><td>1456N183</td><td>62.50</td><td>1456N229</td></tr><tr><td>1/4.</td><td></td><td>1456N277</td><td>62.50</td><td>1456N324</td><td>63.75</td><td>1456N184</td><td>62.50</td><td>1456N231</td><td>62.50</td></tr><tr><td>3/8.</td><td></td><td>1456N278</td><td>62.50</td><td>1456N325</td><td>63.75</td><td>1456N185</td><td>62.50</td><td>1456N232</td><td>62.50</td></tr><tr><td>1</td><td>1/2</td><td>1456N279</td><td>62.50</td><td>1456N326</td><td>63.75</td><td>1456N186</td><td>62.50</td><td>1456N233</td><td>62.50</td></tr><tr><td>1</td><td>3/4.</td><td></td><td>1456N281</td><td>62.50</td><td>1456N327</td><td>63.75</td><td>1456N187</td><td>62.50</td><td>1456N234</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+      "block_bbox": [
+        205,
+        747,
+        1313,
+        1355
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "Choose these fittings when you want the same high-quality found in our low-pressure pipe fittings, but need more strength to handle higher pressures.",
+      "block_bbox": [
+        540,
+        466,
+        1310,
+        502
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "304 stainless steel fittings have very good corrosion resistance. 316 stainless steel fittings have excellent corrosion resistance. Alloy 20 stainless steel fittings have the best corrosion resistance of all the stainless steel fitings we offer. Alloy 20 stainless steel is also known as Carpenter 20 and resists cracking from stress and corrosion.",
+      "block_bbox": [
+        540,
+        503,
+        1310,
+        580
+      ]
+    },
+    {
+      "block_label": "paragraph_title",
+      "block_content": "Reducing Thread Adapters,FemalexMale—316Stainless Steel (Cont.)",
+      "block_bbox": [
+        56,
+        601,
+        698,
+        621
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "Also known as Class 150 fittings. Fittings meet ASTM A314, ASTM A320, and ASTM A582.",
+      "block_bbox": [
+        541,
+        626,
+        1309,
+        664
+      ]
+    },
+    {
+      "block_label": "paragraph_title",
+      "block_content": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings ",
+      "block_bbox": [
+        55,
+        1420,
+        1153,
+        1449
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "• Use with air, natural gas, oil, steam, water • Maximum Pressure: 500 psi @ 72°F;100 psi @ 350°Ffor steam ",
+      "block_bbox": [
+        61,
+        1454,
+        443,
+        1511
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "Reducers ",
+      "block_bbox": [
+        57,
+        1582,
+        150,
+        1602
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "When space is at a premium choose these compact fittings. Though small in size, they have the strength to handle medium-pressure applications. Fittings are 303 stainless steel for very good corrosion resistance. They meet ASTM A314, ASTM A320, and ASTM A582.Femalex male 90elbows are also known as street elbows.",
+      "block_bbox": [
+        540,
+        1454,
+        1310,
+        1529
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "Metric and UN/UNF (SAE) male threads have a fluoroelastomer gasket to protect against leaks. UN/UNF (SAE) threads are also known as O-ring boss threads.",
+      "block_bbox": [
+        541,
+        1531,
+        1310,
+        1570
+      ]
+    },
+    {
+      "block_label": "text",
+      "block_content": "(Continued on following page)",
+      "block_bbox": [
+        523,
+        1883,
+        846,
+        1907
+      ]
+    },
+    {
+      "block_label": "footer",
+      "block_content": "McMASTER-CARR®",
+      "block_bbox": [
+        1068,
+        1916,
+        1308,
+        1949
+      ]
+    },
+    {
+      "block_label": "number",
+      "block_content": "16",
+      "block_bbox": [
+        61,
+        1919,
+        96,
+        1938
+      ]
+    }
+  ],
+  "layout_det_res": {
+    "input_path": null,
+    "page_index": null,
+    "boxes": [
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.9646070003509521,
+        "coordinate": [
+          540.2794189453125,
+          503.85479736328125,
+          1310.3023681640625,
+          580.0618286132812
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.9640883803367615,
+        "coordinate": [
+          72.66162109375,
+          138.65817260742188,
+          1292.2724609375,
+          197.34243774414062
+        ]
+      },
+      {
+        "cls_id": 0,
+        "label": "paragraph_title",
+        "score": 0.9083191156387329,
+        "coordinate": [
+          55.4801025390625,
+          1420.3663330078125,
+          1153.4490966796875,
+          1449.8543701171875
+        ]
+      },
+      {
+        "cls_id": 3,
+        "label": "number",
+        "score": 0.9065210223197937,
+        "coordinate": [
+          61.28490447998047,
+          1919.1849365234375,
+          96.23943328857422,
+          1938.6329345703125
+        ]
+      },
+      {
+        "cls_id": 12,
+        "label": "header",
+        "score": 0.8955093026161194,
+        "coordinate": [
+          965.51416015625,
+          57.23778533935547,
+          1241.21435546875,
+          90.85314178466797
+        ]
+      },
+      {
+        "cls_id": 0,
+        "label": "paragraph_title",
+        "score": 0.8929382562637329,
+        "coordinate": [
+          55.432373046875,
+          431.90216064453125,
+          1288.759765625,
+          461.24200439453125
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.8826684355735779,
+        "coordinate": [
+          540.275146484375,
+          1454.6611328125,
+          1310.6708984375,
+          1529.40771484375
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.8761222958564758,
+        "coordinate": [
+          540.162353515625,
+          466.39654541015625,
+          1310.456298828125,
+          502.20416259765625
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.8630287051200867,
+        "coordinate": [
+          541.6279296875,
+          1531.4522705078125,
+          1310.0003662109375,
+          1570.0501708984375
+        ]
+      },
+      {
+        "cls_id": 14,
+        "label": "footer",
+        "score": 0.860791027545929,
+        "coordinate": [
+          1068.348876953125,
+          1916.91015625,
+          1308.745361328125,
+          1949.12451171875
+        ]
+      },
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.8592679500579834,
+        "coordinate": [
+          59.011016845703125,
+          629.1693115234375,
+          176.79835510253906,
+          696.75830078125
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.8578407764434814,
+        "coordinate": [
+          541.8680419921875,
+          626.313720703125,
+          1309.87939453125,
+          664.748046875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.82761150598526,
+        "coordinate": [
+          75.07437133789062,
+          116.36421203613281,
+          821.455078125,
+          136.0020294189453
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.8049192428588867,
+        "coordinate": [
+          61.703094482421875,
+          1454.121337890625,
+          443.0384521484375,
+          1511.756103515625
+        ]
+      },
+      {
+        "cls_id": 0,
+        "label": "paragraph_title",
+        "score": 0.7967774868011475,
+        "coordinate": [
+          56.22174072265625,
+          601.9603271484375,
+          698.9826049804688,
+          621.425537109375
+        ]
+      },
+      {
+        "cls_id": 12,
+        "label": "header",
+        "score": 0.7420427203178406,
+        "coordinate": [
+          1251.0362548828125,
+          53.77328109741211,
+          1295.7987060546875,
+          95.47402954101562
+        ]
+      },
+      {
+        "cls_id": 8,
+        "label": "table",
+        "score": 0.7411693334579468,
+        "coordinate": [
+          205.27935791015625,
+          747.3897705078125,
+          1313.57373046875,
+          1355.1187744140625
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.7323381304740906,
+        "coordinate": [
+          62.44541931152344,
+          465.286865234375,
+          441.6661376953125,
+          521.9219360351562
+        ]
+      },
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.7285375595092773,
+        "coordinate": [
+          729.38916015625,
+          213.70257568359375,
+          1207.505126953125,
+          355.7529296875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.6641844511032104,
+        "coordinate": [
+          210.47747802734375,
+          626.8138427734375,
+          481.81134033203125,
+          723.9696044921875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.6618489623069763,
+        "coordinate": [
+          83.64080810546875,
+          363.6949768066406,
+          1245.834716796875,
+          387.7012634277344
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.6162031888961792,
+        "coordinate": [
+          551.1015625,
+          664.7586669921875,
+          1216.635986328125,
+          684.8787841796875
+        ]
+      },
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.5694488883018494,
+        "coordinate": [
+          56.9869384765625,
+          1597.336181640625,
+          1311.451416015625,
+          1899.4609375
+        ]
+      },
+      {
+        "cls_id": 10,
+        "label": "doc_title",
+        "score": 0.5334392786026001,
+        "coordinate": [
+          131.34439086914062,
+          55.694583892822266,
+          680.4281005859375,
+          92.9910888671875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.5293824672698975,
+        "coordinate": [
+          64.63516235351562,
+          525.5755615234375,
+          434.5351867675781,
+          564.6512451171875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.524268388748169,
+        "coordinate": [
+          62.329376220703125,
+          464.62310791015625,
+          440.7796936035156,
+          563.2160034179688
+        ]
+      },
+      {
+        "cls_id": 1,
+        "label": "image",
+        "score": 0.5053961277008057,
+        "coordinate": [
+          68.81008911132812,
+          357.48870849609375,
+          103.85391235351562,
+          391.60687255859375
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.4735259711742401,
+        "coordinate": [
+          523.3955078125,
+          1883.31494140625,
+          846.6336669921875,
+          1907.69921875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.4228644371032715,
+        "coordinate": [
+          61.75398254394531,
+          1454.1171875,
+          443.422607421875,
+          1474.748779296875
+        ]
+      },
+      {
+        "cls_id": 2,
+        "label": "text",
+        "score": 0.4035310447216034,
+        "coordinate": [
+          57.707725524902344,
+          1582.20556640625,
+          150.9732666015625,
+          1602.03759765625
+        ]
+      }
+    ]
+  }
+}

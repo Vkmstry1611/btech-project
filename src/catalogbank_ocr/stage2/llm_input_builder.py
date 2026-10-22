@@ -36,6 +36,7 @@ Output dict schema
 from __future__ import annotations
 
 import json
+import re
 from typing import Any, Dict, List, Optional
 
 from catalogbank_ocr.stage2.context_builder import ContextChunk
@@ -70,7 +71,8 @@ EXTRACTION_SCHEMA: Dict[str, Any] = {
     ],
     "attributes": [
         {
-            "entity": "string — product name or model this attribute belongs to",
+            "entity": "string — exact product name or SKU this attribute belongs to",
+            "location": "string or null — explicit market/country for a price; never infer",
             "key": "string — attribute name (e.g. 'Material', 'Thread Size', 'Length', 'Price')",
             "value": "string — attribute value",
             "unit": "string or null — unit of measure if applicable (e.g. 'mm', 'in', 'kg', 'USD', 'EUR')",
@@ -261,6 +263,121 @@ def build_llm_inputs_for_chunks(
     All keyword arguments are forwarded to ``build_llm_input()``.
     """
     return [build_llm_input(chunk, **kwargs) for chunk in chunks]
+
+
+def build_complete_inputs(chunks, max_chars=6000):
+    """Page/row-aware bounded requests; no silent field or table truncation.
+
+    Oversized individual rows fail explicitly instead of publishing incomplete data.
+    Full canonical evidence remains available alongside each request's block IDs.
+    """
+    inputs = []
+    rules = '''Extract only products supported by the evidence. Headings and index entries
+are context, never products by themselves. Preserve exact SKU/article codes including
+case, punctuation and spaces. A model is a design/series; a SKU is a sellable variant.
+Do not copy a SKU into model unless evidence explicitly identifies it as a model.
+If a section only describes a product family and gives no specific sellable item,
+return empty arrays. Do not create a sellable item from that section title.
+Use null for unknown values. Keep the descriptive product name and description.
+Attributes must reference the exact product name or SKU. Do not invent currency.
+Relations must describe explicit links between distinct products or categories.
+Do not repeat attributes as HAS_ATTRIBUTE relations; the graph builder creates
+those links from the attributes array. Do not invent compatibility or variants.
+Extract EVERY distinct SKU from item/article/part-number columns, including separate
+metric and imperial columns in the same row. Preserve prices and their explicit
+currencies; do not assume a currency for an ambiguous symbol or shift misaligned cells.
+Return ONLY JSON with products, attributes and relations matching this schema: '''
+    for chunk in chunks:
+        records = []
+        previous_table = None
+        for bucket in ('specifications', 'product_cards', 'paragraphs', 'tables'):
+            for block in getattr(chunk, bucket):
+                base = {'block_id': block.block_id, 'page': block.page, 'kind': bucket}
+                if bucket == 'tables':
+                    table = parse_table_block(block)
+                    if table.parse_method != 'raw' and table.rows:
+                        if previous_table and not table.headers and block.page == previous_table['page'] + 1:
+                            base['possible_continuation_of'] = previous_table['block_id']
+                            base['previous_headers'] = previous_table['headers']
+                        records.extend(dict(base, headers=table.headers, row=row) for row in table.rows)
+                        previous_table = {'page': block.page, 'block_id': block.block_id, 'headers': table.headers}
+                        continue
+                text = block.text
+                # Dense OCR paragraphs can contain dozens of concatenated catalog
+                # rows. A character-budget-only request may require the model to
+                # emit too many products and time out, so keep whole lines in
+                # smaller requests. Newlines are row boundaries, not SKU bounds.
+                dense_codes = len(re.findall(r'\d{4,5}[A-Z]\d{2,4}', text)) >= 20
+                if dense_codes and '\n' in text:
+                    offset, pending, start = 0, '', 0
+                    for line in text.splitlines(keepends=True):
+                        if pending and len(pending) + len(line) > 700:
+                            records.append(dict(base, text=pending, offset=start, dense_text=True))
+                            pending, start = '', offset
+                        pending += line
+                        offset += len(line)
+                    if pending: records.append(dict(base, text=pending, offset=start, dense_text=True))
+                else:
+                    # Overlap ordinary text windows to preserve entities at a
+                    # character-window boundary.
+                    for start in range(0, max(1, len(text)), 2800):
+                        records.append(dict(base, text=text[start:start+3000], offset=start))
+        expanded = []
+        for record in records:
+            if len(json.dumps(record, ensure_ascii=False)) <= max_chars:
+                expanded.append(record)
+                continue
+            if 'row' not in record:
+                raise ValueError(f'Oversized evidence record: {record["block_id"]}')
+            base = {key:value for key,value in record.items() if key != 'row'}
+            fragments = []
+            for column, value in record['row'].items():
+                if not isinstance(value, str): value = str(value)
+                starts = range(0, max(1, len(value)), 2800) if len(value) > 3000 else [0]
+                for start in starts:
+                    piece = dict(base, row={column:value[start:start+3000]},
+                                 cell_offsets={column:start}, cell_lengths={column:len(value)})
+                    if len(json.dumps(piece, ensure_ascii=False)) > max_chars:
+                        raise ValueError(f'Oversized table cell: {record["block_id"]}/{column}')
+                    fragments.append(piece)
+            # Pack adjacent columns together. A one-cell overlap preserves a
+            # literal code in one cell and its price in the following cell.
+            pending = None
+            for piece in fragments:
+                if pending is None:
+                    pending = piece
+                    continue
+                candidate = dict(pending, row={**pending['row'], **piece['row']},
+                                 cell_offsets={**pending['cell_offsets'], **piece['cell_offsets']},
+                                 cell_lengths={**pending['cell_lengths'], **piece['cell_lengths']})
+                if (next(iter(piece['cell_offsets'].values())) == 0 and not (set(piece['row']) & set(pending['row']))
+                    and len(json.dumps(candidate, ensure_ascii=False)) <= max_chars):
+                    pending = candidate
+                else:
+                    expanded.append(pending)
+                    previous = list(pending['row'].items())[-1]
+                    overlap = {previous[0]:previous[1]} if len(previous[1]) < 500 else {}
+                    pending = dict(piece, row={**overlap, **piece['row']},
+                                   cell_offsets={**{key:pending['cell_offsets'][key] for key in overlap}, **piece['cell_offsets']},
+                                   cell_lengths={**{key:pending['cell_lengths'][key] for key in overlap}, **piece['cell_lengths']})
+                    if len(json.dumps(pending, ensure_ascii=False)) > max_chars:
+                        pending = piece
+            if pending is not None: expanded.append(pending)
+        groups, group, size = [], [], 0
+        for record in expanded:
+            length = len(json.dumps(record, ensure_ascii=False))
+            if length > max_chars: raise ValueError(f'Oversized evidence row: {record["block_id"]}')
+            if group and (size + length > max_chars or len(group) >= 8 or
+                          record.get('dense_text') or any(v.get('dense_text') for v in group)):
+                groups.append(group); group, size = [], 0
+            group.append(record); size += length
+        if group: groups.append(group)
+        for i, evidence in enumerate(groups):
+            context = {'section_path': chunk.section_path, 'continuation': i+1, 'parts': len(groups), 'evidence': evidence}
+            inputs.append({'chunk_id': f'{chunk.chunk_id}__part{i+1}', 'doc_stem': chunk.doc_stem,
+                           'section_path': chunk.section_path, 'context': context,
+                           'prompt': rules + json.dumps(EXTRACTION_SCHEMA) + '\nEVIDENCE:\n' + json.dumps(context, ensure_ascii=False)})
+    return inputs
 
 
 def estimate_prompt_chars(llm_input: Dict[str, Any]) -> int:

@@ -1,3 +1,128 @@
+# HierarchIQ catalog extraction
+
+The current entry point processes multi-page PDFs into a product catalog following
+`sampleoutput.json`: Product Category → Model → Sellable Item → List Price.
+It is a command-line application; there is no upload web interface.
+
+## Run the full pipeline
+
+Use Python 3.10 or newer. For the existing CPU environment:
+
+```powershell
+python -m pip install -r requirements.txt
+ollama pull qwen3:8b
+python scripts/run_final_pipeline.py --input pdfs --backend ollama --model qwen3:8b
+```
+
+Keep Ollama running. To process one PDF, pass its quoted path to `--input`.
+Ollama is selected explicitly by default; the pipeline does not silently switch
+production runs to the empty mock backend.
+
+```powershell
+# Keep the OCR engine loaded and accept further PDF paths in the same process.
+python scripts/run_final_pipeline.py --input pdfs --interactive
+
+# Auto-select a usable Paddle CUDA build, or fall back to CPU.
+python scripts/run_final_pipeline.py --input pdfs --device auto
+
+# Require GPU OCR; fail clearly if the installed Paddle build cannot use it.
+python scripts/run_final_pipeline.py --input pdfs --device gpu:0
+
+# Optional recognition batching. Default: 1 on GPU; model default on CPU.
+python scripts/run_final_pipeline.py --input pdfs --recognition-batch-size 8
+
+# Optional bounded page batching; use a size that fits available memory.
+python scripts/run_final_pipeline.py --input pdfs --device gpu:0 --page-batch-size 2
+
+# Include optional annotated images, Markdown and graph visualizations.
+python scripts/run_final_pipeline.py --input pdfs --debug-artifacts
+
+# Repeat extraction from saved OCR for the same input PDF.
+python scripts/run_final_pipeline.py --input pdfs --skip-stage1
+
+# Revalidate/export saved semantic extractions after a parser or validation fix.
+python scripts/run_final_pipeline.py --input "pdfs/industrial_fittings_5_pages.pdf" --skip-stage1 --reuse-extractions
+```
+
+GPU OCR requires a compatible **paddlepaddle-gpu** installation, not only an NVIDIA
+driver. Use a separate environment when changing Paddle builds. See the
+[official installation guide](https://www.paddlepaddle.org.cn/install/quick).
+
+The local `.venv-gpu` environment has Paddle GPU 3.2.2 with CUDA 12.9 installed.
+On this laptop, run it explicitly to use the RTX 5060:
+
+```powershell
+.\.venv-gpu\Scripts\python.exe scripts/run_final_pipeline.py --input pdfs --device gpu:0 --interactive
+```
+
+Keep recognition and page batch sizes at 1 on this 8 GB GPU unless a representative
+dense catalog has been measured with larger batches. Batching does not change the
+recognition models, but larger batches can increase memory pressure and slow a run.
+
+To recreate the GPU overlay after setting up the ordinary dependencies:
+
+```powershell
+python -m venv --system-site-packages .venv-gpu
+.\.venv-gpu\Scripts\python.exe -m pip install -r requirements-gpu.txt
+```
+
+## Output and review
+
+- `outputs/final/<name>/<name>_final.json`: validated catalog; model and SKU are
+  separate, and explicit metric/imperial variants are preserved.
+- `outputs/final/<name>/status.json`: running, complete, complete_with_review or failed status. Earlier
+  successful exports are archived before a new run, so a failed run cannot leave
+  an old file masquerading as the new final result.
+- `outputs/canonical/<name>/`: every page, complete blocks, page classification,
+  source metadata and document hierarchy.
+- `outputs/stage2/<name>/`: full extraction evidence, normalized records, validation
+  issues and correction attempts. Unsupported or ambiguous identifiers block export.
+  Ambiguous prices are retained in normalized evidence and listed for review;
+  they are not converted into guessed numeric prices.
+- `outputs/metrics/<name>/`: per-page OCR/rendering/preprocessing timings and
+  pipeline timings. Startup metrics are saved at the output root. Memory metrics
+  cover the Python process, not the separate Ollama process or total GPU VRAM.
+
+Covers and indexes provide metadata; section dividers carry context forward.
+Mixed and uncertain pages retain their content for extraction. Page geometry is
+never used to attach a block to a product card on another page. Long sections
+are split into bounded requests without silently dropping rows or text. Explicit
+SKU table rows are read directly; mixed text and unresolved structure use the LLM.
+When a row includes a distributor stock/order code and a manufacturer part code,
+the stock/order code identifies the sellable item; the manufacturer code remains a
+property. Metric and imperial SKU columns remain separate sellable variants.
+Uncertain continuation tables retain their original cells and a continuation hint;
+the pipeline does not guess missing headers or repair ambiguous OCR cell alignment.
+For digital PDFs, exact SKU/price pairs with printed dotted leaders in the PDF
+text layer can supplement items lost when OCR fuses dense table cells. Prices
+without an explicit currency symbol keep a null currency. Unsupported family
+headings and material grades are not exported as product models. Malformed
+table fragments are recorded for review when source text recovers their SKUs.
+
+The two five-page evaluation PDFs are `pdfs/optical_hardware_5_pages.pdf` and
+`pdfs/industrial_fittings_5_pages.pdf`. Their extracted catalogs and review
+artifacts are under `outputs/evaluations/two_domains/pipeline/`.
+
+## Benchmark a new PDF
+
+```powershell
+python scripts/benchmark_catalog.py --input "path/to/catalog.pdf" --max-pages 60 --device auto
+```
+
+Add `--compare` to measure sequential preparation with debug artifacts against
+streaming preparation without them. Both runs retain the same DPI and recognition
+models. This compares execution settings, not extraction accuracy: check the
+resulting data against an annotated reference as well. A PDF shorter than 60 pages
+does not constitute a 60-page benchmark. `--skip-stage1` is for repeat runs and is
+not used by this benchmark.
+
+Run regression tests with `python -m pytest tests`. Implementation and outstanding
+evaluation work are tracked in [TODO.md](TODO.md).
+
+---
+
+The following sections document the original Stage 1 pipeline and its legacy commands.
+
 # CatalogBank OCR — Stage 1 Document Structure Pipeline
 
 ## Overview

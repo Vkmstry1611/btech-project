@@ -1,0 +1,431 @@
+[
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "multi page catalog sample_document__p1__c002__part1",
+    "name": "honeycomb breadboards",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "multi page catalog sample_document__p1__c002__part1",
+    "name": "solid aluminum breadboards",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "multi page catalog sample_document__p2__c004__part1",
+    "name": "Solid Aluminum Breadboards",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "multi page catalog sample_document__p3__c009__part1",
+    "name": "UltraLightT optical breadboards",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "PRICE_RECOVERED_FROM_SOURCE_TEXT",
+    "chunk": "multi page catalog sample_document__p3__c008__part1",
+    "sku": "MBC3030/M",
+    "page": 3
+  },
+  {
+    "severity": "info",
+    "code": "PRICE_RECOVERED_FROM_SOURCE_TEXT",
+    "chunk": "multi page catalog sample_document__p4__c011__part2",
+    "sku": "PBG52506",
+    "page": 4
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB6",
+    "value": "3 47,94",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p2__c004__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB1515/M",
+    "value": "m 47.94",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p2__c005__part3",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB60120/M",
+    "value": "天 7,276.61",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p2__c005__part5",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB424",
+    "value": "天 1,283.17",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p2__c007__part3",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB1090/M",
+    "value": "S 181.00",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p2__c007__part4",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB2060/M",
+    "value": "天 1,904.83",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p2__c007__part4",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MB2090/M",
+    "value": "天 2,566.34",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p2__c007__part4",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "MBC12",
+    "value": "子 287.28",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p3__c008__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11102",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11102",
+    "value": "子 子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11105",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11105",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11103",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11103",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11106",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11106",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11110",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11110",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11112",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11112",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11107",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11107",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11111 PBG11113",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG11111 PBG11113",
+    "value": "子 子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p3__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG12105",
+    "value": "天 6,444.54",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG12106",
+    "value": "天 8,137.37",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG12110",
+    "value": "1.027,21 天",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG12111",
+    "value": "天 11,507.88",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG12113",
+    "value": "天 13,205.49",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG51502",
+    "value": "3 439,61",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG51522",
+    "value": "天 4,855.32",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG51505",
+    "value": "天 5,683.41",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG51510",
+    "value": "天 8,542.25",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part3",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG51511",
+    "value": "天 10,572.21",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c010__part3",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52502",
+    "value": "天 4,306.19",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52522",
+    "value": "天 5,139.85",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52510",
+    "value": "天 9,219.70",
+    "unit": "cny",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52513",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52513",
+    "value": "子 1,165.68",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52508",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52508",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52514",
+    "value": "$",
+    "unit": null,
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PBG52514",
+    "value": "子",
+    "unit": "eur",
+    "source_chunk": "multi page catalog sample_document__p4__c011__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  }
+]

@@ -57,6 +57,7 @@ def _node_from_block(block: SemanticBlock) -> HierarchyNode:
         children=[],
         metadata={
             "source_ref": block.source_ref,
+            "full_text": block.text,
             "raw": block.raw,
             "layout_hint": block.layout_hint,
             "heading_level": block.heading_level,
@@ -156,6 +157,7 @@ def build_hierarchy_document(semantic_document: SemanticDocument, source_pdf_pat
     shared_context = HierarchyBuildContext()
 
     for page in semantic_document.pages:
+        shared_context.active_container = None  # Geometry is local to each page.
         sorted_blocks = sorted(
             page.blocks,
             key=lambda block: (

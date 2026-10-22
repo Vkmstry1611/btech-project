@@ -122,55 +122,77 @@ def _parse_html_table(text: str) -> Optional[tuple[List[str], List[Dict[str, str
     if table is None:
         return None
 
-    headers: List[str] = []
-    rows: List[Dict[str, str]] = []
-
-    # --- Extract headers from <thead> <th> or first <tr> that contains <th>
-    thead = table.find("thead")
-    if thead:
-        th_tags = thead.find_all("th")
-        if th_tags:
-            headers = [_clean_cell(th.get_text()) for th in th_tags]
-    
-    if not headers:
-        # Try first row for <th> elements
-        first_row = table.find("tr")
-        if first_row:
-            th_tags = first_row.find_all("th")
-            if th_tags:
-                headers = [_clean_cell(th.get_text()) for th in th_tags]
-
-    # --- Extract data rows from <tbody> or all <tr>
-    tbody = table.find("tbody")
-    target = tbody if tbody else table
-
-    for tr in target.find_all("tr"):
-        cells = tr.find_all(["td", "th"])
-        if not cells:
-            continue
-        cell_texts = [_clean_cell(c.get_text()) for c in cells]
-
-        # Skip rows that are pure header rows (all cells are <th> and already captured)
-        if all(c.name == "th" for c in cells) and headers:
-            continue
-
-        if headers:
-            # Align cells to headers; pad with "" if row is shorter
-            row: Dict[str, str] = {}
-            for i, h in enumerate(headers):
-                row[h] = cell_texts[i] if i < len(cell_texts) else ""
-        else:
-            # No headers detected — use positional keys
-            row = {f"col_{i}": v for i, v in enumerate(cell_texts)}
-
-        # Skip completely empty rows
-        if any(v for v in row.values()):
-            rows.append(row)
-
-    if not rows:
-        return None
-
-    return headers, rows
+    grid, header_rows = [], []
+    spans = {}
+    for row_idx, tr in enumerate(table.find_all('tr')):
+        cells = tr.find_all(['td', 'th'], recursive=False)
+        if not cells: continue
+        row = {}
+        for col, (value, remaining) in list(spans.items()):
+            row[col] = value
+            if remaining == 1: del spans[col]
+            else: spans[col] = (value, remaining-1)
+        col = 0
+        for cell in cells:
+            while col in row: col += 1
+            try:
+                width = max(1, min(100, int(cell.get('colspan', 1))))
+                height = max(1, min(1000, int(cell.get('rowspan', 1))))
+            except ValueError:
+                width = height = 1
+            value = _clean_cell(cell.get_text(' '))
+            for offset in range(width):
+                row[col+offset] = value
+                if height > 1: spans[col+offset] = (value, height-1)
+            col += width
+        grid.append(row)
+        if all(c.name == 'th' for c in cells) and len(header_rows) == len(grid)-1:
+            header_rows.append(row)
+    if not grid: return None
+    header_indices = set(range(len(header_rows)))
+    if not header_rows:
+        # OCR may emit a printed header at the bottom of its HTML grid. Use
+        # explicit labels wherever they occur, retaining every other data row.
+        header_words = r'^(?:metric\s+|imperial\s+)?(?:item\s*#|sku|part\s*(?:number|no\.?|#)|article\s*(?:number|no\.?|#)|(?:mfg\.?|mfr\.?)\s*part\s*(?:number|no\.?|#)|model|description|details|price(?:\s+each)?|dimensions|weight\*?|material|length|width|height|size)$'
+        from catalogbank_ocr.stage2.identifiers import SKU_HEADER
+        def labelled(value):
+            return bool(re.match(header_words, value.strip(), re.I) or SKU_HEADER.fullmatch(value.strip()) or
+                        re.fullmatch(r'(?:\d+(?:-\d+)?\+?\s+)?(?:list\s+)?price(?:\s+each)?(?:\s+\d+(?:-\d+)?\+?)?', value.strip(), re.I) or
+                        value.strip().upper() in {'$', '€', '£', '¥', '￥', 'RMB', 'CNY', 'USD', 'EUR', 'GBP', 'JPY', 'INR'})
+        candidates = [i for i,row in enumerate(grid)
+                      if sum(labelled(v) for v in row.values()) >= 2
+                      and (i == 0 or any(SKU_HEADER.fullmatch(v.strip()) for v in row.values()))]
+        if candidates:
+            strongest = max(sum(labelled(v) for v in grid[i].values()) for i in candidates)
+            candidates = [i for i in candidates if sum(labelled(v) for v in grid[i].values()) == strongest]
+        if candidates and all(grid[i] == grid[candidates[0]] for i in candidates):
+            index = candidates[0]
+            header_indices.update(candidates)
+            # Retain an adjacent sparse label row, e.g. a separate "Price Each"
+            # label beneath the quantity-band header "1-4+".
+            for adjacent in (index-1, index+1):
+                if 0 <= adjacent < len(grid):
+                    values = [v for v in grid[adjacent].values() if v]
+                    if values and any(labelled(v) for v in values) and all(labelled(v) or re.fullmatch(r'\d+(?:-\d+)?\+?', v) for v in values):
+                        header_indices.add(adjacent)
+            header_rows = [grid[i] for i in sorted(header_indices)]
+    width = max(max(r, default=-1) for r in grid)+1
+    headers = []
+    if header_rows:
+        for col in range(width):
+            name = ' / '.join(dict.fromkeys(r.get(col, '') for r in header_rows if r.get(col))) or f'col_{col}'
+            if name in headers: name += f' [{col+1}]'
+            headers.append(name)
+    keys = headers or [f'col_{i}' for i in range(width)]
+    rows = [{k: row.get(i, '') for i, k in enumerate(keys)} for index,row in enumerate(grid)
+            if index not in header_indices and any(row.values())]
+    # Rowspans can repeat the identical evidence dozens of times. Keep one copy
+    # per table; the complete original HTML remains in raw_text for inspection.
+    unique_rows = {}
+    for row in rows:
+        unique_rows.setdefault(tuple(row.items()), row)
+    rows = list(unique_rows.values())
+    return (headers, rows) if rows else None
 
 
 # ---------------------------------------------------------------------------

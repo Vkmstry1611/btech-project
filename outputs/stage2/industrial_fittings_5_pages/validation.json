@@ -1,0 +1,1641 @@
+{
+  "industrial_fittings_5_pages_document__p1__c002__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part2": {
+    "summary": "0 error(s), 21 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 21,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N117' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N119' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N121' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N147' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N174' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N201' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N122' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N148' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N175' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N202' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N123' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N149' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N203' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N124' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N151' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N125' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N152' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N178' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N126' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N153' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1455N206' already seen in chunk 'industrial_fittings_5_pages_document__p1__c002__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p1__c002__part2",
+        "entity": "Standard-Wall Stainless Steel Threaded Pipe Nipples and Pipe with Sealant",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part5": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part6": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part7": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part8": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part9": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part10": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p1__c002__part11": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c003__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c004__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c005__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c005__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c005__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c005__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p2__c006__part1": {
+    "summary": "0 error(s), 20 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 20,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K66' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K69' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K67' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K71' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K74' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K89' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K83' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K77' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K68' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K72' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K75' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K91' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K84' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K78' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K11' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K16' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K22' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K92' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K85' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K27' already seen in chunk 'industrial_fittings_5_pages_document__p2__c006__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p2__c006__part1",
+        "entity": "NPT Connectors and Plugs\u2014Alloy 20 Stainless Steel",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p2__c006__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part4": {
+    "summary": "0 error(s), 10 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 10,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K375' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K441' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K442' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K596' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K443' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K597' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K444' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K819' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K376' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K586' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part4",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part5": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part6": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part7": {
+    "summary": "0 error(s), 9 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 9,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K458' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4464K396' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K657' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '4452K593' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K96' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K95' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K31' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K32' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2698K33' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part7'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part7",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part8": {
+    "summary": "0 error(s), 22 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 22,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N126' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N134' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N111' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N127' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N135' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N112' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N128' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N136' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N113' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N121' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N129' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N139' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N114' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N131' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N115' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N123' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N132' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N116' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N124' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N133' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N141' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '1456N117' already seen in chunk 'industrial_fittings_5_pages_document__p3__c007__part8'",
+        "chunk_id": "industrial_fittings_5_pages_document__p3__c007__part8",
+        "entity": "Medium-Pressure Stainless Steel Threaded Pipe Fittings (Cont. from previous page)C",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part9": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p3__c007__part10": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c008__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c009__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c009__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c009__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c009__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c010__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p4__c011__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part1": {
+    "summary": "0 error(s), 11 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 11,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K47' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K11' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K46' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K18' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K576' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K469' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K522' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K577' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K52' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K566' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K635' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part1'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part1",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part2": {
+    "summary": "0 error(s), 13 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 13,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K511' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K565' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K62' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K479' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K483' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K23' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K596' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K494' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K534' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K495' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K24' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K606' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K562' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part2'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part2",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part3": {
+    "summary": "0 error(s), 11 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 11,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K15' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K16' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K011' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K19' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K135' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K035' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K116' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K143' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K103' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K133' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K257' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part3'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part3",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part4": {
+    "summary": "0 error(s), 16 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 16,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K074' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K131' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K236' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K117' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K214' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K051' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K26' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K221' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K052' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K27' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K222' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K067' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K28' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K224' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K233' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K268' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part4'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part4",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part5": {
+    "summary": "0 error(s), 19 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 19,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K272' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K448' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K29' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K275' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K452' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K323' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K429' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K326' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K333' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K442' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K334' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K372' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K399' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K337' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K376' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K402' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K355' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K395' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K415' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part5'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part5",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages_document__p5__c012__part6": {
+    "summary": "0 error(s), 14 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 14,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K365' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K398' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K425' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K734' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K796' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K907' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K736' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K909' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K786' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K892' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K993' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K785' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K875' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU '2684K991' already seen in chunk 'industrial_fittings_5_pages_document__p5__c012__part6'",
+        "chunk_id": "industrial_fittings_5_pages_document__p5__c012__part6",
+        "entity": "Miniature Medium-Pressure Stainless Steel Threaded Pipe Fittings (Continued) CD",
+        "field": "sku"
+      }
+    ]
+  },
+  "industrial_fittings_5_pages__native_p1__g1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p2__g88": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p2__g183": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p2__g187": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p3__g188": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p4__g221": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p4__g235": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "industrial_fittings_5_pages__native_p5__g261": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  }
+}

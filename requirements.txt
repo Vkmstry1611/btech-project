@@ -6,7 +6,7 @@ networkx>=3.0
 torch>=2.2
 paddlepaddle>=3.0
 paddleocr>=3.0
-paddlex[ocr]>=3.7.0
+paddlex[ocr]>=3.0.0
 
 # Stage 2 — Phase A
 beautifulsoup4>=4.12.0

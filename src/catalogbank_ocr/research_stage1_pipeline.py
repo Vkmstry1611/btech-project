@@ -250,6 +250,9 @@ def run_stage1_for_pdf_multipage(
     preprocess_config: Optional[ImagePreprocessingConfig] = None,
     ocr_engine: Any = None,
     max_pages: Optional[int] = None,
+    debug_artifacts: bool = True,
+    streaming: bool = True,
+    page_batch_size: int = 1,
 ) -> Stage1MultiPageResult:
     """Run Stage 1 for ALL pages of a PDF.
 
@@ -267,6 +270,8 @@ def run_stage1_for_pdf_multipage(
     Returns:
         Stage1MultiPageResult with per-page details and merged JSON paths.
     """
+    if not 1 <= page_batch_size <= 16:
+        raise ValueError('page_batch_size must be between 1 and 16')
     stem = _resolve_pdf_output_stem(pdf_path)
     rendered_dir  = output_root / "images" / stem
     processed_dir = output_root / "processed" / stem
@@ -278,33 +283,58 @@ def run_stage1_for_pdf_multipage(
     if preprocess_config is None:
         preprocess_config = ImagePreprocessingConfig()
 
-    # ---- Render all pages --------------------------------------------------
-    preprocessing_results = render_and_preprocess_all_pages(
-        pdf_path=pdf_path,
-        rendered_dir=rendered_dir,
-        processed_dir=processed_dir,
-        config=preprocess_config,
-        max_pages=max_pages,
-    )
-    total_pages = len(preprocessing_results)
-    logger.info("Rendered %d page(s) from %s", total_pages, pdf_path.name)
+    from time import perf_counter
+    from catalogbank_ocr.preprocessing.streaming import prepared_pages
+    from catalogbank_ocr.stage2.page_roles import annotate_pages
+    stage_start = perf_counter()
+    timings = {'pages': [], 'state': 'running', 'dpi': preprocess_config.dpi,
+               'streaming': streaming, 'page_batch_size': page_batch_size}
+    prepare = prepared_pages if streaming else render_and_preprocess_all_pages
+    prepared = prepare(pdf_path, rendered_dir, processed_dir, preprocess_config, max_pages)
+    preprocessing_results = []
+    total_pages = 0
 
     if ocr_engine is None:
         ocr_engine = initialize_ppstructurev3()
+    timings['runtime'] = getattr(ocr_engine, '_catalogbank_runtime', {})
 
     # ---- OCR + semantic blocks per page ------------------------------------
     all_page_semantic_blocks = []
     page_results: List[Stage1PageResult] = []
     semantic_viz_paths: List[Path] = []
 
-    for page_idx, prep in enumerate(preprocessing_results):
+    from itertools import islice
+    from catalogbank_ocr.ocr.ppstructure import run_ppstructurev3_batch
+    def ocr_pages():
+        iterator = iter(prepared)
+        index = 0
+        while True:
+            batch = list(islice(iterator, page_batch_size))
+            if not batch: break
+            directories = [output_root / 'ocr' / stem / f'page_{index+i+1:03d}' for i in range(len(batch))]
+            start = perf_counter()
+            if len(batch) == 1:
+                runs = [run_ppstructurev3(batch[0].processed_image, directories[0], engine=ocr_engine, debug_artifacts=debug_artifacts)]
+            else:
+                runs = run_ppstructurev3_batch([p.processed_image for p in batch], directories, ocr_engine, debug_artifacts)
+            duration = perf_counter() - start
+            for offset, (prep, run) in enumerate(zip(batch, runs)):
+                yield index+offset, prep, run, duration, len(batch)
+            index += len(batch)
+
+    for page_idx, prep, run_result, batch_seconds, batch_count in ocr_pages():
+        preprocessing_results.append(prep)
+        total_pages += 1
         page_number = page_idx + 1
         ocr_out_dir = output_root / "ocr" / stem / f"page_{page_number:03d}"
 
-        run_result = run_ppstructurev3(prep.processed_image, ocr_out_dir, engine=ocr_engine)
+        timings["pages"].append(dict(prep.metadata, page=page_idx+1, ocr_s=batch_seconds/batch_count, ocr_batch_wall_s=batch_seconds, batch_pages=batch_count))
+        timings['wall_s'] = perf_counter() - stage_start
+        _save_json(output_root / 'metrics' / stem / 'stage1.json', timings)
+        logger.info('[%s] OCR page %d completed in %.1fs', stem, page_number, batch_seconds/batch_count)
         if not run_result.json_files:
             logger.warning("No OCR output for page %d of %s — skipping", page_number, pdf_path.name)
-            continue
+            raise RuntimeError(f"Missing OCR output for page {page_number}")
 
         # Copy raw JSON and inject correct page_index
         raw_json_src    = run_result.json_files[0]
@@ -314,7 +344,11 @@ def run_stage1_for_pdf_multipage(
 
         raw_doc = load_json_document(raw_json_target)
         if isinstance(raw_doc, dict):
+            actual_input = raw_doc.get('input_path')
+            if batch_count > 1 and actual_input and Path(actual_input).resolve() != prep.processed_image.resolve():
+                raise RuntimeError('OCR batch returned pages out of order')
             raw_doc["page_index"] = page_idx   # 0-based; extract_page_records adds 1
+            _save_json(raw_json_target, raw_doc)
 
         # Build semantic blocks for this page
         page_records   = extract_page_records(raw_doc)
@@ -330,12 +364,14 @@ def run_stage1_for_pdf_multipage(
         all_page_semantic_blocks.append(page_sem)
 
         # Per-page semantic visualization
-        sem_viz = visualize_semantic_blocks(
-            source_image_path=prep.rendered_image,
-            page_blocks=page_sem,
-            output_path=viz_dir / f"{stem}_p{page_number:03d}_semantic_blocks.png",
-        )
-        semantic_viz_paths.append(sem_viz)
+        sem_viz = viz_dir / f"{stem}_p{page_number:03d}_semantic_blocks.png"
+        if debug_artifacts:
+            sem_viz = visualize_semantic_blocks(
+                source_image_path=prep.rendered_image,
+                page_blocks=page_sem,
+                output_path=viz_dir / f"{stem}_p{page_number:03d}_semantic_blocks.png",
+            )
+            semantic_viz_paths.append(sem_viz)
 
         page_results.append(Stage1PageResult(
             pdf_path=pdf_path,
@@ -371,15 +407,26 @@ def run_stage1_for_pdf_multipage(
         semantic_document=semantic_doc,
         hierarchy_document=hierarchy_doc,
     )
+    import hashlib
+    digest = hashlib.sha256()
+    with pdf_path.open('rb') as source:
+        for data in iter(lambda: source.read(1024 * 1024), b''):
+            digest.update(data)
+    canonical_data['source']['sha256'] = digest.hexdigest()
+    canonical_data['source']['dpi'] = preprocess_config.dpi
+    canonical_data['source']['page_limit'] = max_pages
+    annotate_pages(canonical_data)
     canonical_json_path = _save_json(
         output_root / "canonical" / stem / f"{stem}_document.json",
         canonical_data,
     )
 
-    hierarchy_viz_path = visualize_hierarchy_tree(
-        root=hierarchy_doc.root,
-        output_path=viz_dir / f"{stem}_hierarchy.png",
-    )
+    hierarchy_viz_path = viz_dir / f"{stem}_hierarchy.png"
+    if debug_artifacts:
+        hierarchy_viz_path = visualize_hierarchy_tree(
+            root=hierarchy_doc.root,
+            output_path=viz_dir / f"{stem}_hierarchy.png",
+        )
 
     total_blocks = sum(len(p.blocks) for p in all_page_semantic_blocks)
     logger.info(
@@ -387,6 +434,12 @@ def run_stage1_for_pdf_multipage(
         pdf_path.name, total_pages, total_blocks,
     )
 
+    timings['wall_s'] = perf_counter() - stage_start
+    timings['state'] = 'complete'
+    timings['dpi'] = preprocess_config.dpi
+    timings['streaming'] = streaming
+    timings['page_batch_size'] = page_batch_size
+    _save_json(output_root / 'metrics' / stem / 'stage1.json', timings)
     return Stage1MultiPageResult(
         pdf_path=pdf_path,
         total_pages=total_pages,
