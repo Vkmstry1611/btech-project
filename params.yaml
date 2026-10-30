@@ -1,0 +1,13 @@
+# Deployment pipeline parameters.
+#
+# The deployment pipeline reproduces the final catalogs from already-captured
+# research artifacts — it needs no LLM and no OCR. `backend` is only a label
+# recorded in the metrics; no live model is contacted.
+pipeline:
+  backend: mock-reuse      # label recorded in metrics (no live LLM/OCR)
+  input_root: outputs      # git-tracked saved research artifacts (deps)
+  output_root: outputs/deploy  # DVC-managed deployment outputs
+
+# Reproduction settings (informational; the mock pipeline reads these roots).
+repro:
+  stems: all               # "all" or a specific document stem

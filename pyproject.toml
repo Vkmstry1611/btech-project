@@ -24,6 +24,13 @@ dependencies = [
   "neo4j>=5.0",
 ]
 
+[project.optional-dependencies]
+# Slim deployment extras (no OCR / no LLM / no heavy ML stack).
+# `pip install -e ".[deploy]"` installs only the lightweight runtime needed by
+# scripts/run_mock_pipeline.py + the FastAPI service, NOT the full OCR/LLM stack.
+api = ["fastapi>=0.110", "uvicorn[standard]>=0.27"]
+deploy = ["dvc>=3.50", "fastapi>=0.110", "uvicorn[standard]>=0.27", "PyYAML>=6.0"]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 

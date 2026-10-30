@@ -1,0 +1,53 @@
+# DVC pipeline — LLM/OCR-free reproduction of the catalog artifacts.
+#
+# Stages read the git-tracked saved research artifacts under outputs/
+# (canonical JSON + saved Stage-2 extractions) and write DVC-managed
+# deployment outputs under outputs/deploy/.
+#
+#   dvc repro        # run all stages
+#   dvc repro evaluate   # run a single stage
+#   dvc dag          # show the pipeline graph
+#   dvc status       # what's out of date
+#
+# No external DVC remote is required: deps are version-controlled in git, so a
+# fresh checkout can reproduce everything with `dvc repro`.
+
+stages:
+  mock_export:
+    cmd: python scripts/run_mock_pipeline.py
+        --input ${pipeline.input_root}
+        --output ${pipeline.output_root}
+        --backend-label ${pipeline.backend}
+    desc: >
+      Rebuild context chunks (Phase A), validate + normalize the saved
+      extractions (Phase C), and export the final catalog tree — all from
+      saved artifacts, with no LLM and no OCR.
+    deps:
+      - outputs/canonical
+      - outputs/stage2
+      - scripts/run_mock_pipeline.py
+      - src/catalogbank_ocr/stage2
+    outs:
+      - outputs/deploy/final
+      - outputs/deploy/stage2
+      - outputs/deploy/metrics
+      - outputs/deploy/run_summary.json
+
+  evaluate:
+    cmd: python scripts/evaluate_catalog.py
+        --final ${pipeline.output_root}/final
+        --out ${pipeline.output_root}/evaluation.json
+    desc: Aggregate per-document and overall catalog statistics.
+    deps:
+      - outputs/deploy/final
+      - scripts/evaluate_catalog.py
+    outs:
+      - outputs/deploy/evaluation.json
+
+metrics:
+  - outputs/deploy/run_summary.json
+plots:
+  - outputs/deploy/metrics:
+      template: linear
+      x: stem
+      y: items

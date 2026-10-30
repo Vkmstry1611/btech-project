@@ -1,0 +1,10 @@
+# Deployment runtime dependencies — slim image, NO OCR / NO LLM / NO heavy ML stack.
+# The mock deployment pipeline (scripts/run_mock_pipeline.py) and the FastAPI
+# service (catalogbank_ocr.api) only need these to run.
+PyYAML>=6.0
+fastapi>=0.110
+uvicorn[standard]>=0.27
+dvc>=3.50
+
+# Optional: HTTP client used by the API smoke test.
+httpx>=0.27

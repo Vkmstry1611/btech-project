@@ -1,0 +1,8 @@
+# Exclude Python bytecode / caches from DVC dependency hashing.
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
