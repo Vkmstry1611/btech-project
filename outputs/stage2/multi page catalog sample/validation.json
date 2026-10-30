@@ -1,0 +1,426 @@
+{
+  "multi page catalog sample_document__p1__c001__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p1__c002__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p1__c002__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p1__c002__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p1__c003__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c004__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c004__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c004__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c004__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c005__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c005__part2": {
+    "summary": "0 error(s), 1 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 1,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB1015/M' already seen in chunk 'multi page catalog sample_document__p2__c005__part2'",
+        "chunk_id": "multi page catalog sample_document__p2__c005__part2",
+        "entity": "100 mm x 150 mm",
+        "field": "sku"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p2__c005__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c005__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c005__part5": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c006__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c007__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c007__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p2__c007__part3": {
+    "summary": "0 error(s), 6 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 6,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB424' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "4\"x 24\"",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB436' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "4\"x 36\"",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB612' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "6\" x 12\"",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB824' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "8\"x 24\"",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB836' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "8\" x 36\"",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'MB1060/M' already seen in chunk 'multi page catalog sample_document__p2__c007__part3'",
+        "chunk_id": "multi page catalog sample_document__p2__c007__part3",
+        "entity": "100 mm x 600 mm",
+        "field": "sku"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p2__c007__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p3__c008__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p3__c009__part1": {
+    "summary": "0 error(s), 2 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 2,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part1",
+        "entity": "PBG11102",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part1",
+        "entity": "PBG11105",
+        "field": "value"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p3__c009__part2": {
+    "summary": "0 error(s), 6 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 6,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11110",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_7' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11110",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11112",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_7' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11112",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_7' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11107",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_7' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p3__c009__part2",
+        "entity": "PBG11111 PBG11113",
+        "field": "value"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p4__c010__part1": {
+    "summary": "0 error(s), 8 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 8,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG12118' already seen in chunk 'multi page catalog sample_document__p4__c010__part1'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12118",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG12105' already seen in chunk 'multi page catalog sample_document__p4__c010__part1'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12105",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG12106' already seen in chunk 'multi page catalog sample_document__p4__c010__part1'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12106",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG12110' already seen in chunk 'multi page catalog sample_document__p4__c010__part1'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12110",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG12111' already seen in chunk 'multi page catalog sample_document__p4__c010__part1'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12111",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_3' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12106",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_3' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12110",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_3' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part1",
+        "entity": "PBG12111",
+        "field": "value"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p4__c010__part2": {
+    "summary": "0 error(s), 1 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 1,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'col_3' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part2",
+        "entity": "PBG12113",
+        "field": "value"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p4__c010__part3": {
+    "summary": "0 error(s), 5 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 5,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG51510' already seen in chunk 'multi page catalog sample_document__p4__c010__part3'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part3",
+        "entity": "PBG51510",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG51512' already seen in chunk 'multi page catalog sample_document__p4__c010__part3'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part3",
+        "entity": "PBG51512",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG51507' already seen in chunk 'multi page catalog sample_document__p4__c010__part3'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part3",
+        "entity": "PBG51507",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG51511' already seen in chunk 'multi page catalog sample_document__p4__c010__part3'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part3",
+        "entity": "PBG51511",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBG51513 PBG51514' already seen in chunk 'multi page catalog sample_document__p4__c010__part3'",
+        "chunk_id": "multi page catalog sample_document__p4__c010__part3",
+        "entity": "PBG51513 PBG51514",
+        "field": "sku"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p4__c011__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "multi page catalog sample_document__p4__c011__part2": {
+    "summary": "0 error(s), 2 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 2,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c011__part2",
+        "entity": "PBG52508",
+        "field": "value"
+      },
+      {
+        "severity": "warning",
+        "code": "GARBAGE_TEXT",
+        "message": "Attribute value for 'DIMENSIONS' may contain OCR garbage",
+        "chunk_id": "multi page catalog sample_document__p4__c011__part2",
+        "entity": "PBG52514",
+        "field": "value"
+      }
+    ]
+  },
+  "multi page catalog sample_document__p4__c011__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  }
+}

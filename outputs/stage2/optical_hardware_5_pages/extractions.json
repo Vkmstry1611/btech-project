@@ -1,0 +1,4287 @@
+[
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c001__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 14.922,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "ScienceDesk Breadboards: Performance Series",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Breadboards"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"ScienceDesk Breadboards: Performance Series\",\n      \"category\": \"Breadboards\",\n      \"description\": \"High-performance breadboards with advanced construction and damping features.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Mounting Holes\",\n      \"value\": \"Imperial: 1/4\\\"-20 on 1\\\" Centers; Metric: M6 x 1.0 on 25 mm Centers\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Flatness\",\n      \"value\": \"±0.006\\\" (0.15 mm) Over any 1.0 ft^2(0.3 m2) Area\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Thickness\",\n      \"value\": \"2.4\\\" (60 mm)\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Construction\",\n      \"value\": \"Double-Skin, Single Honeycomb Core, Athermalized Design\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Core\",\n      \"value\": \"High-Density, Plated-Steel Honeycomb\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Damping\",\n      \"value\": \"Proprietary Broadband Damping\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"ScienceDesk Breadboards: Performance Series\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Breadboards\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 6.891,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "ScienceDesk Breadboards: Performance Series",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDesk Breadboards"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"ScienceDesk Breadboards: Performance Series\",\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"Breadboards for modular, ergonomic ScienceDesks that provide a rigid, flat, thermally stable tabletop.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Top Plate Material\",\n      \"value\": \"Magnetic Stainless Steel\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Top Plate Thickness\",\n      \"value\": \"3/16\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Top Plate Thickness\",\n      \"value\": \"5 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Top Plate Finish\",\n      \"value\": \"Brushed\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Bottom Plate Material\",\n      \"value\": \"Magnetic Stainless Steel\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Bottom Plate Thickness\",\n      \"value\": \"3/16\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Bottom Plate Thickness\",\n      \"value\": \"5 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Sides Material\",\n      \"value\": \"Black Laminated Steel\"\n    },\n    {\n      \"entity\": \"ScienceDesk Breadboards: Performance Series\",\n      \"key\": \"Edge of Top Plate to First Hole\",\n      \"value\": \"Imperial: 2\\\"\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"ScienceDesk Breadboards: Performance Series\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDesk Breadboards\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 8.687,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.656,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.485,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [
+      {
+        "name": "PBH11106",
+        "model": null,
+        "sku": "PBH11106",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "18b3a706bf3aef0c",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11111",
+        "model": null,
+        "sku": "PBH11111",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "3cbddab7b18476d0",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11112",
+        "model": null,
+        "sku": "PBH11112",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "9fa9f088d3dbeea1",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11115",
+        "model": null,
+        "sku": "PBH11115",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "b717a079a3c2f239",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH51506",
+        "model": null,
+        "sku": "PBH51506",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "91a7d7a4a37abb71",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH51511",
+        "model": null,
+        "sku": "PBH51511",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "94efbf5cf4991392",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11106",
+        "model": null,
+        "sku": "PBH11106",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11111",
+        "model": null,
+        "sku": "PBH11111",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11112",
+        "model": null,
+        "sku": "PBH11112",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH11115",
+        "model": null,
+        "sku": "PBH11115",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH51506",
+        "model": null,
+        "sku": "PBH51506",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH51511",
+        "model": null,
+        "sku": "PBH51511",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b043"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b046"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b042"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PBH11106",
+        "key": "子",
+        "value": "子 665.14",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106",
+        "key": "DIMENSIONS",
+        "value": "3'x 2'× 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 6090",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106",
+        "key": "Price",
+        "value": "923.8",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106",
+        "key": "Price",
+        "value": "803.71",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11106",
+        "key": "Price",
+        "value": "7362.69",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "子",
+        "value": "子 785.38",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "DIMENSIONS",
+        "value": "3'x 2.5'x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 7590",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "Price",
+        "value": "1090.8",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "Price",
+        "value": "949.0",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11111",
+        "key": "Price",
+        "value": "8693.68",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "子",
+        "value": "子 983.74",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "DIMENSIONS",
+        "value": "4'x 2.5' x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 75120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "Price",
+        "value": "1366.3",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "Price",
+        "value": "1188.68",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11112",
+        "key": "Price",
+        "value": "10889.41",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "子",
+        "value": "1,144.15",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "DIMENSIONS",
+        "value": "4'x 3'x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 90120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "Price",
+        "value": "1589.1",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "Price",
+        "value": "1382.52",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11115",
+        "key": "Price",
+        "value": "12665.13",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "子",
+        "value": "子 651.24",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "DIMENSIONS",
+        "value": "900 mm x 600 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 6090",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "Price",
+        "value": "904.5",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "Price",
+        "value": "786.92",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51506",
+        "key": "Price",
+        "value": "7208.87",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "子",
+        "value": "子 751.18",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "DIMENSIONS",
+        "value": "900 mm x 750 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 7590",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "Price",
+        "value": "1043.3",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "Price",
+        "value": "907.67",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51511",
+        "key": "Price",
+        "value": "8315.1",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PBH11106\",\n      \"sku\": \"PBH11106\"\n    },\n    {\n      \"name\": \"PBH11111\",\n      \"sku\": \"PBH11111\"\n    },\n    {\n      \"name\": \"PBH11112\",\n      \"sku\": \"PBH11112\"\n    },\n    {\n      \"name\": \"PBH11115\",\n      \"sku\": \"PBH11115\"\n    },\n    {\n      \"name\": \"PBH51506\",\n      \"sku\": \"PBH51506\"\n    },\n    {\n      \"name\": \"PBH51511\",\n      \"sku\": \"PBH51511\"\n    }\n  ],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 3.672,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c002__part6",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series",
+      "Specifications"
+    ],
+    "products": [
+      {
+        "name": "PBH51512",
+        "model": null,
+        "sku": "PBH51512",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "374f7fef498358b7",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBH51515",
+        "model": null,
+        "sku": "PBH51515",
+        "category": "ScienceDesk Breadboards: Performance Series > Specifications",
+        "description": null,
+        "variant_group": "4fdf5490d14bd6db",
+        "source_evidence": [
+          {
+            "page": 1,
+            "block_id": "p1_b045"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PBH51512",
+        "key": "子",
+        "value": "子 961.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512",
+        "key": "DIMENSIONS",
+        "value": "1200 mm x 750 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 75120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512",
+        "key": "Price",
+        "value": "1335.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512",
+        "key": "Price",
+        "value": "1161.45",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51512",
+        "key": "Price",
+        "value": "10639.95",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "子",
+        "value": "1,116.43",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "DIMENSIONS",
+        "value": "1200 mm x 900 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 90120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "Price",
+        "value": "1550.6",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "Price",
+        "value": "1349.02",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51515",
+        "key": "Price",
+        "value": "12358.28",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "",
+    "meta": {
+      "backend_used": "deterministic/explicit-table",
+      "latency_s": 0.0,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.5,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\"products\":[],\"attributes\":[],\"relations\":[]}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.359,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: Performance Series with No Holes"
+    ],
+    "products": [
+      {
+        "name": "PBH11106/NH",
+        "model": null,
+        "sku": "PBH11106/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "b0e83eb5aa39df77",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11111/NH",
+        "model": null,
+        "sku": "PBH11111/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "32032227404ff2f4",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH51511/NH",
+        "model": null,
+        "sku": "PBH51511/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "32032227404ff2f4",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11112/NH",
+        "model": null,
+        "sku": "PBH11112/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "83459567dcc8bdc1",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH51512/NH",
+        "model": null,
+        "sku": "PBH51512/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "83459567dcc8bdc1",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11106/NH",
+        "model": null,
+        "sku": "PBH11106/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": "Optical Table Accessories",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11111/NH",
+        "model": null,
+        "sku": "PBH11111/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": "Optical Table Accessories",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH51511/NH",
+        "model": null,
+        "sku": "PBH51511/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": "Optical Table Accessories",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11112/NH",
+        "model": null,
+        "sku": "PBH11112/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": "Optical Table Accessories",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH51512/NH",
+        "model": null,
+        "sku": "PBH51512/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": "Optical Table Accessories",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH11115/NH",
+        "model": null,
+        "sku": "PBH11115/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "83459567dcc8bdc1",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      },
+      {
+        "name": "PBH51515/NH",
+        "model": null,
+        "sku": "PBH51515/NH",
+        "category": "ScienceDesk Breadboards: Performance Series with No Holes",
+        "description": null,
+        "variant_group": "83459567dcc8bdc1",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b016"
+          },
+          {
+            "page": 1,
+            "block_id": "p1_b053"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH11115/NH_price"
+          },
+          {
+            "page": 1,
+            "block_id": "native_p1_PBH51515/NH_price"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PBH11106/NH",
+        "key": "子",
+        "value": "3 496.08",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106/NH",
+        "key": "SIZE",
+        "value": "3'x 2' x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106/NH",
+        "key": "Price",
+        "value": "689.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11106/NH",
+        "key": "Price",
+        "value": "599.43",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11106/NH",
+        "key": "Price",
+        "value": "5491.33",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11111/NH",
+        "key": "子",
+        "value": "£ 625.68",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111/NH",
+        "key": "SIZE",
+        "value": "3'x 2.5'x 2.4\" (900 mm x 750 mm x 60 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111/NH",
+        "key": "Price",
+        "value": "869.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11111/NH",
+        "key": "Price",
+        "value": "756.03",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11111/NH",
+        "key": "Price",
+        "value": "6925.93",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH51511/NH",
+        "key": "子",
+        "value": "£ 625.68",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511/NH",
+        "key": "SIZE",
+        "value": "3'x 2.5'x 2.4\" (900 mm x 750 mm x 60 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511/NH",
+        "key": "Price",
+        "value": "869.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51511/NH",
+        "key": "Price",
+        "value": "756.03",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51511/NH",
+        "key": "Price",
+        "value": "6925.93",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "子",
+        "value": "£ 709.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "SIZE",
+        "value": "4' × 2.5'× 2.4\" (1200 mm x 750 mm x 60 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "col_7",
+        "value": "PBH11115/NH",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "col_8",
+        "value": "PBH51515/NH",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "Price",
+        "value": "985.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "Price",
+        "value": "856.95",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH11112/NH",
+        "key": "Price",
+        "value": "7850.45",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "子",
+        "value": "£ 709.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "SIZE",
+        "value": "4' × 2.5'× 2.4\" (1200 mm x 750 mm x 60 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "col_7",
+        "value": "PBH11115/NH",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "col_8",
+        "value": "PBH51515/NH",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "Price",
+        "value": "985.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "Price",
+        "value": "856.95",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBH51512/NH",
+        "key": "Price",
+        "value": "7850.45",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBH11115/NH",
+        "key": "Price",
+        "value": "1054.00",
+        "unit": "USD",
+        "location": null
+      },
+      {
+        "entity": "PBH51515/NH",
+        "key": "Price",
+        "value": "1054.00",
+        "unit": "USD",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PBH11106/NH\",\n      \"sku\": \"PBH11106/NH\",\n      \"category\": \"ScienceDesk Breadboards: Performance Series with No Holes\",\n      \"description\": \"Optical Table Accessories\"\n    },\n    {\n      \"name\": \"PBH11111/NH\",\n      \"sku\": \"PBH11111/NH\",\n      \"category\": \"ScienceDesk Breadboards: Performance Series with No Holes\",\n      \"description\": \"Optical Table Accessories\"\n    },\n    {\n      \"name\": \"PBH51511/NH\",\n      \"sku\": \"PBH51511/NH\",\n      \"category\": \"ScienceDesk Breadboards: Performance Series with No Holes\",\n      \"description\": \"Optical Table Accessories\"\n    },\n    {\n      \"name\": \"PBH11112/NH\",\n      \"sku\": \"PBH11112/NH\",\n      \"category\": \"ScienceDesk Breadboards: Performance Series with No Holes\",\n      \"description\": \"Optical Table Accessories\"\n    },\n    {\n      \"name\": \"PBH51512/NH\",\n      \"sku\": \"PBH51512/NH\",\n      \"category\": \"ScienceDesk Breadboards: Performance Series with No Holes\",\n      \"description\": \"Optical Table Accessories\"\n    }\n  ],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 5.609,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c005__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.532,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDesk Breadboards"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PerformancePlus Series\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"PerformancePlus Series breadboard with specifications including mounting holes, flatness, thickness, damping, and core materials.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Mounting Holes\",\n      \"value\": \"Imperial: 1/4\\\"-20 on 1\\\" Centers\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Mounting Holes\",\n      \"value\": \"Metric: M6 on 25 mm Centers\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Flatness\",\n      \"value\": \"±0.006\\\" (0.15 mm) Over any 1.0 ft2 (0.3 m2) Area\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Thickness\",\n      \"value\": \"2.4\\\" (60 mm) or 4.3\\\" (110 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Damping\",\n      \"value\": \"Enhanced Proprietary Damping\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Main Core\",\n      \"value\": \"High-Density, Plated-Steel Honeycomb\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Intermediate Core\",\n      \"value\": \"Plated-Steel Sealing Cup Honeycomb Structure, 0.51\\\" (13 mm) Thick\",\n      \"unit\": null\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDesk Breadboards\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 8.906,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Edge of Top Plate to First Hole"
+      },
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Thread Size"
+      },
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Maximum Screw Depth"
+      },
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Top Plate"
+      },
+      {
+        "subject": "PerformancePlus Series",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Bottom Plate"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PerformancePlus Series\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"Breadboard with specifications including edge measurements, screw depth, and plate materials.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Edge of Top Plate to First Hole\",\n      \"value\": \"\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Thread Size\",\n      \"value\": \"2\\\"\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Thread Size\",\n      \"value\": \"50 mm\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Maximum Screw Depth\",\n      \"value\": \"5/8\\\" (16 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Top Plate\",\n      \"value\": \"Magnetic Stainless Steel, 3/16\\\" (5 mm) Thick, Brushed Finish\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PerformancePlus Series\",\n      \"location\": null,\n      \"key\": \"Bottom Plate\",\n      \"value\": \"Magnetic Stainless Steel, 3/16\\\"(5 mm) Thick Sides: Black Laminated Steel\",\n      \"unit\": null\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Edge of Top Plate to First Hole\"\n    },\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Thread Size\"\n    },\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Maximum Screw Depth\"\n    },\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Top Plate\"\n    },\n    {\n      \"subject\": \"PerformancePlus Series\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Bottom Plate\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 9.219,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "products": [
+      {
+        "name": "PBI11106",
+        "model": null,
+        "sku": "PBI11106",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "283cba3c767becbc",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b041"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b042"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b043"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b046"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b049"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBI11111",
+        "model": null,
+        "sku": "PBI11111",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "a91ece939639b673",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b041"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b042"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b043"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b046"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b049"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          }
+        ]
+      },
+      {
+        "name": "PBI11112",
+        "model": null,
+        "sku": "PBI11112",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "8792345957a753d7",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b041"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b042"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b043"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b046"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b049"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PBI11106",
+        "key": "子",
+        "value": "子 819.36",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11106",
+        "key": "DIMENSIONS",
+        "value": "3' x 2' × 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11106",
+        "key": "COMPATIBLEFRAMES",
+        "value": "Item #'s Ending in 6090",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11106",
+        "key": "Price",
+        "value": "1138.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11106",
+        "key": "Price",
+        "value": "990.06",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI11106",
+        "key": "Price",
+        "value": "9069.86",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "子",
+        "value": "子 919.01",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "DIMENSIONS",
+        "value": "3'x 2.5'x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "COMPATIBLEFRAMES",
+        "value": "Item #'s Ending in 7590",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "Price",
+        "value": "1276.4",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "Price",
+        "value": "1110.47",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI11111",
+        "key": "Price",
+        "value": "10172.91",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "子",
+        "value": "1,150.70",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "DIMENSIONS",
+        "value": "4'x 2.5'x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "COMPATIBLEFRAMES",
+        "value": "Item #'s Ending in 75120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "Price",
+        "value": "1598.2",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "Price",
+        "value": "1390.43",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI11112",
+        "key": "Price",
+        "value": "12737.65",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PerformancePlus Series\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"Enhanced Damping Improves Dynamic Performance for the Most Critical Laboratory Applications\"\n    },\n    {\n      \"name\": \"PerformancePlus Series\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"Sealed Mounting Holes Make it Simple to Contain and Clean up Spills or Retrieve Lost Optics or Screws\"\n    },\n    {\n      \"name\": \"PerformancePlus Series\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Breadboards\",\n      \"description\": \"Athermalized Design for Excellent Thermal Stability\"\n    }\n  ],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 3.453,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p2__c006__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Breadboards: PerformancePlus Series",
+      "PerformancePlus Series",
+      "Specifications"
+    ],
+    "products": [
+      {
+        "name": "PBI11115",
+        "model": null,
+        "sku": "PBI11115",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "cc821581d9f963bc",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI12129",
+        "model": null,
+        "sku": "PBI12129",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "2c704092719c05e0",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI51506",
+        "model": null,
+        "sku": "PBI51506",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "9e3c056a75535b37",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI51511",
+        "model": null,
+        "sku": "PBI51511",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "ce748ae27fc73a2c",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI51512",
+        "model": null,
+        "sku": "PBI51512",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "5fbfc564e7ddb135",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI51515",
+        "model": null,
+        "sku": "PBI51515",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "0d0aaac5ba7aae8d",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      },
+      {
+        "name": "PBI52529",
+        "model": null,
+        "sku": "PBI52529",
+        "category": "ScienceDesk Breadboards: PerformancePlus Series > PerformancePlus Series > Specifications",
+        "description": null,
+        "variant_group": "fd5ce00ea4f71897",
+        "source_evidence": [
+          {
+            "page": 2,
+            "block_id": "p2_b045"
+          },
+          {
+            "page": 2,
+            "block_id": "p2_b048"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PBI11115",
+        "key": "子",
+        "value": "£1,311.05",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11115",
+        "key": "DIMENSIONS",
+        "value": "4'x 3'x 2.4\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11115",
+        "key": "COMPATIBLEFRAMES",
+        "value": "Item #'s Ending in 90120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11115",
+        "key": "Price",
+        "value": "1820.9",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI11115",
+        "key": "Price",
+        "value": "1584.18",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI11115",
+        "key": "Price",
+        "value": "14512.57",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "子",
+        "value": "£2,986.56",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "DIMENSIONS",
+        "value": "6'x 5'x 4.3\"",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "COMPATIBLEFRAMES",
+        "value": "Item # SDA150180",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "Price",
+        "value": "4148.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "Price",
+        "value": "3608.76",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI12129",
+        "key": "Price",
+        "value": "33059.56",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "子",
+        "value": "£ 818.14",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "DIMENSIONS",
+        "value": "900 mm x 600 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 6090",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "Price",
+        "value": "1136.3",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "Price",
+        "value": "988.58",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI51506",
+        "key": "Price",
+        "value": "9056.31",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "子",
+        "value": "子 934.92",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "DIMENSIONS",
+        "value": "900 mmx 750 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 7590",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "Price",
+        "value": "1298.5",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "Price",
+        "value": "1129.7",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI51511",
+        "key": "Price",
+        "value": "10349.05",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "子",
+        "value": "子 1,128.10",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "DIMENSIONS",
+        "value": "1200 mm x 750 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 75120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "Price",
+        "value": "1566.8",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "Price",
+        "value": "1363.12",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI51512",
+        "key": "Price",
+        "value": "12487.4",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "子",
+        "value": "子 1,283.33",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "DIMENSIONS",
+        "value": "1200 mm x 900 mm x 60 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item #'s Ending in 90120",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "Price",
+        "value": "1782.4",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "Price",
+        "value": "1550.69",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI51515",
+        "key": "Price",
+        "value": "14205.73",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "子",
+        "value": "子 2,951.28",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "DIMENSIONS",
+        "value": "1800 mm x 1500 mm x 110 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "COMPATIBLE FRAMES",
+        "value": "Item # SDA150180",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "Price",
+        "value": "4099.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "Price",
+        "value": "3566.13",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PBI52529",
+        "key": "Price",
+        "value": "32669.03",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "",
+    "meta": {
+      "backend_used": "deterministic/explicit-table",
+      "latency_s": 0.0,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c007__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.422,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "Under Shelf",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDesk Accessories"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"Under Shelf\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"ScienceDesk Accessories\",\n      \"description\": \"A shelf that spans the rear of the ScienceDesk, providing a 9.9\\\" (250 mm) shelf depth.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"Under Shelf\",\n      \"location\": null,\n      \"key\": \"Construction\",\n      \"value\": \"Strong, Melamine-Faced MDF\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"Under Shelf\",\n      \"location\": null,\n      \"key\": \"Shelf Depth\",\n      \"value\": \"9.9\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"Under Shelf\",\n      \"location\": null,\n      \"key\": \"Shelf Depth\",\n      \"value\": \"250 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"Under Shelf\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"110 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"Under Shelf\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"50 kg\",\n      \"unit\": \"kg\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"Under Shelf\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDesk Accessories\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 5.969,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\"products\":[],\"attributes\":[],\"relations\":[]}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.516,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part3",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\"products\":[],\"attributes\":[],\"relations\":[]}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.343,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part4",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\"products\":[],\"attributes\":[],\"relations\":[]}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.375,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p3__c008__part5",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Accessories",
+      "Under Shelves"
+    ],
+    "products": [
+      {
+        "name": "PSY300",
+        "model": null,
+        "sku": "PSY300",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": "036589c85e1aa69a",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      },
+      {
+        "name": "PSY301",
+        "model": null,
+        "sku": "PSY301",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": "ef917d7dce962096",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      },
+      {
+        "name": "PSY302",
+        "model": null,
+        "sku": "PSY302",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": "880392c882319e85",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      },
+      {
+        "name": "PSY300",
+        "model": null,
+        "sku": "PSY300",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      },
+      {
+        "name": "PSY301",
+        "model": null,
+        "sku": "PSY301",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      },
+      {
+        "name": "PSY302",
+        "model": null,
+        "sku": "PSY302",
+        "category": "ScienceDesk Accessories > Under Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b015"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b016"
+          },
+          {
+            "page": 3,
+            "block_id": "p3_b009"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY300",
+        "key": "子",
+        "value": "子 57.60",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY300",
+        "key": "FRAME LENGTH",
+        "value": "2.5' (750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY300",
+        "key": "SHELF DIMENSION",
+        "value": "750 mm x 250 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY300",
+        "key": "Price",
+        "value": "80.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY300",
+        "key": "Price",
+        "value": "69.6",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY300",
+        "key": "Price",
+        "value": "637.6",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "子",
+        "value": "子 61.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "FRAME LENGTH",
+        "value": "3' (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "SHELF DIMENSION",
+        "value": "900 mm x 250 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "Price",
+        "value": "85.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "Price",
+        "value": "73.95",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY301",
+        "key": "Price",
+        "value": "677.45",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "子",
+        "value": "子 64.80",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "FRAME LENGTH",
+        "value": "4' (1200 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "SHELF DIMENSION",
+        "value": "1200 mm x 250 mm",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "Price",
+        "value": "90.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "Price",
+        "value": "78.3",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY302",
+        "key": "Price",
+        "value": "717.3",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PSY300\",\n      \"sku\": \"PSY300\"\n    },\n    {\n      \"name\": \"PSY301\",\n      \"sku\": \"PSY301\"\n    },\n    {\n      \"name\": \"PSY302\",\n      \"sku\": \"PSY302\"\n    }\n  ],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 1.75,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c009__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves"
+    ],
+    "products": [
+      {
+        "name": "PSY211",
+        "model": null,
+        "sku": "PSY211",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": null,
+        "variant_group": "c362ae22ab1ab82d",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      },
+      {
+        "name": "PSY201/S",
+        "model": null,
+        "sku": "PSY201/S",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": null,
+        "variant_group": "77ed3a97df5117cb",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      },
+      {
+        "name": "PSY212",
+        "model": null,
+        "sku": "PSY212",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": null,
+        "variant_group": "d2e44b18ae7734ae",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      },
+      {
+        "name": "PSY211",
+        "model": null,
+        "sku": "PSY211",
+        "category": "Overhead Shelves",
+        "description": "Overhead Shelf for ScienceDeskT",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      },
+      {
+        "name": "PSY201/S",
+        "model": null,
+        "sku": "PSY201/S",
+        "category": "Overhead Shelves",
+        "description": "Additional Shelf Unit for ScienceDeskT",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      },
+      {
+        "name": "PSY212",
+        "model": null,
+        "sku": "PSY212",
+        "category": "Overhead Shelves",
+        "description": "Overhead Shelf for ScienceDeskT",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b019"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b020"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b021"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b022"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b024"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY211",
+        "key": "子",
+        "value": "237.60",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "FRAMELENGTH",
+        "value": "3' (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "SHELFDIMENSIONS",
+        "value": "36\" x 12\" (900 mm x 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "PSY161 POSTS NEEDED",
+        "value": "2 (Included)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Price",
+        "value": "330.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Price",
+        "value": "4 287,10",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Price",
+        "value": "2630.1",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "子",
+        "value": "115.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "FRAMELENGTH",
+        "value": "3' (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "SHELFDIMENSIONS",
+        "value": "36\"x 12\" (900 mm x 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "PSY161 POSTS NEEDED",
+        "value": "2 (Not Included)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "Price",
+        "value": "160.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "Price",
+        "value": "139.2",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "Price",
+        "value": "天 1,275.20",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "子",
+        "value": "241.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "FRAMELENGTH",
+        "value": "4' (1200 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "SHELFDIMENSIONS",
+        "value": "48\"x 12\" (1200 mm x 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "PSY161 POSTS NEEDED",
+        "value": "2 (Included)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Price",
+        "value": "335.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Price",
+        "value": "4 291,45",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Price",
+        "value": "天 2,669.95",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Max Load Capacity",
+        "value": "110 lbs (50 kg)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Width",
+        "value": "36\" (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Width",
+        "value": "48\" (1200 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Shelf Depth",
+        "value": "11.8\" (300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Posts Height",
+        "value": "29.5\" (750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY211",
+        "key": "Shelves per Post",
+        "value": "Two",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY201/S",
+        "key": "Compatibility",
+        "value": "PSY211",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Max Load Capacity",
+        "value": "110 lbs (50 kg)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Width",
+        "value": "36\" (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Width",
+        "value": "48\" (1200 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Shelf Depth",
+        "value": "11.8\" (300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Posts Height",
+        "value": "29.5\" (750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Shelves per Post",
+        "value": "Two",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY212",
+        "key": "Compatibility",
+        "value": "PSY212",
+        "unit": null,
+        "location": null
+      }
+    ],
+    "relations": [
+      {
+        "subject": "PSY211",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Overhead Shelves"
+      },
+      {
+        "subject": "PSY201/S",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Overhead Shelves"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Overhead Shelves"
+      },
+      {
+        "subject": "PSY211",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Max Load Capacity"
+      },
+      {
+        "subject": "PSY211",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Width"
+      },
+      {
+        "subject": "PSY211",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Shelf Depth"
+      },
+      {
+        "subject": "PSY211",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Posts Height"
+      },
+      {
+        "subject": "PSY211",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Shelves per Post"
+      },
+      {
+        "subject": "PSY201/S",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Compatibility"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Max Load Capacity"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Width"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Shelf Depth"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Posts Height"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Shelves per Post"
+      },
+      {
+        "subject": "PSY212",
+        "predicate": "HAS_ATTRIBUTE",
+        "object": "Compatibility"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PSY211\",\n      \"model\": null,\n      \"sku\": \"PSY211\",\n      \"category\": \"Overhead Shelves\",\n      \"description\": \"Overhead Shelf for ScienceDeskT\"\n    },\n    {\n      \"name\": \"PSY201/S\",\n      \"model\": null,\n      \"sku\": \"PSY201/S\",\n      \"category\": \"Overhead Shelves\",\n      \"description\": \"Additional Shelf Unit for ScienceDeskT\"\n    },\n    {\n      \"name\": \"PSY212\",\n      \"model\": null,\n      \"sku\": \"PSY212\",\n      \"category\": \"Overhead Shelves\",\n      \"description\": \"Overhead Shelf for ScienceDeskT\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"110 lbs (50 kg)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Width\",\n      \"value\": \"36\\\" (900 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Width\",\n      \"value\": \"48\\\" (1200 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Shelf Depth\",\n      \"value\": \"11.8\\\" (300 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Posts Height\",\n      \"value\": \"29.5\\\" (750 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY211\",\n      \"location\": null,\n      \"key\": \"Shelves per Post\",\n      \"value\": \"Two\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY201/S\",\n      \"location\": null,\n      \"key\": \"Compatibility\",\n      \"value\": \"PSY211\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"110 lbs (50 kg)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Width\",\n      \"value\": \"36\\\" (900 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Width\",\n      \"value\": \"48\\\" (1200 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Shelf Depth\",\n      \"value\": \"11.8\\\" (300 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Posts Height\",\n      \"value\": \"29.5\\\" (750 mm)\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Shelves per Post\",\n      \"value\": \"Two\",\n      \"unit\": null\n    },\n    {\n      \"entity\": \"PSY212\",\n      \"location\": null,\n      \"key\": \"Compatibility\",\n      \"value\": \"PSY212\",\n      \"unit\": null\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Overhead Shelves\"\n    },\n    {\n      \"subject\": \"PSY201/S\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Overhead Shelves\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Overhead Shelves\"\n    },\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Max Load Capacity\"\n    },\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Width\"\n    },\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Shelf Depth\"\n    },\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Posts Height\"\n    },\n    {\n      \"subject\": \"PSY211\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Shelves per Post\"\n    },\n    {\n      \"subject\": \"PSY201/S\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Compatibility\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Max Load Capacity\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Width\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Shelf Depth\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Posts Height\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Shelves per Post\"\n    },\n    {\n      \"subject\": \"PSY212\",\n      \"predicate\": \"HAS_ATTRIBUTE\",\n      \"object\": \"Compatibility\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 23.657,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c009__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves"
+    ],
+    "products": [
+      {
+        "name": "PSY202/S",
+        "model": null,
+        "sku": "PSY202/S",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": null,
+        "variant_group": "173329bb5b4a2550",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b026"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY202/S",
+        "key": "子",
+        "value": "£122.40",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "FRAMELENGTH",
+        "value": "4' (1200 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "SHELFDIMENSIONS",
+        "value": "48\" x 12\" (1200 mm x 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "PSY161 POSTS NEEDED",
+        "value": "2 (Not Included)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "Price",
+        "value": "170.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "Price",
+        "value": "147.9",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY202/S",
+        "key": "Price",
+        "value": "天 1,354.90",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "",
+    "meta": {
+      "backend_used": "deterministic/explicit-table",
+      "latency_s": 0.0,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c010__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Single Shelf"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [
+      {
+        "subject": "Single Shelf",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Overhead Shelves"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"Single Shelf\",\n      \"model\": null,\n      \"sku\": null,\n      \"category\": \"Overhead Shelves\",\n      \"description\": \"A single shelf for mounting on the ScienceDeskT base.\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Shelf Size\",\n      \"value\": \"10.9\\\"x 11.8\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Shelf Size\",\n      \"value\": \"278 mm x 300 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Post Length\",\n      \"value\": \"29.5\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Post Length\",\n      \"value\": \"750 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"44 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"Single Shelf\",\n      \"location\": null,\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"20 kg\",\n      \"unit\": \"kg\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"Single Shelf\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Overhead Shelves\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 6.921,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c011__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Single Shelf with Post"
+    ],
+    "products": [
+      {
+        "name": "PSY191",
+        "model": null,
+        "sku": "PSY191",
+        "category": "ScienceDeskT Overhead Shelves > Single Shelf with Post",
+        "description": null,
+        "variant_group": "fa8fd66192175d4a",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b033"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY191",
+        "key": "子",
+        "value": "£127.44",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY191",
+        "key": "SHELF DIMENSIONS",
+        "value": "10.9\"x11.8\"(278 mmx 300 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY191",
+        "key": "Price",
+        "value": "177.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY191",
+        "key": "Price",
+        "value": "153.99",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY191",
+        "key": "Price",
+        "value": "1410.69",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "",
+    "meta": {
+      "backend_used": "deterministic/explicit-table",
+      "latency_s": 0.0,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p4__c012__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDeskT Overhead Shelves",
+      "Side Shelves"
+    ],
+    "products": [
+      {
+        "name": "PSY350",
+        "model": null,
+        "sku": "PSY350",
+        "category": "ScienceDeskT Overhead Shelves > Side Shelves",
+        "description": null,
+        "variant_group": "b8339ee5baa0c82a",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      },
+      {
+        "name": "PSY351",
+        "model": null,
+        "sku": "PSY351",
+        "category": "ScienceDeskT Overhead Shelves > Side Shelves",
+        "description": null,
+        "variant_group": "8a3efa4581a7603d",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      },
+      {
+        "name": "PSY352",
+        "model": null,
+        "sku": "PSY352",
+        "category": "ScienceDeskT Overhead Shelves > Side Shelves",
+        "description": null,
+        "variant_group": "72b405474b21123e",
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      },
+      {
+        "name": "PSY350",
+        "model": null,
+        "sku": "PSY350",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": "Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      },
+      {
+        "name": "PSY351",
+        "model": null,
+        "sku": "PSY351",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": "23.6\"(600 mm) Width",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      },
+      {
+        "name": "PSY352",
+        "model": null,
+        "sku": "PSY352",
+        "category": "ScienceDeskT Overhead Shelves",
+        "description": "110 lbs (50 kg) Max Load Capacity",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 4,
+            "block_id": "p4_b036"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b037"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b038"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b039"
+          },
+          {
+            "page": 4,
+            "block_id": "p4_b041"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY350",
+        "key": "子",
+        "value": "£126.14",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "FRAME LENGTH",
+        "value": "2.5' (750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "SHELF DIMENSIONS",
+        "value": "29.7\" x 23.6\" (755 mm x 600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "Price",
+        "value": "175.2",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "Price",
+        "value": "152.42",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "Price",
+        "value": "1396.34",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "子",
+        "value": "133.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "FRAME LENGTH",
+        "value": "3' (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "SHELF DIMENSIONS",
+        "value": "35.6\" x 23.6\" (905 mm x 600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "Price",
+        "value": "185.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "Price",
+        "value": "160.95",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "Price",
+        "value": "1474.45",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "子",
+        "value": "122.40",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "FRAME LENGTH",
+        "value": "2' (600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "SHELF DIMENSIONS",
+        "value": "23.6\" × 23.6\" (605 mm x 600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "Price",
+        "value": "170.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "Price",
+        "value": "147.9",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "Price",
+        "value": "1354.9",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY350",
+        "key": "Depth",
+        "value": "600 mm",
+        "unit": "mm",
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "Width",
+        "value": "23.6\"",
+        "unit": "in",
+        "location": null
+      },
+      {
+        "entity": "PSY351",
+        "key": "Width",
+        "value": "600 mm",
+        "unit": "mm",
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "Max Load Capacity",
+        "value": "110 lbs",
+        "unit": "lbs",
+        "location": null
+      },
+      {
+        "entity": "PSY352",
+        "key": "Max Load Capacity",
+        "value": "50 kg",
+        "unit": "kg",
+        "location": null
+      }
+    ],
+    "relations": [
+      {
+        "subject": "PSY350",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDeskT Overhead Shelves"
+      },
+      {
+        "subject": "PSY351",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDeskT Overhead Shelves"
+      },
+      {
+        "subject": "PSY352",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "ScienceDeskT Overhead Shelves"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PSY350\",\n      \"sku\": \"PSY350\",\n      \"category\": \"ScienceDeskT Overhead Shelves\",\n      \"description\": \"Versions for 600 mm, 750 mm, and 900 mm Depth ScienceDesks\"\n    },\n    {\n      \"name\": \"PSY351\",\n      \"sku\": \"PSY351\",\n      \"category\": \"ScienceDeskT Overhead Shelves\",\n      \"description\": \"23.6\\\"(600 mm) Width\"\n    },\n    {\n      \"name\": \"PSY352\",\n      \"sku\": \"PSY352\",\n      \"category\": \"ScienceDeskT Overhead Shelves\",\n      \"description\": \"110 lbs (50 kg) Max Load Capacity\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"PSY350\",\n      \"key\": \"Depth\",\n      \"value\": \"600 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"PSY351\",\n      \"key\": \"Width\",\n      \"value\": \"23.6\\\"\",\n      \"unit\": \"in\"\n    },\n    {\n      \"entity\": \"PSY351\",\n      \"key\": \"Width\",\n      \"value\": \"600 mm\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"entity\": \"PSY352\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"110 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"PSY352\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"50 kg\",\n      \"unit\": \"kg\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"PSY350\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDeskT Overhead Shelves\"\n    },\n    {\n      \"subject\": \"PSY351\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDeskT Overhead Shelves\"\n    },\n    {\n      \"subject\": \"PSY352\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"ScienceDeskT Overhead Shelves\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 9.25,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c013__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "PC Shelf"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.61,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c014__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "PC/Movable Shelf"
+    ],
+    "products": [
+      {
+        "name": "PSY180",
+        "model": null,
+        "sku": "PSY180",
+        "category": "PC/Movable Shelf",
+        "description": null,
+        "variant_group": "e1189187a8923031",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b006"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY180",
+        "key": "子",
+        "value": "7 36.00",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY180",
+        "key": "SHELF DIMENSIONS",
+        "value": "10.2\" x 17.7\" (260 mm x 450 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY180",
+        "key": "Price",
+        "value": "50.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY180",
+        "key": "Price",
+        "value": "43.5",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY180",
+        "key": "Price",
+        "value": "398.5",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "",
+    "meta": {
+      "backend_used": "deterministic/explicit-table",
+      "latency_s": 0.0,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c015__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Sample Preparation/Staging Shelves"
+    ],
+    "products": [
+      {
+        "name": "PSY250",
+        "model": null,
+        "sku": "PSY250",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": "2a9169d33611dad6",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      },
+      {
+        "name": "PSY251",
+        "model": null,
+        "sku": "PSY251",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": "832bd9e60868fc28",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      },
+      {
+        "name": "PSY252",
+        "model": null,
+        "sku": "PSY252",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": "6a864f678591170a",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      },
+      {
+        "name": "PSY250",
+        "model": null,
+        "sku": "PSY250",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      },
+      {
+        "name": "PSY251",
+        "model": null,
+        "sku": "PSY251",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      },
+      {
+        "name": "PSY252",
+        "model": null,
+        "sku": "PSY252",
+        "category": "Sample Preparation/Staging Shelves",
+        "description": null,
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b009"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b010"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b012"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b014"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY250",
+        "key": "子",
+        "value": "子 57.60",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "FRAME LENGTH",
+        "value": "2.5' (750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "SHELFDIMENSIONS",
+        "value": "9.8\"x 29.5\" (250 mmx 750 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "Price",
+        "value": "80.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "Price",
+        "value": "69.6",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "Price",
+        "value": "637.6",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "子",
+        "value": "子 61.20",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "FRAME LENGTH",
+        "value": "3' (900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "SHELFDIMENSIONS",
+        "value": "9.8\"× 35.4\" (250 mm x 900 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "Price",
+        "value": "85.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "Price",
+        "value": "73.95",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "Price",
+        "value": "677.45",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "子",
+        "value": "子 55.80",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "FRAME LENGTH",
+        "value": "2' (600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "SHELFDIMENSIONS",
+        "value": "9.8\"× 23.6\" (250 mm x 600 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "Price",
+        "value": "77.5",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "Price",
+        "value": "67.43",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "Price",
+        "value": "617.68",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "Max Load Capacity",
+        "value": "33 lbs",
+        "unit": "lbs",
+        "location": null
+      },
+      {
+        "entity": "PSY250",
+        "key": "Max Load Capacity",
+        "value": "15 kg",
+        "unit": "kg",
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "Max Load Capacity",
+        "value": "33 lbs",
+        "unit": "lbs",
+        "location": null
+      },
+      {
+        "entity": "PSY251",
+        "key": "Max Load Capacity",
+        "value": "15 kg",
+        "unit": "kg",
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "Max Load Capacity",
+        "value": "33 lbs",
+        "unit": "lbs",
+        "location": null
+      },
+      {
+        "entity": "PSY252",
+        "key": "Max Load Capacity",
+        "value": "15 kg",
+        "unit": "kg",
+        "location": null
+      }
+    ],
+    "relations": [
+      {
+        "subject": "PSY250",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Sample Preparation/Staging Shelves"
+      },
+      {
+        "subject": "PSY251",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Sample Preparation/Staging Shelves"
+      },
+      {
+        "subject": "PSY252",
+        "predicate": "BELONGS_TO_CATEGORY",
+        "object": "Sample Preparation/Staging Shelves"
+      }
+    ],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PSY250\",\n      \"sku\": \"PSY250\"\n    },\n    {\n      \"name\": \"PSY251\",\n      \"sku\": \"PSY251\"\n    },\n    {\n      \"name\": \"PSY252\",\n      \"sku\": \"PSY252\"\n    }\n  ],\n  \"attributes\": [\n    {\n      \"entity\": \"PSY250\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"33 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"PSY250\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"15 kg\",\n      \"unit\": \"kg\"\n    },\n    {\n      \"entity\": \"PSY251\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"33 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"PSY251\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"15 kg\",\n      \"unit\": \"kg\"\n    },\n    {\n      \"entity\": \"PSY252\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"33 lbs\",\n      \"unit\": \"lbs\"\n    },\n    {\n      \"entity\": \"PSY252\",\n      \"key\": \"Max Load Capacity\",\n      \"value\": \"15 kg\",\n      \"unit\": \"kg\"\n    }\n  ],\n  \"relations\": [\n    {\n      \"subject\": \"PSY250\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Sample Preparation/Staging Shelves\"\n    },\n    {\n      \"subject\": \"PSY251\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Sample Preparation/Staging Shelves\"\n    },\n    {\n      \"subject\": \"PSY252\",\n      \"predicate\": \"BELONGS_TO_CATEGORY\",\n      \"object\": \"Sample Preparation/Staging Shelves\"\n    }\n  ]\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 7.859,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c016__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "ScienceDesk Casters"
+    ],
+    "products": [
+      {
+        "name": "PSY100",
+        "model": null,
+        "sku": "PSY100",
+        "category": "ScienceDesk Casters",
+        "description": null,
+        "variant_group": "f79ab730f69b5448",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b022"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b023"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b020"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b021"
+          }
+        ]
+      },
+      {
+        "name": "Set of Four Casters",
+        "model": null,
+        "sku": "PSY140",
+        "category": "ScienceDesk Casters",
+        "description": "Set of Four Casters",
+        "variant_group": "8bd18d97037a3c77",
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b022"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b023"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b020"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b021"
+          }
+        ]
+      },
+      {
+        "name": "PSY100",
+        "model": null,
+        "sku": "PSY100",
+        "category": "ScienceDesk Casters",
+        "description": "Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b022"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b023"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b020"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b021"
+          }
+        ]
+      },
+      {
+        "name": "Set of Four Casters",
+        "model": null,
+        "sku": "PSY140",
+        "category": "ScienceDesk Casters",
+        "description": "These casters come in a set of four, attach to the bottom of a ScienceDesk frame, and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered.",
+        "variant_group": null,
+        "source_evidence": [
+          {
+            "page": 5,
+            "block_id": "p5_b022"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b023"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b020"
+          },
+          {
+            "page": 5,
+            "block_id": "p5_b021"
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "PSY100",
+        "key": "子",
+        "value": "3 108.00",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY100",
+        "key": "COMPATIBLE BREADBOARDS",
+        "value": "2.4\" (60 mm) Thick or 2.2\" (55 mm) Thick",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY100",
+        "key": "DIMENSIONS",
+        "value": "31.5\" x 2.4\" (800 mm × 60 mm)",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY100",
+        "key": "Price",
+        "value": "150.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY100",
+        "key": "Price",
+        "value": "130.5",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY100",
+        "key": "Price",
+        "value": "1195.5",
+        "unit": "CNY",
+        "location": null
+      },
+      {
+        "entity": "PSY140",
+        "key": "子",
+        "value": "7 90.00",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY140",
+        "key": "Price",
+        "value": "125.0",
+        "unit": null,
+        "location": null
+      },
+      {
+        "entity": "PSY140",
+        "key": "Price",
+        "value": "108.75",
+        "unit": "EUR",
+        "location": null
+      },
+      {
+        "entity": "PSY140",
+        "key": "Price",
+        "value": "996.25",
+        "unit": "CNY",
+        "location": null
+      }
+    ],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [\n    {\n      \"name\": \"PSY100\",\n      \"model\": null,\n      \"sku\": \"PSY100\",\n      \"category\": \"ScienceDesk Casters\",\n      \"description\": \"Locking Mechanism Prevents Unintentional Movement Max Load Capacity of 704 lbs (320 kg), Including the Frame\"\n    },\n    {\n      \"name\": \"Set of Four Casters\",\n      \"model\": null,\n      \"sku\": \"PSY140\",\n      \"category\": \"ScienceDesk Casters\",\n      \"description\": \"These casters come in a set of four, attach to the bottom of a ScienceDesk frame, and convert it into a mobile workstation. Once the ScienceDesk is in the desired location, each foot can be lowered to provide a stationary work environment. The casters feature a locking mechanism to prevent inadvertent movement when the frame's feet are not lowered.\"\n    }\n  ],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "hybrid/ollama/qwen3:8b",
+      "latency_s": 4.016,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c017__part1",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Adjustable Wrist Rest"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\n  \"products\": [],\n  \"attributes\": [],\n  \"relations\": []\n}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.515,
+      "parse_error": null
+    }
+  },
+  {
+    "chunk_id": "optical_hardware_5_pages_document__p5__c017__part2",
+    "doc_stem": "optical_hardware_5_pages_document",
+    "section_path": [
+      "Adjustable Wrist Rest"
+    ],
+    "products": [],
+    "attributes": [],
+    "relations": [],
+    "raw_response": "{\"products\":[],\"attributes\":[],\"relations\":[]}",
+    "meta": {
+      "backend_used": "ollama/qwen3:8b",
+      "latency_s": 0.36,
+      "parse_error": null
+    }
+  }
+]

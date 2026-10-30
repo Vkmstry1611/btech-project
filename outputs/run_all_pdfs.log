@@ -1,0 +1,180 @@
+00:28:56  INFO      httpx  HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+00:28:56  INFO      catalogbank_ocr.stage2.llm_extractor  LLMExtractor: using backend 'ollama/qwen3:8b'
+INFO: Could not find files for the given pattern(s).
+D:\Study\Symbiosis\Final Year\Sem 7\BTech Project\project\.venv-gpu\lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Creating model: ('PP-LCNet_x1_0_doc_ori', None)
+Using official model (PP-LCNet_x1_0_doc_ori), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W1023 00:29:08.556879 14056 gpu_resources.cc:114] Please NOTE: device: 0, GPU Compute Capability: 12.0, Driver API Version: 13.3, Runtime API Version: 12.9
+Creating model: ('UVDoc', None)
+Using official model (UVDoc), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-DocBlockLayout', None)
+Using official model (PP-DocBlockLayout), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-DocLayout_plus-L', None)
+Using official model (PP-DocLayout_plus-L), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-LCNet_x1_0_textline_ori', None)
+Using official model (PP-LCNet_x1_0_textline_ori), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv5_server_det', None)
+Using official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv5_server_rec', None)
+Using official model (PP-OCRv5_server_rec), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv4_server_seal_det', None)
+Using official model (PP-OCRv4_server_seal_det), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv5_server_rec', None)
+Using official model (PP-OCRv5_server_rec), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-LCNet_x1_0_table_cls', None)
+Using official model (PP-LCNet_x1_0_table_cls), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('SLANeXt_wired', None)
+Using official model (SLANeXt_wired), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('SLANet_plus', None)
+Using official model (SLANet_plus), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('RT-DETR-L_wired_table_cell_det', None)
+Using official model (RT-DETR-L_wired_table_cell_det), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('RT-DETR-L_wireless_table_cell_det', None)
+Using official model (RT-DETR-L_wireless_table_cell_det), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-FormulaNet_plus-L', None)
+Using official model (PP-FormulaNet_plus-L), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-Chart2Table', None)
+Using official model (PP-Chart2Table), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading configuration file C:\Users\Vidish Mistry\.paddlex\official_models\PP-Chart2Table\config.json
+Loading weights file C:\Users\Vidish Mistry\.paddlex\official_models\PP-Chart2Table\model_state.pdparams
+Loaded weights file from disk, setting weights to model.
+All model checkpoint weights were used when initializing PPChart2TableInference.
+
+All the weights of PPChart2TableInference were initialized from the model checkpoint at C:\Users\Vidish Mistry\.paddlex\official_models\PP-Chart2Table.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use PPChart2TableInference for predictions without further training.
+Loading configuration file C:\Users\Vidish Mistry\.paddlex\official_models\PP-Chart2Table\generation_config.json
+00:29:38  INFO      run_final_pipeline  [industrial_fittings_5_pages] Running Stage 1 (multi-page)…
+
+Found 3 PDF(s) to process.
+Output root : outputs
+LLM backend : ollama
+
+Initialising LLM extractor (backend=ollama)…
+  → ollama/qwen3:8b
+
+Initialising OCR engine (PPStructureV3)…
+  → ready
+
+================================================================
+[1/3] industrial_fittings_5_pages.pdf
+================================================================
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Creating model: ('PP-LCNet_x1_0_doc_ori', None)
+Using official model (PP-LCNet_x1_0_doc_ori), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-LCNet_x1_0_textline_ori', None)
+Using official model (PP-LCNet_x1_0_textline_ori), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv5_server_det', None)
+Using official model (PP-OCRv5_server_det), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+Creating model: ('PP-OCRv5_server_rec', None)
+Using official model (PP-OCRv5_server_rec), the model files will be automatically downloaded and saved in C:\Users\Vidish Mistry\.paddlex\official_models.
+00:29:57  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\industrial_fittings_5_pages\industrial_fittings_5_pages_p001.png with 1 result(s)
+00:29:57  INFO      catalogbank_ocr.research_stage1_pipeline  [industrial_fittings_5_pages] OCR page 1 completed in 18.3s
+00:30:02  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\industrial_fittings_5_pages\industrial_fittings_5_pages_p002.png with 1 result(s)
+00:30:02  INFO      catalogbank_ocr.research_stage1_pipeline  [industrial_fittings_5_pages] OCR page 2 completed in 5.4s
+00:30:10  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\industrial_fittings_5_pages\industrial_fittings_5_pages_p003.png with 1 result(s)
+00:30:10  INFO      catalogbank_ocr.research_stage1_pipeline  [industrial_fittings_5_pages] OCR page 3 completed in 7.4s
+00:30:16  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\industrial_fittings_5_pages\industrial_fittings_5_pages_p004.png with 1 result(s)
+00:30:16  INFO      catalogbank_ocr.research_stage1_pipeline  [industrial_fittings_5_pages] OCR page 4 completed in 6.0s
+00:30:23  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\industrial_fittings_5_pages\industrial_fittings_5_pages_p005.png with 1 result(s)
+00:30:23  INFO      catalogbank_ocr.research_stage1_pipeline  [industrial_fittings_5_pages] OCR page 5 completed in 7.1s
+00:30:23  INFO      catalogbank_ocr.research_stage1_pipeline  Stage 1 complete for industrial_fittings_5_pages.pdf: 5 pages, 121 total blocks
+00:30:23  INFO      run_final_pipeline  [industrial_fittings_5_pages] Stage 1 done — 5 pages in 44.7s → outputs\canonical\industrial_fittings_5_pages\industrial_fittings_5_pages_document.json
+00:30:23  INFO      run_final_pipeline  [industrial_fittings_5_pages] Running Stage 2 (backend=ollama/qwen3:8b)…
+00:30:23  INFO      run_final_pipeline  [industrial_fittings_5_pages] Phase A: 11 chunk(s)
+[1/42] industrial_fittings_5_pages_document__p1__c002__part1: hybrid/ollama/qwen3:8b, 6 products, 27.0s
+[2/42] industrial_fittings_5_pages_document__p1__c002__part2: hybrid/ollama/qwen3:8b, 42 products, 24.5s
+[3/42] industrial_fittings_5_pages_document__p1__c002__part3: deterministic/explicit-table, 20 products, 0.0s
+[4/42] industrial_fittings_5_pages_document__p1__c002__part4: deterministic/explicit-table, 19 products, 0.0s
+[5/42] industrial_fittings_5_pages_document__p1__c002__part5: deterministic/explicit-table, 4 products, 0.0s
+[6/42] industrial_fittings_5_pages_document__p1__c002__part6: ollama/qwen3:8b, 0 products, 1.8s
+[7/42] industrial_fittings_5_pages_document__p1__c002__part7: ollama/qwen3:8b, 0 products, 49.5s
+[8/42] industrial_fittings_5_pages_document__p1__c002__part8: hybrid/ollama/qwen3:8b, 2 products, 36.2s
+[9/42] industrial_fittings_5_pages_document__p1__c002__part9: deterministic/explicit-table, 19 products, 0.0s
+[10/42] industrial_fittings_5_pages_document__p1__c002__part10: deterministic/explicit-table, 21 products, 0.0s
+[11/42] industrial_fittings_5_pages_document__p1__c002__part11: deterministic/explicit-table, 15 products, 0.0s
+[12/42] industrial_fittings_5_pages_document__p2__c003__part1: ollama/qwen3:8b, 0 products, 0.8s
+[13/42] industrial_fittings_5_pages_document__p2__c004__part1: ollama/qwen3:8b, 0 products, 0.5s
+[14/42] industrial_fittings_5_pages_document__p2__c005__part1: ollama/qwen3:8b, 1 products, 35.7s
+[15/42] industrial_fittings_5_pages_document__p2__c005__part2: ollama/qwen3:8b, 0 products, 1.0s
+[16/42] industrial_fittings_5_pages_document__p2__c005__part3: ollama/qwen3:8b, 4 products, 7.2s
+[17/42] industrial_fittings_5_pages_document__p2__c005__part4: ollama/qwen3:8b, 0 products, 0.4s
+[18/42] industrial_fittings_5_pages_document__p2__c006__part1: hybrid/ollama/qwen3:8b, 40 products, 28.4s
+[19/42] industrial_fittings_5_pages_document__p2__c006__part2: deterministic/explicit-table, 19 products, 0.0s
+[20/42] industrial_fittings_5_pages_document__p3__c007__part1: ollama/qwen3:8b, 6 products, 27.7s
+[21/42] industrial_fittings_5_pages_document__p3__c007__part2: hybrid/ollama/qwen3:8b, 20 products, 41.7s
+[22/42] industrial_fittings_5_pages_document__p3__c007__part3: deterministic/explicit-table, 15 products, 0.0s
+[23/42] industrial_fittings_5_pages_document__p3__c007__part4: hybrid/ollama/qwen3:8b, 20 products, 12.5s
+[24/42] industrial_fittings_5_pages_document__p3__c007__part5: deterministic/explicit-table, 16 products, 0.0s
+[25/42] industrial_fittings_5_pages_document__p3__c007__part6: deterministic/explicit-table, 15 products, 0.0s
+[26/42] industrial_fittings_5_pages_document__p3__c007__part7: hybrid/ollama/qwen3:8b, 18 products, 11.0s
+[27/42] industrial_fittings_5_pages_document__p3__c007__part8: hybrid/ollama/qwen3:8b, 44 products, 27.2s
+[28/42] industrial_fittings_5_pages_document__p3__c007__part9: deterministic/explicit-table, 29 products, 0.0s
+[29/42] industrial_fittings_5_pages_document__p3__c007__part10: deterministic/explicit-table, 23 products, 0.0s
+[30/42] industrial_fittings_5_pages_document__p4__c008__part1: ollama/qwen3:8b, 0 products, 0.5s
+[31/42] industrial_fittings_5_pages_document__p4__c009__part1: hybrid/ollama/qwen3:8b, 22 products, 44.7s
+[32/42] industrial_fittings_5_pages_document__p4__c009__part2: deterministic/explicit-table, 48 products, 0.0s
+[33/42] industrial_fittings_5_pages_document__p4__c009__part3: deterministic/explicit-table, 32 products, 0.0s
+[34/42] industrial_fittings_5_pages_document__p4__c009__part4: deterministic/explicit-table, 11 products, 0.0s
+[35/42] industrial_fittings_5_pages_document__p4__c010__part1: ollama/qwen3:8b, 0 products, 0.8s
+[36/42] industrial_fittings_5_pages_document__p4__c011__part1: ollama/qwen3:8b, 0 products, 0.5s
+[37/42] industrial_fittings_5_pages_document__p5__c012__part1: hybrid/ollama/qwen3:8b, 22 products, 13.1s
+[38/42] industrial_fittings_5_pages_document__p5__c012__part2: hybrid/ollama/qwen3:8b, 26 products, 15.4s
+[39/42] industrial_fittings_5_pages_document__p5__c012__part3: hybrid/ollama/qwen3:8b, 22 products, 13.2s
+[40/42] industrial_fittings_5_pages_document__p5__c012__part4: hybrid/ollama/qwen3:8b, 32 products, 18.9s
+[41/42] industrial_fittings_5_pages_document__p5__c012__part5: hybrid/ollama/qwen3:8b, 38 products, 22.4s
+[42/42] industrial_fittings_5_pages_document__p5__c012__part6: hybrid/ollama/qwen3:8b, 28 products, 16.5s
+00:39:05  INFO      run_final_pipeline  [industrial_fittings_5_pages] Recovered 278 exact SKU/price pairs from PDF text
+00:39:05  INFO      run_final_pipeline  [industrial_fittings_5_pages] Phase B done in 521.8s
+00:39:05  INFO      run_final_pipeline  [industrial_fittings_5_pages] Phase C: 750 product(s), 750 attr(s), 24 relation(s) | 0 error(s), 166 warning(s)
+00:39:05  INFO      run_final_pipeline  [industrial_fittings_5_pages] ✓ Final JSON written → outputs\final\industrial_fittings_5_pages\industrial_fittings_5_pages_final.json
+00:39:05  INFO      run_final_pipeline  [multi page catalog sample] Running Stage 1 (multi-page)…
+00:40:27  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\multi page catalog sample\multi page catalog sample_p001.png with 1 result(s)
+00:40:27  INFO      catalogbank_ocr.research_stage1_pipeline  [multi page catalog sample] OCR page 1 completed in 81.3s
+00:41:18  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\multi page catalog sample\multi page catalog sample_p002.png with 1 result(s)
+00:41:18  INFO      catalogbank_ocr.research_stage1_pipeline  [multi page catalog sample] OCR page 2 completed in 50.7s
+00:42:04  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\multi page catalog sample\multi page catalog sample_p003.png with 1 result(s)
+00:42:04  INFO      catalogbank_ocr.research_stage1_pipeline  [multi page catalog sample] OCR page 3 completed in 46.0s
+00:42:50  INFO      catalogbank_ocr.ocr.ppstructure  PPStructureV3 completed for outputs\processed\multi page catalog sample\multi page catalog sample_p004.png with 1 result(s)
+00:42:50  INFO      catalogbank_ocr.research_stage1_pipeline  [multi page catalog sample] OCR page 4 completed in 45.9s
+00:42:50  INFO      catalogbank_ocr.research_stage1_pipeline  Stage 1 complete for multi page catalog sample.pdf: 4 pages, 141 total blocks
+00:42:50  INFO      run_final_pipeline  [multi page catalog sample] Stage 1 done — 4 pages in 224.4s → outputs\canonical\multi page catalog sample\multi page catalog sample_document.json
+00:42:50  INFO      run_final_pipeline  [multi page catalog sample] Running Stage 2 (backend=ollama/qwen3:8b)…
+00:42:50  INFO      run_final_pipeline  [multi page catalog sample] Phase A: 11 chunk(s)
+================================================================
+[2/3] multi page catalog sample.pdf
+================================================================
+[1/28] multi page catalog sample_document__p1__c001__part1: ollama/qwen3:8b, 0 products, 23.8s
+[2/28] multi page catalog sample_document__p1__c002__part1: ollama/qwen3:8b, 2 products, 8.5s
+[3/28] multi page catalog sample_document__p1__c002__part2: ollama/qwen3:8b, 0 products, 0.9s
+[4/28] multi page catalog sample_document__p1__c002__part3: hybrid/ollama/qwen3:8b, 8 products, 17.6s
+[5/28] multi page catalog sample_document__p1__c003__part1: ollama/qwen3:8b, 0 products, 0.7s
+[6/28] multi page catalog sample_document__p2__c004__part1: ollama/qwen3:8b, 1 products, 16.8s
+[7/28] multi page catalog sample_document__p2__c004__part2: deterministic/explicit-table, 8 products, 0.0s
+[8/28] multi page catalog sample_document__p2__c004__part3: deterministic/explicit-table, 8 products, 0.0s
+[9/28] multi page catalog sample_document__p2__c004__part4: deterministic/explicit-table, 3 products, 0.0s
+[10/28] multi page catalog sample_document__p2__c005__part1: ollama/qwen3:8b, 0 products, 0.7s
+[11/28] multi page catalog sample_document__p2__c005__part2: hybrid/ollama/qwen3:8b, 2 products, 1.5s
+[12/28] multi page catalog sample_document__p2__c005__part3: deterministic/explicit-table, 8 products, 0.0s
+[13/28] multi page catalog sample_document__p2__c005__part4: deterministic/explicit-table, 8 products, 0.0s
+[14/28] multi page catalog sample_document__p2__c005__part5: deterministic/explicit-table, 2 products, 0.0s
+[15/28] multi page catalog sample_document__p2__c006__part1: ollama/qwen3:8b, 0 products, 0.4s
+[16/28] multi page catalog sample_document__p2__c007__part1: ollama/qwen3:8b, 0 products, 0.5s
+[17/28] multi page catalog sample_document__p2__c007__part2: ollama/qwen3:8b, 0 products, 0.4s
+[18/28] multi page catalog sample_document__p2__c007__part3: hybrid/ollama/qwen3:8b, 12 products, 4.6s
+[19/28] multi page catalog sample_document__p2__c007__part4: deterministic/explicit-table, 4 products, 0.0s
+[20/28] multi page catalog sample_document__p3__c008__part1: hybrid/ollama/qwen3:8b, 4 products, 11.5s
+[21/28] multi page catalog sample_document__p3__c009__part1: hybrid/ollama/qwen3:8b, 4 products, 9.3s
+[22/28] multi page catalog sample_document__p3__c009__part2: deterministic/explicit-table, 5 products, 0.0s
+[23/28] multi page catalog sample_document__p4__c010__part1: hybrid/ollama/qwen3:8b, 10 products, 3.2s
+[24/28] multi page catalog sample_document__p4__c010__part2: deterministic/explicit-table, 8 products, 0.0s
+[25/28] multi page catalog sample_document__p4__c010__part3: hybrid/ollama/qwen3:8b, 10 products, 36.5s
+[26/28] multi page catalog sample_document__p4__c011__part1: ollama/qwen3:8b, 0 products, 0.7s
+[27/28] multi page catalog sample_document__p4__c011__part2: deterministic/explicit-table, 8 products, 0.0s
+[28/28] multi page catalog sample_document__p4__c011__part3: deterministic/explicit-table, 1 products, 0.0s
+00:45:44  INFO      run_final_pipeline  [multi page catalog sample] Phase B done in 174.2s
+00:45:44  INFO      run_final_pipeline  [multi page catalog sample] Phase C: 90 product(s), 494 attr(s), 37 relation(s) | 0 error(s), 31 warning(s)
+00:45:44  INFO      run_final_pipeline  [multi page catalog sample] ✓ Final JSON written → outputs\final\multi page catalog sample\multi page catalog sample_final.json
+00:45:44  INFO      run_final_pipeline  [optical_hardware_5_pages] Running Stage 1 (multi-page)…

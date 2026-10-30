@@ -1,0 +1,5 @@
+# Minimal runtime for the Docker image (serves the FastAPI catalog API).
+# The mock pipeline + API need only these — no OCR / no LLM / no heavy ML stack.
+# (pydantic is pulled in transitively by fastapi and is also used by stage2.validation.)
+fastapi>=0.110
+uvicorn[standard]>=0.27

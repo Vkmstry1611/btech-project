@@ -1,7 +1,7 @@
 """Integration tests for the Stage-2 OCR→semantic→hierarchy pipeline.
 
-These tests run entirely on the JSON fixtures that are already present in
-``outputs/raw/`` from previous Stage-1 runs, so they do *not* require the OCR
+These tests run entirely on captured JSON fixtures in ``tests/fixtures/``,
+so they do *not* require the OCR
 engine to be available.  They validate:
 
 1. The PP-StructureV3 JSON is correctly parsed via ``parsing_res_list``.
@@ -29,8 +29,8 @@ from catalogbank_ocr.hierarchy.hierarchy_builder import build_hierarchy_document
 from catalogbank_ocr.semantic.block_types import HEADING_LABELS, SemanticType
 
 
-THORLABS_RAW = ROOT / "outputs" / "raw" / "V21_1_Optomechanics_45" / "V21_1_Optomechanics_45_res.json"
-MCMASTER_RAW = ROOT / "outputs" / "raw" / "mcmaster-125_3378_15" / "mcmaster-125_3378_15_res.json"
+THORLABS_RAW = ROOT / "tests" / "fixtures" / "V21_1_Optomechanics_45_res.json"
+MCMASTER_RAW = ROOT / "tests" / "fixtures" / "mcmaster-125_3378_15_res.json"
 
 
 def _skip_if_missing(path: Path) -> None:

@@ -1,0 +1,401 @@
+{
+  "optical_hardware_5_pages_document__p1__c001__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c002__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c002__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c002__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c002__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c002__part5": {
+    "summary": "0 error(s), 6 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 6,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11106' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH11106",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11111' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH11111",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11112' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH11112",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11115' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH11115",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH51506' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH51506",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH51511' already seen in chunk 'optical_hardware_5_pages_document__p1__c002__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c002__part5",
+        "entity": "PBH51511",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p1__c002__part6": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c003__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c003__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p1__c003__part3": {
+    "summary": "0 error(s), 5 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 5,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11106/NH' already seen in chunk 'optical_hardware_5_pages_document__p1__c003__part3'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+        "entity": "PBH11106/NH",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11111/NH' already seen in chunk 'optical_hardware_5_pages_document__p1__c003__part3'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+        "entity": "PBH11111/NH",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH51511/NH' already seen in chunk 'optical_hardware_5_pages_document__p1__c003__part3'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+        "entity": "PBH51511/NH",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH11112/NH' already seen in chunk 'optical_hardware_5_pages_document__p1__c003__part3'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+        "entity": "PBH11112/NH",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PBH51512/NH' already seen in chunk 'optical_hardware_5_pages_document__p1__c003__part3'",
+        "chunk_id": "optical_hardware_5_pages_document__p1__c003__part3",
+        "entity": "PBH51512/NH",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p2__c005__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p2__c006__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p2__c006__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p2__c006__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p2__c006__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c007__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c008__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c008__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c008__part3": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c008__part4": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p3__c008__part5": {
+    "summary": "0 error(s), 3 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 3,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY300' already seen in chunk 'optical_hardware_5_pages_document__p3__c008__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p3__c008__part5",
+        "entity": "PSY300",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY301' already seen in chunk 'optical_hardware_5_pages_document__p3__c008__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p3__c008__part5",
+        "entity": "PSY301",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY302' already seen in chunk 'optical_hardware_5_pages_document__p3__c008__part5'",
+        "chunk_id": "optical_hardware_5_pages_document__p3__c008__part5",
+        "entity": "PSY302",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p4__c009__part1": {
+    "summary": "0 error(s), 3 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 3,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY211' already seen in chunk 'optical_hardware_5_pages_document__p4__c009__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c009__part1",
+        "entity": "PSY211",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY201/S' already seen in chunk 'optical_hardware_5_pages_document__p4__c009__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c009__part1",
+        "entity": "PSY201/S",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY212' already seen in chunk 'optical_hardware_5_pages_document__p4__c009__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c009__part1",
+        "entity": "PSY212",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p4__c009__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p4__c010__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p4__c011__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p4__c012__part1": {
+    "summary": "0 error(s), 3 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 3,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY350' already seen in chunk 'optical_hardware_5_pages_document__p4__c012__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c012__part1",
+        "entity": "PSY350",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY351' already seen in chunk 'optical_hardware_5_pages_document__p4__c012__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c012__part1",
+        "entity": "PSY351",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY352' already seen in chunk 'optical_hardware_5_pages_document__p4__c012__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p4__c012__part1",
+        "entity": "PSY352",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p5__c013__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p5__c014__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p5__c015__part1": {
+    "summary": "0 error(s), 3 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 3,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY250' already seen in chunk 'optical_hardware_5_pages_document__p5__c015__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p5__c015__part1",
+        "entity": "PSY250",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY251' already seen in chunk 'optical_hardware_5_pages_document__p5__c015__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p5__c015__part1",
+        "entity": "PSY251",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY252' already seen in chunk 'optical_hardware_5_pages_document__p5__c015__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p5__c015__part1",
+        "entity": "PSY252",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p5__c016__part1": {
+    "summary": "0 error(s), 2 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 2,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY100' already seen in chunk 'optical_hardware_5_pages_document__p5__c016__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p5__c016__part1",
+        "entity": "PSY100",
+        "field": "sku"
+      },
+      {
+        "severity": "warning",
+        "code": "DUPLICATE_SKU",
+        "message": "SKU 'PSY140' already seen in chunk 'optical_hardware_5_pages_document__p5__c016__part1'",
+        "chunk_id": "optical_hardware_5_pages_document__p5__c016__part1",
+        "entity": "Set of Four Casters",
+        "field": "sku"
+      }
+    ]
+  },
+  "optical_hardware_5_pages_document__p5__c017__part1": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  },
+  "optical_hardware_5_pages_document__p5__c017__part2": {
+    "summary": "0 error(s), 0 warning(s), 0 info(s)",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": []
+  }
+}

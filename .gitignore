@@ -7,7 +7,26 @@ __pycache__/
 .DS_Store
 .env
 .venv/
+.venv-gpu/
 venv/
 .ipynb_checkpoints/
-outputs/
 data/raw/CatalogBank/
+
+# Local benchmark artifacts and temporary test directories
+outputs/benchmark_new_pipeline/
+outputs/benchmarks/
+outputs/fixture_capture/
+outputs/test_runs/
+outputs/verification/
+outputs/verification_hybrid/
+outputs/evaluations/
+
+# Logs
+*.log
+
+# Nested duplicate of the project (has its own .git) — never commit it.
+/btech-project/
+
+# DVC: the deployment outputs under outputs/deploy/ are DVC-managed
+# (see outputs/deploy/.gitignore); only the DVC metafiles are tracked in git.
+# The DVC local cache is ignored by .dvc/.gitignore.

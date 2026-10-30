@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "dpi": 200,
+      "render_s": 0.13443910000023607,
+      "preprocess_s": 0.06498580000152288,
+      "page": 1,
+      "ocr_s": 18.259663999999248,
+      "ocr_batch_wall_s": 18.259663999999248,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.11419839999871328,
+      "preprocess_s": 0.06326479999916046,
+      "page": 2,
+      "ocr_s": 5.444801199999347,
+      "ocr_batch_wall_s": 5.444801199999347,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.08482770000046003,
+      "preprocess_s": 0.10888340000019525,
+      "page": 3,
+      "ocr_s": 7.388594000000012,
+      "ocr_batch_wall_s": 7.388594000000012,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.08799809999982244,
+      "preprocess_s": 0.09961789999942994,
+      "page": 4,
+      "ocr_s": 6.043859900000825,
+      "ocr_batch_wall_s": 6.043859900000825,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.0743320000001404,
+      "preprocess_s": 0.10032089999913296,
+      "page": 5,
+      "ocr_s": 7.07919309999852,
+      "ocr_batch_wall_s": 7.07919309999852,
+      "batch_pages": 1
+    }
+  ],
+  "state": "complete",
+  "dpi": 200,
+  "streaming": true,
+  "page_batch_size": 1,
+  "runtime": {
+    "device": "gpu:0",
+    "recognition_batch_size": 1
+  },
+  "wall_s": 44.70848599999954
+}

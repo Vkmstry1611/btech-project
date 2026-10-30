@@ -1,0 +1,63 @@
+schema: '2.0'
+stages:
+  mock_export:
+    cmd: python scripts/run_mock_pipeline.py --input outputs --output 
+      outputs/deploy --backend-label mock-reuse
+    deps:
+    - path: outputs/canonical
+      hash: md5
+      md5: 192ff617ee058275854dfbb993f8dce4.dir
+      size: 1327520
+      nfiles: 3
+    - path: outputs/stage2
+      hash: md5
+      md5: f2dea6be9bf1b12fb4e5ce258e395efd.dir
+      size: 6762501
+      nfiles: 18
+    - path: scripts/run_mock_pipeline.py
+      hash: md5
+      md5: 8812d297116079f6f74aaa162f9d594b
+      size: 12637
+    - path: src/catalogbank_ocr/stage2
+      hash: md5
+      md5: 113639e5622376e4078f59904627f117.dir
+      size: 166152
+      nfiles: 14
+    outs:
+    - path: outputs/deploy/final
+      hash: md5
+      md5: 850e83fcd9c3a92cb15510a278ee2fa6.dir
+      size: 791736
+      nfiles: 3
+    - path: outputs/deploy/metrics
+      hash: md5
+      md5: e666309e1aa1e900063484b54ff96dc9.dir
+      size: 671
+      nfiles: 3
+    - path: outputs/deploy/run_summary.json
+      hash: md5
+      md5: 225ebf0c4238feee442c337134ae6b34
+      size: 1037
+    - path: outputs/deploy/stage2
+      hash: md5
+      md5: d601374c05f0bbf38d63074c6b38e9cb.dir
+      size: 3015957
+      nfiles: 9
+  evaluate:
+    cmd: python scripts/evaluate_catalog.py --final outputs/deploy/final --out 
+      outputs/deploy/evaluation.json
+    deps:
+    - path: outputs/deploy/final
+      hash: md5
+      md5: 850e83fcd9c3a92cb15510a278ee2fa6.dir
+      size: 791736
+      nfiles: 3
+    - path: scripts/evaluate_catalog.py
+      hash: md5
+      md5: 8e2939defe8a74586a0e7bf15c935bd4
+      size: 3819
+    outs:
+    - path: outputs/deploy/evaluation.json
+      hash: md5
+      md5: 3f40ee6aab5a4122d949dd4d23cd0fc3
+      size: 1421

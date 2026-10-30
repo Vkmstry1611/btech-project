@@ -1,0 +1,47 @@
+# Keep the deployment image lean.
+.git
+.gitignore
+.dvc
+.dvcignore
+dvc.lock
+**/__pycache__/
+**/*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.venv-gpu/
+
+# Notebooks, research docs and env files are not needed at runtime.
+*.ipynb
+.env
+.env.example
+ARCHITECTURE.md
+README.md
+
+# Heavy research artifacts not required by the mock pipeline.
+outputs/images
+outputs/processed
+outputs/ocr
+outputs/raw
+outputs/semantic
+outputs/hierarchy
+outputs/visualizations
+outputs/poc_outputs
+outputs/benchmark_new_pipeline
+outputs/benchmarks
+outputs/fixture_capture
+outputs/test_runs
+outputs/verification
+outputs/verification_hybrid
+outputs/evaluations
+outputs/metrics
+
+# DVC-managed deploy outputs are regenerated inside the image.
+outputs/deploy
+
+# Logs.
+*.log

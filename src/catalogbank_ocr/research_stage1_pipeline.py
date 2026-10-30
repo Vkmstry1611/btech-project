@@ -13,13 +13,22 @@ from catalogbank_ocr.config import ProjectConfig, ensure_project_directories
 from catalogbank_ocr.data.dataset import load_vendor_pdfs, select_sample_pdfs, validate_pdf_paths
 from catalogbank_ocr.hierarchy.hierarchy_builder import build_hierarchy_document
 from catalogbank_ocr.ocr.ppstructure import initialize_ppstructurev3, run_ppstructurev3
-from catalogbank_ocr.preprocessing.image_preprocessing import ImagePreprocessingConfig, render_and_preprocess_pdf_page
-from catalogbank_ocr.semantic.block_detector import load_json_document
-from catalogbank_ocr.semantic.block_mapper import build_semantic_document
+from catalogbank_ocr.preprocessing.image_preprocessing import (
+    ImagePreprocessingConfig,
+    render_and_preprocess_pdf_page,
+    render_and_preprocess_all_pages,
+)
+from catalogbank_ocr.schemas.semantic_block import SemanticDocument
+from catalogbank_ocr.semantic.block_detector import load_json_document, extract_page_records, detect_page_candidates
+from catalogbank_ocr.semantic.block_mapper import build_semantic_document, map_page_candidates
 from catalogbank_ocr.visualization.research_visualization import visualize_hierarchy_tree, visualize_semantic_blocks
 
 logger = logging.getLogger(__name__)
 
+
+# ---------------------------------------------------------------------------
+# Result dataclasses
+# ---------------------------------------------------------------------------
 
 @dataclass
 class Stage1PageResult:
@@ -40,17 +49,40 @@ class Stage1PageResult:
 
 
 @dataclass
+class Stage1MultiPageResult:
+    """Result for a full multi-page PDF processed by Stage 1."""
+
+    pdf_path: Path
+    total_pages: int
+    page_results: List[Stage1PageResult] = field(default_factory=list)
+    canonical_json_path: Optional[Path] = None
+    semantic_json_path: Optional[Path] = None
+    hierarchy_json_path: Optional[Path] = None
+    semantic_visualization_paths: List[Path] = field(default_factory=list)
+    hierarchy_visualization_path: Optional[Path] = None
+
+
+@dataclass
 class Stage1RunResult:
     """Summary of a stage-1 pipeline run."""
 
     selected_pdfs: List[Path] = field(default_factory=list)
     page_results: List[Stage1PageResult] = field(default_factory=list)
+    multipage_results: List[Stage1MultiPageResult] = field(default_factory=list)
 
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
 
 def _save_json(path: Path, data: Dict[str, Any]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     return path
+
+
+def _resolve_pdf_output_stem(pdf_path: Path) -> str:
+    return pdf_path.stem
 
 
 def _build_canonical_document(
@@ -62,29 +94,7 @@ def _build_canonical_document(
     semantic_document: Any,
     hierarchy_document: Any,
 ) -> Dict[str, Any]:
-    """Build a single canonical JSON combining source metadata, semantic blocks,
-    and the reconstructed hierarchy into one self-contained document.
-
-    Schema::
-
-        {
-          "schema_version": "1.0",
-          "source": {
-            "pdf_path": str,
-            "page_number": int,
-            "rendered_image_path": str,
-            "preprocessed_image_path": str,
-            "raw_json_path": str
-          },
-          "pages": [
-            {
-              "page": int,
-              "blocks": [ SemanticBlock.to_dict(), ... ]
-            }
-          ],
-          "hierarchy": HierarchyDocument.root.to_dict()
-        }
-    """
+    """Build a single-page canonical JSON (schema_version 1.0)."""
     return {
         "schema_version": "1.0",
         "source": {
@@ -99,9 +109,53 @@ def _build_canonical_document(
     }
 
 
-def _resolve_pdf_output_stem(pdf_path: Path) -> str:
-    return pdf_path.stem
+def _build_canonical_document_multipage(
+    pdf_path: Path,
+    total_pages: int,
+    page_preprocessing_results: List[Any],
+    semantic_document: Any,
+    hierarchy_document: Any,
+) -> Dict[str, Any]:
+    """Build a multi-page canonical JSON (schema_version 1.1).
 
+    Schema::
+
+        {
+          "schema_version": "1.1",
+          "source": {
+            "pdf_path": str,
+            "total_pages": int,
+            "pages": [
+              { "page_number": int, "rendered_image_path": str, "preprocessed_image_path": str }
+            ]
+          },
+          "pages": [ { "page": int, "blocks": [...] }, ... ],
+          "hierarchy": { ... }
+        }
+    """
+    source_pages = [
+        {
+            "page_number": idx + 1,
+            "rendered_image_path": str(r.rendered_image),
+            "preprocessed_image_path": str(r.processed_image),
+        }
+        for idx, r in enumerate(page_preprocessing_results)
+    ]
+    return {
+        "schema_version": "1.1",
+        "source": {
+            "pdf_path": str(pdf_path),
+            "total_pages": total_pages,
+            "pages": source_pages,
+        },
+        "pages": semantic_document.to_dict().get("pages", []),
+        "hierarchy": hierarchy_document.root.to_dict(),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Single-page pipeline (preserved for backward compat)
+# ---------------------------------------------------------------------------
 
 def run_stage1_for_pdf(
     pdf_path: Path,
@@ -112,12 +166,12 @@ def run_stage1_for_pdf(
     """Run the stage-1 pipeline for one PDF using the first page only."""
 
     stem = _resolve_pdf_output_stem(pdf_path)
-    rendered_dir = output_root / "images" / stem
+    rendered_dir  = output_root / "images" / stem
     processed_dir = output_root / "processed" / stem
-    raw_dir = output_root / "raw" / stem
-    semantic_dir = output_root / "semantic" / stem
+    raw_dir       = output_root / "raw" / stem
+    semantic_dir  = output_root / "semantic" / stem
     hierarchy_dir = output_root / "hierarchy" / stem
-    viz_dir = output_root / "visualizations" / stem
+    viz_dir       = output_root / "visualizations" / stem
 
     preprocessing_result = render_and_preprocess_pdf_page(
         pdf_path=pdf_path,
@@ -140,11 +194,11 @@ def run_stage1_for_pdf(
     raw_json_target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(raw_json_source, raw_json_target)
 
-    raw_document = load_json_document(raw_json_target)
+    raw_document      = load_json_document(raw_json_target)
     semantic_document = build_semantic_document(raw_document, source_json_path=raw_json_target)
     hierarchy_document = build_hierarchy_document(semantic_document, source_pdf_path=pdf_path)
 
-    semantic_json_path = _save_json(semantic_dir / f"{stem}_semantic_blocks.json", semantic_document.to_dict())
+    semantic_json_path  = _save_json(semantic_dir / f"{stem}_semantic_blocks.json", semantic_document.to_dict())
     hierarchy_json_path = _save_json(hierarchy_dir / f"{stem}_hierarchy.json", hierarchy_document.to_dict())
 
     canonical_data = _build_canonical_document(
@@ -156,7 +210,9 @@ def run_stage1_for_pdf(
         semantic_document=semantic_document,
         hierarchy_document=hierarchy_document,
     )
-    canonical_json_path = _save_json(output_root / "canonical" / stem / f"{stem}_document.json", canonical_data)
+    canonical_json_path = _save_json(
+        output_root / "canonical" / stem / f"{stem}_document.json", canonical_data
+    )
 
     semantic_visualization_path = visualize_semantic_blocks(
         source_image_path=preprocessing_result.rendered_image,
@@ -184,6 +240,222 @@ def run_stage1_for_pdf(
     )
 
 
+# ---------------------------------------------------------------------------
+# Multi-page pipeline
+# ---------------------------------------------------------------------------
+
+def run_stage1_for_pdf_multipage(
+    pdf_path: Path,
+    output_root: Path,
+    preprocess_config: Optional[ImagePreprocessingConfig] = None,
+    ocr_engine: Any = None,
+    max_pages: Optional[int] = None,
+    debug_artifacts: bool = True,
+    streaming: bool = True,
+    page_batch_size: int = 1,
+) -> Stage1MultiPageResult:
+    """Run Stage 1 for ALL pages of a PDF.
+
+    Each page is rendered → preprocessed → OCR'd → semantic blocks extracted.
+    All per-page blocks are assembled into one SemanticDocument and one
+    HierarchyDocument, then written as a merged canonical JSON (schema 1.1).
+
+    Args:
+        pdf_path: Path to the input PDF.
+        output_root: Root output directory.
+        preprocess_config: Image preprocessing settings.
+        ocr_engine: Initialized PPStructureV3 instance (created if None).
+        max_pages: Process only the first N pages (None = all pages).
+
+    Returns:
+        Stage1MultiPageResult with per-page details and merged JSON paths.
+    """
+    if not 1 <= page_batch_size <= 16:
+        raise ValueError('page_batch_size must be between 1 and 16')
+    stem = _resolve_pdf_output_stem(pdf_path)
+    rendered_dir  = output_root / "images" / stem
+    processed_dir = output_root / "processed" / stem
+    raw_dir       = output_root / "raw" / stem
+    semantic_dir  = output_root / "semantic" / stem
+    hierarchy_dir = output_root / "hierarchy" / stem
+    viz_dir       = output_root / "visualizations" / stem
+
+    if preprocess_config is None:
+        preprocess_config = ImagePreprocessingConfig()
+
+    from time import perf_counter
+    from catalogbank_ocr.preprocessing.streaming import prepared_pages
+    from catalogbank_ocr.stage2.page_roles import annotate_pages
+    stage_start = perf_counter()
+    timings = {'pages': [], 'state': 'running', 'dpi': preprocess_config.dpi,
+               'streaming': streaming, 'page_batch_size': page_batch_size}
+    prepare = prepared_pages if streaming else render_and_preprocess_all_pages
+    prepared = prepare(pdf_path, rendered_dir, processed_dir, preprocess_config, max_pages)
+    preprocessing_results = []
+    total_pages = 0
+
+    if ocr_engine is None:
+        ocr_engine = initialize_ppstructurev3()
+    timings['runtime'] = getattr(ocr_engine, '_catalogbank_runtime', {})
+
+    # ---- OCR + semantic blocks per page ------------------------------------
+    all_page_semantic_blocks = []
+    page_results: List[Stage1PageResult] = []
+    semantic_viz_paths: List[Path] = []
+
+    from itertools import islice
+    from catalogbank_ocr.ocr.ppstructure import run_ppstructurev3_batch
+    def ocr_pages():
+        iterator = iter(prepared)
+        index = 0
+        while True:
+            batch = list(islice(iterator, page_batch_size))
+            if not batch: break
+            directories = [output_root / 'ocr' / stem / f'page_{index+i+1:03d}' for i in range(len(batch))]
+            start = perf_counter()
+            if len(batch) == 1:
+                runs = [run_ppstructurev3(batch[0].processed_image, directories[0], engine=ocr_engine, debug_artifacts=debug_artifacts)]
+            else:
+                runs = run_ppstructurev3_batch([p.processed_image for p in batch], directories, ocr_engine, debug_artifacts)
+            duration = perf_counter() - start
+            for offset, (prep, run) in enumerate(zip(batch, runs)):
+                yield index+offset, prep, run, duration, len(batch)
+            index += len(batch)
+
+    for page_idx, prep, run_result, batch_seconds, batch_count in ocr_pages():
+        preprocessing_results.append(prep)
+        total_pages += 1
+        page_number = page_idx + 1
+        ocr_out_dir = output_root / "ocr" / stem / f"page_{page_number:03d}"
+
+        timings["pages"].append(dict(prep.metadata, page=page_idx+1, ocr_s=batch_seconds/batch_count, ocr_batch_wall_s=batch_seconds, batch_pages=batch_count))
+        timings['wall_s'] = perf_counter() - stage_start
+        _save_json(output_root / 'metrics' / stem / 'stage1.json', timings)
+        logger.info('[%s] OCR page %d completed in %.1fs', stem, page_number, batch_seconds/batch_count)
+        if not run_result.json_files:
+            logger.warning("No OCR output for page %d of %s — skipping", page_number, pdf_path.name)
+            raise RuntimeError(f"Missing OCR output for page {page_number}")
+
+        # Copy raw JSON and inject correct page_index
+        raw_json_src    = run_result.json_files[0]
+        raw_json_target = raw_dir / f"page_{page_number:03d}" / raw_json_src.name
+        raw_json_target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(raw_json_src, raw_json_target)
+
+        raw_doc = load_json_document(raw_json_target)
+        if isinstance(raw_doc, dict):
+            actual_input = raw_doc.get('input_path')
+            if batch_count > 1 and actual_input and Path(actual_input).resolve() != prep.processed_image.resolve():
+                raise RuntimeError('OCR batch returned pages out of order')
+            raw_doc["page_index"] = page_idx   # 0-based; extract_page_records adds 1
+            _save_json(raw_json_target, raw_doc)
+
+        # Build semantic blocks for this page
+        page_records   = extract_page_records(raw_doc)
+        page_candidates = []
+        for pr in page_records:
+            page_candidates.extend(detect_page_candidates(pr))
+
+        page_sem = map_page_candidates(
+            page_candidates,
+            page_number=page_number,
+            source_path=str(raw_json_target),
+        )
+        all_page_semantic_blocks.append(page_sem)
+
+        # Per-page semantic visualization
+        sem_viz = viz_dir / f"{stem}_p{page_number:03d}_semantic_blocks.png"
+        if debug_artifacts:
+            sem_viz = visualize_semantic_blocks(
+                source_image_path=prep.rendered_image,
+                page_blocks=page_sem,
+                output_path=viz_dir / f"{stem}_p{page_number:03d}_semantic_blocks.png",
+            )
+            semantic_viz_paths.append(sem_viz)
+
+        page_results.append(Stage1PageResult(
+            pdf_path=pdf_path,
+            page_number=page_number,
+            rendered_image_path=prep.rendered_image,
+            preprocessed_image_path=prep.processed_image,
+            raw_json_path=raw_json_target,
+            semantic_json_path=semantic_dir / f"{stem}_p{page_number:03d}_semantic_blocks.json",
+            hierarchy_json_path=hierarchy_dir / f"{stem}_p{page_number:03d}_hierarchy.json",
+            canonical_json_path=output_root / "canonical" / stem / f"{stem}_p{page_number:03d}_document.json",
+            semantic_visualization_path=sem_viz,
+            hierarchy_visualization_path=viz_dir / f"{stem}_p{page_number:03d}_hierarchy.png",
+        ))
+
+    # ---- Assemble full document --------------------------------------------
+    semantic_doc   = SemanticDocument(pages=all_page_semantic_blocks)
+    hierarchy_doc  = build_hierarchy_document(semantic_doc, source_pdf_path=pdf_path)
+
+    # ---- Save merged outputs -----------------------------------------------
+    semantic_json_path = _save_json(
+        semantic_dir / f"{stem}_semantic_blocks.json",
+        semantic_doc.to_dict(),
+    )
+    hierarchy_json_path = _save_json(
+        hierarchy_dir / f"{stem}_hierarchy.json",
+        hierarchy_doc.to_dict(),
+    )
+
+    canonical_data = _build_canonical_document_multipage(
+        pdf_path=pdf_path,
+        total_pages=total_pages,
+        page_preprocessing_results=preprocessing_results,
+        semantic_document=semantic_doc,
+        hierarchy_document=hierarchy_doc,
+    )
+    import hashlib
+    digest = hashlib.sha256()
+    with pdf_path.open('rb') as source:
+        for data in iter(lambda: source.read(1024 * 1024), b''):
+            digest.update(data)
+    canonical_data['source']['sha256'] = digest.hexdigest()
+    canonical_data['source']['dpi'] = preprocess_config.dpi
+    canonical_data['source']['page_limit'] = max_pages
+    annotate_pages(canonical_data)
+    canonical_json_path = _save_json(
+        output_root / "canonical" / stem / f"{stem}_document.json",
+        canonical_data,
+    )
+
+    hierarchy_viz_path = viz_dir / f"{stem}_hierarchy.png"
+    if debug_artifacts:
+        hierarchy_viz_path = visualize_hierarchy_tree(
+            root=hierarchy_doc.root,
+            output_path=viz_dir / f"{stem}_hierarchy.png",
+        )
+
+    total_blocks = sum(len(p.blocks) for p in all_page_semantic_blocks)
+    logger.info(
+        "Stage 1 complete for %s: %d pages, %d total blocks",
+        pdf_path.name, total_pages, total_blocks,
+    )
+
+    timings['wall_s'] = perf_counter() - stage_start
+    timings['state'] = 'complete'
+    timings['dpi'] = preprocess_config.dpi
+    timings['streaming'] = streaming
+    timings['page_batch_size'] = page_batch_size
+    _save_json(output_root / 'metrics' / stem / 'stage1.json', timings)
+    return Stage1MultiPageResult(
+        pdf_path=pdf_path,
+        total_pages=total_pages,
+        page_results=page_results,
+        canonical_json_path=canonical_json_path,
+        semantic_json_path=semantic_json_path,
+        hierarchy_json_path=hierarchy_json_path,
+        semantic_visualization_paths=semantic_viz_paths,
+        hierarchy_visualization_path=hierarchy_viz_path,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Batch pipeline entry point
+# ---------------------------------------------------------------------------
+
 def run_stage1_pipeline(
     config: ProjectConfig,
     samples_per_vendor: Optional[int] = None,
@@ -193,14 +465,27 @@ def run_stage1_pipeline(
     denoise: bool = False,
     enhance_resolution: bool = False,
     single_pdf: Optional[Path] = None,
+    multipage: bool = True,
+    max_pages: Optional[int] = None,
 ) -> Stage1RunResult:
-    """Run the stage-1 pipeline on the deterministic CatalogBank sample."""
+    """Run the stage-1 pipeline on the CatalogBank sample.
 
+    Args:
+        config: Project config.
+        samples_per_vendor: Number of PDFs to sample per vendor.
+        seed: Random seed for deterministic sampling.
+        dpi: Rendering DPI (overrides config).
+        deskew / denoise / enhance_resolution: Preprocessing toggles.
+        single_pdf: If set, process only this one PDF (ignores dataset sampling).
+        multipage: If True (default), use run_stage1_for_pdf_multipage for all pages.
+                   If False, use the legacy first-page-only run_stage1_for_pdf.
+        max_pages: Cap number of pages per PDF (only used when multipage=True).
+    """
     ensure_project_directories(config)
 
     preprocess_config = ImagePreprocessingConfig(
         dpi=dpi or config.preprocessing.dpi,
-        first_page_only=True,
+        first_page_only=not multipage,
         deskew=deskew,
         denoise=denoise,
         enhance_resolution=enhance_resolution,
@@ -224,18 +509,34 @@ def run_stage1_pipeline(
     validate_pdf_paths(selected_pdfs)
 
     output_root = config.outputs.base_dir
+    ocr_engine  = initialize_ppstructurev3(**config.ocr.ppstructurev3)
+
     page_results: List[Stage1PageResult] = []
-    ocr_engine = initialize_ppstructurev3(**config.ocr.ppstructurev3)
+    multipage_results: List[Stage1MultiPageResult] = []
 
     for pdf_path in selected_pdfs:
-        logger.info("Running stage-1 pipeline for %s", pdf_path)
-        page_results.append(
-            run_stage1_for_pdf(
+        logger.info("Running stage-1 pipeline for %s (multipage=%s)", pdf_path, multipage)
+        if multipage:
+            result = run_stage1_for_pdf_multipage(
+                pdf_path=pdf_path,
+                output_root=output_root,
+                preprocess_config=preprocess_config,
+                ocr_engine=ocr_engine,
+                max_pages=max_pages,
+            )
+            multipage_results.append(result)
+            page_results.extend(result.page_results)
+        else:
+            result = run_stage1_for_pdf(
                 pdf_path=pdf_path,
                 output_root=output_root,
                 preprocess_config=preprocess_config,
                 ocr_engine=ocr_engine,
             )
-        )
+            page_results.append(result)
 
-    return Stage1RunResult(selected_pdfs=selected_pdfs, page_results=page_results)
+    return Stage1RunResult(
+        selected_pdfs=selected_pdfs,
+        page_results=page_results,
+        multipage_results=multipage_results,
+    )

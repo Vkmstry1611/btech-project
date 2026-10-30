@@ -1,0 +1,110 @@
+[
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p1__c002__part1",
+    "name": "ScienceDesk Breadboards: Performance Series",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p1__c002__part2",
+    "name": "ScienceDesk Breadboards: Performance Series",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p2__c006__part1",
+    "name": "PerformancePlus Series",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p2__c006__part2",
+    "name": "PerformancePlus Series",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p2__c006__part3",
+    "name": "PerformancePlus Series",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "UNSUPPORTED_ITEM_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p3__c008__part1",
+    "name": "Under Shelf",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "HEADING_FAMILY_IGNORED",
+    "chunk": "optical_hardware_5_pages_document__p4__c010__part1",
+    "name": "Single Shelf",
+    "action": "Family text retained in source evidence; no sellable item created."
+  },
+  {
+    "severity": "info",
+    "code": "PRICE_RECOVERED_FROM_SOURCE_TEXT",
+    "chunk": "optical_hardware_5_pages_document__p1__c003__part3",
+    "sku": "PBH11115/NH",
+    "page": 1
+  },
+  {
+    "severity": "info",
+    "code": "PRICE_RECOVERED_FROM_SOURCE_TEXT",
+    "chunk": "optical_hardware_5_pages_document__p1__c003__part3",
+    "sku": "PBH51515/NH",
+    "page": 1
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PSY211",
+    "value": "4 287,10",
+    "unit": "eur",
+    "source_chunk": "optical_hardware_5_pages_document__p4__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PSY201/S",
+    "value": "天 1,275.20",
+    "unit": "cny",
+    "source_chunk": "optical_hardware_5_pages_document__p4__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PSY212",
+    "value": "4 291,45",
+    "unit": "eur",
+    "source_chunk": "optical_hardware_5_pages_document__p4__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PSY212",
+    "value": "天 2,669.95",
+    "unit": "cny",
+    "source_chunk": "optical_hardware_5_pages_document__p4__c009__part1",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  },
+  {
+    "severity": "warning",
+    "code": "AMBIGUOUS_PRICE",
+    "entity": "PSY202/S",
+    "value": "天 1,354.90",
+    "unit": "cny",
+    "source_chunk": "optical_hardware_5_pages_document__p4__c009__part2",
+    "action": "Price omitted from final prices; original retained in normalized.json."
+  }
+]

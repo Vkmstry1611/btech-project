@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "dpi": 200,
+      "render_s": 0.15058700000008685,
+      "preprocess_s": 0.07233439999981783,
+      "page": 1,
+      "ocr_s": 81.34994209999968,
+      "ocr_batch_wall_s": 81.34994209999968,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.15646550000019488,
+      "preprocess_s": 25.363315199998397,
+      "page": 2,
+      "ocr_s": 50.680280099999436,
+      "ocr_batch_wall_s": 50.680280099999436,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.2297168999994028,
+      "preprocess_s": 0.21809349999966798,
+      "page": 3,
+      "ocr_s": 46.0466794999993,
+      "ocr_batch_wall_s": 46.0466794999993,
+      "batch_pages": 1
+    },
+    {
+      "dpi": 200,
+      "render_s": 0.1925768999990396,
+      "preprocess_s": 0.2569211999998515,
+      "page": 4,
+      "ocr_s": 45.90397109999867,
+      "ocr_batch_wall_s": 45.90397109999867,
+      "batch_pages": 1
+    }
+  ],
+  "state": "complete",
+  "dpi": 200,
+  "streaming": true,
+  "page_batch_size": 1,
+  "runtime": {
+    "device": "gpu:0",
+    "recognition_batch_size": 1
+  },
+  "wall_s": 224.40956910000023
+}
